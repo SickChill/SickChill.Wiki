@@ -14,5 +14,3 @@ Important links :
 [Bug reports](https://github.com/SickRage/sickrage-issues/issues)  
 [Feature requests](http://feathub.com/SickRage/SickRage)  
 [Donations](https://github.com/SickRage/SickRage/wiki/Donations)  
-
-/wiki/Git-merge)  
