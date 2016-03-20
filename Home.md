@@ -6,12 +6,12 @@
 With this page we try to inform you about how to setup and use SickRage.
 You can find explanations of functions, settings and commonly asked questions.
 On the right side of the page you see the available wiki pages.
-In case you encounter an bug than please open an [issue](https://github.com/SickRage/sickrage-issues/issues)  
+In case you encounter an bug than please open an [issue](https://github.com/SickRage/SickRage/issues)  
 
-Note, the wiki is still in development and far from ready. If you like to contribute than please let us know on [IRC](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickrage-issues) or open an [issue.](https://github.com/SickRage/sickrage-issues/issues)
+Note, the wiki is still in development and far from ready. If you like to contribute than please let us know on [IRC](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickrage-issues) or open an [issue.](https://github.com/SickRage/SickRage/issues)
  
 #### Important links :  
-[Bug reports](https://github.com/SickRage/sickrage-issues/issues)  
+[Bug reports](https://github.com/SickRage/SickRage/issues)  
 [Feature requests](http://feathub.com/SickRage/SickRage)  
 [Donations](https://github.com/SickRage/SickRage/wiki/Donations)  
 

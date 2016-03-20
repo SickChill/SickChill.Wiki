@@ -7,7 +7,7 @@ The installation assumes that you're not using the root user to install/run sick
  
 If you trust us and would like us to just do it for you just paste this:
 
-	curl https://raw.githubusercontent.com/SickRage/sickrage-issues/master/INSTALLSCRIPTS/debian-ubuntu-init.sh | sudo bash
+	curl https://raw.githubusercontent.com/SickRage/SickRage/master/INSTALLSCRIPTS/debian-ubuntu-init.sh | sudo bash
 	
 Otherwise:
  

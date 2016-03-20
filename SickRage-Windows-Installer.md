@@ -19,7 +19,7 @@ sc config "SickRage" obj= "username" password= "password"
 sc restart SickRage
 ```  
 
-If you are unable to get those setup correctly, you can always disable the service and start SickRage manually. SickRage will then run as the user that is logged in to Windows. Alternatively you can also install SickRage [manually](https://github.com/SickRage/sickrage-issues/wiki/SickRage-Windows-Installer/_edit#manual-installation-guides-for-windows)  
+If you are unable to get those setup correctly, you can always disable the service and start SickRage manually. SickRage will then run as the user that is logged in to Windows. Alternatively you can also install SickRage [manually](https://github.com/SickRage/SickRage/wiki/SickRage-Windows-Installer/_edit#manual-installation-guides-for-windows)  
 
 ---
 

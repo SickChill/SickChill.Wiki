@@ -6,7 +6,7 @@ New to Sickrage? Then the below guides will help you with the setup, and discove
 * http://www.htpcguides.com/configure-sickrage-usenet-torrent-tv/
 
 ###### Setup NZBtoMedia for SickRage
-* https://github.com/SickRage/sickrage-issues/wiki/NZBtoMedia
+* https://github.com/SickRage/SickRage/wiki/NZBtoMedia
 
 ###### Reverse Proxy with Nginx on Linux:
 * http://www.htpcguides.com/configure-sickrage-reverse-proxy-nginx/
@@ -22,13 +22,13 @@ New to Sickrage? Then the below guides will help you with the setup, and discove
 SickRage can be installed on many different systems. Below you will find guides for many of those.
 
 ###### Windows
-* https://github.com/SickRage/sickrage-issues/wiki/SickRage-Windows-Installer
+* https://github.com/SickRage/SickRage/wiki/SickRage-Windows-Installer
 
-  (Manual installation guides for Windows can be found [here](https://github.com/SickRage/sickrage-issues/wiki/SickRage-Windows-Installer#manual-installation-guides-for-windows).)
+  (Manual installation guides for Windows can be found [here](https://github.com/SickRage/SickRage/wiki/SickRage-Windows-Installer#manual-installation-guides-for-windows).)
 
 ###### Synology:
 
-* Add the [Synocummunity](https://synocommunity.com/#easy-install) Repo to your Synology, then follow : [Installing](https://github.com/SickRage/sickrage-issues/wiki/Switching-your-Synology's-Sickrage-to-the-new-repository#install-sickrage)  
+* Add the [Synocummunity](https://synocommunity.com/#easy-install) Repo to your Synology, then follow : [Installing](https://github.com/SickRage/SickRage/wiki/Switching-your-Synology's-Sickrage-to-the-new-repository#install-sickrage)  
 
 ###### Mac:
 * http://www.htpcguides.com/install-sickrage-mac-osx-usenet-torrent-tv/  
@@ -40,7 +40,7 @@ SickRage can be installed on many different systems. Below you will find guides 
 
 ###### Debian/Ubuntu 15.x with systemd:
 Our Guide
-* https://github.com/SickRage/sickrage-issues/wiki/Sickrage-installation-Ubuntu-15
+* https://github.com/SickRage/SickRage/wiki/Sickrage-installation-Ubuntu-15
 
 HTPCGuide's Guide
 * http://www.htpcguides.com/install-sickrage-ubuntu-vivid-vervet-15-x-and-later
@@ -67,10 +67,10 @@ HTPCGuide's Guide
 * https://gist.github.com/Agurri/1813ac5f1852e6c0bdd6  
 
 ###### OpenWRT
-* https://github.com/SickRage/sickrage-issues/issues/716#issuecomment-178950957
+* https://github.com/SickRage/SickRage/issues/716#issuecomment-178950957
 
 ###### Centos 6
-* https://github.com/SickRage/sickrage-issues/wiki/Sickrage-installation-CENTOS-6
+* https://github.com/SickRage/SickRage/wiki/Sickrage-installation-CENTOS-6
 
 ###### Centos 7
 * http://deviantengineer.com/2015/06/usenet-centos7/
@@ -84,7 +84,7 @@ HTPCGuide's Guide
 * http://www.htpcguides.com/install-sickrage-plugin-openmediavault/  
 
 ###### Asus routers
-* https://github.com/SickRage/sickrage-issues/issues/1037#issuecomment-193801133  
+* https://github.com/SickRage/SickRage/issues/1037#issuecomment-193801133  
 
 ###### Feral Hosting  
 * https://www.feralhosting.com/faq/view?question=281  

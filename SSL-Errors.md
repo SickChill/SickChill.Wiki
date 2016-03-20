@@ -46,7 +46,7 @@ Those will show you the version currently in use by Sickrage/OS.
 
 ## How would i fix an SSL error.?
 
-There are multiple way's. But the most obviously is update your OpenSSl & Python versions. Some [Solutions](https://github.com/SickRage/sickrage-issues/wiki/SSL-Errors#solutions) you find below.  
+There are multiple way's. But the most obviously is update your OpenSSl & Python versions. Some [Solutions](https://github.com/SickRage/SickRage/wiki/SSL-Errors#solutions) you find below.  
 
 However you might be in a situation where you have and old device and updating isn't possible. Than there are some work-around's , but we advice to use them as a last resort as they aren't the best practice.
 

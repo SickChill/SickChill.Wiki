@@ -5,7 +5,7 @@ And that all fully automated! Just set it up and as soon as there is a new episo
 
 
 #### How does this all work?
-When you add a show to SickRage the data (like air-dates, episode name/number) are pulled from an indexer like [TheTVDb](http://thetvdb.com/) or [TvRage](http://www.tvrage.com/). At that point SickRage knows when a new episode is going to air and starts the search on your favorite Torrent and/or NZB site. For this search you can set [quality](https://github.com/SickRage/sickrage-issues/wiki/Quality-Settings) settings. For example: HDTV or SD quality. SickRage will go over all the results to find the [quality](https://github.com/SickRage/sickrage-issues/wiki/Quality-Settings) YOU want and when found snatches the torrent/nzb and sends it to your download client. (sabnzb, utorrent, transmission etc.) At this point SickRage starts monitoring your clients download folder to see if the file is finished downloading. When this is the case SickRage starts the post-processing. Here you can tell SickRage to move the file to your shows folder, or also rename it, or send notifications to Plex/Kodi or to your smart-phone. The list is long for what you can do with post-processing, simply set the actions you prefer.
+When you add a show to SickRage the data (like air-dates, episode name/number) are pulled from an indexer like [TheTVDb](http://thetvdb.com/) or [TvRage](http://www.tvrage.com/). At that point SickRage knows when a new episode is going to air and starts the search on your favorite Torrent and/or NZB site. For this search you can set [quality](https://github.com/SickRage/SickRage/wiki/Quality-Settings) settings. For example: HDTV or SD quality. SickRage will go over all the results to find the [quality](https://github.com/SickRage/SickRage/wiki/Quality-Settings) YOU want and when found snatches the torrent/nzb and sends it to your download client. (sabnzb, utorrent, transmission etc.) At this point SickRage starts monitoring your clients download folder to see if the file is finished downloading. When this is the case SickRage starts the post-processing. Here you can tell SickRage to move the file to your shows folder, or also rename it, or send notifications to Plex/Kodi or to your smart-phone. The list is long for what you can do with post-processing, simply set the actions you prefer.
 And this whole proses is completely automated. So once you set it up no user intervention is required.
 This makes SickRage ideal for NAS devices. But can run on almost every other device.
 
@@ -45,12 +45,12 @@ To run SickRage we recommend [Python 2.7.10 or 11](https://www.python.org/downlo
 The minimum requirements are Python 2.7.x with the latest modules of [PyOpenSSL](https://pypi.python.org/pypi/pyOpenSSL), and [cryptography](https://pypi.python.org/pypi/cryptography). (Cheetah isn't required anymore.)  
 
 #### Support
-In case the [Wiki](https://github.com/SickRage/sickrage-issues/wiki) doesn't have the answer to your question, you could check us out on irc.
+In case the [Wiki](https://github.com/SickRage/SickRage/wiki) doesn't have the answer to your question, you could check us out on irc.
 We are on freenode in #sickrage-issues. [WebIRC kiwiirc.com](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickrage-issues)
 
 #### Bugs/Issues
-In case you have found a bug and verified that it indeed is a bug, than please report it to our [issue tracker](https://github.com/SickRage/sickrage-issues) so that the Developers can investigate.  
-Note, make sure you follow the [guidelines](https://github.com/SickRage/sickrage-issues#submitting-a-bugissue-ticket) for posting a bug.  
+In case you have found a bug and verified that it indeed is a bug, than please report it to our [issue tracker](https://github.com/SickRage/SickRage) so that the Developers can investigate.  
+Note, make sure you follow the [guidelines](https://github.com/SickRage/SickRage#submitting-a-bugissue-ticket) for posting a bug.  
 
 ---
 

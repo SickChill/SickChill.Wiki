@@ -10,7 +10,7 @@ For many Devices there are installation packages compiled by community members. 
 ---
 
 ###### Synology
-* Add the [Synocommunity](https://synocommunity.com/#easy-install) repository, And Follow those [Instructions](https://github.com/SickRage/sickrage-issues/wiki/Switching-your-Synology's-Sickrage-to-the-new-repository#install-sickrage)  
+* Add the [Synocommunity](https://synocommunity.com/#easy-install) repository, And Follow those [Instructions](https://github.com/SickRage/SickRage/wiki/Switching-your-Synology's-Sickrage-to-the-new-repository#install-sickrage)  
 
 ---
 
@@ -63,7 +63,7 @@ git fetch origin
 git reset --hard origin/master
 ```
 
-In case thats not possible, you can try to switch the [dirty](https://github.com/SickRage/sickrage-issues/wiki/Sickrage-installation-packages#switching-the-dirty-way) way.
+In case thats not possible, you can try to switch the [dirty](https://github.com/SickRage/SickRage/wiki/Sickrage-installation-packages#switching-the-dirty-way) way.
 
 ---
 

@@ -1,6 +1,6 @@
 --------------------
-[ [Shows] ](https://github.com/SickRage/sickrage-issues/wiki/Remaining-settings-explained#shows) [ [Schedule] ](https://github.com/SickRage/sickrage-issues/wiki/Remaining-settings-explained#schedule) [ [History] ](https://github.com/SickRage/sickrage-issues/wiki/Remaining-settings-explained#history)
-[ [The Manage menu] ](https://github.com/SickRage/sickrage-issues/wiki/Remaining-settings-explained#the-manage-menu) [ [Mass Update] ](https://github.com/SickRage/sickrage-issues/wiki/Remaining-settings-explained#mass-update) [ [Backlog overview] ](https://github.com/SickRage/sickrage-issues/wiki/Remaining-settings-explained#backlog-overview)  [ [Manage Searches] ](https://github.com/SickRage/sickrage-issues/wiki/Remaining-settings-explained#manage-searches)  [ [Episodes Status Management] ](https://github.com/SickRage/sickrage-issues/wiki/Remaining-settings-explained#episodes-status-management)  [ [Failed Downloads] ](https://github.com/SickRage/sickrage-issues/wiki/Remaining-settings-explained#failed-downloads)  [ [Missed Subtitle Management] ](https://github.com/SickRage/sickrage-issues/wiki/Remaining-settings-explained#missed-subtitle-management)  [ [Logs & Errors Menu] ](https://github.com/SickRage/sickrage-issues/wiki/Remaining-settings-explained#logs--errors-menu) [ [Options (wrench and screwdriver)] ](https://github.com/SickRage/sickrage-issues/wiki/Remaining-settings-explained#options-wrench-and-screwdriver)
+[ [Shows] ](https://github.com/SickRage/SickRage/wiki/Remaining-settings-explained#shows) [ [Schedule] ](https://github.com/SickRage/SickRage/wiki/Remaining-settings-explained#schedule) [ [History] ](https://github.com/SickRage/SickRage/wiki/Remaining-settings-explained#history)
+[ [The Manage menu] ](https://github.com/SickRage/SickRage/wiki/Remaining-settings-explained#the-manage-menu) [ [Mass Update] ](https://github.com/SickRage/SickRage/wiki/Remaining-settings-explained#mass-update) [ [Backlog overview] ](https://github.com/SickRage/SickRage/wiki/Remaining-settings-explained#backlog-overview)  [ [Manage Searches] ](https://github.com/SickRage/SickRage/wiki/Remaining-settings-explained#manage-searches)  [ [Episodes Status Management] ](https://github.com/SickRage/SickRage/wiki/Remaining-settings-explained#episodes-status-management)  [ [Failed Downloads] ](https://github.com/SickRage/SickRage/wiki/Remaining-settings-explained#failed-downloads)  [ [Missed Subtitle Management] ](https://github.com/SickRage/SickRage/wiki/Remaining-settings-explained#missed-subtitle-management)  [ [Logs & Errors Menu] ](https://github.com/SickRage/SickRage/wiki/Remaining-settings-explained#logs--errors-menu) [ [Options (wrench and screwdriver)] ](https://github.com/SickRage/SickRage/wiki/Remaining-settings-explained#options-wrench-and-screwdriver)
 
 
 --------------------
@@ -145,7 +145,7 @@ Enable/disable Air by date for the shows.
 `subtitles`  
 Enable/disable subtitles for the shows.  
 
-For more details on the functions them self see the [show settings explanation](https://github.com/SickRage/sickrage-issues/wiki/Show-settings-explained).
+For more details on the functions them self see the [show settings explanation](https://github.com/SickRage/SickRage/wiki/Show-settings-explained).
 
 ##Backlog overview  
 

@@ -1,8 +1,8 @@
 ## What is NZBtoMedia.?
 
-NZBtoMedia is a collection of scripts for [post-processing](https://github.com/SickRage/sickrage-issues/wiki/Post-Processing).  
+NZBtoMedia is a collection of scripts for [post-processing](https://github.com/SickRage/SickRage/wiki/Post-Processing).  
 Normally SickRage scans the download folder for new files/downloads every 10 minutes. However that prevents the hard disks from going into sleep/hibernation. Scripts on the other hand let SickRage instantly know if a download was completed. Therefore the scanning of the `tv download folder` isn't necessary anymore.
-Another advantage is that other [post-processing](https://github.com/SickRage/sickrage-issues/wiki/Post-Processing) options can be done, before the file is sent to Sickrage. But most of those options are already included in SickRage, so you probably wont use them.
+Another advantage is that other [post-processing](https://github.com/SickRage/SickRage/wiki/Post-Processing) options can be done, before the file is sent to Sickrage. But most of those options are already included in SickRage, so you probably wont use them.
 Last and probably the MOST important reason, it supports failed downloads. Meaning that when your client fails to download the file a notification gets sent to SickRage and a new search gets started, with hopefully now a valid file.  
 
 ## Before you start
