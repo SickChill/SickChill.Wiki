@@ -7,7 +7,7 @@ The installation assumes that you're not using the root user to install/run sick
  
 If you trust us and would like us to just do it for you just paste this:
  
-    curl https://raw.githubusercontent.com/SickRage/SickRage/master/INSTALLSCRIPTS/ubuntusystemd.sh | sudo bash
+    curl https://raw.githubusercontent.com/SickRage/SickRage/master/contrib/debian-ubuntu-install.sh | sudo bash
 
 Otherwise:
  
