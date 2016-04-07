@@ -1,6 +1,7 @@
 The UI is in process of being fully translated.  
 
 We are in the process of adding [Crowdin](https://crowdin.com/) integration to make it easier for translators to contribute, and for us to make sure the `pot` and `*.po` are always up to date.  
+https://crowdin.com/project/sickrage (DONE!) [Poedit](https://poedit.net/) integrates with crowdin.  
 
 In the mean time, there is a `pot` file at `locale/messages.pot`, which can be used with [Poedit](https://poedit.net/)  
 
