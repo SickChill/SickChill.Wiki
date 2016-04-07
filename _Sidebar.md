@@ -13,3 +13,4 @@
 [Quality-Settings](https://github.com/SickRage/SickRage/wiki/Quality-Settings)  
 [Scene exceptions](https://github.com/SickRage/SickRage/wiki/Scene-exceptions-and-numbering)  
 [SSL Errors](https://github.com/SickRage/SickRage/wiki/SSL-Errors)  
+[Translations](https://github.com/SickRage/SickRage/wiki/Translations)
