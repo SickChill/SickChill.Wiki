@@ -21,7 +21,7 @@
 * [Post-processing shows a negative time](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#post-processing-shows-a-negative-time)
 * [What is a network time zone warning?](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#what-is-a-network-time-zone-warning)  
 * [Unable to sent torrent to synology download station](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#unable-to-sent-torrent-to-synology-download-station)  
-* [Timeout when adding a show on Freenas](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#Timeout-when-adding-a-show-on-Freenas)
+* [Timeout when adding a show on Freenas](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#timeout-when-adding-a-show-on-freenas)
 
 ##Where are the LOG files located?
 You can find the log files path in _Config->Help & Info_, look for *SR Log Dir*.
