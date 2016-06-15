@@ -21,6 +21,7 @@
 * [Post-processing shows a negative time](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#post-processing-shows-a-negative-time)
 * [What is a network time zone warning?](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#what-is-a-network-time-zone-warning)  
 * [Unable to sent torrent to synology download station](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#unable-to-sent-torrent-to-synology-download-station)  
+* [Timeout when adding a show on Freenas](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#Timeout-when-adding-a-show-on-Freenas)
 
 ##Where are the LOG files located?
 You can find the log files path in _Config->Help & Info_, look for *SR Log Dir*.
@@ -219,4 +220,12 @@ First check it the connection test works in the search settings. If that does wo
 
 When all fails than you could also use the black-hole method as a work around. Sickrage will store the nzb/torrent in a folder of your choosing.
 Then simply set DS to monitor that folder for nzbs and torrents. As soon as one is found the download will start. 
+
+## Timeout when adding a show on Freenas
+
+If you get a timeout when you try to search/add a new show then check your network settings. For freeNAS you can fix this by going to Network > Interfaces > Select your primary network source > Edit > Uncheck "Autoconfigure IPv6".
+Then goto Jails > Select Jail with Sickrage > Edit Jail > Advanced Mode > Uncheck "IPv6 Autoconfigure"
+Make sure to reboot after you save that.
+
+This could also apply to other devices, so when this timeout happens make sure you check your ipv6 and DNS settings. 
 
