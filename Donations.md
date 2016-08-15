@@ -15,4 +15,4 @@ Current active team members:
 ***
 [VinceVal](https://github.com/VinceVal) - Moderator/Developer/Support  
 ***
-[supergonkas](https://github.com/duramato) - Moderator/Contributer/Support , Feel free to donate to the PT [Red Cross](http://www.cruzvermelha.pt/donativos.html) [<img src="http://www.cruzvermelha.pt/favicon.ico" width="32" alt="Red Cross">](http://www.cruzvermelha.pt/donativos.html)    it would mean alot to me ;)
+[supergonkas](https://github.com/duramato) - Moderator/Contributer/Support , Feel free to donate to the PT [Red Cross](http://www.cruzvermelha.pt/donativos.html) [<img src="http://www.cruzvermelha.pt/favicon.ico" width="32" alt="Red Cross">](http://www.cruzvermelha.pt/donativos.html)
