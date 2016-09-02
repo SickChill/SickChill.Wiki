@@ -229,3 +229,13 @@ Make sure to reboot after you save that.
 
 This could also apply to other devices, so when this timeout happens make sure you check your ipv6 and DNS settings. 
 
+## What are Unicode errors?
+
+Those can happen when there are special characters in the shows name, folders or the search results.
+This is mainly a problem on Windows systems and especialy with Anime. As there are generaly more special characters are used.
+Sadly not much can be done. But a few things you can try are. :
+
+* Rename files and folder to not contain any special characters.
+* Add a scene exception (alternative name for a show) hopefully this will allow you to snatch the episode. 
+
+On Linux those Unicode errors generaly only happen when you havnt set your locale correcly. Make sure its UTF-8.
