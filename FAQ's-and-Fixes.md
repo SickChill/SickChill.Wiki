@@ -23,7 +23,7 @@
 * [Unable to sent torrent to synology download station](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#unable-to-sent-torrent-to-synology-download-station)  
 * [Timeout when adding a show on Freenas](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#timeout-when-adding-a-show-on-freenas)
 * [What are Unicode errors?](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#what-are-unicode-errors)
-* [How to switch to a older sickrage version?](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#How-to-switch-to-a-older-sickrage-version?)
+* [How to switch to a older sickrage version?](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#how-to-switch-to-a-older-sickrage-version)
 
 ##Where are the LOG files located?
 You can find the log files path in _Config->Help & Info_, look for *SR Log Dir*.
