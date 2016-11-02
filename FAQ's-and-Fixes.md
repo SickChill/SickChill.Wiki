@@ -23,6 +23,7 @@
 * [Unable to sent torrent to synology download station](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#unable-to-sent-torrent-to-synology-download-station)  
 * [Timeout when adding a show on Freenas](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#timeout-when-adding-a-show-on-freenas)
 * [What are Unicode errors?](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#what-are-unicode-errors)
+* [How to switch to a older sickrage version?](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#How-to-switch-to-a-older-sickrage-version?)
 
 ##Where are the LOG files located?
 You can find the log files path in _Config->Help & Info_, look for *SR Log Dir*.
@@ -240,3 +241,17 @@ Sadly not much can be done. But a few things you can try are. :
 * Add a scene exception (alternative name for a show) hopefully this will allow you to snatch the episode. 
 
 On Linux those Unicode errors generally only happen when you haven't set your locale correctly. Make sure its UTF-8.
+
+
+## How to switch to a older sickrage version?
+
+Its possible to switch between different versions of sickrage.
+This can be handy for troubleshooting, or if your device has problems with the latest versions.
+For this you can use the git checkout command. for example. :
+
+`git checkout v2016.10.20-1`
+
+This will update/downgrade your installation to the v2016.10.20-1 release.
+A compleete list of the releases/version can be found [here.](https://github.com/SickRage/SickRage/releases)
+(Dont forget to disable the auto update function if you dont want to update.)
+Also be aweare that we dont support older/outdated Sickrage versions.
