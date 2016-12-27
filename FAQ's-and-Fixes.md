@@ -139,14 +139,18 @@ Edit each show (or mass update) and correct the Default Episode Status to WANTED
 Stop SickRage, SSH(Linux)/CMD(Windows) and enter SickRage folder
 ````
 git remote set-url origin https://github.com/SickRage/SickRage.git
+git remote set-branches --add origin master
+git remote update
 git fetch origin
+
 git checkout master
-git branch -u origin/master
+git branch --set-upstream-to origin/master
 git reset --hard origin/master
 git pull
 ````
-When you get the below error and cant update, then check the line `git_remote = origin` in your config.ini.  
-Its probbebly missing the `origin`. If so, shutdown Sickrage and add it. Then restart. 
+
+When you get the below error and can't update, then check the line `git_remote = origin` in your config.ini.  
+It's probably missing the `origin`. If so, shutdown Sickrage and add it. Then restart. 
 
 `git pull -f master returned : fatal: 'master' does not appear to be a git repository`  
 
