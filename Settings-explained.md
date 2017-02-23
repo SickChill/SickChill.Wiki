@@ -51,9 +51,10 @@ You can manually set a time at witch SickRage updates/refreshes the shows inform
 `Update shows on startup`  
 Feature was removed  
 `Update shows on snatch`  
-Lers SickRage update the shows data when an episode is snached.  
+Lers SickRage update the shows data when an episode is snatched.  
 `Send to trash for actions`  
-This option lets SickRage move the files to a recycle bin instead of the normal permanent delete. Note doesn't work on all Operating Systems.  
+This option lets SickRage move the files to a recycle bin instead of the normal permanent delete. 
+Note: doesn't work on all Operating Systems. [(NSSM / WinService workaround)](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)  
 `Log file folder location`  
 Lets you set a custom location for the log file. Also can be handy if you use a NAS to store the log on a usb stick. That allows the disks to go into standby and spin down.  
 `Number of Log files saved`  
