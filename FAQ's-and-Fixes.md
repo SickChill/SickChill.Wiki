@@ -24,7 +24,7 @@
 * [Timeout when adding a show on Freenas](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#timeout-when-adding-a-show-on-freenas)
 * [What are Unicode errors?](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#what-are-unicode-errors)
 * [How to switch to a older sickrage version?](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#how-to-switch-to-a-older-sickrage-version)
-* [Why does "Send to trash" option not send the files to the Recycle Bin?](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes/_edit#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
+* [Why does "Send to trash" option not send the files to the Recycle Bin?](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
 
 ##Where are the LOG files located?
 You can find the log files path in _Config->Help & Info_, look for *SR Log Dir*.
