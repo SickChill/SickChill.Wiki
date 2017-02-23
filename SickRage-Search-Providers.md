@@ -4,10 +4,6 @@
 
 Website: https://omgwtfnzbs.org/  
 
-###Wombles###
-
-Wombles Index is a free RSS feed that reports recent public releases. Wombles does not support (backlog) searches and thus can only be used to grab new releases as they are posted.
-
 ###NZBs.org###
 
 NZBs indexer
