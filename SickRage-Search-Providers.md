@@ -30,7 +30,7 @@ NZBs indexer
 
 ##Torrents##
 
-###Costum Rss Feeds###
+###Custom Rss Feeds###
 
 Generic torrent RSS feed parser.
 
