@@ -1,7 +1,7 @@
 * [Where are the LOG files located?](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#where-are-the-log-files-located)
 * [How do i enable debug logs to get more detailed information in my logs?](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#how-do-i-enable-debug-logs-to-get-more-detailed-information-in-my-logs)
 * [Does SickRage support NAS devices?](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#does-sickrage-support-nas-devices)
-* [Windows Shares and Mapped Drives]https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#windows-shares-and-mapped-drives)
+* [Windows Shares and Mapped Drives](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#windows-shares-and-mapped-drives)
 * [(scene exceptions) Releases have a different show name than in SickRage, and are not snatched?](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#scene-exceptions-releases-have-a-different-show-name-than-in-sickrage-and-are-not-snatched)
 * [Error while searching ..., skipping: 'NoneType' object is not iterable](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#error-while-searching--skipping-nonetype-object-is-not-iterable)
 * [Reverse Proxy is not working.](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#reverse-proxy-is-not-working)
