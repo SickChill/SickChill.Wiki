@@ -1,6 +1,7 @@
 * [Where are the LOG files located?](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#where-are-the-log-files-located)
 * [How do i enable debug logs to get more detailed information in my logs?](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#how-do-i-enable-debug-logs-to-get-more-detailed-information-in-my-logs)
 * [Does SickRage support NAS devices?](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#does-sickrage-support-nas-devices)
+* [Windows Shares and Mapped Drives]https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#windows-shares-and-mapped-drives)
 * [(scene exceptions) Releases have a different show name than in SickRage, and are not snatched?](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#scene-exceptions-releases-have-a-different-show-name-than-in-sickrage-and-are-not-snatched)
 * [Error while searching ..., skipping: 'NoneType' object is not iterable](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#error-while-searching--skipping-nonetype-object-is-not-iterable)
 * [Reverse Proxy is not working.](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#reverse-proxy-is-not-working)
@@ -39,6 +40,14 @@ If you like to upload the log you can use [pastebin] (http://pastebin.org) or an
 Yes. There are pre-built NAS versions of SickRage:
 * Synology, QNAP, Asustor, Thecus and many others.  
 See the [SickRage installation packages](https://github.com/SickRage/SickRage/wiki/Sickrage-installation-packages) section.  
+
+
+##Windows Shares and Mapped Drives
+Make sure Python is allowed through Windows Firewall: [Read How](https://github.com/SickRage/SickRage/issues/3359#issuecomment-289219723)
+If the share is not public, you need to edit the SickRage service and change the logon to use your user account and your user account MUST have a password set and added to the service logon
+Mapped drives do not work when using the SickRage Installer, or running SickRage as a service, so you must use UNC paths such as \\\\server\share.
+This is because mapped drives are mounted with your user account, AFTER SickRage has already started
+You can type these paths at the top of the browse dialog popups in SickRage and hit enter to see the contents of the share and add them to SickRage
 
 
 ##(scene exceptions) Releases have a different show name than in SickRage, and are not snatched?
