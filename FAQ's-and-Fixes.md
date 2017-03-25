@@ -32,7 +32,7 @@ You can find the log files path in _Config->Help & Info_, look for *SR Log Dir*.
 
 *Note: Synology users can use WinSCP to gain access/browse to the root where the Sickrage log is located: `/volume1/@appstore/sickrage/var/Logs/sickrage.log`*  
 
-## How do i enable debug logs to get more detailed information in my logs?  
+##How do I enable debug logs to get more detailed information in my logs?  
 Go to settings (gearwheels) ---> General ---> Advanced Settings. Enable the setting `Enable debug`. Or set in manually in your config.ini. The line is called `debug = 0` replace the 0 with 1 and save. (Make sure SickRage is not running!)
 If you like to upload the log you can use [pastebin] (http://pastebin.org) or an equivalent site.  
 
