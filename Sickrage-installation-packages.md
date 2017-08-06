@@ -10,8 +10,8 @@ For many Devices there are installation packages compiled by community members. 
 ---
 
 ###### Synology
-* Add the [Synocommunity](https://synocommunity.com/#easy-install) repository, And Follow those [Instructions](https://github.com/SickRage/SickRage/wiki/Switching-your-Synology's-Sickrage-to-the-new-repository#install-sickrage)  
-* Or use [BenjV's .SPK Sickrage package](https://github.com/BenjV/SYNO-packages/raw/master/SickRage%20DSM%206%20noarch%20V1.0.spk)
+* (DSM 5) Add the [Synocommunity](https://synocommunity.com/#easy-install) repository, And Follow those [Instructions](https://github.com/SickRage/SickRage/wiki/Switching-your-Synology's-Sickrage-to-the-new-repository#install-sickrage)  
+* (DSM 5 & 6) Or use [BenjV's .SPK Sickrage package](https://github.com/BenjV/SYNO-packages/raw/master/SickRage%20DSM%206%20noarch%20V1.0.spk)
 
 ---
 
