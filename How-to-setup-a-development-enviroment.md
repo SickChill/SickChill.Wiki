@@ -1,4 +1,4 @@
-####Information regarding a normalized development environment setup and project standards for code Should go here.
+#### Information regarding a normalized development environment setup and project standards for code Should go here.
 
 ###### Adding js libraries
 
