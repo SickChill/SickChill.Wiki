@@ -28,7 +28,8 @@ SickRage can be installed on many different systems. Below you will find guides 
 
 ###### Synology:
 
-* Add the [Synocommunity](https://synocommunity.com/#easy-install) Repo to your Synology, then follow : [Installing](https://github.com/SickRage/SickRage/wiki/Switching-your-Synology's-Sickrage-to-the-new-repository#install-sickrage)  
+* (DSM 5) Add the [Synocommunity](https://synocommunity.com/#easy-install) Repo to your Synology, then follow : [Installing](https://github.com/SickRage/SickRage/wiki/Switching-your-Synology's-Sickrage-to-the-new-repository#install-sickrage)  
+* (DSM 5 & 6) Or use [BenjV's .SPK Sickrage package](https://github.com/BenjV/SYNO-packages/raw/master/SickRage%20DSM%206%20noarch%20V1.0.spk)
 
 ###### Mac:
 * http://www.htpcguides.com/install-sickrage-mac-osx-usenet-torrent-tv/  
