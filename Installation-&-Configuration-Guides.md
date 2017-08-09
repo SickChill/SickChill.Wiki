@@ -85,7 +85,7 @@ HTPCGuide's Guide
 * http://www.htpcguides.com/install-sickrage-plugin-openmediavault/  
 
 ###### Asus routers
-* https://github.com/SickRage/SickRage/issues/1037#issuecomment-193801133  
+* https://github.com/SickRage/old-sickrage-issues/issues/1037#issuecomment-193801133
 
 ###### Feral Hosting  
 * https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/Software/Sick%20Beard%20and%20SickRage%20-%20Basic%20Setup   
