@@ -88,7 +88,8 @@ HTPCGuide's Guide
 * https://github.com/SickRage/SickRage/issues/1037#issuecomment-193801133  
 
 ###### Feral Hosting  
-* https://www.feralhosting.com/faq/view?question=281  
+* https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/Software/Sick%20Beard%20and%20SickRage%20-%20Basic%20Setup   
+* ~~https://www.feralhosting.com/faq/view?question=281~~  
 
 ###### XPenology  
 * [XPenology](https://idmedia.no/general/sickrage-dead-long-live-sickrage/)  
