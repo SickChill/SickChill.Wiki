@@ -68,7 +68,7 @@ HTPCGuide's Guide
 * https://gist.github.com/Agurri/1813ac5f1852e6c0bdd6  
 
 ###### OpenWRT
-* https://github.com/SickRage/SickRage/issues/716#issuecomment-178950957
+* https://github.com/SickRage/old-sickrage-issues/issues/716#issuecomment-178950957
 
 ###### Centos 6
 * https://github.com/SickRage/SickRage/wiki/Sickrage-installation-CENTOS-6
