@@ -46,7 +46,7 @@ Those will show you the version currently in use by Sickrage/OS.
 
 ## How would i fix an SSL error.?
 
-There are multiple way's. But the most obviously is update your OpenSSl & Python versions. Some [Solutions](https://github.com/SickRage/SickRage/wiki/SSL-Errors#solutions) you find below.  
+There are multiple way's. But the most obviously is update your OpenSSl & Python versions. Some [Solutions](https://github.com/Sick-Rage/Sick-Rage/wiki/SSL-Errors#solutions) you find below.  
 
 However you might be in a situation where you have and old device and updating isn't possible. Than there are some work-around's , but we advice to use them as a last resort as they aren't the best practice.
 
@@ -73,7 +73,7 @@ sudo pip2.7 install -U setuptools pip pyasn1 ndg-httpsclient pyopenssl==0.13.1
 ```
 
 b. Install the Python cryptography module (PITA, Does not work on all platforms)
-This will build and install all of the packages needed to use pyOpenSSL from SickRage:
+This will build and install all of the packages needed to use pyOpenSSL from Sick-Rage:
 ```
 sudo apt-get install build-essential python-pip python-dev libffi-dev libssl-dev
 wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | sudo python2

@@ -4,15 +4,15 @@ We aren't quite sure how qualities for shows have become so complicated to under
 
 First, the feature **Archive on first match** was poorly named, and caused it to be confused with and intertwined with the **Archived Episode Status** episode status over time.
 
-**Archived Status** is only meant to be for episodes that we know we have but SickRage does not have a location for, or it does not exist at the location.
+**Archived Status** is only meant to be for episodes that we know we have but Sick-Rage does not have a location for, or it does not exist at the location.
 
-**Archive on first match** is a relic from the time when SickRage only had one quality list, back in SB days (afaik), where you needed to specify if you wanted to keep looking until the best quality in that single list was reached.
+**Archive on first match** is a relic from the time when Sick-Rage only had one quality list, back in SB days (afaik), where you needed to specify if you wanted to keep looking until the best quality in that single list was reached.
 
 #### **Archive on first match** has been removed in develop 
 With the use of two quality lists like we have for custom qualities, **Archive on first match** can be eliminated. This removes the continued confusion which caused users to mentally link **Archive on first match** and **Archived Status**, which are two totally separate features. It also greatly simplifies the code, and allows us to prepare for better quality handling and eventually user orderable quality lists ("CP Style"). It also makes it easier to add the 2k/4k/UHD qualities.
 
 #### What does this mean for you?  
-Well, if you had your qualities set up in an odd custom configuration, SickRage might think it needs to re-download something that you think it should not.
+Well, if you had your qualities set up in an odd custom configuration, Sick-Rage might think it needs to re-download something that you think it should not.
 
 The solution is simply to change the quality settings for your shows.
 

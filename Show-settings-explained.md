@@ -2,7 +2,7 @@
 
 -------------------
 
-[ [Add Show button] ](https://github.com/SickRage/SickRage/wiki/Show-settings-explained#add-show-button) [ [Shows overview and buttons explained] ](https://github.com/SickRage/SickRage/wiki/Show-settings-explained#shows-overview-and-buttons-explained) [ [Shows Edit Button] ](https://github.com/SickRage/SickRage/wiki/Show-settings-explained#shows-edit-button)   
+[ [Add Show button] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Show-settings-explained#add-show-button) [ [Shows overview and buttons explained] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Show-settings-explained#shows-overview-and-buttons-explained) [ [Shows Edit Button] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Show-settings-explained#shows-edit-button)   
 
 ---------------------
 
@@ -19,7 +19,7 @@
 
 *Step 1*  
 
-Once you clicked on the new show button you will be asked to enter the name of the show you like to search/add. In this example "game of thrones". Further you can set a language that you want to use for the show, like descriptions etc. And last the preferred indexer where SickRage should search. When you are ready push search. Now any results found will be showed in the lower part of the screen. Select the show you want end click `next`.  (Alternatively you can click on the `add` button, however this will skip the customization settings.!)  
+Once you clicked on the new show button you will be asked to enter the name of the show you like to search/add. In this example "game of thrones". Further you can set a language that you want to use for the show, like descriptions etc. And last the preferred indexer where Sick-Rage should search. When you are ready push search. Now any results found will be showed in the lower part of the screen. Select the show you want end click `next`.  (Alternatively you can click on the `add` button, however this will skip the customization settings.!)  
 
 
 ![add-show-4](https://cloud.githubusercontent.com/assets/7928052/13013855/90fb70fc-d1b1-11e5-9a9e-f1d977a578d9.png)
@@ -36,18 +36,18 @@ In case you have not set a Root folder yet, (the folder where you want to place 
 Here you have the possibility to customize the shows settings.   
 
  * `subtitles`  
-Should subtitles be enabled for this show. Allows SickRage to search for subtitles.  
+Should subtitles be enabled for this show. Allows Sick-Rage to search for subtitles.  
  * `Status for previously aired episodes`  
 What status should be set for episodes that have already been aired.?  
  * `Status for all future aired episodes`  
 What status should be set for episodes that have NOT yet aired.? (Set Wanted or no newly aired episodes will be downloaded!)
  * `Flatten Folders`  
  * `Anime`  
-Is this an Anime show and should SickRage use Anime functions.?
+Is this an Anime show and should Sick-Rage use Anime functions.?
  * `Scene Numbering`  
-Should SickRage use [Scene Numbering](https://github.com/SickRage/SickRage/wiki/Scene-exceptions-and-numbering#what-is-scene-numbering).?  
+Should Sick-Rage use [Scene Numbering](https://github.com/Sick-Rage/Sick-Rage/wiki/Scene-exceptions-and-numbering#what-is-scene-numbering).?  
  * `Preferred quality of episodes to be downloaded`  
-What [quality](https://github.com/SickRage/SickRage/wiki/Quality-Settings) should SickRage use.?  
+What [quality](https://github.com/Sick-Rage/Sick-Rage/wiki/Quality-Settings) should Sick-Rage use.?  
  * `Save Defaults`  
 This allows the settings you have selected to be saved as defaults, So you dont have to manually select them next time adding a show.  
 Now that you have setup all settings press the `add` button.  
@@ -68,11 +68,11 @@ Similar to the IMDB popular shows option, here you can add Trending shows from [
 
 #### Adding an existing show 
 
-* SickRage also has the ability to add existing shows. Unlike newly added shows a existing show has already a folder with the episodes and/or meta data present. 
+* Sick-Rage also has the ability to add existing shows. Unlike newly added shows a existing show has already a folder with the episodes and/or meta data present. 
 
 ![add-existing](https://cloud.githubusercontent.com/assets/7928052/13013854/90ecd20e-d1b1-11e5-9066-3092293c7e99.png)
 
-Adding an existing show basically works the same as a new show. The main difference is that you need to select the folder where the show is located. Set/add the root folder where the show(s) are located and SickRage will give an overview of all the (not yet used) folders and allow you to set an indexer to search.  You can add multiple shows at once or just one singe show. 
+Adding an existing show basically works the same as a new show. The main difference is that you need to select the folder where the show is located. Set/add the root folder where the show(s) are located and Sick-Rage will give an overview of all the (not yet used) folders and allow you to set an indexer to search.  You can add multiple shows at once or just one singe show. 
 
 In case you are using meta-data/nfo files and have the tvshow.nfo file in a series folder, the adding process will go automatically.  
 
@@ -83,18 +83,18 @@ Just as adding a new show you can set custom settings for the show(s). If you li
 
 
  * `subtitles`  
-Should subtitles be enabled for this show. Allows SickRage to search for subtitles.  
+Should subtitles be enabled for this show. Allows Sick-Rage to search for subtitles.  
  * `Status for previously aired episodes`  
 What status should be set for episodes that have already been aired.?  
  * `Status for all future aired episodes`  
 What status should be set for episodes that have NOT yet aired.? (Set Wanted or no newly aired episodes will be downloaded!)
  * `Flatten Folders`  
  * `Anime`  
-Is this an Anime show and should SickRage use Anime functions.?
+Is this an Anime show and should Sick-Rage use Anime functions.?
  * `Scene Numbering`  
-Should SickRage use [Scene Numbering](https://github.com/SickRage/SickRage/wiki/Scene-exceptions-and-numbering#what-is-scene-numbering).?  
+Should Sick-Rage use [Scene Numbering](https://github.com/Sick-Rage/Sick-Rage/wiki/Scene-exceptions-and-numbering#what-is-scene-numbering).?  
  * `Preferred quality of episodes to be downloaded`  
-What [quality](https://github.com/SickRage/SickRage/wiki/Quality-Settings) should SickRage use.?  
+What [quality](https://github.com/Sick-Rage/Sick-Rage/wiki/Quality-Settings) should Sick-Rage use.?  
  * `Save Defaults`  
 This allows the settings you have selected to be saved as defaults, So you dont have to manually select them next time adding a show.  
 Now that you have setup all settings press the `add` button.  
@@ -109,7 +109,7 @@ Opens the edit section of the show. Here you can specify your settings for this 
 2 `Pause`  
 This will Pause/Resume your show. If paused no newly aired episodes will be downloaded.  
 3 `Remove`  
-Lets you remove the show from SickRage. When pushed you will get an pop-up screen with the question to remove the show with or without he file/folder.  
+Lets you remove the show from Sick-Rage. When pushed you will get an pop-up screen with the question to remove the show with or without he file/folder.  
 4 `Re-Scan`  
 Rescans all the files in your shows folder. Episodes,subtitles and metadata. etc.  
 5 `Force-Full Update`  
@@ -160,9 +160,9 @@ This lets you customize the columns of the seasons. You can add the seize column
 * `Show Location:`  
 Lets you set the location of the shows folder.  
 * `Preferred Quality:`  
-Lets you set the quality of the file that SickRage should download. See [Quality Settings](https://github.com/SickRage/SickRage/wiki/Quality-Settings) for more info.  
+Lets you set the quality of the file that Sick-Rage should download. See [Quality Settings](https://github.com/Sick-Rage/Sick-Rage/wiki/Quality-Settings) for more info.  
 `Default Episode Status:`  
-Lets you set the Default Episode Status. Needs to be set to WANTED if you want new shows to be downloaded.! See [Default Episode Status](https://github.com/SickRage/SickRage/wiki/FAQ%27s-and-Fixes#newly-aired-shows-are-not-downloading-and-set-to-skippedignored) for more info.  
+Lets you set the Default Episode Status. Needs to be set to WANTED if you want new shows to be downloaded.! See [Default Episode Status](https://github.com/Sick-Rage/Sick-Rage/wiki/FAQ%27s-and-Fixes#newly-aired-shows-are-not-downloading-and-set-to-skippedignored) for more info.  
 * `Info Language:`  
 Lets you set the default language for the show. Info, descriptions etc. Note, not subtitles.!  
 * `Subtitles:`  Enable or disable the automatic download of subtitles for this show.  
@@ -174,13 +174,13 @@ Lets you set the default language for the show. Info, descriptions etc. Note, no
 * `Anime:`  Select if the show only contains an episode number instead of the normal S01E01 format in the title.  
 * `Sports:`  ?  
 * `Seasons folders:` Sort episodes in seasonal folders. Disable if you like all episodes in one folder.  
-* `Scene Numbering:`  Enable or disable Scene Numbering. See [Scene Numbering](https://github.com/SickRage/SickRage/wiki/Scene-exceptions-and-numbering#what-is-scene-numbering) for more info.  
+* `Scene Numbering:`  Enable or disable Scene Numbering. See [Scene Numbering](https://github.com/Sick-Rage/Sick-Rage/wiki/Scene-exceptions-and-numbering#what-is-scene-numbering) for more info.  
 * `DVD Order:`  ?  
 
 ![Advanced](https://cloud.githubusercontent.com/assets/7928052/13013968/f3d5ba48-d1b1-11e5-901a-5f033ccefdea.png)
 
 * `Scene Exception:`  
-Lets you set and remove Scene Exceptions. See [Scene exceptions and numbering](https://github.com/SickRage/SickRage/wiki/Scene-exceptions-and-numbering) for more info.  
+Lets you set and remove Scene Exceptions. See [Scene exceptions and numbering](https://github.com/Sick-Rage/Sick-Rage/wiki/Scene-exceptions-and-numbering) for more info.  
 * `Archive on first match:`  check this to have the episode archived after the first best match is found from your archive quality list.  
 * `Ignored Words:`  All releases containing those words will be skipped.! Use with caution.!  Separate words with a comma, e.g. "word1,word2,word3"  
 * `Required Words:`  All releases NOT containing those words will be skipped.! Use with caution.! Separate words with a comma, e.g. "word1,word2,word3"  

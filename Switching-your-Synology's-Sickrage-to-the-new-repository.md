@@ -7,7 +7,7 @@ Summery. :
 1) Go into Sickrage and make a backup.  
 2) Go to the Synology Package Center and remove Sickrage.  
 3) Then Reinstall Sickrage, but now in the installation screen/wizard add the new URL.  
-`git://github.com/SickRage/SickRage.git`  
+`git://github.com/Sick-Rage/Sick-Rage.git`  
 4) Restore your backup, and restart Sickrage.  
 
 Thats it. :+1:  
@@ -34,23 +34,23 @@ On the conformation window pres `YES`.
 ![3](https://cloud.githubusercontent.com/assets/7928052/11318353/73f94810-904f-11e5-845b-71c7bc851f7c.png)
 =
 
-###### Install SickRage  
+###### Install Sick-Rage  
 
-Now that SickRage is removed we need to (re)install it again. Go to the community overview of Packages, find Sickbeard-custom and click on `Install`.  
+Now that Sick-Rage is removed we need to (re)install it again. Go to the community overview of Packages, find Sickbeard-custom and click on `Install`.  
 
 ![1](https://cloud.githubusercontent.com/assets/7928052/12465056/88f5befe-bfcc-11e5-9c59-f44ad547c768.png)
 =
 
 
 Now you will get a wizard/installation screen. Fill-in the new URL :  
-`Fork URL:`    `git://github.com/SickRage/SickRage.git`  
+`Fork URL:`    `git://github.com/Sick-Rage/Sick-Rage.git`  
 `Fork branch:` `master` 
 
 ![2](https://cloud.githubusercontent.com/assets/7928052/12465370/f6963596-bfcd-11e5-814f-5c168c512b79.png)
 =
 
 
-SickRage is now (re)installed.  
+Sick-Rage is now (re)installed.  
 Open the GUI and go to Backup/Restore under configuration and restore your backup.  
 
 ![7](https://cloud.githubusercontent.com/assets/7928052/11318357/741a8c14-904f-11e5-94e8-614dc94ede74.png)  

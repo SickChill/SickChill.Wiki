@@ -5,13 +5,13 @@ For many Devices there are installation packages compiled by community members. 
 ---
 
 ###### Windows
-* https://github.com/SickRage/SickRageInstaller/releases/latest
+* https://github.com/Sick-Rage/Sick-RageInstaller/releases/latest
 
 ---
 
 ###### Synology
-* (DSM 5) Add the [Synocommunity](https://synocommunity.com/#easy-install) repository, And Follow those [Instructions](https://github.com/SickRage/SickRage/wiki/Switching-your-Synology's-Sickrage-to-the-new-repository#install-sickrage)  
-* (DSM 5 & 6) Or use [BenjV's .SPK Sickrage package](https://github.com/BenjV/SYNO-packages/raw/master/SickRage%20DSM%206%20noarch%20V1.0.spk)
+* (DSM 5) Add the [Synocommunity](https://synocommunity.com/#easy-install) repository, And Follow those [Instructions](https://github.com/Sick-Rage/Sick-Rage/wiki/Switching-your-Synology's-Sickrage-to-the-new-repository#install-sickrage)  
+* (DSM 5 & 6) Or use [BenjV's .SPK Sickrage package](https://github.com/BenjV/SYNO-packages/raw/master/Sick-Rage%20DSM%206%20noarch%20V1.0.spk)
 
 ---
 
@@ -59,19 +59,19 @@ Those packages are not yet updated to the new URL, or are simply not maintained 
 Go into the Sickrage folder and do :  
 
 ```
-git remote set-url origin https://github.com/SickRage/SickRage.git
+git remote set-url origin https://github.com/Sick-Rage/Sick-Rage.git
 git fetch origin
 git reset --hard origin/master
 ```
 
-In case thats not possible, you can try to switch the [dirty](https://github.com/SickRage/SickRage/wiki/Sickrage-installation-packages#switching-the-dirty-way) way.
+In case thats not possible, you can try to switch the [dirty](https://github.com/Sick-Rage/Sick-Rage/wiki/Sickrage-installation-packages#switching-the-dirty-way) way.
 
 ---
 
 
 ###### D-Link NAS
 * ~~http://forums.dlink.com/index.php?topic=62238.0~~  
-* ~~http://dlink.vtverdohleb.org.ua/Add-On/#SickRage~~  
+* ~~http://dlink.vtverdohleb.org.ua/Add-On/#Sick-Rage~~  
 
 ---
 
@@ -100,7 +100,7 @@ However in some cases this is not possible. For those there is a `Dirty` way to 
 
 * 1 Run the outdated installer and install sickrage from the old Repo.
 * 2 Shutdown Sickrage.
-* 3 Download the latest Sickrage package from the [New Repo](https://github.com/SickRage/SickRage/archive/master.zip).
+* 3 Download the latest Sickrage package from the [New Repo](https://github.com/Sick-Rage/Sick-Rage/archive/master.zip).
 * 4 Unzip and overwrite the old files on your device.
 * 5 Start Sickrage again.
 

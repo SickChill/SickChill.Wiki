@@ -4,13 +4,13 @@ Post Processing is a name for a collection of actions that are taken after a fil
 
 ##Post Processing explained
 
-To start Post Processing in SickRage you have 3 possibility's. The fist (default) one is to let SickRage scan/monitor the `TV Download Dir` for newly downloaded episodes by your download client. Once SickRage detects a new file the Post processing starts. The second possibility is [Manual Post Processing](https://github.com/SickRage/SickRage/wiki/Post-Processing#manual-post-processing). The third method is using a script to inform SickRage that a new episode was downloaded. This is the ideal/preferred way for NAS devices. As this method doesn't need the constant scanning of the `TV Download Dir` it will allow the hard disks to go into sleep. Some might already be familiar with the SABtoSickbeard script that is used in combination with SABNZBz. However not all download clients support the running of those scripts after a download so SickRage can be informed.  
-For more detailed information about an individual setting see the [Main Settings Wiki](https://github.com/SickRage/SickRage/wiki/Settings-explained#post-processing).
+To start Post Processing in Sick-Rage you have 3 possibility's. The fist (default) one is to let Sick-Rage scan/monitor the `TV Download Dir` for newly downloaded episodes by your download client. Once Sick-Rage detects a new file the Post processing starts. The second possibility is [Manual Post Processing](https://github.com/Sick-Rage/Sick-Rage/wiki/Post-Processing#manual-post-processing). The third method is using a script to inform Sick-Rage that a new episode was downloaded. This is the ideal/preferred way for NAS devices. As this method doesn't need the constant scanning of the `TV Download Dir` it will allow the hard disks to go into sleep. Some might already be familiar with the SABtoSickbeard script that is used in combination with SABNZBz. However not all download clients support the running of those scripts after a download so Sick-Rage can be informed.  
+For more detailed information about an individual setting see the [Main Settings Wiki](https://github.com/Sick-Rage/Sick-Rage/wiki/Settings-explained#post-processing).
 
 
 ##Manual Post Processing
 
-Normally SickRage does Auto Post Processing but it gives you also the possibility to Manual Post Process files. This can be handy if you have manually downloaded files and want to instantly process them in SickRage. Simply hit the button Post-Processing at the top-right corner and the following screen will appear.:  
+Normally Sick-Rage does Auto Post Processing but it gives you also the possibility to Manual Post Process files. This can be handy if you have manually downloaded files and want to instantly process them in Sick-Rage. Simply hit the button Post-Processing at the top-right corner and the following screen will appear.:  
 
 ![pp](https://cloud.githubusercontent.com/assets/7928052/13013716/dc32af82-d1b0-11e5-80be-9638101f901b.png)
 
@@ -32,9 +32,9 @@ Forces already Post Processed Dir/Files, use only in case you have problems.
 `Mark Dir/Files as priority download:`  
 ?  
 `Delete files and folders:`  
-SickRage deletes the files and folders after completion of the manual Post-Processing.  
+Sick-Rage deletes the files and folders after completion of the manual Post-Processing.  
 `Mark download as failed:`  
-Lets you mark the downloaded episode as failed, and lets SickRage search/snatch an alternative file.  
+Lets you mark the downloaded episode as failed, and lets Sick-Rage search/snatch an alternative file.  
 
 
 ##Extra Scripts:  
@@ -42,9 +42,9 @@ Examples:
 For Windows C:\Python27\pythonw.exe C:\Script\test.py  
 For Linux: python /Script/test.py  
 
-Use single back slashes, SickRage/Python will escape them and make them double.  
+Use single back slashes, Sick-Rage/Python will escape them and make them double.  
 Additional scripts can be used, separated by `|`  
-Scripts are called after SickRage's own post-processing.  
+Scripts are called after Sick-Rage's own post-processing.  
 
 Parameters that are passed:
 

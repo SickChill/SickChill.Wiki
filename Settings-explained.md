@@ -1,13 +1,13 @@
 ----------
-[ [Help & Info] ](https://github.com/SickRage/SickRage/wiki/Settings-explained#help--info) [ [General] ](https://github.com/SickRage/SickRage/wiki/Settings-explained#general) [ [ Backup ] ](https://github.com/SickRage/SickRage/wiki/Settings-explained#backup) [ [Search settings] ](https://github.com/SickRage/SickRage/wiki/Settings-explained#search-settings) [ [Search providers] ](https://github.com/SickRage/SickRage/wiki/Settings-explained#search-providers) 
-[ [Subtitles search] ](https://github.com/SickRage/SickRage/wiki/Settings-explained#subtitles-search) [ [Post processing] ](https://github.com/SickRage/SickRage/wiki/Settings-explained#post-processing)  [ [ Notifications] ](https://github.com/SickRage/SickRage/wiki/Settings-explained#notifications) [ [Anime] ](https://github.com/SickRage/SickRage/wiki/Settings-explained#anime)  
+[ [Help & Info] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Settings-explained#help--info) [ [General] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Settings-explained#general) [ [ Backup ] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Settings-explained#backup) [ [Search settings] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Settings-explained#search-settings) [ [Search providers] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Settings-explained#search-providers) 
+[ [Subtitles search] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Settings-explained#subtitles-search) [ [Post processing] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Settings-explained#post-processing)  [ [ Notifications] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Settings-explained#notifications) [ [Anime] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Settings-explained#anime)  
 
 -----------
 
 ## The settings (gearwheels) section explained.
 
-* This is the section where you configure SickRage to your likings.  
-As you can see below SickRage supports a massive amount of customization settings, and might lead to some confusion. With this wiki we will try to explain the settings in more details. As many of those settings are for advanced user only, make sure you understand what the settings does before setting.
+* This is the section where you configure Sick-Rage to your likings.  
+As you can see below Sick-Rage supports a massive amount of customization settings, and might lead to some confusion. With this wiki we will try to explain the settings in more details. As many of those settings are for advanced user only, make sure you understand what the settings does before setting.
 
 ![statusmenu](https://cloud.githubusercontent.com/assets/7928052/13013102/4bb15e2e-d1ae-11e5-8668-2ef7e7429228.png)
 
@@ -16,23 +16,23 @@ As you can see below SickRage supports a massive amount of customization setting
 ![helpinfo](https://cloud.githubusercontent.com/assets/7928052/13013132/70b0840c-d1ae-11e5-8894-f3dd8b95dfe9.png)
 
 `SR Version:`  
-This show the exact version of SickRage you are using. SickRage gets updated with so called Commits (code updates). And by knowing the last Commit your particulair SickRage is running, you can tell if you missed updates and/or helps the Develpors trouble shooting a problem you have.  
+This show the exact version of Sick-Rage you are using. Sick-Rage gets updated with so called Commits (code updates). And by knowing the last Commit your particulair Sick-Rage is running, you can tell if you missed updates and/or helps the Develpors trouble shooting a problem you have.  
 `SR User:`  
-This shows the user on your system that is running SickRage.  
+This shows the user on your system that is running Sick-Rage.  
 `SR Locale:`  
 This shows your Locale (language) setting that your system uses. Its strongly advised that u use UTF-8 to prevent any problems with special characters.  
 `SR Config file:`  
-Shows the location of your config.ini file. It includes all your settings for SickRage.  
+Shows the location of your config.ini file. It includes all your settings for Sick-Rage.  
 `SR Database file:`  
-Shows the location of your sickbeard.db file. It includes all your shows for SickRage.  
+Shows the location of your sickbeard.db file. It includes all your shows for Sick-Rage.  
 `SR Cache Dir:`  
-Shows the location of your cache folder. It includes all your search data, banners and other temporary files for SickRage.  
+Shows the location of your cache folder. It includes all your search data, banners and other temporary files for Sick-Rage.  
 `SR Log Dir:`  
 Shows the location of your sickrage.log file. It includes all the events, warnings and errors. If you ever experience problems or issues, the log will be your best friend.    
 `SR Arguments:`  
-Shows with what arguments SickRage has been started.  
+Shows with what arguments Sick-Rage has been started.  
 `Python Version:`  
-This shows your Python version. SickRage needs a minimal version of 2.7 but the more recent the better. Also make sure pyopenssl and cryptography modules are included in your Python version.  
+This shows your Python version. Sick-Rage needs a minimal version of 2.7 but the more recent the better. Also make sure pyopenssl and cryptography modules are included in your Python version.  
 
 
 ##General  
@@ -43,18 +43,18 @@ This shows your Python version. SickRage needs a minimal version of 2.7 but the 
 `Default Indexer Language`  
 With this setting you set the default language that needs to be used for your shows and metadata. Note: not for subtitles.!  
 `Launch browser`  
-Automatically opens the SickRage web page on startup.  
+Automatically opens the Sick-Rage web page on startup.  
 `Initial page`  
-Select the default page that SickRage needs to open when you access the website.  
+Select the default page that Sick-Rage needs to open when you access the website.  
 `When to update shows`  
-You can manually set a time at witch SickRage updates/refreshes the shows information from the indexers.  9airdates etc.) Best to use a time at night when the device is idle.  
+You can manually set a time at witch Sick-Rage updates/refreshes the shows information from the indexers.  9airdates etc.) Best to use a time at night when the device is idle.  
 `Update shows on startup`  
 Feature was removed  
 `Update shows on snatch`  
-Lers SickRage update the shows data when an episode is snatched.  
+Lers Sick-Rage update the shows data when an episode is snatched.  
 `Send to trash for actions`  
-This option lets SickRage move the files to a recycle bin instead of the normal permanent delete. 
-Note: doesn't work on all Operating Systems. [(NSSM / WinService workaround)](https://github.com/SickRage/SickRage/wiki/FAQ's-and-Fixes#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)  
+This option lets Sick-Rage move the files to a recycle bin instead of the normal permanent delete. 
+Note: doesn't work on all Operating Systems. [(NSSM / WinService workaround)](https://github.com/Sick-Rage/Sick-Rage/wiki/FAQ's-and-Fixes#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)  
 `Log file folder location`  
 Lets you set a custom location for the log file. Also can be handy if you use a NAS to store the log on a usb stick. That allows the disks to go into standby and spin down.  
 `Number of Log files saved`  
@@ -72,13 +72,13 @@ You can add, edit, delete and set a default folder.
 #### Updates 
  
 `Check software updates`  
-Lets SickRage check if there are new updates on startup, and at a specific time interval. It updates are available you will see a notification on top of your SickRage page. There you can update and check what changes where made.  
+Lets Sick-Rage check if there are new updates on startup, and at a specific time interval. It updates are available you will see a notification on top of your Sick-Rage page. There you can update and check what changes where made.  
 `Automatically update`  
 Automatically approves updates and installs them.  
 `Check the server every*`  
 Lets you set the time interval for update checks. Once a day is advised to make sure you get the latest bug-fixes.  
 `Notify on software update`  
-Let SickRage sent a notification for the update to all notifiers that you have configured/enabled.  
+Let Sick-Rage sent a notification for the update to all notifiers that you have configured/enabled.  
 
 #### User Interface (Options for visual appearance.)  
 
@@ -103,21 +103,21 @@ Use AM/PM time or 24hr.
 `Timezone:`  
 Lets you set the timezone. Display dates and times in either your timezone or the shows network timezone  
 `Download url`  
-[See here](https://github.com/SickRage/SickRage/wiki/How-to-use-Download-url)  
+[See here](https://github.com/Sick-Rage/Sick-Rage/wiki/How-to-use-Download-url)  
 
 
 #### Web Interface  
 
 `API key`  
-The API key is used by external apps like download clients to communicate with SickRage. Generate a key and add it to your preferred app.  
+The API key is used by external apps like download clients to communicate with Sick-Rage. Generate a key and add it to your preferred app.  
 `HTTP logs`  
 This enables logs from the internal Tornado web server. Let this be disabled unless ask to enable.  
 `HTTP username`  
-You can set a username and pasword when opening the SickRage website.  
+You can set a username and pasword when opening the Sick-Rage website.  
 `HTTP password`  
-You can set a username and pasword when opening the SickRage website.  
+You can set a username and pasword when opening the Sick-Rage website.  
 `HTTP port`  
-The port on witch SickRage accepts http connections. Make sure no other application uses this port.!  
+The port on witch Sick-Rage accepts http connections. Make sure no other application uses this port.!  
 `Listen on IPv6`  
 Enable ipv6 support and attempt binding to any available IPv6 address.  
 `Enable HTTPS`  
@@ -148,7 +148,7 @@ Lets you encrypt passwords in your config.ini file. Make sure the password only 
 `Unprotected calendar`  
 By default the calendar is protected. This options disables the protection so that an third party app can access it. (like Google Calendar)  
 `Proxy host`  
-Let you set a Proxy to use with SickRage.  
+Let you set a Proxy to use with Sick-Rage.  
 `Default deleted episode status:`  
 Lets you set the default status of shows that have been deleted or have already been aired and not found in the folder.  
 
@@ -169,7 +169,7 @@ Removes untracked files and performs a hard reset on git branch automatically to
 
 ##Backup  
 
-* This sections allows you to create an backup of your SickRage settings. The files include :  
+* This sections allows you to create an backup of your Sick-Rage settings. The files include :  
   * `sickbeard.db` That contains all your shows  
   * `config.ini` That contains all your settings  
   * `Cache folder` That contains all your search results  
@@ -177,7 +177,7 @@ Removes untracked files and performs a hard reset on git branch automatically to
 ![backup](https://cloud.githubusercontent.com/assets/7928052/13013263/0ab50460-d1af-11e5-9830-849abfdeee7b.png)
 
 `Backup`  
-Lets you set the backup folder where SickRage saves your backup.
+Lets you set the backup folder where Sick-Rage saves your backup.
 
 ![restore](https://cloud.githubusercontent.com/assets/7928052/13013273/13bb6b6c-d1af-11e5-9ec5-c5de4ab44f4c.png)
 
@@ -193,9 +193,9 @@ Lets you browse and select your backup file to be restored.
 ![episode-search-1](https://cloud.githubusercontent.com/assets/7928052/13013292/250850c4-d1af-11e5-9a3a-f37b25aed7fb.png)
 
 `Randomize Providers`  
-By default SickRage searches the provider list from top to the bottom. If you enable this setting, SickRage will randomize the search order.  
+By default Sick-Rage searches the provider list from top to the bottom. If you enable this setting, Sick-Rage will randomize the search order.  
 `Download propers`  
-Sometimes releases that are uploaded get "nuked" by the scene. This means there is something wrong with the file. Like it has freezes, no audio or other defects. Than a new file is released witch is called a Proper. If you enable this function SickRage will automatically search for propers of episodes you have already downloaded and snatch the proper if it finds one.  
+Sometimes releases that are uploaded get "nuked" by the scene. This means there is something wrong with the file. Like it has freezes, no audio or other defects. Than a new file is released witch is called a Proper. If you enable this function Sick-Rage will automatically search for propers of episodes you have already downloaded and snatch the proper if it finds one.  
 `Check propers every:`  
 Lets you set the time/frequency on witch Propers should be searched.  
 `Backlog search frequency`  
@@ -205,7 +205,7 @@ Lets you set the Daily search frequency. This is the main search for finding epi
 `Usenet retention`  
 If you use NZB's than check what the retention of your Usenet server is and add the value in this field. This prevents Sickrage from sending episode NZB's that are not on your Usenet server anymore. Most payed Usenet servers have a retention above 1000 days, but ISP servers generally offer much less like 31 days.  
 `Ignore words`  
-If SickRage comes across any of those words in the title of a search result, the result will be SKIPPED. Apply's to all shows. USE WITH CAUTION!   
+If Sick-Rage comes across any of those words in the title of a search result, the result will be SKIPPED. Apply's to all shows. USE WITH CAUTION!   
 `Require words`  
 Sickrage SKIPPES/IGNORES all search results that dont have those words in the title. Apply's to all shows. USE WITH CAUTION!  
 `Allow high priority`  
@@ -227,7 +227,7 @@ Removes files left behind from a failed download. Needs to have failed downloads
 `Search NZBs`  
 Enable this setting if you plan to use NZB's and usenet to snatch your shows.  
 `Send .nzb files to:`  
-Select you download client. Currently the directly supported NZB clients are SABnzbd and NZBget. However for all other clients you can use the blackhole method. With this method Sickrage places the NZB in a folder of your choosing. Simply let your download client monitor that folder for new NZB files. And the download client does the rest. This makes SickRage compatible with almost every download client out there.  
+Select you download client. Currently the directly supported NZB clients are SABnzbd and NZBget. However for all other clients you can use the blackhole method. With this method Sickrage places the NZB in a folder of your choosing. Simply let your download client monitor that folder for new NZB files. And the download client does the rest. This makes Sick-Rage compatible with almost every download client out there.  
 `SABnzbd server URL`  
 Add the URL where your SABnzbd client is located.  
 `SABnzbd username`  
@@ -235,7 +235,7 @@ Add the username of SABnzbd.
 `SABnzbd password`  
 Add the password of SABnzbd.  
 `SABnzbd API key`  
-Add the API key of SABnzbd. This allows SickRage to send the nzb directly to SABnzbd. You can find the key in your SABnzb configuration.  
+Add the API key of SABnzbd. This allows Sick-Rage to send the nzb directly to SABnzbd. You can find the key in your SABnzb configuration.  
 `Use SABnzbd category`  
 Set the category that SABnzbd uses for tv shows. Default is TV.  
 `Use SABnzbd category for anime`  
@@ -268,7 +268,7 @@ Here you can set a manual download location. If blank the default Download Stati
 
 #### Provider Priorities  
 
-This sections allows you to enable/disable the providers you want to use and drag&drop them in the order you like them to be searched. Al-trough SickRage has already a large number of build-in providers it can be that your favorite provider is not yet added. Dont worry, SickRage has the possibility to add almost every NZB/Torrent provider that is out there. This can be done by adding a Custom provider. Especially for NZB providers its better to set them up manually, that gives you the most flexibility and efficiency while  searching. For more information see the explanations below.   
+This sections allows you to enable/disable the providers you want to use and drag&drop them in the order you like them to be searched. Al-trough Sick-Rage has already a large number of build-in providers it can be that your favorite provider is not yet added. Dont worry, Sick-Rage has the possibility to add almost every NZB/Torrent provider that is out there. This can be done by adding a Custom provider. Especially for NZB providers its better to set them up manually, that gives you the most flexibility and efficiency while  searching. For more information see the explanations below.   
 
 #### Build-in NZB (and Custom) Providers
 
@@ -301,7 +301,7 @@ Do you only want to search episodes packs with this provider.?
 
 #### Configure Custom Newznab Providers  
 
-* SickRage lets you add almost every NZB Indexer out there. The custom Newznab is the preferred way of adding an NZB indexer. You might ask yourself if its not better to build them in? Well its not... Firstly there are so many NZB indexers out there that it is impossible to add them all. But even a better reason is that you can search far more efficient if you add/configure the indexer manually. An indexer uses category's to search. Generally they are divided between SD, HD, Sports, Anime etc. Now lets say you only need HD releases than there is no point in adding/enabling all the others. Same if you only need Sports. This method is far more efficient then building-in a provider and using all the category's by default.  
+* Sick-Rage lets you add almost every NZB Indexer out there. The custom Newznab is the preferred way of adding an NZB indexer. You might ask yourself if its not better to build them in? Well its not... Firstly there are so many NZB indexers out there that it is impossible to add them all. But even a better reason is that you can search far more efficient if you add/configure the indexer manually. An indexer uses category's to search. Generally they are divided between SD, HD, Sports, Anime etc. Now lets say you only need HD releases than there is no point in adding/enabling all the others. Same if you only need Sports. This method is far more efficient then building-in a provider and using all the category's by default.  
 
 ![configure-custom-newznab-providers](https://cloud.githubusercontent.com/assets/7928052/13013477/f304da42-d1af-11e5-83fe-462702b4f567.png)
 
@@ -319,7 +319,7 @@ Note, some NZB indexers use a different numbering scheme but you should be able 
 
 #### Configure Custom Torrent Providers  
 
-* SickRage let you add Torrent providers that are currently not build-in yet. The only requirement is that the Torrent site has an RSS feed. Most of them do, and some let you even customize the feed so only the results you want are added. This makes it very efficient and quick to search.  
+* Sick-Rage let you add Torrent providers that are currently not build-in yet. The only requirement is that the Torrent site has an RSS feed. Most of them do, and some let you even customize the feed so only the results you want are added. This makes it very efficient and quick to search.  
 
 ![configure-custom-torrent-providers](https://cloud.githubusercontent.com/assets/7928052/13013479/f32ebb46-d1af-11e5-8022-932b2fcc1b96.png)
 
@@ -341,25 +341,25 @@ Here you need to set the settings that are normally included in a cookie. Exampl
 
 
 `Search Subtitles`  
-Enable if you want SickRage to search and download subtitles.  
+Enable if you want Sick-Rage to search and download subtitles.  
 `Subtitle Languages`  
-Add here the subtitle languages you like SickRage to search.  
+Add here the subtitle languages you like Sick-Rage to search.  
 `Subtitle Directory`  
-By default SickRage places the subtitles in your shows folder. With this setting you can store them all in one folder.  
+By default Sick-Rage places the subtitles in your shows folder. With this setting you can store them all in one folder.  
 `Subtitle Find Frequency`  
-Set how frequent SickRage should search for subtitles in hours.  
+Set how frequent Sick-Rage should search for subtitles in hours.  
 `Subtitles History`  
 Enable if you like to see an entry on the history page if a subtitle is downloaded.  
 `Subtitles Multi-Language`  
 Some media players dont support language codes behind the subtitles like Game of Thrones S01E01_EN.srt If that is the case disable this setting and the subtitles will be named without the _EN addition.  
 `Embedded Subtitles`  
-MKV episodes can have build-in subtitles. If you want to ignore those enable this setting so SickRage can search for subtitles itself.  
+MKV episodes can have build-in subtitles. If you want to ignore those enable this setting so Sick-Rage can search for subtitles itself.  
 `Extra Scripts`  
 This allows you to run an script after a subtitle was downloaded.  Can be useful if you want to insert the subtitle into an MKV file etc.  
 
 #### Subtitle Plugins  
 
-* Here you can enable the preferred subtitle providers where SickRage should search for subtitles.  
+* Here you can enable the preferred subtitle providers where Sick-Rage should search for subtitles.  
 
 ![subtitles-plugin](https://cloud.githubusercontent.com/assets/7928052/13013550/34339ec2-d1b0-11e5-8d72-3b089ce5b719.png)
 
@@ -370,26 +370,26 @@ This allows you to run an script after a subtitle was downloaded.  Can be useful
 ![subtitle-accounts](https://cloud.githubusercontent.com/assets/7928052/13013551/34598f6a-d1b0-11e5-9322-cbd1da84e3d0.png)
 
 ##Post Processing  
-* In this section you can use post process options that SickRage should preform after a episode is downloaded. For example renaming of the file etc. More information can also be found under [Post Processing](https://github.com/SickRage/SickRage/wiki/Post-Processing)  
+* In this section you can use post process options that Sick-Rage should preform after a episode is downloaded. For example renaming of the file etc. More information can also be found under [Post Processing](https://github.com/Sick-Rage/Sick-Rage/wiki/Post-Processing)  
 
 ![postprocessing-1](https://cloud.githubusercontent.com/assets/7928052/13013585/5c1a412a-d1b0-11e5-8d3c-804ff72ffbdb.png)
 
-`TV Download Dir`  This is the folder that SickRage monitors for newly downloaded files/episodes. Once a new file is found the post-processing starts to move the file to your shows folder and take any other actions that you have configured.   
+`TV Download Dir`  This is the folder that Sick-Rage monitors for newly downloaded files/episodes. Once a new file is found the post-processing starts to move the file to your shows folder and take any other actions that you have configured.   
 `Process Episode Method:`  Lets you select what method should be used to move the file to your shows folder. Move is the most used method, but the more advanced [hardlinking](https://en.wikipedia.org/wiki/Hard_link) is recommended in case you want to seed the file with your torrent client.  
 `Delete RAR contents`  
 ?  
 `Skip Remove Detection`  
 ?  
 `Extra Scripts`  
-SickRage gives you the opportunity to run your own scripts for post-processing. See [post processing](https://github.com/SickRage/SickRage/wiki/Post-Processing) for more information.  
+Sick-Rage gives you the opportunity to run your own scripts for post-processing. See [post processing](https://github.com/Sick-Rage/Sick-Rage/wiki/Post-Processing) for more information.  
 `Move Associated Files`  
-Should SickRage move any files that are downloaded with the episode file like external subtitles etc.?  
+Should Sick-Rage move any files that are downloaded with the episode file like external subtitles etc.?  
 `Sync File Extensions`  
-Here you can set the extensions of the sync files. Some download clients support sync files. Those files are placed inside the download folder if a file is still downloading. This prevents post processing from starting and prevents errors or incomplete files. However its strongly recommended that you setup your download client to use a separate (temp) folder for files that are still being downloaded. And that only completed files are moved to the TV Download Dir that SickRage monitors.  
+Here you can set the extensions of the sync files. Some download clients support sync files. Those files are placed inside the download folder if a file is still downloading. This prevents post processing from starting and prevents errors or incomplete files. However its strongly recommended that you setup your download client to use a separate (temp) folder for files that are still being downloaded. And that only completed files are moved to the TV Download Dir that Sick-Rage monitors.  
 `Postpone post processing`  
 Enables/disables the above described function of the sync files.  
 `Rename .nfo file`  
-In case there is already a .nfo file in the show folder SickRage will rename it to .nfo-org to prevent if from being overwritten and causing conflicts.  
+In case there is already a .nfo file in the show folder Sick-Rage will rename it to .nfo-org to prevent if from being overwritten and causing conflicts.  
 `Rename Episodes`  
 Enables/disables the function of renaming files as configured under the episode renaming tab.  
 `Change File Date`  
@@ -397,15 +397,15 @@ Enables/disables the function of renaming files as configured under the episode 
 `Scan and Process` 
 Lets you enable/disable the scanning of the TV Download Dir.  
 `Don't delete empty folders `  
-Lets you select if SickRage should remove or delete empty folders left after moving the episode file.  
+Lets you select if Sick-Rage should remove or delete empty folders left after moving the episode file.  
 `Auto Post-Processing Frequency`  
 This lets you set the time between scans in the TV Download Dir as described above. Dont go below 10 minutes as that can cause detection problem. It can happen that the next scan happens when the previous scan is still moving a file. Than you will receive errors that the file/folder doesn't exist etc.  
 `Unpack`  
-In case a rar collection is detected in the TV Download Dir, SickRage can unrar them.   
+In case a rar collection is detected in the TV Download Dir, Sick-Rage can unrar them.   
 `Use Failed Downloads`  
 Lets you enable failed downloads. This gives you the opportunity to mark a nzb/torrent as failed and added to the failed.db, so that the same isn't downloaded again.  
 `Delete Failed`  
-In case a failed download is detected in the TV Download Dir, SickRage will delete the folder.  
+In case a failed download is detected in the TV Download Dir, Sick-Rage will delete the folder.  
 
 #### Episode Naming  
 
@@ -430,7 +430,7 @@ Name Anime shows differently than regular shows
 
 ##Notifications
 
-* SickRage lets you send notifications to your favorite home Theater/NAS, Devices or Social media service.
+* Sick-Rage lets you send notifications to your favorite home Theater/NAS, Devices or Social media service.
 
 
 #### Home Theater/NAS  

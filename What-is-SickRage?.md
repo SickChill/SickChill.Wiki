@@ -1,17 +1,17 @@
-#### What is SickRage?
+#### What is Sick-Rage?
 
-SickRage is a program that downloads your favorite TV shows, then processes and stores them in your library.
-And that all fully automated! Just set it up and as soon as there is a new episode released it gets downloaded. SickRage is your ultimate PVR.!  
+Sick-Rage is a program that downloads your favorite TV shows, then processes and stores them in your library.
+And that all fully automated! Just set it up and as soon as there is a new episode released it gets downloaded. Sick-Rage is your ultimate PVR.!  
 
 
 #### How does this all work?
-When you add a show to SickRage the data (like air-dates, episode name/number) are pulled from an indexer like [TheTVDb](http://thetvdb.com/) or [TvRage](http://www.tvrage.com/). At that point SickRage knows when a new episode is going to air and starts the search on your favorite Torrent and/or NZB site. For this search you can set [quality](https://github.com/SickRage/SickRage/wiki/Quality-Settings) settings. For example: HDTV or SD quality. SickRage will go over all the results to find the [quality](https://github.com/SickRage/SickRage/wiki/Quality-Settings) YOU want and when found snatches the torrent/nzb and sends it to your download client. (sabnzb, utorrent, transmission etc.) At this point SickRage starts monitoring your clients download folder to see if the file is finished downloading. When this is the case SickRage starts the post-processing. Here you can tell SickRage to move the file to your shows folder, or also rename it, or send notifications to Plex/Kodi or to your smart-phone. The list is long for what you can do with post-processing, simply set the actions you prefer.
+When you add a show to Sick-Rage the data (like air-dates, episode name/number) are pulled from an indexer like [TheTVDb](http://thetvdb.com/) or [TvRage](http://www.tvrage.com/). At that point Sick-Rage knows when a new episode is going to air and starts the search on your favorite Torrent and/or NZB site. For this search you can set [quality](https://github.com/Sick-Rage/Sick-Rage/wiki/Quality-Settings) settings. For example: HDTV or SD quality. Sick-Rage will go over all the results to find the [quality](https://github.com/Sick-Rage/Sick-Rage/wiki/Quality-Settings) YOU want and when found snatches the torrent/nzb and sends it to your download client. (sabnzb, utorrent, transmission etc.) At this point Sick-Rage starts monitoring your clients download folder to see if the file is finished downloading. When this is the case Sick-Rage starts the post-processing. Here you can tell Sick-Rage to move the file to your shows folder, or also rename it, or send notifications to Plex/Kodi or to your smart-phone. The list is long for what you can do with post-processing, simply set the actions you prefer.
 And this whole proses is completely automated. So once you set it up no user intervention is required.
-This makes SickRage ideal for NAS devices. But can run on almost every other device.
+This makes Sick-Rage ideal for NAS devices. But can run on almost every other device.
 
 #### Features
 
-SickRage contains a ton of cool features. Some of those are :  
+Sick-Rage contains a ton of cool features. Some of those are :  
 
  - Automatic torrent/nzb searching, downloading, and processing at the qualities you want
  - Automatic subtitle downloads for your shows.
@@ -26,8 +26,8 @@ SickRage contains a ton of cool features. Some of those are :
  - Searches TheTVDB.com, TVRage.com, and AniDB.net for shows, seasons, episodes, and metadata
  - Episode status management allows for mass failing seasons/episodes to force retrying
  - DVD Order numbering for returning the results in DVD order instead of Air-By-Date order
- - Allows you to choose which indexer to have SickRage search its show info from when importing
- - SickRage can easily tell if info for an existing show comes from TheTVDB or TVRage when importing
+ - Allows you to choose which indexer to have Sick-Rage search its show info from when importing
+ - Sick-Rage can easily tell if info for an existing show comes from TheTVDB or TVRage when importing
  - Automatic XEM Scene Numbering/Naming for seasons/episodes
  - Available for any platform, uses a simple HTTP interface
  - Specials and multi-episode torrent/nzb support
@@ -41,17 +41,17 @@ _(as of December 2014)_<br/>
 -[Mobile](http://imgur.com/a/WPyG6)
 
 #### Dependencies  
-To run SickRage we recommend [Python 2.7.10 or 11](https://www.python.org/downloads/release/python-2711/), and a minimum of [OpenSSL v.1.01e](https://www.openssl.org/source/). [GIT](https://git-scm.com/) is required for Sickrage's update process. 
+To run Sick-Rage we recommend [Python 2.7.10 or 11](https://www.python.org/downloads/release/python-2711/), and a minimum of [OpenSSL v.1.01e](https://www.openssl.org/source/). [GIT](https://git-scm.com/) is required for Sickrage's update process. 
 The minimum requirements are Python 2.7.x with the latest modules of [PyOpenSSL](https://pypi.python.org/pypi/pyOpenSSL), and [cryptography](https://pypi.python.org/pypi/cryptography). (Cheetah isn't required anymore.)  
 
 #### Support
-In case the [Wiki](https://github.com/SickRage/SickRage/wiki) doesn't have the answer to your question, you could check us out on irc.
+In case the [Wiki](https://github.com/Sick-Rage/Sick-Rage/wiki) doesn't have the answer to your question, you could check us out on irc.
 We are on freenode in #sickrage-issues. [WebIRC kiwiirc.com](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickrage-issues)
 
 #### Bugs/Issues
-In case you have found a bug and verified that it indeed is a bug, than please report it to our [issue tracker](https://github.com/SickRage/SickRage) so that the Developers can investigate.  
-Note, make sure you follow the [guidelines](https://github.com/SickRage/SickRage#submitting-a-bugissue-ticket) for posting a bug.  
+In case you have found a bug and verified that it indeed is a bug, than please report it to our [issue tracker](https://github.com/Sick-Rage/Sick-Rage) so that the Developers can investigate.  
+Note, make sure you follow the [guidelines](https://github.com/Sick-Rage/Sick-Rage#submitting-a-bugissue-ticket) for posting a bug.  
 
 ---
 
-Disclaimer: SickRage should only be used with shows that you already own or are in the public domain.
+Disclaimer: Sick-Rage should only be used with shows that you already own or are in the public domain.

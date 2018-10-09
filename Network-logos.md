@@ -2,16 +2,16 @@
 
 Network logos show a picture instead of a plain text name in the show overview page of Sickrage. 
 
-## How does SickRage receive those names.?  
+## How does Sick-Rage receive those names.?  
 
 The names are automatically provided by the indexers [theTVDB](http://thetvdb.com/) and [TVRage](http://www.tvrage.com/).
 In case there are errors in the name please change/report them to one of the above indexers.
 
-## Where are the logos located in SickRage.?  
+## Where are the logos located in Sick-Rage.?  
 
 They are located under :  `*/SickBeard/gui/slick/images/network`
 
-## How to add network logos for SickRage.?  
+## How to add network logos for Sick-Rage.?  
 
 First you need to get your hands on a logo for that particular network. Google is your best friend here.
 Once that is done use Paint.net or similar program to edit the image.
@@ -34,5 +34,5 @@ Example : `Sky Atlantic`   this needs to be renamed to `sky atlantic` So the log
 
 Note : Special characters are not supported.!
 
-When you have the logo ready it needs to be added to SickRage. This is done with a Pull request on GitHub. You can use a program like [Sourcetree](https://www.sourcetreeapp.com/) for submitting.
-If you are not able to do this, than you can alternatively post the logo and exact filename on our SickRage [issue tracker](https://github.com/SickRage/SickRage/issues ), one of the contributers/developers will than add it for you.
+When you have the logo ready it needs to be added to Sick-Rage. This is done with a Pull request on GitHub. You can use a program like [Sourcetree](https://www.sourcetreeapp.com/) for submitting.
+If you are not able to do this, than you can alternatively post the logo and exact filename on our Sick-Rage [issue tracker](https://github.com/Sick-Rage/Sick-Rage/issues ), one of the contributers/developers will than add it for you.

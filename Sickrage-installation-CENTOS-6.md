@@ -1,7 +1,7 @@
 
 
 ## CENTOS 6
-The following instructions are for installing SickRage on CentOS 6.
+The following instructions are for installing Sick-Rage on CentOS 6.
 
 The installation should also be applicable to RHEL 6 and Fedora (12, 13, or 14) with minimal changes.
 
@@ -23,7 +23,7 @@ The installation assumes that you're not using the root user to install/run sick
 3. Clone sickrage git repo
 
     ```bash
-    sudo git clone https://github.com/SickRage/SickRage.git /usr/share/sickrage
+    sudo git clone https://github.com/Sick-Rage/Sick-Rage.git /usr/share/sickrage
     ```
 
 4. Set correct ownership
@@ -53,9 +53,9 @@ The installation assumes that you're not using the root user to install/run sick
 8. Create configuration file /etc/sysconfig/sickrage with the following content
 
     ```bash
-    # SickRage service configuration
+    # Sick-Rage service configuration
     
-    #run SickRage as
+    #run Sick-Rage as
     SR_USER=media
     SR_HOME=/usr/share/sickrage
     SR_DATA=/usr/share/sickrage
@@ -70,7 +70,7 @@ The installation assumes that you're not using the root user to install/run sick
     username=
     password=
     
-    #use nice, ionice, taskset to start SickRage
+    #use nice, ionice, taskset to start Sick-Rage
     nicecmd=
     #  example: nicecmd="nice -n 19 ionice -c3"
     ```
@@ -93,6 +93,6 @@ The installation assumes that you're not using the root user to install/run sick
     sudo service sickrage start
     ```
 
-All done, verify that SickRage is accessible at gui address, eg: http://mymachine:8080/sickrage
+All done, verify that Sick-Rage is accessible at gui address, eg: http://mymachine:8080/sickrage
 
 Celebrate with some impromptu dancing!!

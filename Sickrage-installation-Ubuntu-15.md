@@ -1,5 +1,5 @@
 ## Ubuntu 15.*
-The following instructions are for installing SickRage on Ubuntu 15.*.
+The following instructions are for installing Sick-Rage on Ubuntu 15.*.
  
 The installation should also be applicable to the upcoming 16.04 LTS as it is just a systemd setup.
  
@@ -7,11 +7,11 @@ The installation assumes that you're not using the root user to install/run sick
  
 If you trust us and would like us to just do it for you just paste this:
  
-    curl https://raw.githubusercontent.com/SickRage/SickRage/master/contrib/debian-ubuntu-install.sh | sudo bash
+    curl https://raw.githubusercontent.com/Sick-Rage/Sick-Rage/master/contrib/debian-ubuntu-install.sh | sudo bash
 
 Otherwise:
  
-1. Update repositories and install SickRage dependencies
+1. Update repositories and install Sick-Rage dependencies
     This will give you unrar-free (guess), and git to pull the repo
  
    ```bash
@@ -23,14 +23,14 @@ Otherwise:
    
     ```bash
     sudo addgroup --system sickrage
-    sudo adduser --disabled-password --system --home /var/lib/sickrage --gecos "SickRage" --ingroup sickrage sickrage
+    sudo adduser --disabled-password --system --home /var/lib/sickrage --gecos "Sick-Rage" --ingroup sickrage sickrage
     ```
    
-3. Clone SickRage git repo
+3. Clone Sick-Rage git repo
  
     ```bash
     sudo mkdir /opt/sickrage && sudo chown sickrage:sickrage /opt/sickrage
-    sudo -u sickrage git clone https://github.com/SickRage/SickRage.git /opt/sickrage
+    sudo -u sickrage git clone https://github.com/Sick-Rage/Sick-Rage.git /opt/sickrage
     ```
  
  
@@ -55,4 +55,4 @@ Otherwise:
     sudo systemctl status sickrage
     ```
  
-All done, verify that SickRage is accessible at: http://localhost:8081
+All done, verify that Sick-Rage is accessible at: http://localhost:8081

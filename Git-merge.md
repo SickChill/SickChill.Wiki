@@ -1,13 +1,13 @@
 ### Requirement ###
 * Git
-* A clone of [Sickrage repo](https://github.com/SickRage/SickRage.git)
+* A clone of [Sickrage repo](https://github.com/Sick-Rage/Sick-Rage.git)
 
 ********
 
 ### Index ###
-* [Merge develop into master](https://github.com/SickRage/SickRage/wiki/Git-merge#merge-develop-into-master)
-* [Merge a PR via command line](https://github.com/SickRage/SickRage/wiki/Git-merge#Merge-a-PR-via-command-line)
-* [Merge a hotfix(master and develop)](https://github.com/SickRage/SickRage/wiki/Git-merge#merge-a-hotfixmaster-and-develop)
+* [Merge develop into master](https://github.com/Sick-Rage/Sick-Rage/wiki/Git-merge#merge-develop-into-master)
+* [Merge a PR via command line](https://github.com/Sick-Rage/Sick-Rage/wiki/Git-merge#Merge-a-PR-via-command-line)
+* [Merge a hotfix(master and develop)](https://github.com/Sick-Rage/Sick-Rage/wiki/Git-merge#merge-a-hotfixmaster-and-develop)
 
 ********
 
@@ -22,11 +22,11 @@ $ git push --tags origin master
 ```
 
 ### Merge a PR via command line ###
-* The PR must be based on `SickRage:develop`
+* The PR must be based on `Sick-Rage:develop`
 * The branch we want to commit is `fernandog:remote_tvcache_traceback`
 ```
 $ git checkout -b fernandog-remote_tvcache_traceback develop
-$ git pull https://github.com/fernandog/SickRage.git remote_tvcache_traceback
+$ git pull https://github.com/fernandog/Sick-Rage.git remote_tvcache_traceback
 $ git checkout develop
 $ git merge --no-ff fernandog-remote_tvcache_traceback
 $ git push origin develop
@@ -34,11 +34,11 @@ $ git branch -d fernandog-remote_tvcache_traceback
 ```
 
 ### Merge a hotfix(master and develop) ###
-* The PR must be based on `SickRage:master`
+* The PR must be based on `Sick-Rage:master`
 * The branch we want to commit is `fernandog:remote_tvcache_traceback`
 ```
 $ git checkout -b fernandog-remote_tvcache_traceback master
-$ git pull https://github.com/fernandog/SickRage.git remote_tvcache_traceback
+$ git pull https://github.com/fernandog/Sick-Rage.git remote_tvcache_traceback
 $ git checkout master
 $ git merge --no-ff fernandog-remote_tvcache_traceback
 $ git push origin master

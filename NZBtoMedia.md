@@ -1,13 +1,13 @@
 ## What is NZBtoMedia.?
 
-NZBtoMedia is a collection of scripts for [post-processing](https://github.com/SickRage/SickRage/wiki/Post-Processing).  
-Normally SickRage scans the download folder for new files/downloads every 10 minutes. However that prevents the hard disks from going into sleep/hibernation. Scripts on the other hand let SickRage instantly know if a download was completed. Therefore the scanning of the `tv download folder` isn't necessary anymore.
-Another advantage is that other [post-processing](https://github.com/SickRage/SickRage/wiki/Post-Processing) options can be done, before the file is sent to Sickrage. But most of those options are already included in SickRage, so you probably wont use them.
-Last and probably the MOST important reason, it supports failed downloads. Meaning that when your client fails to download the file a notification gets sent to SickRage and a new search gets started, with hopefully now a valid file.  
+NZBtoMedia is a collection of scripts for [post-processing](https://github.com/Sick-Rage/Sick-Rage/wiki/Post-Processing).  
+Normally Sick-Rage scans the download folder for new files/downloads every 10 minutes. However that prevents the hard disks from going into sleep/hibernation. Scripts on the other hand let Sick-Rage instantly know if a download was completed. Therefore the scanning of the `tv download folder` isn't necessary anymore.
+Another advantage is that other [post-processing](https://github.com/Sick-Rage/Sick-Rage/wiki/Post-Processing) options can be done, before the file is sent to Sickrage. But most of those options are already included in Sick-Rage, so you probably wont use them.
+Last and probably the MOST important reason, it supports failed downloads. Meaning that when your client fails to download the file a notification gets sent to Sick-Rage and a new search gets started, with hopefully now a valid file.  
 
 ## Before you start
 
-* Enable inside SickRage :  `Settings` --> `Search Settings` --> `Use Failed Downloads` !  
+* Enable inside Sick-Rage :  `Settings` --> `Search Settings` --> `Use Failed Downloads` !  
 * Make sure the permissions and file ownership are correctly set.  
 * Windows users will need to install the [pywin32](https://sourceforge.net/projects/pywin32/files/pywin32/) extensions to run NZBtoMedia.   
 
@@ -56,11 +56,11 @@ And save the settings.
 Next we need to setup the settings for the nzbToSickBeard script itself.  
 Go to `nzbToSickBeard` in the Setting. Now change/add : 
 
-* `sbcategory`        leave set to `tv` (or change if you changed it in SickRage.)  
+* `sbcategory`        leave set to `tv` (or change if you changed it in Sick-Rage.)  
 * `sbhost`            leave to `localhost` (or enter IP if Sickrage runs on different machine)  
-* `sbport`            Enter the port on witch SickRage is running.  
-* `sbusername`        Enter the username if SickRage requires login.  
-* `sbpassword`        Enter the password if SickRage requires login.  
+* `sbport`            Enter the port on witch Sick-Rage is running.  
+* `sbusername`        Enter the username if Sick-Rage requires login.  
+* `sbpassword`        Enter the password if Sick-Rage requires login.  
 * `sbprocess_method`  Use your preferred process method.  
 
 (more advanced settings can be set, but make sure you understand there functions.!)  
@@ -96,7 +96,7 @@ Go to the `[SickBeard]` section and add/change the following settings. :
   
 * `enabled = 0`            (Change the `0` to `1` to enable Sickrage)  
 * `host = localhost`       (Change IP number if Sickrage runs on a different device)  
-* `port = 8081`            (Change the port to the one that your SickRage install uses)   
+* `port = 8081`            (Change the port to the one that your Sick-Rage install uses)   
 * `username =`             (Add your username if you have enabled login in Sickrage)  
 * `password =`             (Add your password if you have enabled login in Sickrage)  
 * `fork =`                 (Only replace `auto` with `sickrage`if detection problems)  
@@ -128,8 +128,8 @@ Now browse to the location where they are located and save the new path.
 
 ![1](https://cloud.githubusercontent.com/assets/7928052/13014405/f99ac868-d1b3-11e5-841f-d566aed5f04c.png)
 
-The second step is to setup the categories. When SickRage sends an nzb to SABnzbd it adds a tag. the defealt is `tv`. The Categories allow to run a script when a certain tag is sent/found by SABnzbd.  
-In our case we want to do this with the tag `tv` that SickRage uses.  
+The second step is to setup the categories. When Sick-Rage sends an nzb to SABnzbd it adds a tag. the defealt is `tv`. The Categories allow to run a script when a certain tag is sent/found by SABnzbd.  
+In our case we want to do this with the tag `tv` that Sick-Rage uses.  
 Go to : `Config` -> `Categories`  
 
 See if there is already a category called `tv` and if not create one.  

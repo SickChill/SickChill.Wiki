@@ -1,6 +1,6 @@
 ##Episode Status
 
-The Episode status lets you view the current status of an episode. For example is it already downloaded.? still Wanted? or Snatched.? etc. What the Episode Status is effects what actions SickRage will take for the future of the episode.  
+The Episode status lets you view the current status of an episode. For example is it already downloaded.? still Wanted? or Snatched.? etc. What the Episode Status is effects what actions Sick-Rage will take for the future of the episode.  
 
 ##Status Types
 
@@ -10,7 +10,7 @@ There are Many different Status Types that are used for at what state/stage the 
    * Generally used to mark a episode as downloaded and watched
    * it add plus one toward the individual episode count
    * it is included in total episode count and added to the progress bar  
-   * this is a manual setting for keeping track of physical episodes (ie. on a disc you own) when using SickRage as a collection manager  
+   * this is a manual setting for keeping track of physical episodes (ie. on a disc you own) when using Sick-Rage as a collection manager  
 
 * **Ignored**
     * episode is not wanted by the user
