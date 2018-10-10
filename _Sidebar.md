@@ -1,5 +1,5 @@
 [Wiki Home](https://github.com/SickChill/SickChill/wiki)  
-[What is SickChill?](https://github.com/SickChill/SickChill/wiki/What-is-SickChill)  
+[What is SickChill?](https://github.com/SickChill/SickChill/wiki/What-is-SickChill%3F)  
 [Guides](https://github.com/SickChill/SickChill/wiki/Installation-&-Configuration-Guides)  
 [FAQ's and Fixes](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes)  
 [Installation packages](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages)  
