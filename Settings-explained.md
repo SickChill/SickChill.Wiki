@@ -62,7 +62,7 @@ Lets you set he number of log files that are stored before deleted.
 `Size of Log files saved`  
 Lets you set the size of the individual log files. Set the seize to your individual needs.  
 `Use initial indexer set to`  
-Lets you set the default indexer (thetvdb or tvrage) when adding a new show.  
+Lets you set the default indexer (like thetvdb)  when adding a new show.  
 `Timeout show indexer at`  
 Lets you set a custom timeout value. Dont change unless asked or the indexer is very slow to respond to your request.  
 `Show root directories`  

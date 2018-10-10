@@ -23,11 +23,10 @@ SickChill contains a ton of cool features. Some of those are :
  - Updates Kodi library, poster/banner/fanart downloads, and NFO/TBN generation
  - Configurable automatic episode renaming, sorting, and other post-processing
  - Easily see what episodes you're missing, are airing soon, and more
- - Searches TheTVDB.com, TVRage.com, and AniDB.net for shows, seasons, episodes, and metadata
+ - Searches TheTVDB.com and AniDB.net for shows, seasons, episodes, and metadata
  - Episode status management allows for mass failing seasons/episodes to force retrying
  - DVD Order numbering for returning the results in DVD order instead of Air-By-Date order
  - Allows you to choose which indexer to have SickChill search its show info from when importing
- - SickChill can easily tell if info for an existing show comes from TheTVDB or TVRage when importing
  - Automatic XEM Scene Numbering/Naming for seasons/episodes
  - Available for any platform, uses a simple HTTP interface
  - Specials and multi-episode torrent/nzb support

@@ -27,13 +27,13 @@ For many Devices there are installation packages compiled by community members. 
 
 ###### Qnap 
 * Download the [qpkg](https://www.dropbox.com/s/j1svazqdi9ieq82/SickBeard-TVRage_151227.qpkg) and follow the installation instructions from the [Qnap Forums](http://forum.qnap.com/viewtopic.php?f=223&t=118366#p525730)
-Make sure you select SickChill and NOT SickChillTV<br/>
+Make sure you select SickChill and NOT SickRageTV<br/>
 
 ---
 
 ###### Asustor
 * https://www.dropbox.com/s/f016hij9ebw28qd/sickbeard-tvrage_20151227_any.apk  
-Make sure you select SickChill and NOT SickChillTV.
+Make sure you select SickChill and NOT SickRageTV.
 
 ---
 

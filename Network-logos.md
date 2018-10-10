@@ -4,7 +4,7 @@ Network logos show a picture instead of a plain text name in the show overview p
 
 ## How does SickChill receive those names.?  
 
-The names are automatically provided by the indexers [theTVDB](http://thetvdb.com/) and [TVRage](http://www.tvrage.com/).
+The names are automatically provided by the indexers [theTVDB](http://thetvdb.com/).
 In case there are errors in the name please change/report them to one of the above indexers.
 
 ## Where are the logos located in SickChill.?  

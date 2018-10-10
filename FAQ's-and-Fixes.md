@@ -51,7 +51,7 @@ You can type these paths at the top of the browse dialog popups in SickChill and
 
 
 ## (scene exceptions) Releases have a different show name than in SickChill, and are not snatched?
-If you encounter torrents/nzbs that use different show names than the one supplied from TheTVDb or TVRage, you can add a Scene Exception to your show [Go to Show, Edit Show] with the name that the releases are using. 
+If you encounter torrents/nzbs that use different show names than the one supplied from TheTVDb, you can add a Scene Exception to your show [Go to Show, Edit Show] with the name that the releases are using. 
 An example is when you have two shows with the same name. To differentiate between the two, uploaders generally will add the premiere year of the show. i.e. _Revolution_, i.e. _Revolution (2012)_
 For more information see the [Scene exceptions and numbering](https://github.com/SickChill/SickChill/wiki/Scene-exceptions-and-numbering) section.  
 
@@ -211,7 +211,7 @@ In rare cases the Post Processing stops working and will show a negative time in
 
 ## What is a network time zone warning?
 
-SickChill uses a file called [network_timezones.txt](https://github.com/SickChill/sick-rage.github.io/blob/master/sb_network_timezones/network_timezones.txt) to check the timezone of a tv channel.
+SickChill uses a file called [network_timezones.txt](https://github.com/SickChill/sick-chill.github.io/blob/master/sb_network_timezones/network_timezones.txt) to check the timezone of a tv channel.
 This allows SickChill to calculate the exact time that a show airs in your OWN timezone. When it's 12:00 in Europe it's 04:00-06:00 in the US etc.
 By knowing this SickChill can start searching on a more precise time. This might help to download an episode faster. (depending on the timezone where you are located.) If there isn't a tv timezone known to SickChill it will start searching by date, so at 0:00 midnight local time.
 
@@ -219,7 +219,7 @@ A network time zone warning will look like this:
 
 `Thread-64 :: Network was not found in the network time zones: Sky Atlantic (IT)`
 
-When you come across such a warning you can add the tv channel and time zone to the [network_timezones.txt](https://github.com/SickChill/sick-rage.github.io/blob/master/sb_network_timezones/network_timezones.txt) here.
+When you come across such a warning you can add the tv channel and time zone to the [network_timezones.txt](https://github.com/SickChill/sick-chill.github.io/blob/master/sb_network_timezones/network_timezones.txt) here.
 
 ## Unable to sent torrent to Synology Download station.
 
