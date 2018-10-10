@@ -7,5 +7,5 @@ However there are more ways to help. If you are familiar with Python, HTML, Java
  
 Current active team members:
 ***
-[miigotu](https://github.com/miigotu)   - Admin/Developer/Maintainer  [![PayPal donate button](https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957731%2Fdf1228ce-831b-11e5-9f1b-d5ee712d392d.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=miigotu%40gmail%2ecom&lc=US&item_name=SickChill&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted "Donate using paypal") [![BitCoin donate button](https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957762%2F313cd946-831c-11e5-91e0-a69ba6fae6dd.png)](https://greenaddress.it/pay/GA29eVg6dJ77gUASLdEVnF3v6GGf7d "Donate using Bitcoin")  
+[miigotu](https://github.com/miigotu)   - Admin/Developer/Maintainer [![BitCoin donate button](https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957762%2F313cd946-831c-11e5-91e0-a69ba6fae6dd.png)](https://greenaddress.it/pay/GA29eVg6dJ77gUASLdEVnF3v6GGf7d "Donate using Bitcoin")  
 ***
