@@ -1,5 +1,5 @@
 ## Ubuntu 14.x 15.x 16.x
-The following instructions are for installing Sick-Rage on Ubuntu 14.x 15.x 16.x
+The following instructions are for installing SickChill on Ubuntu 14.x 15.x 16.x
  
 The installation is applicable to the upcoming 16.04 LTS as it is the same systemd setup as 15.x. The provided script can distinguish the difference between systemd/init/upstart for you. 
  
@@ -7,11 +7,11 @@ The installation assumes that you're not using the root user to install/run sick
  
 If you trust us and would like us to just do it for you just paste this:
 
-	curl https://raw.githubusercontent.com/Sick-Rage/Sick-Rage/master/contrib/debian-ubuntu-install.sh | sudo bash
+	curl https://raw.githubusercontent.com/SickChill/SickChill/master/contrib/debian-ubuntu-install.sh | sudo bash
 	
 Otherwise:
  
-1. Update repositories and install Sick-Rage dependencies
+1. Update repositories and install SickChill dependencies
     This will give you unrar-free (guess), and git to pull the repo
  
    ```bash
@@ -23,14 +23,14 @@ Otherwise:
    
     ```bash
     sudo addgroup --system sickrage
-    sudo adduser --disabled-password --system --home /var/lib/sickrage --gecos "Sick-Rage" --ingroup sickrage sickrage
+    sudo adduser --disabled-password --system --home /var/lib/sickrage --gecos "SickChill" --ingroup sickrage sickrage
     ```
    
-3. Clone Sick-Rage git repo
+3. Clone SickChill git repo
  
     ```bash
     sudo mkdir /opt/sickrage && sudo chown sickrage:sickrage /opt/sickrage
-    sudo -u sickrage git clone https://github.com/Sick-Rage/Sick-Rage.git /opt/sickrage
+    sudo -u sickrage git clone https://github.com/SickChill/SickChill.git /opt/sickrage
     ```
 
 For Init Systems
@@ -99,4 +99,4 @@ For Systemd Systems
     sudo systemctl status sickrage
     ```
 
-All done, verify that Sick-Rage is accessible at: http://localhost:8081
+All done, verify that SickChill is accessible at: http://localhost:8081

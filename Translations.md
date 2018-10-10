@@ -2,7 +2,7 @@
 
 ##How does it work.?
 
-The templates that we use for Sickrage contain the English texts. Those texts we have now `captured` by enclosing them in some code. This allows us to export the `texts` and store them in a `POT` file. From this `POT` file you can generate a language specific `PO` file, for translating.  
+The templates that we use for SickChill contain the English texts. Those texts we have now `captured` by enclosing them in some code. This allows us to export the `texts` and store them in a `POT` file. From this `POT` file you can generate a language specific `PO` file, for translating.  
  
 ## Using crowdin.com  
 

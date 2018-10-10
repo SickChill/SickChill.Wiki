@@ -1,6 +1,6 @@
 --------------------
-[ [Shows] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Remaining-settings-explained#shows) [ [Schedule] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Remaining-settings-explained#schedule) [ [History] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Remaining-settings-explained#history)
-[ [The Manage menu] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Remaining-settings-explained#the-manage-menu) [ [Mass Update] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Remaining-settings-explained#mass-update) [ [Backlog overview] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Remaining-settings-explained#backlog-overview)  [ [Manage Searches] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Remaining-settings-explained#manage-searches)  [ [Episodes Status Management] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Remaining-settings-explained#episodes-status-management)  [ [Failed Downloads] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Remaining-settings-explained#failed-downloads)  [ [Missed Subtitle Management] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Remaining-settings-explained#missed-subtitle-management)  [ [Logs & Errors Menu] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Remaining-settings-explained#logs--errors-menu) [ [Options (wrench and screwdriver)] ](https://github.com/Sick-Rage/Sick-Rage/wiki/Remaining-settings-explained#options-wrench-and-screwdriver)
+[ [Shows] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#shows) [ [Schedule] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#schedule) [ [History] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#history)
+[ [The Manage menu] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#the-manage-menu) [ [Mass Update] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#mass-update) [ [Backlog overview] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#backlog-overview)  [ [Manage Searches] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#manage-searches)  [ [Episodes Status Management] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#episodes-status-management)  [ [Failed Downloads] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#failed-downloads)  [ [Missed Subtitle Management] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#missed-subtitle-management)  [ [Logs & Errors Menu] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#logs--errors-menu) [ [Options (wrench and screwdriver)] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#options-wrench-and-screwdriver)
 
 
 --------------------
@@ -116,7 +116,7 @@ Starts the subtitle search for your show.
 `Delete`  
 Deletes the Show AND files. Dont confuse it with the Remove function.!  
 `Remove`  
-Removes the show from Sick-Rage. Leaves all files and folders intact.  
+Removes the show from SickChill. Leaves all files and folders intact.  
 
 
 ![mass-update-2](https://cloud.githubusercontent.com/assets/7928052/13014503/7c9bfc28-d1b4-11e5-8708-76b84e500272.png)
@@ -145,11 +145,11 @@ Enable/disable Air by date for the shows.
 `subtitles`  
 Enable/disable subtitles for the shows.  
 
-For more details on the functions them self see the [show settings explanation](https://github.com/Sick-Rage/Sick-Rage/wiki/Show-settings-explained).
+For more details on the functions them self see the [show settings explanation](https://github.com/SickChill/SickChill/wiki/Show-settings-explained).
 
 ##Backlog overview  
 
-* The Backlog Overview gives you a overview of what shows are wanted but not successfully downloaded by the Daily search. In case the episode has the color Yellow, Sick-Rage will search that episode in a higher quality.    
+* The Backlog Overview gives you a overview of what shows are wanted but not successfully downloaded by the Daily search. In case the episode has the color Yellow, SickChill will search that episode in a higher quality.    
 ![backlog-overview](https://cloud.githubusercontent.com/assets/7928052/13014505/7c9e80f6-d1b4-11e5-9171-11878ebf70d9.png)
 
 
@@ -181,7 +181,7 @@ Now you see an new screen witch is almost identical, You now you have to select 
 
 ![failed-downloads](https://cloud.githubusercontent.com/assets/7928052/13014608/02d49106-d1b5-11e5-9ed7-a7c11534f4a7.png)
 
-This pages shows you an overview of all the NZB/Torents that are marked as Failed. In case an NZB/Torrent was wrongly placed in the list you have the possibility to remove it. From time to time you get a bad NZB/Torrent. To prevent Sick-Rage from downloading that same file again you have to add it to the Failed Download list. (failed.db) Otherwise you run the risk that Sick-Rage picks the same file again. If you use NZBtoMedia (nzbtosickbeard for example) this is done automatically. With other methods this is not always the case. When that happens you can go to your show and select the episode and sett he episode status to failed. Or you can click on the search glass at the end of the episode line for a manual search. You will get a pop-up screen asking if Sick-Rage should mark the episode as Failed.  
+This pages shows you an overview of all the NZB/Torents that are marked as Failed. In case an NZB/Torrent was wrongly placed in the list you have the possibility to remove it. From time to time you get a bad NZB/Torrent. To prevent SickChill from downloading that same file again you have to add it to the Failed Download list. (failed.db) Otherwise you run the risk that SickChill picks the same file again. If you use NZBtoMedia (nzbtosickbeard for example) this is done automatically. With other methods this is not always the case. When that happens you can go to your show and select the episode and sett he episode status to failed. Or you can click on the search glass at the end of the episode line for a manual search. You will get a pop-up screen asking if SickChill should mark the episode as Failed.  
 
 
 ##Missed Subtitle Management  
@@ -205,12 +205,12 @@ Here we try to keep you uptodate with the latest news. Be sure to check the page
 
 **IRC**  
 
-Here you can connect directly to the Sick-Rage IRC channel. Just for some smalltalk or with a quick question.  
+Here you can connect directly to the SickChill IRC channel. Just for some smalltalk or with a quick question.  
 
 **Changelog**  
-Shows the page with the Changelog. This lets you see the changes that where made to Sick-Rage and what new functions where added.  
+Shows the page with the Changelog. This lets you see the changes that where made to SickChill and what new functions where added.  
 
-**Support Sickrage**  
+**Support SickChill**  
 
 
 **View Log**  
@@ -223,14 +223,14 @@ Shows the page with the Changelog. This lets you see the changes that where made
 
 ![log](https://cloud.githubusercontent.com/assets/7928052/13014613/030085e0-d1b5-11e5-89d1-d1754d012999.png)
 
-In case Sick-Rage encounters an error it will be shown on this page. Common errors are timeout errors like when a site is down. Or when you enter a wrong user-name/password. This page will be a great help in case you have an issue. The error will give you an indication where to search for the problem. From time to time you can encounter a "Bug" meaning an error is Sick-Rage's code. Whit so many features, improvements and possible settings that can not be prevented. To make reporting an bug easy an button will appear called `Submit Errors`
-When you push this button you will get an pop-up screen to ask if you want to submit the error to the Sick-Rage Developers. The error will then be investigated. However before submitting make sure it is an actual error and if it is already reported or not. Also for this function to work you have to setup/add your GitHub account to the Sick-Rage settings and have the debug log setting enabled.
+In case SickChill encounters an error it will be shown on this page. Common errors are timeout errors like when a site is down. Or when you enter a wrong user-name/password. This page will be a great help in case you have an issue. The error will give you an indication where to search for the problem. From time to time you can encounter a "Bug" meaning an error is SickChill's code. Whit so many features, improvements and possible settings that can not be prevented. To make reporting an bug easy an button will appear called `Submit Errors`
+When you push this button you will get an pop-up screen to ask if you want to submit the error to the SickChill Developers. The error will then be investigated. However before submitting make sure it is an actual error and if it is already reported or not. Also for this function to work you have to setup/add your GitHub account to the SickChill settings and have the debug log setting enabled.
 
 `Clear Errors`  
 Clears the errors from the page (Yellow Arrow)   
 
 `Submit Errors`  
-Lets you submit an error to the Sick-Rage developers (Red Arrow)   
+Lets you submit an error to the SickChill developers (Red Arrow)   
 
 
 **View logs**  
@@ -288,13 +288,13 @@ Enter a specific search string
 
 **Check for Updates**  
 
-Lets Sick-Rage check if there are any new updated and notify you.  
+Lets SickChill check if there are any new updated and notify you.  
 
 **Restart**  
 Restarts ScikRage  
 
 **Shutdown**  
-Shuts down Sick-Rage  
+Shuts down SickChill  
 
 **Logout**  
 Logs-out the current user  

@@ -1,13 +1,13 @@
 ## What is NZBtoMedia.?
 
-NZBtoMedia is a collection of scripts for [post-processing](https://github.com/Sick-Rage/Sick-Rage/wiki/Post-Processing).  
-Normally Sick-Rage scans the download folder for new files/downloads every 10 minutes. However that prevents the hard disks from going into sleep/hibernation. Scripts on the other hand let Sick-Rage instantly know if a download was completed. Therefore the scanning of the `tv download folder` isn't necessary anymore.
-Another advantage is that other [post-processing](https://github.com/Sick-Rage/Sick-Rage/wiki/Post-Processing) options can be done, before the file is sent to Sickrage. But most of those options are already included in Sick-Rage, so you probably wont use them.
-Last and probably the MOST important reason, it supports failed downloads. Meaning that when your client fails to download the file a notification gets sent to Sick-Rage and a new search gets started, with hopefully now a valid file.  
+NZBtoMedia is a collection of scripts for [post-processing](https://github.com/SickChill/SickChill/wiki/Post-Processing).  
+Normally SickChill scans the download folder for new files/downloads every 10 minutes. However that prevents the hard disks from going into sleep/hibernation. Scripts on the other hand let SickChill instantly know if a download was completed. Therefore the scanning of the `tv download folder` isn't necessary anymore.
+Another advantage is that other [post-processing](https://github.com/SickChill/SickChill/wiki/Post-Processing) options can be done, before the file is sent to SickChill. But most of those options are already included in SickChill, so you probably wont use them.
+Last and probably the MOST important reason, it supports failed downloads. Meaning that when your client fails to download the file a notification gets sent to SickChill and a new search gets started, with hopefully now a valid file.  
 
 ## Before you start
 
-* Enable inside Sick-Rage :  `Settings` --> `Search Settings` --> `Use Failed Downloads` !  
+* Enable inside SickChill :  `Settings` --> `Search Settings` --> `Use Failed Downloads` !  
 * Make sure the permissions and file ownership are correctly set.  
 * Windows users will need to install the [pywin32](https://sourceforge.net/projects/pywin32/files/pywin32/) extensions to run NZBtoMedia.   
 
@@ -28,14 +28,14 @@ For more info see [NZBtoMedia's Repo](https://github.com/clinton-hall/nzbToMedia
 ## How to setup NZBtoMedia with NZBget.?  
 
 The good news is that NZBget has NZBtoMedia support build-in to the program. This allows for easy configuration.  
-First you need to make sure that NZBget points to the NZBtoMedia files. Sometimes the files are included in the NZBget/Scrips folder. However if they are not you have two options. Manually download the latest NZBtoMedia [package](https://github.com/clinton-hall/nzbToMedia/archive/master.zip) and unpack them there. Or point to the NZBtoMedia folder included within Sickrage. This can be done in NZBGet by going to Settings --> PATHS --> `ScriptDir`.
+First you need to make sure that NZBget points to the NZBtoMedia files. Sometimes the files are included in the NZBget/Scrips folder. However if they are not you have two options. Manually download the latest NZBtoMedia [package](https://github.com/clinton-hall/nzbToMedia/archive/master.zip) and unpack them there. Or point to the NZBtoMedia folder included within SickChill. This can be done in NZBGet by going to Settings --> PATHS --> `ScriptDir`.
 
 ==
 
 ![naamloos](https://cloud.githubusercontent.com/assets/7928052/13014408/f9a0cfb0-d1b3-11e5-915a-bc695e77b4ba.png)
 
 The first step is to do the basic configuration of NZBget. So add your Usenet provider and download path etc.  
-Go to `PATHS` and fill-in your download Path that Sickrage monitors under `MainDir` or `DestDir` depending on your preference.   
+Go to `PATHS` and fill-in your download Path that SickChill monitors under `MainDir` or `DestDir` depending on your preference.   
 
 
 == 
@@ -56,11 +56,11 @@ And save the settings.
 Next we need to setup the settings for the nzbToSickBeard script itself.  
 Go to `nzbToSickBeard` in the Setting. Now change/add : 
 
-* `sbcategory`        leave set to `tv` (or change if you changed it in Sick-Rage.)  
-* `sbhost`            leave to `localhost` (or enter IP if Sickrage runs on different machine)  
-* `sbport`            Enter the port on witch Sick-Rage is running.  
-* `sbusername`        Enter the username if Sick-Rage requires login.  
-* `sbpassword`        Enter the password if Sick-Rage requires login.  
+* `sbcategory`        leave set to `tv` (or change if you changed it in SickChill.)  
+* `sbhost`            leave to `localhost` (or enter IP if SickChill runs on different machine)  
+* `sbport`            Enter the port on witch SickChill is running.  
+* `sbusername`        Enter the username if SickChill requires login.  
+* `sbpassword`        Enter the password if SickChill requires login.  
 * `sbprocess_method`  Use your preferred process method.  
 
 (more advanced settings can be set, but make sure you understand there functions.!)  
@@ -94,11 +94,11 @@ Go to the `[SickBeard]` section and add/change the following settings. :
   
 `[SickBeard]`  
   
-* `enabled = 0`            (Change the `0` to `1` to enable Sickrage)  
-* `host = localhost`       (Change IP number if Sickrage runs on a different device)  
-* `port = 8081`            (Change the port to the one that your Sick-Rage install uses)   
-* `username =`             (Add your username if you have enabled login in Sickrage)  
-* `password =`             (Add your password if you have enabled login in Sickrage)  
+* `enabled = 0`            (Change the `0` to `1` to enable SickChill)  
+* `host = localhost`       (Change IP number if SickChill runs on a different device)  
+* `port = 8081`            (Change the port to the one that your SickChill install uses)   
+* `username =`             (Add your username if you have enabled login in SickChill)  
+* `password =`             (Add your password if you have enabled login in SickChill)  
 * `fork =`                 (Only replace `auto` with `sickrage`if detection problems)  
 
 Go to the `[Nzb]` section and add/change the following settings. :    
@@ -128,8 +128,8 @@ Now browse to the location where they are located and save the new path.
 
 ![1](https://cloud.githubusercontent.com/assets/7928052/13014405/f99ac868-d1b3-11e5-841f-d566aed5f04c.png)
 
-The second step is to setup the categories. When Sick-Rage sends an nzb to SABnzbd it adds a tag. the defealt is `tv`. The Categories allow to run a script when a certain tag is sent/found by SABnzbd.  
-In our case we want to do this with the tag `tv` that Sick-Rage uses.  
+The second step is to setup the categories. When SickChill sends an nzb to SABnzbd it adds a tag. the defealt is `tv`. The Categories allow to run a script when a certain tag is sent/found by SABnzbd.  
+In our case we want to do this with the tag `tv` that SickChill uses.  
 Go to : `Config` -> `Categories`  
 
 See if there is already a category called `tv` and if not create one.  

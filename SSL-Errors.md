@@ -1,6 +1,6 @@
 ## What are SSL errors.?
 
-SSL errors are connection errors to a secured HTTPS website. Sickrage uses this method to ensure your connection is secure and private. However that also means you need to have a recent OpenSSL version installed on your OS. If its outdated you can suffer from SSL connection errors.  
+SSL errors are connection errors to a secured HTTPS website. SickChill uses this method to ensure your connection is secure and private. However that also means you need to have a recent OpenSSL version installed on your OS. If its outdated you can suffer from SSL connection errors.  
 
 Some examples of SSL errors : 
 
@@ -39,14 +39,14 @@ Additionally we advice to use Python v 2.7.10 as that includes a recent version 
 
 ## How can i see what version i have installed.?
 
-If you browse to the `Help & Info` page (screenshot below) inside Sickrage, you can check the field `Python Version:` & `SSL Version:`.
-Those will show you the version currently in use by Sickrage/OS.   
+If you browse to the `Help & Info` page (screenshot below) inside SickChill, you can check the field `Python Version:` & `SSL Version:`.
+Those will show you the version currently in use by SickChill/OS.   
 
 ![helpinfo](https://cloud.githubusercontent.com/assets/7928052/13013132/70b0840c-d1ae-11e5-8894-f3dd8b95dfe9.png)
 
 ## How would i fix an SSL error.?
 
-There are multiple way's. But the most obviously is update your OpenSSl & Python versions. Some [Solutions](https://github.com/Sick-Rage/Sick-Rage/wiki/SSL-Errors#solutions) you find below.  
+There are multiple way's. But the most obviously is update your OpenSSl & Python versions. Some [Solutions](https://github.com/SickChill/SickChill/wiki/SSL-Errors#solutions) you find below.  
 
 However you might be in a situation where you have and old device and updating isn't possible. Than there are some work-around's , but we advice to use them as a last resort as they aren't the best practice.
 
@@ -73,7 +73,7 @@ sudo pip2.7 install -U setuptools pip pyasn1 ndg-httpsclient pyopenssl==0.13.1
 ```
 
 b. Install the Python cryptography module (PITA, Does not work on all platforms)
-This will build and install all of the packages needed to use pyOpenSSL from Sick-Rage:
+This will build and install all of the packages needed to use pyOpenSSL from SickChill:
 ```
 sudo apt-get install build-essential python-pip python-dev libffi-dev libssl-dev
 wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | sudo python2
