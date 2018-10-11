@@ -1,4 +1,4 @@
-### ![](https://avatars2.githubusercontent.com/u/9251163?v=3&s=30) SickChill Wiki
+### ![](https://avatars1.githubusercontent.com/u/44020801?v=3&s=30) SickChill Wiki
 
 
   
