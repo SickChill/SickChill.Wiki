@@ -1,10 +1,7 @@
 ### ![](https://avatars1.githubusercontent.com/u/44020801?v=3&s=30) SickChill Wiki
 
+Hello and welcome! This wiki is here to help you setup and use SickChill. You'll find setup guides, explanations of settings and errors, and answers to frequently asked questions.
 
-  
-
-With this page we try to inform you about how to setup and use SickChill.
-You can find explanations of functions, settings and commonly asked questions.
 On the right side of the page you see the available wiki pages.
 In case you encounter an bug than please open an [issue](https://github.com/SickChill/SickChill/issues)  
 
