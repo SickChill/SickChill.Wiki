@@ -6,7 +6,7 @@ This guide will detail setting up SickChill on a Linux machine, along with all t
 * Installation
     * [Prerequisites](#prerequisites)
     * [Linux Setup](#linux-setup)
-    * [SickChill Installation](#sickrage-installation)
+    * [SickChill Installation](#sickchill-installation)
     * [Deluge Installation](#deluge-installation)
     * [Plex Media Server Installation](#plex-media-server-installation)
     * [OpenVPN](#openvpn)
@@ -19,7 +19,7 @@ This guide will cover a lot of material, and includes a lot of optional componen
 
 1. A Linux box. Mine is also my LAN's router/gateway, but, this can be anything reasonably powerful. Please don't try to run this full setup on a Pi. Distro matters very little, but this guide is written based on an Arch setup. If you know enough about your distro, this shouldn't be any problem for you at all. Obviously you're here to install SickChill, so making this part optional would be pointless.
 
-2. A Bit Torrent client or an NBZ setup. For my needs, I went with Deluge, but almost any daemon that SR supports will work just fine. If you want to go NZB, SABNZB+ has worked quite well for me in the past. One or the other is required, both if you wish. Pointless to have a SickChill with out this, so, again, mandatory.
+2. A Bit Torrent client or an NZB setup. For my needs, I went with Deluge, but almost any daemon that SR supports will work just fine. If you want to go NZB, SABNZB+ has worked quite well for me in the past. One or the other is required, both if you wish. Pointless to have a SickChill with out this, so, again, mandatory.
 
 3. Plex Media Server. Totally optional but highly recommended, SickChill integrates quite nicely into it.
 
@@ -38,14 +38,14 @@ Second, we need to pick a user to run this all as. We're going to be using a sin
 
 The first line will add a group named _media_ with a GID of 420. The second line will create a user named _media_ in the group _media_, with a UID of 420, with a home directory of _/srv/media_ and a login shell of _/usr/bin/nologin_ (to prevent the shell from being able to be logged into directly).
 
-_If you decided to use your distro's package manager after all, please edit your **/etc/passwd** and **/etc/group** files, and alter the UID and GID of the **sickrage** user to be the same as the UID/GID of the **media** (420). This will ensure that SickChill runs as the "media" user **anyway** with out having to manually change all the configuration files every time your distro wants to upgrade sickrage (which is unnecessary, usually)._
+_If you decided to use your distro's package manager after all, please edit your **/etc/passwd** and **/etc/group** files, and alter the UID and GID of the **sickchill** user to be the same as the UID/GID of the **media** (420). This will ensure that SickChill runs as the "media" user **anyway** with out having to manually change all the configuration files every time your distro wants to upgrade sickchill (which is unnecessary, usually)._
 
 #### SickChill Installation
 
 Now, we need to perform the actual installation of SickChill. If you have used your distro's package manager, you can skip this step. We created _/srv/media_ earlier when we created the _media_ user, so, that's where we'll put it.
 
     cd /srv/media
-    git clone https://github.com/SickChill/sickrage.git
+    git clone https://github.com/SickChill/SickChill.git
 
 Next, we need to create the startup file that controls SickChill. If you're on a recent distro, you're possibly running _systemd_ in which case, this script will work for you. If you are **not** on a _systemd_ distro, you will need to get your own startup script (or, use the one that came with your package manager).
 
@@ -60,12 +60,12 @@ Copy and paste the following into it:
     Restart=always
     User=media
     Group=media
-    ExecStart=/usr/bin/env python2 /srv/sickrage/SickBeard.py --quiet --config /srv/sickrage/config.ini --datadir /srv/sickrage
+    ExecStart=/usr/bin/env python2 /srv/sickrage/SickBeard.py --quiet --config /srv/sickchill/config.ini --datadir /srv/sickchill
 
     [Install]
     WantedBy=multi-user.target
 
-Save it, and enable it to run at startup: `systemctl enable sickrage.service`
+Save it, and enable it to run at startup: `systemctl enable sickchill.service`
 
 Congrats, you've installed SickChill. Now, we'll need to install the other mandatory pieces, and, configure the whole thing.
 
@@ -251,16 +251,16 @@ Obviously, change _deluge.domain.tld_ to your specific subdomain, and change _ro
 
 Please note that the above also is for HTTPS and does SSL encryption. You can change the _:443_ to _:80_ and remove the first 4 _SSL*_ lines (not the _SSLProxy*_ ones, unless you have SSL disabled on Deluge or whatever you're using, in which case change https to http in the router-dyn-dns-entry line) if you don't want that. Note that my encryption certificates are provided by the free CA [letsencrypt.org](https://letsencrypt.org). Lastly, we're using port 3001 to talk to the LAN, so if your service is located at a different port, use it instead or we'll set up a forward for it later.
 
-My SickChill vhost is located at _/etc/httpd/conf/extra/vhost-sickrage.conf_ (your vhost dir may vary) and looks like this:
+My SickChill vhost is located at _/etc/httpd/conf/extra/vhost-sickchill.conf_ (your vhost dir may vary) and looks like this:
 
 	<VirtualHost *:443>
 	    ServerAdmin email@address
-	    ServerName sickrage.domain.tld
+	    ServerName sickchill.domain.tld
 	    SSLEngine on
 	    SSLProxyEngine on
 	    SSLOptions +StdEnvVars
-	    SSLCertificateFile "/etc/letsencrypt/live/sickrage.domain.tld/fullchain.pem"
-	    SSLCertificateKeyFile "/etc/letsencrypt/live/sickrage.domain.tld/privkey.pem"
+	    SSLCertificateFile "/etc/letsencrypt/live/sickchill.domain.tld/fullchain.pem"
+	    SSLCertificateKeyFile "/etc/letsencrypt/live/sickchill.domain.tld/privkey.pem"
 	    SSLProxyVerify none
 	    SSLProxyCheckPeerCN off
 	    SSLProxyCheckPeerName off
@@ -271,10 +271,10 @@ My SickChill vhost is located at _/etc/httpd/conf/extra/vhost-sickrage.conf_ (yo
 	        ProxyPassReverse https://outer-dyn-dns-entry/
 	        ProxyPassReverseCookieDomain outer-dyn-dns-entry %{HTTP:Host}
 	    </Location>
-	    ErrorLog "/var/log/httpd/sickrage.domain.tld-error_log"
-	    CustomLog "/var/log/httpd/sickrage.domain.tld-access_log" common
+	    ErrorLog "/var/log/httpd/sickchill.domain.tld-error_log"
+	    CustomLog "/var/log/httpd/sickchill.domain.tld-access_log" common
 	</VirtualHost>
 
-Again, same as above, change _sickrage.domain.tld_ to your specific subdomain, and change _router-dyn-dns-entry_ to your router's dynamic DNS address. Pretty much the same notes apply here, too: port 3000 is being used to talk to SickChill, if you're running on a different port, change it here, or, we'll set up a port forward later.
+Again, same as above, change _sickchill.domain.tld_ to your specific subdomain, and change _router-dyn-dns-entry_ to your router's dynamic DNS address. Pretty much the same notes apply here, too: port 3000 is being used to talk to SickChill, if you're running on a different port, change it here, or, we'll set up a port forward later.
 
 Of note, you'll probably want a default :443 vhost which gets loaded whenever somebody hits an undefined subdomain, or, your apache server's raw IP address. This means that they won't get SickChill or Deluge's web interface unless they know exactly what hostname to connect to. It provides some protection against people finding your installation, but more importantly, it provides a sanity screening for the automated exploit bots all over the internet. I can't count the number of requests I get per hour of bots looking for wordpress vulnerabilities, or IIS buffer overflows, etc. While they won't harm SickChill or Deluge, both stacks are written in python which is a bit slower than Apache, and arguably take up more resources to get hit, so, the fewer things that aren't necessary hitting those two stacks the better - let them hit Apache instead.
