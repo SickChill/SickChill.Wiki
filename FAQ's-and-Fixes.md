@@ -19,6 +19,7 @@
 * [Update problems? Try this](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#update-problems-try-this)
 * [Enable Debug For Logs](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#enable-debug-for-logs)
 * [How to switch to the new Repo?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#how-to-switch-to-the-new-repo)
+* [How to Disable and Remove SickChill autostart (systemctl) ?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes/_edit#how-to-disable-and-remove-sickchill-from-autostart-systemctl-)
 * [Post-processing shows a negative time](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#post-processing-shows-a-negative-time)
 * [What is a network time zone warning?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#what-is-a-network-time-zone-warning)  
 * [Unable to sent torrent to synology download station](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#unable-to-sent-torrent-to-synology-download-station)  
@@ -202,6 +203,24 @@ Note: As of February 2016 the old repo has bumped the database version (sickbear
 `sqlite3 sickbeard.db 'UPDATE db_version SET db_version=42, db_minor_version=1' `  
 (Or use any other preferred tool to set the db_version to 42.)  
 And off-course you can always build a new database using [Meta-data](https://github.com/SickChill/SickChill/wiki/MetaData)  
+
+## How to disable and remove SickChill from autostart (_systemctl_) ?
+
+This step could be useful **if you plan to remove/reinstall SickChill **and you would like to _“start fresh”_.
+
+(also, this could be the case if you are migrating to SickChill from the previous version formerly named SickRage)
+
+```
+
+systemctl stop sickchill
+chkconfig sickchill off
+systemctl daemon-reload
+systemctl reset-failed
+
+```
+
+**Note:** in the first two commands you should change _“sickchill”_ name to _“sickrage” _if you are removing the previous/other version.
+
 
 ## Post Processing shows a negative time
 
