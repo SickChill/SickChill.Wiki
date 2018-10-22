@@ -22,37 +22,38 @@ Otherwise:
     This makes sure that sickrage is isolated and is best practice for security
    
     ```bash
-    sudo addgroup --system sickrage
-    sudo adduser --disabled-password --system --home /var/lib/sickrage --gecos "SickChill" --ingroup sickrage sickrage
+    sudo addgroup --system sickchill
+    sudo adduser --disabled-password --system --home /var/lib/sickchill--gecos "SickChill" --ingroup sickchill sickchill
     ```
    
 3. Clone SickChill git repo
  
     ```bash
-    sudo mkdir /opt/sickrage && sudo chown sickrage:sickrage /opt/sickrage
-    sudo -u sickrage git clone https://github.com/SickChill/SickChill.git /opt/sickrage
+    sudo mkdir /opt/sickchill 
+    sudo chown sickchill:sickchill /opt/sickchill
+    sudo -u sickchill git clone https://github.com/SickChill/SickChill.git /opt/sickchill
     ```
  
  
 4. Copy systemd service
  
     ```bash
-    sudo cp -v /opt/sickrage/runscripts/init.systemd /etc/systemd/system/sickrage.service
+    sudo cp -v /opt/sickrage/runscripts/init.systemd /etc/systemd/system/sickchill.service
     ```
  
 5. Make sure your new service has correct permissions
  
     ```bash
-    sudo chown root:root /etc/systemd/system/sickrage.service
-    sudo chmod 644 /etc/systemd/system/sickrage.service
+    sudo chown root:root /etc/systemd/system/sickchill.service
+    sudo chmod 644 /etc/systemd/system/sickchill.service
     ```
  
 6. Enable, start, and then check the status of your new service
    
     ```bash
-    sudo systemctl enable sickrage
-    sudo systemctl start sickrage
-    sudo systemctl status sickrage
+    sudo systemctl enable sickchill
+    sudo systemctl start sickchill
+    sudo systemctl status sickchill
     ```
  
 All done, verify that SickChill is accessible at: http://localhost:8081
