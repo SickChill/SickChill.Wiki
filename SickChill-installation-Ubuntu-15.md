@@ -38,7 +38,7 @@ Otherwise:
 4. Copy systemd service
  
     ```bash
-    sudo cp -v /opt/sickrage/runscripts/init.systemd /etc/systemd/system/sickchill.service
+    sudo cp -v /opt/sickchill/runscripts/init.systemd /etc/systemd/system/sickchill.service
     ```
  
 5. Make sure your new service has correct permissions
