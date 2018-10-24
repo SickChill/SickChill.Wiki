@@ -3,16 +3,16 @@
 New to SickChill? Then the below guides will help you with the setup, and discover all its cool features.
 
 ###### Configuration guides for SickChill:
-* http://www.htpcguides.com/configure-sickchill-usenet-torrent-tv/
+* http://www.htpcguides.com/configure-sickrage-usenet-torrent-tv/
 
 ###### Setup NZBtoMedia for SickChill
 * https://github.com/SickChill/SickChill/wiki/NZBtoMedia
 
 ###### Reverse Proxy with Nginx on Linux:
-* http://www.htpcguides.com/configure-sickchill-reverse-proxy-nginx/
+* http://www.htpcguides.com/configure-sickrage-reverse-proxy-nginx/
 
 ###### How to migrate Shows library from SickBeard to SickChill?
-* http://www.htpcbeginner.com/sickbeard-to-sickchill-migration/
+* http://www.htpcbeginner.com/sickbeard-to-sickrage-migration/
 
 (Note, Dont use the old config.ini and sickbeard.db to prevent errors.!)
 
@@ -32,28 +32,28 @@ SickChill can be installed on many different systems. Below you will find guides
 * (DSM 5 & 6) Or use [BenjV's .SPK SickChill package](https://github.com/BenjV/SYNO-packages/raw/master/SickChill%20DSM%206%20noarch%20V1.0.spk)
 
 ###### Mac:
-* http://www.htpcguides.com/install-sickchill-mac-osx-usenet-torrent-tv/  
+* http://www.htpcguides.com/install-sickrage-mac-osx-usenet-torrent-tv/  
 [(Additional info for using NZBtoMedia on MAC)](https://gist.github.com/XxUnkn0wnxX/bf3d848232f4a71b6556)    
 [(Launch SickChill On Boot & Via App)](https://gist.github.com/XxUnkn0wnxX/d199daecc5c414174cf9)  
 
 ###### Debian/Ubuntu 14.04 with Upstart:
-* http://www.htpcguides.com/install-sickchill-ubuntu-14-04/
+* http://www.htpcguides.com/install-sickrage-ubuntu-14-04/
 
 ###### Debian/Ubuntu 15.x with systemd:
 Our Guide
 * https://github.com/SickChill/SickChill/wiki/SickChill-installation-Ubuntu-15
 
 HTPCGuide's Guide
-* http://www.htpcguides.com/install-sickchill-ubuntu-vivid-vervet-15-x-and-later
+* http://www.htpcguides.com/install-sickrage-ubuntu-vivid-vervet-15-x-and-later
 
 ###### Install SickChill on Ubuntu in a few simple steps  
-* http://www.htpcbeginner.com/install-sickchill-on-ubuntu/  
+* http://www.htpcbeginner.com/install-sickrage-on-ubuntu/  
 
 ###### uninstall SickChill Ubuntu Linux
-* http://www.htpcbeginner.com/uninstall-sickchill-ubuntu-linux/
+* http://www.htpcbeginner.com/uninstall-sickrage-ubuntu-linux/
 
 ###### Raspberry Pi:
-* http://www.htpcguides.com/install-sickchill-raspberry-pi-usenet-torrent-tv/
+* http://www.htpcguides.com/install-sickrage-raspberry-pi-usenet-torrent-tv/
 * http://www.algissalys.com/how-to/sickchill-sabnzbd-raspberry-pi-tvpi-part-2  
 
 ###### OSMC 
@@ -82,7 +82,7 @@ HTPCGuide's Guide
 * http://teanazar.com/2016/02/sickchill-v2016-02-16-for-wd-my-cloud-firmware-v4/  
 
 ###### openmediavault
-* http://www.htpcguides.com/install-sickchill-plugin-openmediavault/  
+* http://www.htpcguides.com/install-sickrage-plugin-openmediavault/  
 
 ###### Asus routers
 * https://github.com/SickChill/old-sickchill-issues/issues/1037#issuecomment-193801133
