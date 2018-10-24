@@ -15,7 +15,7 @@ __Bitcoin:__  1QL1UyYovpJQidr4xvtZGF6YAMrmTfKjJ1
 
 __Etherium:__ 0x34ea5aC46Dbf370FbEA6f8DC8F87D09aE0542333  
 
-_Litecoin:__ LgrWYBi3shMLLiSPz2X7xSckFx6f4Zw9Nx  
+__Litecoin:__ LgrWYBi3shMLLiSPz2X7xSckFx6f4Zw9Nx  
 
 __Golem:__    0x34ea5aC46Dbf370FbEA6f8DC8F87D09aE0542333  
 ***
