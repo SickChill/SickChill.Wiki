@@ -206,7 +206,7 @@ And off-course you can always build a new database using [Meta-data](https://git
 
 ## How to disable and remove SickChill from autostart (_systemctl_) ?
 
-This step could be useful **if you plan to remove/reinstall SickChill** and you would like to _“start fresh”_.
+This step could be useful **if you plan to remove/reinstall SickChill** and you would like to _"start fresh"_.
 
 (also, this could be the case if you are migrating to SickChill from the previous version formerly named SickRage)
 
@@ -218,9 +218,6 @@ systemctl daemon-reload
 systemctl reset-failed
 
 ```
-
-**Note:** in the first two commands you should change _“sickchill”_ name to _“sickchill”_ if you are removing the previous/other version.
-
 
 ## Post Processing shows a negative time
 

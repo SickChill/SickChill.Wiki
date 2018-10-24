@@ -1,6 +1,7 @@
 
 For many Devices there are installation packages compiled by community members. We try to collect as many as we can here. If you know about a package that isn't in the list yet, then please let us know.  
 
+#### Some of these links are not correct. Please update this wiki if you find incorrect information
 
 ---
 
@@ -16,13 +17,13 @@ For many Devices there are installation packages compiled by community members. 
 ---
 
 ###### Arch Linux
-* https://aur.archlinux.org/packages/sickchill2-git
+* https://aur.archlinux.org/packages/sickchill
 
 ---
 
 ###### Docker
 * https://hub.docker.com/r/linuxserver/sickchill/
-
+* https://hub.docker.com/r/sickchill/sickchill/
 ---
 
 ###### Qnap 
@@ -71,18 +72,18 @@ In case thats not possible, you can try to switch the [dirty](https://github.com
 
 ###### D-Link NAS
 * ~~http://forums.dlink.com/index.php?topic=62238.0~~  
-* ~~http://dlink.vtverdohleb.org.ua/Add-On/#SickChill~~  
+* ~~http://dlink.vtverdohleb.org.ua/Add-On/#SickRage~~  
 
 ---
 
 ###### amahi  
-* ~~https://www.amahi.org/apps/sickchill~~  
+* ~~https://www.amahi.org/apps/sickrage~~  
 
 ---
 
 ###### Geexbox
 
-* ~~http://download.openbricks.org/utilite/python-sickchill_4.0.22%2bgit-e6c4cfd65-1_armv7.opk~~  
+* ~~http://download.openbricks.org/utilite/python-sickrage_4.0.22%2bgit-e6c4cfd65-1_armv7.opk~~  
 
 ---
 

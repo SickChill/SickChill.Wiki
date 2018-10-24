@@ -54,21 +54,21 @@ HTPCGuide's Guide
 
 ###### Raspberry Pi:
 * http://www.htpcguides.com/install-sickrage-raspberry-pi-usenet-torrent-tv/
-* http://www.algissalys.com/how-to/sickchill-sabnzbd-raspberry-pi-tvpi-part-2  
+* http://www.algissalys.com/how-to/sickrage-sabnzbd-raspberry-pi-tvpi-part-2  
 
 ###### OSMC 
-* https://discourse.osmc.tv/t/how-to-install-couchpotato-and-sickchill-on-raspberry-pi/10788
+* https://discourse.osmc.tv/t/how-to-install-couchpotato-and-sickrage-on-raspberry-pi/10788
 
 ###### XBian
 * http://forum.xbian.org/thread-2650.html  
 
 ###### FreeNAS
 * https://www.jruehlig.com/wordpress/installation-configuration-of-freenas-plugins/  
-* https://forums.freenas.org/index.php?threads/new-sickchill-repo.39368/#post-246592  
+* https://forums.freenas.org/index.php?threads/new-sickrage-repo.39368/#post-246592  
 * https://gist.github.com/Agurri/1813ac5f1852e6c0bdd6  
 
 ###### OpenWRT
-* https://github.com/SickChill/old-sickchill-issues/issues/716#issuecomment-178950957
+* https://github.com/SickChill/old-sickrage-issues/issues/716#issuecomment-178950957
 
 ###### Centos 6
 * https://github.com/SickChill/SickChill/wiki/SickChill-installation-CENTOS-6
@@ -77,25 +77,25 @@ HTPCGuide's Guide
 * http://deviantengineer.com/2015/06/usenet-centos7/
 
 ###### WD (my Cloud)  
-* http://community.wd.com/t5/WD-My-Cloud/APP-SickChill-v4-0-29-for-firmware-V4-06-2015/td-p/881741  
+* http://community.wd.com/t5/WD-My-Cloud/APP-SickRage-v4-0-29-for-firmware-V4-06-2015/td-p/881741  
 (Make sure you pick the right version from the list. The new Repo has a version like `Version 2016.02.16-1`)  
-* http://teanazar.com/2016/02/sickchill-v2016-02-16-for-wd-my-cloud-firmware-v4/  
+* http://teanazar.com/2016/02/sickrage-v2016-02-16-for-wd-my-cloud-firmware-v4/  
 
 ###### openmediavault
 * http://www.htpcguides.com/install-sickrage-plugin-openmediavault/  
 
 ###### Asus routers
-* https://github.com/SickChill/old-sickchill-issues/issues/1037#issuecomment-193801133
+* https://github.com/SickChill/old-sickrage-issues/issues/1037#issuecomment-193801133
 
 ###### Feral Hosting  
-* https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/Software/Sick%20Beard%20and%20SickChill%20-%20Basic%20Setup   
+* https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/Software/Sick%20Beard%20and%20SickRage%20-%20Basic%20Setup   
 * ~~https://www.feralhosting.com/faq/view?question=281~~  
 
 ###### XPenology  
-* [XPenology](https://idmedia.no/general/sickchill-dead-long-live-sickchill/)  
+* [XPenology](https://idmedia.no/general/sickrage-dead-long-live-sickrage/)  
 
 ###### Whatbox.ca
-* https://whatbox.ca/wiki/SickChill
+* https://whatbox.ca/wiki/SickRage
 
 
 ## IMPORTANT NOTE!  
