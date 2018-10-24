@@ -8,14 +8,14 @@ However there are more ways to help. If you are familiar with Python, HTML, Java
 ***
 [![BitCoin donate button]https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957762%2F313cd946-831c-11e5-91e0-a69ba6fae6dd.png)](https://greenaddress.it/pay/GA29eVg6dJ77gUASLdEVnF3v6GGf7d "Donate using Bitcoin")  
 ***
-Direct Addresses for Crypto:
-__If you would like to donate a different coin type, contact miigotu__
+## Direct Addresses for Crypto:  
+*If you would like to donate a different coin type, contact miigotu*  
 
-Bitcoin:  1QL1UyYovpJQidr4xvtZGF6YAMrmTfKjJ1
+Bitcoin:  1QL1UyYovpJQidr4xvtZGF6YAMrmTfKjJ1  
 
-Etherium: 0x34ea5aC46Dbf370FbEA6f8DC8F87D09aE0542333
+Etherium: 0x34ea5aC46Dbf370FbEA6f8DC8F87D09aE0542333  
 
-Litecoin: LgrWYBi3shMLLiSPz2X7xSckFx6f4Zw9Nx
+Litecoin: LgrWYBi3shMLLiSPz2X7xSckFx6f4Zw9Nx  
 
-Golem:    0x34ea5aC46Dbf370FbEA6f8DC8F87D09aE0542333
+Golem:    0x34ea5aC46Dbf370FbEA6f8DC8F87D09aE0542333  
 ***
