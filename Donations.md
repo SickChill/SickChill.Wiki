@@ -6,7 +6,7 @@ The SickChill team consists of **volunteers**, who are offering a lot of their f
 However there are more ways to help. If you are familiar with Python, HTML, Javascript, graphics design, or other languages, please give a shout. Also if you have experience moderating and want to help users solving/answering basic questions regarding SickChill, you are more than welcome. 
  
 ***
-[![BitCoin donate button]https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957762%2F313cd946-831c-11e5-91e0-a69ba6fae6dd.png)](https://greenaddress.it/pay/GA29eVg6dJ77gUASLdEVnF3v6GGf7d "Donate using Bitcoin")  
+[![BitCoin donate button]https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957762%2F313cd946-831c-11e5-91e0-a69ba6fae6dd.png)](https://greenaddress.it/pay/GA29eVg6dJ77gUASLdEVnF3v6GGf7d "Donate using Bitcoin")]
 ***
 ## Direct Addresses for Crypto:  
 *If you would like to donate a different coin type, contact miigotu*  
