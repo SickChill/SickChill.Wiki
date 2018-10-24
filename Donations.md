@@ -11,11 +11,11 @@ However there are more ways to help. If you are familiar with Python, HTML, Java
 ## Direct Addresses for Crypto:  
 *If you would like to donate a different coin type, contact miigotu*  
 
-Bitcoin:  1QL1UyYovpJQidr4xvtZGF6YAMrmTfKjJ1  
+__Bitcoin:__  1QL1UyYovpJQidr4xvtZGF6YAMrmTfKjJ1  
 
-Etherium: 0x34ea5aC46Dbf370FbEA6f8DC8F87D09aE0542333  
+__Etherium:__ 0x34ea5aC46Dbf370FbEA6f8DC8F87D09aE0542333  
 
-Litecoin: LgrWYBi3shMLLiSPz2X7xSckFx6f4Zw9Nx  
+_Litecoin:__ LgrWYBi3shMLLiSPz2X7xSckFx6f4Zw9Nx  
 
-Golem:    0x34ea5aC46Dbf370FbEA6f8DC8F87D09aE0542333  
+__Golem:__    0x34ea5aC46Dbf370FbEA6f8DC8F87D09aE0542333  
 ***
