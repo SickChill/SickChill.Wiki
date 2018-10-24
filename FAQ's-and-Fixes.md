@@ -212,8 +212,8 @@ This step could be useful **if you plan to remove/reinstall SickChill** and you 
 
 ```
 
-systemctl stop sickchill
-chkconfig sickchill off
+systemctl stop sickrage
+chkconfig sickrage off
 systemctl daemon-reload
 systemctl reset-failed
 
