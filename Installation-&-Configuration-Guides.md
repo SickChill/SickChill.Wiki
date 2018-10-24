@@ -3,16 +3,16 @@
 New to SickChill? Then the below guides will help you with the setup, and discover all its cool features.
 
 ###### Configuration guides for SickChill:
-* http://www.htpcguides.com/configure-sickrage-usenet-torrent-tv/
+* http://www.htpcguides.com/configure-sickchill-usenet-torrent-tv/
 
 ###### Setup NZBtoMedia for SickChill
 * https://github.com/SickChill/SickChill/wiki/NZBtoMedia
 
 ###### Reverse Proxy with Nginx on Linux:
-* http://www.htpcguides.com/configure-sickrage-reverse-proxy-nginx/
+* http://www.htpcguides.com/configure-sickchill-reverse-proxy-nginx/
 
 ###### How to migrate Shows library from SickBeard to SickChill?
-* http://www.htpcbeginner.com/sickbeard-to-sickrage-migration/
+* http://www.htpcbeginner.com/sickbeard-to-sickchill-migration/
 
 (Note, Dont use the old config.ini and sickbeard.db to prevent errors.!)
 
@@ -28,47 +28,47 @@ SickChill can be installed on many different systems. Below you will find guides
 
 ###### Synology:
 
-* (DSM 5) Add the [Synocommunity](https://synocommunity.com/#easy-install) Repo to your Synology, then follow : [Installing](https://github.com/SickChill/SickChill/wiki/Switching-your-Synology's-SickChill-to-the-new-repository#install-sickrage)  
+* (DSM 5) Add the [Synocommunity](https://synocommunity.com/#easy-install) Repo to your Synology, then follow : [Installing](https://github.com/SickChill/SickChill/wiki/Switching-your-Synology's-SickChill-to-the-new-repository#install-sickchill)  
 * (DSM 5 & 6) Or use [BenjV's .SPK SickChill package](https://github.com/BenjV/SYNO-packages/raw/master/SickChill%20DSM%206%20noarch%20V1.0.spk)
 
 ###### Mac:
-* http://www.htpcguides.com/install-sickrage-mac-osx-usenet-torrent-tv/  
+* http://www.htpcguides.com/install-sickchill-mac-osx-usenet-torrent-tv/  
 [(Additional info for using NZBtoMedia on MAC)](https://gist.github.com/XxUnkn0wnxX/bf3d848232f4a71b6556)    
 [(Launch SickChill On Boot & Via App)](https://gist.github.com/XxUnkn0wnxX/d199daecc5c414174cf9)  
 
 ###### Debian/Ubuntu 14.04 with Upstart:
-* http://www.htpcguides.com/install-sickrage-ubuntu-14-04/
+* http://www.htpcguides.com/install-sickchill-ubuntu-14-04/
 
 ###### Debian/Ubuntu 15.x with systemd:
 Our Guide
 * https://github.com/SickChill/SickChill/wiki/SickChill-installation-Ubuntu-15
 
 HTPCGuide's Guide
-* http://www.htpcguides.com/install-sickrage-ubuntu-vivid-vervet-15-x-and-later
+* http://www.htpcguides.com/install-sickchill-ubuntu-vivid-vervet-15-x-and-later
 
 ###### Install SickChill on Ubuntu in a few simple steps  
-* http://www.htpcbeginner.com/install-sickrage-on-ubuntu/  
+* http://www.htpcbeginner.com/install-sickchill-on-ubuntu/  
 
 ###### uninstall SickChill Ubuntu Linux
-* http://www.htpcbeginner.com/uninstall-sickrage-ubuntu-linux/
+* http://www.htpcbeginner.com/uninstall-sickchill-ubuntu-linux/
 
 ###### Raspberry Pi:
-* http://www.htpcguides.com/install-sickrage-raspberry-pi-usenet-torrent-tv/
-* http://www.algissalys.com/how-to/sickrage-sabnzbd-raspberry-pi-tvpi-part-2  
+* http://www.htpcguides.com/install-sickchill-raspberry-pi-usenet-torrent-tv/
+* http://www.algissalys.com/how-to/sickchill-sabnzbd-raspberry-pi-tvpi-part-2  
 
 ###### OSMC 
-* https://discourse.osmc.tv/t/how-to-install-couchpotato-and-sickrage-on-raspberry-pi/10788
+* https://discourse.osmc.tv/t/how-to-install-couchpotato-and-sickchill-on-raspberry-pi/10788
 
 ###### XBian
 * http://forum.xbian.org/thread-2650.html  
 
 ###### FreeNAS
 * https://www.jruehlig.com/wordpress/installation-configuration-of-freenas-plugins/  
-* https://forums.freenas.org/index.php?threads/new-sickrage-repo.39368/#post-246592  
+* https://forums.freenas.org/index.php?threads/new-sickchill-repo.39368/#post-246592  
 * https://gist.github.com/Agurri/1813ac5f1852e6c0bdd6  
 
 ###### OpenWRT
-* https://github.com/SickChill/old-sickrage-issues/issues/716#issuecomment-178950957
+* https://github.com/SickChill/old-sickchill-issues/issues/716#issuecomment-178950957
 
 ###### Centos 6
 * https://github.com/SickChill/SickChill/wiki/SickChill-installation-CENTOS-6
@@ -79,20 +79,20 @@ HTPCGuide's Guide
 ###### WD (my Cloud)  
 * http://community.wd.com/t5/WD-My-Cloud/APP-SickChill-v4-0-29-for-firmware-V4-06-2015/td-p/881741  
 (Make sure you pick the right version from the list. The new Repo has a version like `Version 2016.02.16-1`)  
-* http://teanazar.com/2016/02/sickrage-v2016-02-16-for-wd-my-cloud-firmware-v4/  
+* http://teanazar.com/2016/02/sickchill-v2016-02-16-for-wd-my-cloud-firmware-v4/  
 
 ###### openmediavault
-* http://www.htpcguides.com/install-sickrage-plugin-openmediavault/  
+* http://www.htpcguides.com/install-sickchill-plugin-openmediavault/  
 
 ###### Asus routers
-* https://github.com/SickChill/old-sickrage-issues/issues/1037#issuecomment-193801133
+* https://github.com/SickChill/old-sickchill-issues/issues/1037#issuecomment-193801133
 
 ###### Feral Hosting  
 * https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/Software/Sick%20Beard%20and%20SickChill%20-%20Basic%20Setup   
 * ~~https://www.feralhosting.com/faq/view?question=281~~  
 
 ###### XPenology  
-* [XPenology](https://idmedia.no/general/sickrage-dead-long-live-sickrage/)  
+* [XPenology](https://idmedia.no/general/sickchill-dead-long-live-sickchill/)  
 
 ###### Whatbox.ca
 * https://whatbox.ca/wiki/SickChill

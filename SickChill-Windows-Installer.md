@@ -7,7 +7,7 @@ Therefore we have created a Windows installer to simplify the process. This inst
 It also will take care of creating a service, so that SickChill will automatically start with Windows.
 Both x32 and x64 bit installations are supported and automatically recognized.    
 
-For more detailed information checkout https://github.com/VinceVal/SickChillInstaller#sickrageinstaller  
+For more detailed information checkout https://github.com/VinceVal/SickChillInstaller#sickchillinstaller  
 
 ## Network drive mappings ##
 
@@ -113,11 +113,11 @@ In case you prefer to do the installation manually, than you can have a look at 
 https://github.com/VinceVal/SickChillInstaller
 
 `Windows:`  
-http://www.htpcguides.com/install-sickrage-windows-usenet-torrent-tv/
+http://www.htpcguides.com/install-sickchill-windows-usenet-torrent-tv/
 
 `System Service on All Windows Versions:`  
-http://www.htpcguides.com/create-sickrage-system-service-windows-versions/
+http://www.htpcguides.com/create-sickchill-system-service-windows-versions/
 
 `Windows System Service v2:`  
-http://www.htpcguides.com/create-sickrage-windows-system-service-v2/
+http://www.htpcguides.com/create-sickchill-windows-system-service-v2/
 

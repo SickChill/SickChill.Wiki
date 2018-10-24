@@ -6,7 +6,7 @@ The templates that we use for SickChill contain the English texts. Those texts w
  
 ## Using crowdin.com  
 
-Go to [crowdin.com](https://crowdin.com/project/sickrage) , and login with your account. 
+Go to [crowdin.com](https://crowdin.com/project/sickchill) , and login with your account. 
 click on the language you prefer and click on the `messages.pot` file. Now a new page is opened, where you can enter all translations.   
 
 ![pot](https://cloud.githubusercontent.com/assets/7928052/14351455/b78cee46-fccf-11e5-851e-b5846ab0a9d8.png)

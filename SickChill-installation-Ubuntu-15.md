@@ -3,7 +3,7 @@ The following instructions are for installing SickChill on Ubuntu 15.*.
  
 The installation should also be applicable to the upcoming 16.04 LTS as it is just a systemd setup.
  
-The installation assumes that you're not using the root user to install/run sickrage - the entries for **user:group** throughout the document will be set as sickrage:sickrage and you will have to modify if if you want it to match your user configuration.
+The installation assumes that you're not using the root user to install/run sickchill - the entries for **user:group** throughout the document will be set as sickchill:sickchill and you will have to modify if if you want it to match your user configuration.
  
 If you trust us and would like us to just do it for you just paste this:
  
@@ -18,8 +18,8 @@ Otherwise:
    sudo apt-get update && sudo apt-get install unrar-free git-core openssl libssl-dev python2.7
    ```
  
-2. Create sickrage user and group
-    This makes sure that sickrage is isolated and is best practice for security
+2. Create sickchill user and group
+    This makes sure that sickchill is isolated and is best practice for security
    
     ```bash
     sudo addgroup --system sickchill

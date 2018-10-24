@@ -12,7 +12,7 @@ Summery. :
 
 Thats it. :+1:  
 
-Note: By default the synocommunity sickbeard-custom package uses port 8083, and Synocommunity's sickrage package uses port 8899. So if you restore your backup between the two the port will also be restored back. Therefor make sure you open the SickChill page with the correct port.
+Note: By default the synocommunity sickbeard-custom package uses port 8083, and Synocommunity's sickchill package uses port 8899. So if you restore your backup between the two the port will also be restored back. Therefor make sure you open the SickChill page with the correct port.
 
 
 ## Explained with illustrations.  

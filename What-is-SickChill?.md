@@ -45,7 +45,7 @@ The minimum requirements are Python 2.7.x with the latest modules of [PyOpenSSL]
 
 #### Support
 In case the [Wiki](https://github.com/SickChill/SickChill/wiki) doesn't have the answer to your question, you could check us out on irc.
-We are on freenode in #sickrage-issues. [WebIRC kiwiirc.com](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickrage-issues)
+We are on freenode in #sickchill-issues. [WebIRC kiwiirc.com](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickchill-issues)
 
 #### Bugs/Issues
 In case you have found a bug and verified that it indeed is a bug, than please report it to our [issue tracker](https://github.com/SickChill/SickChill) so that the Developers can investigate.  

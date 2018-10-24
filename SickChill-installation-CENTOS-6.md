@@ -5,7 +5,7 @@ The following instructions are for installing SickChill on CentOS 6.
 
 The installation should also be applicable to RHEL 6 and Fedora (12, 13, or 14) with minimal changes.
 
-The installation assumes that you're not using the root user to install/run sickrage - the entries for **user:group** throughout the document will have to be modified to match your user configuration.
+The installation assumes that you're not using the root user to install/run sickchill - the entries for **user:group** throughout the document will have to be modified to match your user configuration.
 
 1. Install rpmFusion non-free repository 
     The repository is needed for unrar installation
@@ -20,46 +20,46 @@ The installation assumes that you're not using the root user to install/run sick
     sudo yum install python-cheetah unrar wget git 
     ```
 
-3. Clone sickrage git repo
+3. Clone sickchill git repo
 
     ```bash
-    sudo git clone https://github.com/SickChill/SickChill.git /usr/share/sickrage
+    sudo git clone https://github.com/SickChill/SickChill.git /usr/share/sickchill
     ```
 
 4. Set correct ownership
 
     ```bash
-    chown -R user:group /usr/share/sickrage
+    chown -R user:group /usr/share/sickchill
     ```
 
 5. Copy init file to system init
 
     ```bash
-    sudo cp /usr/share/sickrage/init.fedora /etc/init.d/sickrage
+    sudo cp /usr/share/sickchill/init.fedora /etc/init.d/sickchill
     ```
 
 6. Make init file executable
 
     ```bash
-    sudo chmod +x /etc/init.d/sickrage
+    sudo chmod +x /etc/init.d/sickchill
     ```
 
 7. Modify init file
 
     ```bash
-    sudo sed 's|/etc/sysconfig/sickbeard|/etc/sysconfig/sickrage|' -i /etc/init.d/sickrage
+    sudo sed 's|/etc/sysconfig/sickbeard|/etc/sysconfig/sickchill|' -i /etc/init.d/sickchill
     ```
 
-8. Create configuration file /etc/sysconfig/sickrage with the following content
+8. Create configuration file /etc/sysconfig/sickchill with the following content
 
     ```bash
     # SickChill service configuration
     
     #run SickChill as
     SR_USER=media
-    SR_HOME=/usr/share/sickrage
-    SR_DATA=/usr/share/sickrage
-    SR_PIDFILE=/usr/share/sickrage/sickrage.pid
+    SR_HOME=/usr/share/sickchill
+    SR_DATA=/usr/share/sickchill
+    SR_PIDFILE=/usr/share/sickchill/sickchill.pid
     
     #gui address, eg: \${protocol}://\${host}:\${port}/home/
     protocol=http
@@ -75,24 +75,24 @@ The installation assumes that you're not using the root user to install/run sick
     #  example: nicecmd="nice -n 19 ionice -c3"
     ```
 
-9. Add the sickrage service to system services
+9. Add the sickchill service to system services
     
     ```bash
-    sudo chkconfig --add sickrage
+    sudo chkconfig --add sickchill
     ```
 
-10. Configure sickrage service to start on system startup
+10. Configure sickchill service to start on system startup
     
     ```bash
-    sudo chkconfig sickrage on
+    sudo chkconfig sickchill on
     ```
 
-11. Start sickrage service
+11. Start sickchill service
     
     ```bash
-    sudo service sickrage start
+    sudo service sickchill start
     ```
 
-All done, verify that SickChill is accessible at gui address, eg: http://mymachine:8080/sickrage
+All done, verify that SickChill is accessible at gui address, eg: http://mymachine:8080/sickchill
 
 Celebrate with some impromptu dancing!!

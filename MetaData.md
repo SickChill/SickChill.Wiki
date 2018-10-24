@@ -16,7 +16,7 @@ Also you dont have to use metadata in combination with a player, as its also han
 ##What metadata do i need.?
 
 Again depends on the situation. But its generally advised to at-least add the `Show Metadata` file for a show.
-That will allow you to add the shows to sickrage with a simple click.
+That will allow you to add the shows to sickchill with a simple click.
 
 ##How to setup metadata.?
 
@@ -26,17 +26,17 @@ You will be presented with the below screen.
 ![metadata](https://cloud.githubusercontent.com/assets/7928052/13502747/8c3ae6b8-e16c-11e5-812c-16ef0c9e676e.png)
 
 Here select the type of metadata you need. Make sure you select the type that your media player supports.
-The next step is selecting the metadata files you need. This depends on your preferences, but we advice to add the `Show Metadata` at a minimum. You can also select poster/banner in case you prefer to store those on your disk so that sickrage doesn't have to download them.  
+The next step is selecting the metadata files you need. This depends on your preferences, but we advice to add the `Show Metadata` at a minimum. You can also select poster/banner in case you prefer to store those on your disk so that sickchill doesn't have to download them.  
 Push on `save` and the settings are saved, and with the next show update the metadata files will be created.  
 
-##How can i use metadata in sickrage.?
+##How can i use metadata in sickchill.?
 
-In this example we have metadata created/added to a show folder and start with a fresh installation of sickrage.
+In this example we have metadata created/added to a show folder and start with a fresh installation of sickchill.
 Click on add shows and select `add existing shows`.
 
 ![existing](https://cloud.githubusercontent.com/assets/7928052/13502745/8c13b0fc-e16c-11e5-8793-3c86b25d99ab.png)
 
-If the root folder is set, sickrage will show you a list of the found folders.
+If the root folder is set, sickchill will show you a list of the found folders.
 Select the folders/shows you like and click on the submit. If the metadata is present the shows will be instantly added.
 
 ![existing-adding](https://cloud.githubusercontent.com/assets/7928052/13502746/8c14b6dc-e16c-11e5-8b43-4291118947a8.png)

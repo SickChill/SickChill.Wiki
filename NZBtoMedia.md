@@ -99,7 +99,7 @@ Go to the `[SickBeard]` section and add/change the following settings. :
 * `port = 8081`            (Change the port to the one that your SickChill install uses)   
 * `username =`             (Add your username if you have enabled login in SickChill)  
 * `password =`             (Add your password if you have enabled login in SickChill)  
-* `fork =`                 (Only replace `auto` with `sickrage`if detection problems)  
+* `fork =`                 (Only replace `auto` with `sickchill`if detection problems)  
 
 Go to the `[Nzb]` section and add/change the following settings. :    
 

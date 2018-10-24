@@ -10,18 +10,18 @@ For many Devices there are installation packages compiled by community members. 
 ---
 
 ###### Synology
-* (DSM 5) Add the [Synocommunity](https://synocommunity.com/#easy-install) repository, And Follow those [Instructions](https://github.com/SickChill/SickChill/wiki/Switching-your-Synology's-SickChill-to-the-new-repository#install-sickrage)  
+* (DSM 5) Add the [Synocommunity](https://synocommunity.com/#easy-install) repository, And Follow those [Instructions](https://github.com/SickChill/SickChill/wiki/Switching-your-Synology's-SickChill-to-the-new-repository#install-sickchill)  
 * (DSM 5 & 6) Or use [BenjV's .SPK SickChill package](https://github.com/BenjV/SYNO-packages/raw/master/SickChill%20DSM%206%20noarch%20V1.0.spk)
 
 ---
 
 ###### Arch Linux
-* https://aur.archlinux.org/packages/sickrage2-git
+* https://aur.archlinux.org/packages/sickchill2-git
 
 ---
 
 ###### Docker
-* https://hub.docker.com/r/linuxserver/sickrage/
+* https://hub.docker.com/r/linuxserver/sickchill/
 
 ---
 
@@ -40,14 +40,14 @@ Make sure you select SickChill and NOT SickRageTV.
 ###### Thecus
 
 * http://forum.thecus.com/viewtopic.php?f=36&t=9720 (x32&x64)  
-Make sure to download SickChill community Edition package, as sickragetv is the old repo
+Make sure to download SickChill community Edition package, as sickchilltv is the old repo
 
 ---
 
 ###### ReadyNas
 
-* https://github.com/Mhynlo/rn-sickrage/releases/latest  
-* https://github.com/miigotu/sickrage-readynas/blob/master/sickrage_5.1.2_readynas_all.deb (UNTESTED)  
+* https://github.com/Mhynlo/rn-sickchill/releases/latest  
+* https://github.com/miigotu/sickchill-readynas/blob/master/sickchill_5.1.2_readynas_all.deb (UNTESTED)  
 
 ---
 
@@ -76,13 +76,13 @@ In case thats not possible, you can try to switch the [dirty](https://github.com
 ---
 
 ###### amahi  
-* ~~https://www.amahi.org/apps/sickrage~~  
+* ~~https://www.amahi.org/apps/sickchill~~  
 
 ---
 
 ###### Geexbox
 
-* ~~http://download.openbricks.org/utilite/python-sickrage_4.0.22%2bgit-e6c4cfd65-1_armv7.opk~~  
+* ~~http://download.openbricks.org/utilite/python-sickchill_4.0.22%2bgit-e6c4cfd65-1_armv7.opk~~  
 
 ---
 
@@ -98,7 +98,7 @@ As some installers are outdated or not maintained anymore, switching can be a li
 In most cases you can use those old packages in combination with manual Git commands to make the switch.
 However in some cases this is not possible. For those there is a `Dirty` way to switch.
 
-* 1 Run the outdated installer and install sickrage from the old Repo.
+* 1 Run the outdated installer and install sickchill from the old Repo.
 * 2 Shutdown SickChill.
 * 3 Download the latest SickChill package from the [New Repo](https://github.com/SickChill/SickChill/archive/master.zip).
 * 4 Unzip and overwrite the old files on your device.

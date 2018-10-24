@@ -27,7 +27,7 @@ This guide will cover a lot of material, and includes a lot of optional componen
 
 #### Linux Setup
 
-We're going to install SickChill on our linux system manually. Why not use the package manager? Well, it can cause problems under certain circumstances (sickrage will update itself from git), and, this is just a much cleaner solution. If you absolutely insist on using the package manager, be warned that upgrades can easily break and your package manager can fail to update the package, so you'll have to --force it or something similar.
+We're going to install SickChill on our linux system manually. Why not use the package manager? Well, it can cause problems under certain circumstances (sickchill will update itself from git), and, this is just a much cleaner solution. If you absolutely insist on using the package manager, be warned that upgrades can easily break and your package manager can fail to update the package, so you'll have to --force it or something similar.
 
 First, we need to decide where this installation and all our media files will live. This will be a fairly large amount of data, so, it should be on a big enough partition to handle it. Mine is in _/srv/media_ but yours can be anywhere you want/have enough space.
 
@@ -49,7 +49,7 @@ Now, we need to perform the actual installation of SickChill. If you have used y
 
 Next, we need to create the startup file that controls SickChill. If you're on a recent distro, you're possibly running _systemd_ in which case, this script will work for you. If you are **not** on a _systemd_ distro, you will need to get your own startup script (or, use the one that came with your package manager).
 
-Edit the file _/etc/systemd/system/sickrage.service_ (it will not exist, so, create it).
+Edit the file _/etc/systemd/system/sickchill.service_ (it will not exist, so, create it).
 Copy and paste the following into it:
 
     [Unit]
@@ -60,7 +60,7 @@ Copy and paste the following into it:
     Restart=always
     User=media
     Group=media
-    ExecStart=/usr/bin/env python2 /srv/sickrage/SickBeard.py --quiet --config /srv/sickchill/config.ini --datadir /srv/sickchill
+    ExecStart=/usr/bin/env python2 /srv/sickchill/SickBeard.py --quiet --config /srv/sickchill/config.ini --datadir /srv/sickchill
 
     [Install]
     WantedBy=multi-user.target

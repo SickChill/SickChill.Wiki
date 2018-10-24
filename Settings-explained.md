@@ -28,7 +28,7 @@ Shows the location of your sickbeard.db file. It includes all your shows for Sic
 `SR Cache Dir:`  
 Shows the location of your cache folder. It includes all your search data, banners and other temporary files for SickChill.  
 `SR Log Dir:`  
-Shows the location of your sickrage.log file. It includes all the events, warnings and errors. If you ever experience problems or issues, the log will be your best friend.    
+Shows the location of your sickchill.log file. It includes all the events, warnings and errors. If you ever experience problems or issues, the log will be your best friend.    
 `SR Arguments:`  
 Shows with what arguments SickChill has been started.  
 `Python Version:`  

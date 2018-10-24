@@ -1,8 +1,8 @@
 * [Where are the LOG files located?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#where-are-the-log-files-located)
 * [How do I enable debug logs to get more detailed information in my logs?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#how-do-i-enable-debug-logs-to-get-more-detailed-information-in-my-logs)
-* [Does SickChill support NAS devices?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#does-sickrage-support-nas-devices)
+* [Does SickChill support NAS devices?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#does-sickchill-support-nas-devices)
 * [Windows Shares and Mapped Drives](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#windows-shares-and-mapped-drives)
-* [(scene exceptions) Releases have a different show name than in SickChill, and are not snatched?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#scene-exceptions-releases-have-a-different-show-name-than-in-sickrage-and-are-not-snatched)
+* [(scene exceptions) Releases have a different show name than in SickChill, and are not snatched?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#scene-exceptions-releases-have-a-different-show-name-than-in-sickchill-and-are-not-snatched)
 * [Error while searching ..., skipping: 'NoneType' object is not iterable](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#error-while-searching--skipping-nonetype-object-is-not-iterable)
 * [Reverse Proxy is not working.](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#reverse-proxy-is-not-working)
 * [I have problems with special characters (é etc.) What can I do?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#i-have-problems-with-special-characters-%C3%A9-etc-what-can-i-do)
@@ -10,7 +10,7 @@
 * [I'm currently using the SABtoSickbeard script with SABNZB, however failed downloads dont work.](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#im-currently-using-the-sabtosickbeard-script-with-sabnzb-however-failed-downloads-dont-work)
 * [Error: Rar Not Supported: No suitable RAR unpacker installed](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#error-rar-not-supported-no-suitable-rar-unpacker-installed)
 * [I'm getting SSL errors what now?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#im-getting-ssl-errors-what-now)
-* [Can I support SickChill? How?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#can-i-support-sickrage-and-how)
+* [Can I support SickChill? How?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#can-i-support-sickchill-and-how)
 * [What does the Episode Status mean and what does it do?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#what-does-the-episode-status-mean-and-what-does-it-do)
 * [One of my shows has a missing Network logo.](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#one-of-my-shows-has-a-missing-network-logo)
 * [What is post processing?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#what-is-post-processing)
@@ -25,13 +25,13 @@
 * [Unable to sent torrent to synology download station](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#unable-to-sent-torrent-to-synology-download-station)  
 * [Timeout when adding a show on Freenas](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#timeout-when-adding-a-show-on-freenas)
 * [What are Unicode errors?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#what-are-unicode-errors)
-* [How to switch to an older sickrage version?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#how-to-switch-to-a-older-sickrage-version)
+* [How to switch to an older sickchill version?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#how-to-switch-to-a-older-sickchill-version)
 * [Why does "Send to trash" option not send the files to the Recycle Bin?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
 
 ## Where are the LOG files located?
 You can find the log files path in _Config->Help & Info_, look for *SR Log Dir*.
 
-*Note: Synology users can use WinSCP to gain access/browse to the root where the SickChill log is located: `/volume1/@appstore/sickrage/var/Logs/sickrage.log`*  
+*Note: Synology users can use WinSCP to gain access/browse to the root where the SickChill log is located: `/volume1/@appstore/sickchill/var/Logs/sickchill.log`*  
 
 ## How do I enable debug logs to get more detailed information in my logs?  
 Go to settings (gearwheels) ---> General ---> Advanced Settings. Enable the setting `Enable debug`. Or set in manually in your config.ini. The line is called `debug = 0` replace the 0 with 1 and save. (Make sure SickChill is not running!)
@@ -122,7 +122,7 @@ A SSL error looks generally something like this: `_ssl.c:499: error:14077438:SSL
 They are mainly the cause of not having Python installed correctly. Python needs to have the pyOpenSSL & cryptography modules installed to handle HTTPS connections. For more information see the [SSL Errors](https://github.com/SickChill/SickChill/wiki/SSL-Errors) section. Note, [QNAP](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages#qnap) users need to have a recent SickChill package installed.
 
 ## Can I support SickChill? How?
-Yes, absolutely! We are always looking for help. If you are familiar with Python, HTML, Java or other programming languages, please give a shout. Also, if you have experience moderating and want to help users by solving/answering their basic questions regarding SickChill, feel free to help on the SickChill [Issue Tracker](https://github.com/SickChill/SickChill) and [IRC Channel](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickrage-issues). Last, there is the option to [Donate](https://github.com/SickChill/SickChill/wiki/Donations). That helps us pay for the upkeep/maintaining cost of the SickChill project.  
+Yes, absolutely! We are always looking for help. If you are familiar with Python, HTML, Java or other programming languages, please give a shout. Also, if you have experience moderating and want to help users by solving/answering their basic questions regarding SickChill, feel free to help on the SickChill [Issue Tracker](https://github.com/SickChill/SickChill) and [IRC Channel](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickchill-issues). Last, there is the option to [Donate](https://github.com/SickChill/SickChill/wiki/Donations). That helps us pay for the upkeep/maintaining cost of the SickChill project.  
 
 ## What does the Episode Status mean and what does it do?
 The Episode Status shows (like the name implies) the status of an episode. So is it downloaded and in what quality? Or is it still Wanted? Or skipped? For an extended explanation see the 
@@ -170,7 +170,7 @@ It's probably missing the `origin`. If so, shutdown SickChill and add it. Then r
 2. Menu General Settings > Advanced Settings  
 3. Enable 'Enable debug'  
 
-Synology & QNAP users can use [WinSCP](https://winscp.net/eng/download.php) to access/browse SSH to extract the full SickChill log. For example: /volume1/@appstore/sickrage/var/Logs/sickrage.log
+Synology & QNAP users can use [WinSCP](https://winscp.net/eng/download.php) to access/browse SSH to extract the full SickChill log. For example: /volume1/@appstore/sickchill/var/Logs/sickchill.log
 
 
 ## How to switch to the new Repo?
@@ -219,7 +219,7 @@ systemctl reset-failed
 
 ```
 
-**Note:** in the first two commands you should change _“sickchill”_ name to _“sickrage”_ if you are removing the previous/other version.
+**Note:** in the first two commands you should change _“sickchill”_ name to _“sickchill”_ if you are removing the previous/other version.
 
 
 ## Post Processing shows a negative time
@@ -276,9 +276,9 @@ Sadly not much can be done. But a few things you can try are:
 On Linux those Unicode errors generally only happen when you haven't set your locale correctly. Make sure its UTF-8.
 
 
-## How to switch to an older sickrage version?
+## How to switch to an older sickchill version?
 
-It's possible to switch between different versions of sickrage.
+It's possible to switch between different versions of sickchill.
 This can be handy for troubleshooting, or if your device has problems with the latest versions.
 For this, you can use the git checkout command. For example:
 
