@@ -227,7 +227,7 @@ In rare cases the Post Processing stops working and will show a negative time in
 
 ## What is a network time zone warning?
 
-SickChill uses a file called [network_timezones.txt](https://github.com/SickChill/sick-chill.github.io/blob/master/sb_network_timezones/network_timezones.txt) to check the timezone of a tv channel.
+SickChill uses a file called [network_timezones.txt](https://github.com/SickChill/sickchill.github.io/blob/master/sb_network_timezones/network_timezones.txt) to check the timezone of a tv channel.
 This allows SickChill to calculate the exact time that a show airs in your OWN timezone. When it's 12:00 in Europe it's 04:00-06:00 in the US etc.
 By knowing this SickChill can start searching on a more precise time. This might help to download an episode faster. (depending on the timezone where you are located.) If there isn't a tv timezone known to SickChill it will start searching by date, so at 0:00 midnight local time.
 
