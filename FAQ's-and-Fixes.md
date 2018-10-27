@@ -235,7 +235,7 @@ A network time zone warning will look like this:
 
 `Thread-64 :: Network was not found in the network time zones: Sky Atlantic (IT)`
 
-When you come across such a warning you can add the tv channel and time zone to the [network_timezones.txt](https://github.com/SickChill/sick-chill.github.io/blob/master/sb_network_timezones/network_timezones.txt) here.
+When you come across such a warning you can add the tv channel and time zone to the [network_timezones.txt](https://github.com/SickChill/sickchill.github.io/blob/master/sb_network_timezones/network_timezones.txt) here.
 
 ## Unable to sent torrent to Synology Download station.
 
