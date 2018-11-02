@@ -40,7 +40,7 @@ Make sure you select SickChill and NOT SickRageTV.
 ###### Thecus
 
 * http://forum.thecus.com/viewtopic.php?f=36&t=9720 (x32&x64)  
-Make sure to download SickChill community Edition package, as sickchilltv is the old repo
+Make sure to download SickChill community Edition package, as sickragetv/sickrage is the old repo
 
 ---
 
