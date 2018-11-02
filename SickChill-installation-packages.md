@@ -11,8 +11,8 @@ For many Devices there are installation packages compiled by community members. 
 ---
 
 ###### Synology
-* (DSM 5) Add the [Synocommunity](https://synocommunity.com/#easy-install) repository, And Follow those [Instructions](https://github.com/SickChill/SickChill/wiki/Switching-your-Synology's-SickChill-to-the-new-repository#install-sickchill)  
-* (DSM 5 & 6) Or use [BenjV's .SPK SickChill package](https://github.com/BenjV/SYNO-packages/raw/master/SickChill%20DSM%206%20noarch%20V1.0.spk)
+~~* (DSM 5) Add the [Synocommunity](https://synocommunity.com/#easy-install) repository, And Follow those [Instructions](https://github.com/SickChill/SickChill/wiki/Switching-your-Synology's-SickChill-to-the-new-repository#install-sickchill)~~  
+* (DSM 5 & 6) Use [BenjV's .SPK SickChill package](https://github.com/BenjV/SYNO-packages/blob/master/SickChill%20noarch%20V1.1.spk)
 
 ---
 
