@@ -27,8 +27,7 @@ For many Devices there are installation packages compiled by community members. 
 ---
 
 ###### Qnap 
-* Download the [qpkg](https://www.dropbox.com/s/j1svazqdi9ieq82/SickBeard-TVRage_151227.qpkg) and follow the installation instructions from the [Qnap Forums](http://forum.qnap.com/viewtopic.php?f=223&t=118366#p525730)
-Make sure you select SickChill and NOT SickRageTV<br/>
+* Download the [qpkg](https://www.qnapclub.eu/fr/qpkg/647)
 
 ---
 
