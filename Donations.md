@@ -16,10 +16,11 @@ However there are more ways to help. If you are familiar with Python, HTML, Java
 
 | | |
 | --- | --- |
-| __Bitcoin__ | 1QL1UyYovpJQidr4xvtZGF6YAMrmTfKjJ1 |
-| Etherium | 0x34ea5aC46Dbf370FbEA6f8DC8F87D09aE0542333 |
-| Litecoin | LgrWYBi3shMLLiSPz2X7xSckFx6f4Zw9Nx |
-| Golem | 0x34ea5aC46Dbf370FbEA6f8DC8F87D09aE0542333 |  
+| __Bitcoin BTC__ | 1QL1UyYovpJQidr4xvtZGF6YAMrmTfKjJ1 |
+| __Bitcoin Cash BCH__ | 1FgVKWN59z4fWLVwfxBVzaHsiBsgtSsPn7 |
+| __Etherium ETC__ | 0x34ea5aC46Dbf370FbEA6f8DC8F87D09aE0542333 |
+| __Litecoin LTC__ | LgrWYBi3shMLLiSPz2X7xSckFx6f4Zw9Nx |
+| __Golem GNT__ | 0x34ea5aC46Dbf370FbEA6f8DC8F87D09aE0542333 |  
 
 *If you would like to donate a different coin type, contact miigotu* 
 ***
