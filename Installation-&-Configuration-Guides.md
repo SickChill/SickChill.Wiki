@@ -63,7 +63,6 @@ HTPCGuide's Guide
 * http://forum.xbian.org/thread-2650.html  
 
 ###### FreeNAS
-* https://www.jruehlig.com/wordpress/installation-configuration-of-freenas-plugins/  
 * https://forums.freenas.org/index.php?threads/new-sickrage-repo.39368/#post-246592  
 * https://gist.github.com/Agurri/1813ac5f1852e6c0bdd6  
 
