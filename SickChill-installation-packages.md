@@ -11,7 +11,6 @@ For many Devices there are installation packages compiled by community members. 
 ---
 
 ###### Synology
-~~* (DSM 5) Add the [Synocommunity](https://synocommunity.com/#easy-install) repository, And Follow those [Instructions](https://github.com/SickChill/SickChill/wiki/Switching-your-Synology's-SickChill-to-the-new-repository#install-sickchill)~~  
 * (DSM 5 & 6) Use [BenjV's .SPK SickChill package](https://github.com/BenjV/SYNO-packages/blob/master/SickChill%20noarch%20V1.1.spk)
 
 ---
@@ -45,7 +44,6 @@ Make sure to download SickChill community Edition package, as sickragetv/sickrag
 ---
 
 ###### ReadyNas
-
 * https://github.com/Mhynlo/rn-sickchill/releases/latest  
 * https://github.com/miigotu/sickchill-readynas/blob/master/sickchill_5.1.2_readynas_all.deb (UNTESTED)  
 
@@ -66,32 +64,6 @@ git reset --hard origin/master
 
 In case thats not possible, you can try to switch the [dirty](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages#switching-the-dirty-way) way.
 
----
-
-
-###### D-Link NAS
-* ~~http://forums.dlink.com/index.php?topic=62238.0~~  
-* ~~http://dlink.vtverdohleb.org.ua/Add-On/#SickRage~~  
-
----
-
-###### amahi  
-* ~~https://www.amahi.org/apps/sickrage~~  
-
----
-
-###### Geexbox
-
-* ~~http://download.openbricks.org/utilite/python-sickrage_4.0.22%2bgit-e6c4cfd65-1_armv7.opk~~  
-
----
-
-
-
---
-
-
-
 ##Switching the Dirty way.  
 
 As some installers are outdated or not maintained anymore, switching can be a little frustrating.
@@ -106,6 +78,3 @@ However in some cases this is not possible. For those there is a `Dirty` way to 
 
 Thats it. 
 However this method is meant as a last resource, and should only be used if all other methods fail.
-
-
-
