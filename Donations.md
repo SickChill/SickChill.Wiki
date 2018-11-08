@@ -1,5 +1,5 @@
 **Do You Like SickChill?**  
-Than please consider a donation to help us cover the costs and securing the future of SickChill.  
+Then please consider a donation to help us cover the costs and securing the future of SickChill.  
 
 The SickChill team consists of **volunteers**, who are offering a lot of their free time to keep this amazing project running. Donations are not required, but are appreciated. (They help us convince our wives that all of the time we spend on GitHub is worthwhile, which allows us to continue improving SickChill.:) )
 
