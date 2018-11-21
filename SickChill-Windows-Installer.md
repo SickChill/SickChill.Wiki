@@ -7,7 +7,7 @@ Therefore we have created a Windows installer to simplify the process. This inst
 It also will take care of creating a service, so that SickChill will automatically start with Windows.
 Both x32 and x64 bit installations are supported and automatically recognized.    
 
-For more detailed information checkout https://github.com/VinceVal/SickChillInstaller#sickchillinstaller  
+For more detailed information checkout https://github.com/SickChill/SickChillInstaller#sickchillinstaller  
 
 ## Network drive mappings ##
 
@@ -25,7 +25,7 @@ If you are unable to get those setup correctly, you can always disable the servi
 
 ## Installing SickChill on Windows ##
 
-Head over to the [SickChill Package Installer](https://github.com/VinceVal/SickChillInstaller/releases) and download the latest release.  
+Head over to the [SickChill Package Installer](https://github.com/SickChill/SickChillInstaller/releases) and download the latest release.  
 (Special thanks to VinceVal for compiling this installer.)  
 
 Browse to the folder/location where you have placed the installer file and execute/run it.  
