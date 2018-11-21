@@ -19,7 +19,7 @@ sc config "SickChill" obj= "username" password= "password"
 sc restart SickChill
 ```  
 
-If you are unable to get those setup correctly, you can always disable the service and start SickChill manually. SickChill will then run as the user that is logged in to Windows. Alternatively you can also install SickChill [manually](https://github.com/SickChill/SickChill/wiki/SickChill-Windows-Installer/_edit#manual-installation-guides-for-windows)  
+If you are unable to get those setup correctly, you can always disable the service and start SickChill manually. SickChill will then run as the user that is logged in to Windows. Alternatively you can also install SickChill [manually](https://github.com/SickChill/SickChill/wiki/SickChill-Windows-Installer#manual-installation-guides-for-windows)  
 
 ---
 
