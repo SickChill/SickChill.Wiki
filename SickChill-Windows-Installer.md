@@ -110,7 +110,7 @@ Now you can access SickChill by opening your favorite browser and go to http://l
 In case you prefer to do the installation manually, than you can have a look at the below guides. Note that Cheetah isn't necessary anymore, so you don't have to install it.  
 
 `Official Windows installer:`  
-https://github.com/VinceVal/SickChillInstaller
+https://github.com/SickChill/SickChillInstaller
 
 `Windows:`  
 http://www.htpcguides.com/install-sickrage-windows-usenet-torrent-tv/
