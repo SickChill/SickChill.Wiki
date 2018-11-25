@@ -23,7 +23,7 @@ Otherwise:
    
     ```bash
     sudo addgroup --system sickchill
-    sudo adduser --disabled-password --system --home /var/lib/sickchill--gecos "SickChill" --ingroup sickchill sickchill
+    sudo adduser --disabled-password --system --home /var/lib/sickchill --gecos "SickChill" --ingroup sickchill sickchill
     ```
    
 3. Clone SickChill git repo
