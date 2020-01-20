@@ -63,8 +63,7 @@ HTPCGuide's Guide
 * http://forum.xbian.org/thread-2650.html  
 
 ###### FreeNAS
-* https://forums.freenas.org/index.php?threads/new-sickrage-repo.39368/#post-246592  
-* https://gist.github.com/Agurri/1813ac5f1852e6c0bdd6  
+* https://gist.github.com/miigotu/c9b7994639cb29a2514a696bef12220a  
 
 ###### OpenWRT
 * https://github.com/SickChill/old-sickrage-issues/issues/716#issuecomment-178950957
