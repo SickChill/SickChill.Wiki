@@ -11,7 +11,7 @@ For many Devices there are installation packages compiled by community members. 
 ---
 
 ###### Synology
-* (DSM 5 & 6) Use [BenjV's .SPK SickChill package](https://github.com/BenjV/SYNO-packages/blob/master/SickChill%20noarch%20V1.1.spk)
+* (DSM 5 & 6) Use [BenjV's .SPK SickChill package](https://github.com/BenjV/SYNO-packages)
 
 ---
 
