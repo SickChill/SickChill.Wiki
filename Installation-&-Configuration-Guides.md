@@ -2,6 +2,10 @@
 
 New to SickChill? Then the below guides will help you with the setup, and discover all its cool features.
 
+* [Docker](https://github.com/SickChill/SickChill/wiki/Docker)
+* [Pip](https://github.com/SickChill/SickChill/wiki/Pip)
+* [Windows](https://github.com/SickChill/SickChillInstaller/releases/latest)
+
 ###### Configuration guides for SickChill:
 * http://www.htpcguides.com/configure-sickrage-usenet-torrent-tv/
 
