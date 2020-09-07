@@ -1,4 +1,4 @@
-##What is MetaData.?
+## What is MetaData.?
 
 Metadata is a name for a collection of files that contain information about a show or episodes (like actors, show id's, etc) and images (posters, fan art etc.).
 Many third party media players use those files to display additional information about a show, or its used to show descriptions in your native language. The files are called `tvshow.nfo` or `poster.jpg` etc.
