@@ -21,7 +21,6 @@ For many Devices there are installation packages compiled by community members. 
 ---
 
 ###### Docker
-* https://hub.docker.com/r/linuxserver/sickchill/
 * https://hub.docker.com/r/sickchill/sickchill/
 ---
 
