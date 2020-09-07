@@ -5,8 +5,9 @@ For many Devices there are installation packages compiled by community members. 
 
 ---
 
-###### Windows
-* https://github.com/SickChill/SickChillInstaller/releases/latest
+* [Docker](https://github.com/SickChill/SickChill/wiki/Docker)
+* [Pip](https://github.com/SickChill/SickChill/wiki/Pip)
+* [Windows](https://github.com/SickChill/SickChillInstaller/releases/latest)
 
 ---
 
@@ -18,10 +19,6 @@ For many Devices there are installation packages compiled by community members. 
 ###### Arch Linux
 * https://aur.archlinux.org/packages/sickchill
 
----
-
-###### Docker
-* https://hub.docker.com/r/sickchill/sickchill/
 ---
 
 ###### Qnap 
