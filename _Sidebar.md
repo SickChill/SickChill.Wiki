@@ -9,7 +9,6 @@
 **Debugging**<br/>
 [FAQ's and Fixes](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes)  
 [Scene exceptions](https://github.com/SickChill/SickChill/wiki/Scene-exceptions-and-numbering)  
-[SSL Errors](https://github.com/SickChill/SickChill/wiki/SSL-Errors)  
 
 **Settings**<br/>
 [Main settings explained](https://github.com/SickChill/SickChill/wiki/Settings-explained)  
