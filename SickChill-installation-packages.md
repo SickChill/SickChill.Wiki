@@ -8,6 +8,8 @@ For many Devices there are installation packages compiled by community members. 
 * [Docker](https://github.com/SickChill/SickChill/wiki/Docker)
 * [Pip](https://github.com/SickChill/SickChill/wiki/Pip)
 * [Windows](https://github.com/SickChill/SickChillInstaller/releases/latest)
+* [Freenas](https://github.com/SickChill/SickChill/wiki/Freenas)
+* [ReadyNAS](https://github.com/SickChill/SickChill/wiki/ReadyNAS)
 
 ---
 
