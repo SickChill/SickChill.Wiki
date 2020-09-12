@@ -10,7 +10,9 @@ For many Devices there are installation packages compiled by community members. 
 * [Windows](https://github.com/SickChill/SickChillInstaller/releases/latest)
 * [Freenas](https://github.com/SickChill/SickChill/wiki/Freenas)
 * [ReadyNAS](https://github.com/SickChill/SickChill/wiki/ReadyNAS)
+* [Synology](https://github.com/SickChill/SickChill/wiki/Synology)
 
+---
 
 ## Outdated Packages:  
 
