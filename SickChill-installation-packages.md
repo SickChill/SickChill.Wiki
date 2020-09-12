@@ -11,13 +11,6 @@ For many Devices there are installation packages compiled by community members. 
 * [Freenas](https://github.com/SickChill/SickChill/wiki/Freenas)
 * [ReadyNAS](https://github.com/SickChill/SickChill/wiki/ReadyNAS)
 
----
-
-###### Synology
-* (DSM 5 & 6) Use [BenjV's .SPK SickChill package](https://github.com/BenjV/SYNO-packages)
-
----
-
 ###### Arch Linux
 * https://aur.archlinux.org/packages/sickchill
 
