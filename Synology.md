@@ -1,1 +1,1 @@
-The newest package is currently at https://github.com/SynoCommunity/spksrc/pull/4161
+The newest official package is currently at [Nyaran's PR to Synocommunity](https://github.com/SynoCommunity/spksrc/pull/4161)
