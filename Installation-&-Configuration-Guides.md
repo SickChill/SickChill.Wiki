@@ -7,6 +7,7 @@ New to SickChill? Then the below guides will help you with the setup, and discov
 * [Windows](https://github.com/SickChill/SickChillInstaller/releases/latest)
 * [Freenas](https://github.com/SickChill/SickChill/wiki/Freenas)
 * [ReadyNAS](https://github.com/SickChill/SickChill/wiki/ReadyNAS)
+* [Synology](https://github.com/SickChill/SickChill/wiki/Synology)
 
 ###### Configuration guides for SickChill:
 * http://www.htpcguides.com/configure-sickrage-usenet-torrent-tv/
