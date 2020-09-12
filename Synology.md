@@ -1,0 +1,1 @@
+The newest package is currently at https://github.com/SynoCommunity/spksrc/pull/4161
