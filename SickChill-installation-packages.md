@@ -11,6 +11,11 @@ For many Devices there are installation packages compiled by community members. 
 * [Freenas](https://github.com/SickChill/SickChill/wiki/Freenas)
 * [ReadyNAS](https://github.com/SickChill/SickChill/wiki/ReadyNAS)
 
+
+## Outdated Packages:  
+
+These packages are not yet updated to the new URL, or are simply not maintained anymore. But as long as they are working you should be able to make the switch with manual Git commands.  
+
 ###### Arch Linux
 * https://aur.archlinux.org/packages/sickchill
 
@@ -39,11 +44,6 @@ Make sure to download SickChill community Edition package, as sickragetv/sickrag
 * https://github.com/miigotu/sickchill-readynas/blob/master/sickchill_5.1.2_readynas_all.deb (UNTESTED)  
 
 ---
-
-## Outdated Packages.!  
-
-Those packages are not yet updated to the new URL, or are simply not maintained anymore. But as long as they are working you should be able to make the switch with manual Git commands.  
-
 
 Go into the SickChill folder and do :  
 
