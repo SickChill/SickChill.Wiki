@@ -3,7 +3,7 @@
 If the plugin is not showing for you yet, you can install it from the command line:
 
 ```bash
-sudo pkg install py38-iocage
+sudo pkg install py36-iocage
 iocage fetch -r 12.1-RELEASE
 iocage fetch -P sickchill -g https://github.com/ix-plugin-hub/iocage-plugin-index --branch 'master'
 ```
