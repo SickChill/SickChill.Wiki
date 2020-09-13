@@ -11,6 +11,7 @@ For many Devices there are installation packages compiled by community members. 
 * [Freenas](https://github.com/SickChill/SickChill/wiki/Freenas)
 * [ReadyNAS](https://github.com/SickChill/SickChill/wiki/ReadyNAS)
 * [Synology](https://github.com/SickChill/SickChill/wiki/Synology)
+* [QNAP](https://github.com/OneCDOnly/sherpa)
 
 ---
 
