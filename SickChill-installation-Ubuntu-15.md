@@ -15,7 +15,7 @@ Otherwise:
     This will give you unrar-free (guess), and git to pull the repo
  
    ```bash
-   sudo apt-get update && sudo apt-get install unrar-free git-core openssl libssl-dev python2.7
+   sudo apt-get update && sudo apt-get install unrar-free git-core openssl libssl-dev python3.8
    ```
  
 2. Create sickchill user and group
