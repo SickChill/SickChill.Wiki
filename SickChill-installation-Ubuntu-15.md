@@ -9,7 +9,7 @@ If you trust us and would like us to just do it for you just paste this:
  
     curl https://raw.githubusercontent.com/SickChill/SickChill/master/contrib/debian-ubuntu-install.sh | sudo bash
 
-Otherwise:
+## Otherwise:
  
 1. Update repositories and install SickChill dependencies
     This will give you unrar-free (guess), and git to pull the repo
