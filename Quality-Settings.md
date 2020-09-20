@@ -15,13 +15,13 @@ https://github.com/SickChill/SickChill/wiki/Qualities-Changes
 One of the most important settings is the quality setting for your shows. This informs SickChill of the quality that it should search for on your favorite NZB/Torrent indexer. Make sure that you understand the processes of how the quality detection works, and how to set it up correctly.   
   
 
-##Quality detection/determination  
+## Quality detection/determination  
 
 To understand the quality setting, you first need to understand how the quality is detected/determent.
 When SickChill starts a search for your shows, it will collect all the titles from those results. The next step is checking those titles for quality names. (Examples of those names are x264 or 720p etc.) From those found quality names SickChill determinates the quality of a file. For HDTV quality the title needs to contain `720p` + `HDTV` + `x264` = `HD TV` Quality.
 In the list below you will find what a title needs to contain to be marked as a certain quality.
  
-##Quality names to recognize the Quality of a file:  
+## Quality names to recognize the Quality of a file:  
 
 This shows you what a title needs to contain to be recognized as a Quality in SickChill.
 
@@ -58,12 +58,12 @@ Note: All `RIP` qualities can have either `rip` or `mux` in the filename. ( Exam
 This quality determination also apply's to imported/already downloaded files. So when you rename your files and they dont include the valid quality names, they can be detected as `Unknown` by SickChill.!  
 
   
-##Difference between Preset and Custom Qualities
+## Difference between Preset and Custom Qualities
 
 Now that you are aware of what a title needs to contain, we can proceed with actually choosing and setting a quality. There are two ways to setup your wanted quality's. [Preset Qualities](https://github.com/SickChill/SickChill/wiki/Quality-Settings#preset-qualities) witch are pre-configured quality options that you can select or [Custom Qualities](https://github.com/SickChill/SickChill/wiki/Quality-Settings#custom-qualities) if you want to set your own advanced wanted quality's.  
 
 
-##Preset Qualities  
+## Preset Qualities  
 
 You can set more than one Present quality per show. But be aware that the first match that SickChill finds on the indexer will be snatched/downloaded. That can be any of the quality's you have set.!  
 
@@ -85,7 +85,7 @@ Lets give you some real world examples that you need to consider selecting the q
 For new/popular shows, you can basically set every quality as there are (probably) released in all of those quality's.
 However it might get problematic for more "exotic" and older shows. Maybe those shows where never released as HD/Bluray but only as SD/DVDRip. Needles to say if you only set HD quality for those shows then there is a good chance that SickChill wont find any downloads. So the smart thing is to chose more or `Any` as quality. But most efficient is a old fashion manual search on the indexer to see in what quality the releases are uploaded.
 
-##Custom Qualities
+## Custom Qualities
 
 The Custom Quality gives you a new menu where you can use two special _categories_ and one special _setting_ to allow for additional customization of your desired SickChill Quality Settings: the **Allowed** Quality and **Preferred** Quality Categories, and the **Archive on First Match** setting.
 
@@ -96,7 +96,7 @@ The Custom Quality gives you a new menu where you can use two special _categorie
 **Archive on First Match** Setting allows you to instruct SickChill to download _only the first_ matched **Preferred** Quality, even if multiple Qualities are selected
   
 
-##Example Advanced Custom Qualities
+## Example Advanced Custom Qualities
 
 _I Only Want WEB-DLs_  
 Use the Custom setting to choose the Allowed Qualities of 720p WEB-DL and 1080p WEB-DL.  Nothing but WEB-DLs for you!
@@ -122,5 +122,5 @@ So you need to watch it now and you'd be happy to watch any version quick! But i
 This will allow you to get your grubby little hands on the first release that hits the interwebz, and as soon as **any one** of the 720p qualities is released, SickChill will download the **first only** and then stop!  No multiple Preferred downloads for you, just viewing pleasure :)  
   
   
-##Media Extensions
+## Media Extensions
 `avi`, `mkv`, `mpg`, `mpeg`, `wmv`, `ogm`, `mp4`, `iso`, `img`, `divx`, `m2ts`, `m4v`, `ts`, `flv`, `f4v`, `mov`, `rmvb`, `vob`, `dvr-ms`, `wtv`, `ogv`, `3gp`
