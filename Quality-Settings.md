@@ -1,7 +1,6 @@
-=========================
+***
 [ [Quality Settings] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#quality-settings) [ [Quality detection/determination] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#quality-detectiondetermination) [ [Quality names to recognize the Quality of a file] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#quality-names-to-recognize-the-quality-of-a-file) [ [Difference between Preset and Custom Qualities] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#difference-between-preset-and-custom-qualities) [ [Preset Qualities] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#preset-qualities) [ [Custom Qualities] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#custom-qualities) [ [Example Advanced Custom Qualities] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#example-advanced-custom-qualities) [ [Media Extensions] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#media-extensions)
-
-=========================
+***
 
 
 ## 2016-01-22 Important Update!
