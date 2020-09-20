@@ -58,7 +58,7 @@ git reset --hard origin/master
 
 In case thats not possible, you can try to switch the [dirty](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages#switching-the-dirty-way) way.
 
-##Switching the Dirty way.  
+## Switching the Dirty way.  
 
 As some installers are outdated or not maintained anymore, switching can be a little frustrating.
 In most cases you can use those old packages in combination with manual Git commands to make the switch.
