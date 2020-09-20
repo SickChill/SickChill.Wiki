@@ -7,7 +7,7 @@
 ---------------------
 
 
-##Add Show button
+## Add Show button
 
 * This button allows you to add a new or existing shows. 
 
@@ -100,7 +100,7 @@ This allows the settings you have selected to be saved as defaults, So you dont 
 Now that you have setup all settings press the `add` button.  
    
 
-##Shows overview and buttons explained  
+## Shows overview and buttons explained  
 
 ![show-overview](https://cloud.githubusercontent.com/assets/7928052/13013866/9a6978a0-d1b1-11e5-9db3-7949c77f9ce5.png)
 
@@ -150,7 +150,7 @@ This lets you customize the columns of the seasons. You can add the seize column
 `Search`          By clicking on the search glass you can manually search for an episode.  
 
 
-##Shows Edit Button  
+## Shows Edit Button  
 
 ![Main Settings](https://cloud.githubusercontent.com/assets/7928052/13013867/9cd2c2fe-d1b1-11e5-8929-596558a0105c.png)
 
