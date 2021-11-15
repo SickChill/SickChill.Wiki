@@ -36,8 +36,7 @@ SickChill can be installed on many different systems. Below you will find guides
 
 ###### Synology:
 
-* (DSM 5) Add the [Synocommunity](https://synocommunity.com/#easy-install) Repo to your Synology, then follow : [Installing](https://github.com/SickChill/SickChill/wiki/Switching-your-Synology's-SickChill-to-the-new-repository#install-sickchill)  
-* (DSM 5 & 6) Or use [BenjV's .SPK SickChill package](https://github.com/BenjV/SYNO-packages)
+* (DSM 6 & 7) Use the [Synocommunity](https://synocommunity.com/#easy-install) Repo for your Synology.
 
 ###### Mac:
 * http://www.htpcguides.com/install-sickrage-mac-osx-usenet-torrent-tv/  
