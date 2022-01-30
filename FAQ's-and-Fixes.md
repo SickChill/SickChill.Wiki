@@ -25,11 +25,11 @@
 * [Unable to sent torrent to synology download station](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#unable-to-sent-torrent-to-synology-download-station)  
 * [Timeout when adding a show on Freenas](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#timeout-when-adding-a-show-on-freenas)
 * [What are Unicode errors?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#what-are-unicode-errors)
-* [How to switch to an older sickchill version?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#how-to-switch-to-a-older-sickchill-version)
+* [How to switch to an older SickChill version?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#how-to-switch-to-a-older-sickchill-version)
 * [Why does "Send to trash" option not send the files to the Recycle Bin?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
 
 ## Where are the LOG files located?
-You can find the log files path in _Config->Help & Info_, look for *SR Log Dir*.
+You can find the log files path in _Config->Help & Info_, look for *SC Log Dir*.
 
 *Note: Synology users can use WinSCP to gain access/browse to the root where the SickChill log is located: `/volume1/@appstore/sickchill/var/Logs/sickchill.log`*  
 
@@ -166,9 +166,10 @@ It's probably missing the `origin`. If so, shutdown SickChill and add it. Then r
 `git pull -f master returned : fatal: 'master' does not appear to be a git repository`  
 
 ## ENABLE DEBUG FOR LOGS  
-1. Open SR interface  
+1. Open SC interface  
 2. Menu General Settings > Advanced Settings  
-3. Enable 'Enable debug'  
+3. Enable 'Enable debug'
+4. Restart SC  
 
 Synology & QNAP users can use [WinSCP](https://winscp.net/eng/download.php) to access/browse SSH to extract the full SickChill log. For example: /volume1/@appstore/sickchill/var/Logs/sickchill.log
 
@@ -237,17 +238,17 @@ A network time zone warning will look like this:
 
 When you come across such a warning you can add the tv channel and time zone to the [network_timezones.txt](https://github.com/SickChill/sickchill.github.io/blob/master/sb_network_timezones/network_timezones.txt) here.
 
-## Unable to sent torrent to Synology Download station.
+## Unable to send torrent to Synology Download station.
 
 SickChill supports Synology's Download Station, but some users can run into problems setting it up correctly.  
 One of those is: `WARNING SEARCHQUEUE-BACKLOG-281620 :: [9149089] DownloadStation: Unable to send Torrent `  
 
 There are a few things you should check if this happens.  
-First, check it the connection test works in the search settings. If that does work then the authentication with DSM is Ok. Then check the following. :  
+First, check if the connection test works in the search settings. If that does work then the authentication with DSM is Ok. Then check the following. :  
 
-* If it's a new DSM account then you first need to log in with the account to set a default download folder in DownloadStation.
+* If it's a new DSM account you need to log into DownloadStation with the account first and set a default download folder.
 * Does it work with an administrator account.?
-* If it's a custom created folder then set share (folder) permissions in the sc-media & sc-download user-groups.
+* If it's a custom created folder then set share (folder) permissions in the sc-sickchill & sc-download (DSM6 only) user-groups.
 * If using DSM 6 than remove `/volume1/` from the [path](https://github.com/SickChill/SickChill/issues/610#issuecomment-181091059 ) in the search settings. 
 
 When all fails then you could also use the black-hole method as a work around. SickChill will store the nzb/torrent in a folder of your choosing.
@@ -273,9 +274,9 @@ Sadly not much can be done. But a few things you can try are:
 On Linux those Unicode errors generally only happen when you haven't set your locale correctly. Make sure its UTF-8.
 
 
-## How to switch to an older sickchill version?
+## How to switch to an older SickChill version?
 
-It's possible to switch between different versions of sickchill.
+It's possible to switch between different versions of SickChill.
 This can be handy for troubleshooting, or if your device has problems with the latest versions.
 For this, you can use the git checkout command. For example:
 
