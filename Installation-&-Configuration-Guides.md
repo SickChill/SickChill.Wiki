@@ -27,7 +27,8 @@ New to SickChill? Then the below guides will help you with the setup, and discov
 --------------------
 ### Installation Guides
 
-SickChill can be installed on many different systems. Below you will find guides for many of those.
+SickChill can be installed on many different systems. Below you will find guides for many of those.  
+Read the IMPORTANT NOTE below before following any guides `SickChill Repository URL`
 
 ###### Windows
 * https://github.com/SickChill/SickChill/wiki/SickChill-Windows-Installer
