@@ -10,5 +10,5 @@ These documents are a work-in-progress. If you'd like to contribute, please get 
  
 #### Important links
 * [Bug reports](https://github.com/SickChill/SickChill/issues)  
-* [Feature requests](http://feathub.com/SickChill/SickChill)  
+* [Discussions / Feature requests](https://github.com/SickChill/SickChill/discussions)  
 * [Donations](https://github.com/SickChill/SickChill/wiki/Donations)  
