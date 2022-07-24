@@ -8,18 +8,16 @@ The time it takes to become available depends on your DSM and internet connectio
 Look in the `discussions` and `issues`, both open and closed before raising an **issue**.  
 Please include which version, DSM **6** or DSM **7**, along with as much other information you can if you raise an **issue**.  
 
-If SickChill doesn't install from **package center** you will need to **ssh** into your DSM and look at the installation log at `/var/logs/packages/sichchill.log` to see what went wrong, include it if you raise an **issue**. This is a differnent log file to the **SC** log and is the same info you'd see if you run from `ssh` terminal. 
-
-DSM 6 - all files are under `/volumeX/@appstore/sickchill` with data in `/volumeX/@appstore/sickchill/var/data`  
-DSM 7 - splits files under two folders `/volumeX/@appstore/sickchill` and data in `/volumeX/@appdata/sickchill/data`  
-`X` - the volume number where you installed SickChill.  
+If SickChill doesn't install from **package center** you will need to **ssh** into your DSM and look at the installation log at `/var/logs/packages/sichchill.log` to see what went wrong, include it if you raise an **issue**. This is a differnent log file to the **SC** log under `data/logs` and is the same info you'd see if you run from `ssh` terminal. 
 
 ### *Where are the **SC** files?*  
+SC: `/volume1/@appstore/sickchill`
 Env: `/volume1/@appstore/sickchill/env/`  
 Python3: `/volume1/@appstore/sickchill/env/bin/python3`  
 Python packages: `/volume1/@appstore/sickchill/env/lib/python3.8/site-packages/` [Py 3.8]  
 DSM6 data: `/volume1/@appstore/sickchill/var/data/`  
 DSM7 data: `/volume1/@appdata/sickchill/data/`  
+`volume1` - depends on the volume you installed SickChill.  
 
 ### How to Run **SC** form SSH terminal
 First open ssh terminal and switch to `sc-sichchill` user by
