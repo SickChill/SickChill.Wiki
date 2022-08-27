@@ -22,7 +22,7 @@ New to SickChill? Then the below guides will help you with the setup, and discov
 ###### How to migrate Shows library from SickBeard to SickChill?
 * http://www.htpcbeginner.com/sickbeard-to-sickrage-migration/
 
-(Note, Dont use the old config.ini and sickbeard.db to prevent errors.!)
+(Note, Don't use the old config.ini and sickchill.db to prevent errors.!)
 
 --------------------
 ### Installation Guides
