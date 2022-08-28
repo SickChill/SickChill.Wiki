@@ -16,3 +16,8 @@
 ## Anime  
 ![PostProcEpName](https://user-images.githubusercontent.com/10173496/187035158-0c2e7d9d-0a84-4079-a667-413d7133a1b1.png)
 ![PostProcMetaData](https://user-images.githubusercontent.com/10173496/187035159-6a9c2d12-afdc-4e4a-8b19-b351355ebf7f.png)
+
+![ShowMain](https://user-images.githubusercontent.com/10173496/187061607-3efb9cf8-7130-41ee-9cfe-fe4e06d401c7.png)
+![ShowFormat](https://user-images.githubusercontent.com/10173496/187061608-eb14979b-0add-4993-8582-fa192c3eff3d.png)
+![ShowAdvanced](https://user-images.githubusercontent.com/10173496/187061610-60a7be77-62db-4c9b-8808-18dd34ba05d8.png)
+![ShowCustomize](https://user-images.githubusercontent.com/10173496/187061611-90b2d56b-3a13-40fa-83c9-596018295208.png)
