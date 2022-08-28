@@ -22,6 +22,7 @@
 ![ShowAdvanced](https://user-images.githubusercontent.com/10173496/187061610-60a7be77-62db-4c9b-8808-18dd34ba05d8.png)
 ![ShowCustomize](https://user-images.githubusercontent.com/10173496/187061790-31819b9e-4c4d-4046-aa3c-a702c6df49be.png)
 
-![SynoPackages](https://user-images.githubusercontent.com/10173496/187065289-b2671e38-6d74-4eb2-a712-1fff90036b2e.png)
+![SynoPackages](https://user-images.githubusercontent.com/10173496/187065416-d81b51b8-b49e-4fa1-9564-c67edc9c4eea.png)
+
 
 
