@@ -20,4 +20,6 @@
 ![ShowMain](https://user-images.githubusercontent.com/10173496/187061607-3efb9cf8-7130-41ee-9cfe-fe4e06d401c7.png)
 ![ShowFormat](https://user-images.githubusercontent.com/10173496/187061608-eb14979b-0add-4993-8582-fa192c3eff3d.png)
 ![ShowAdvanced](https://user-images.githubusercontent.com/10173496/187061610-60a7be77-62db-4c9b-8808-18dd34ba05d8.png)
-![](file:///home/stephenr/Documents/HPShareMP/ShowCustomize.png)
+![ShowCustomize](https://user-images.githubusercontent.com/10173496/187061790-31819b9e-4c4d-4046-aa3c-a702c6df49be.png)
+
+
