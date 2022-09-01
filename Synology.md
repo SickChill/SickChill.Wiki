@@ -34,7 +34,7 @@ DSM7:
     /volume1/@appstore/sickchill/env/bin/python3 /volume1/@appstore/sickchill/share/SickChill/SickChill.py --config /volume1/@appdata/sickchill/data/config.ini --datadir /volume1/@appdata/sickchill/data
 
 ### How to install / update packages
-   1. `sudo -u sc-sickchill /bin/bas`  
+   1. `sudo -u sc-sickchill /bin/bash`  
    2. `cd /volume1/@appstore/sickchill/env/lib/python3.8/site-packages/`  
    3. `/volume1/@appstore/sickchill/env/bin/python3 -m pip install "XXX"`  
 	^XXX^ options and packages.
