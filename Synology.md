@@ -22,7 +22,7 @@ DSM7 data: `/volume1/@appdata/sickchill/data/`
 ### How to Run **SC** form SSH terminal
 First open ssh terminal and switch to `sc-sichchill` user by
 
-    sudo -u sc-sickchill /bin/bas
+    sudo -u sc-sickchill /bin/bash
 
 Then depending on your DSM version use the appropriate string to Run **SC**.  
 DSM6:
