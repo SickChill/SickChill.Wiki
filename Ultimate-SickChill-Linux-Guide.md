@@ -1,6 +1,6 @@
 ### The Ultimate SickChill Linux Guide
 
-This guide will detail setting up SickChill on a Linux machine, along with all the bells and whistles. This ultimate guide was written based on a real-world setup, and, may or may not be what your end desire is, but it should be generalized enough to help you on your quest for the solution that fits your needs perfectly.
+This guide will detail setting up SickChill on a Linux machine, along with all the bells and whistles. This ultimate guide was written based on a real-world setup, and, may or may not be what your end desire is, but it should be generalized enough to help you on your quest for the solution that fits your needs perfectly.  
 
 ###### Specific Sections:
 * Installation
