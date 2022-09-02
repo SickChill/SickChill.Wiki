@@ -179,7 +179,7 @@ Synology & QNAP users can use [WinSCP](https://winscp.net/eng/download.php) to a
 Luckily it's very easy, but the method depends a little on what device you are running SickChill.
 The quickest way is to switch with a few simple Git commands, which is explained below: 
 
-First, make a backup from within SickChill, or manually backup `config.ini` & `sickbeard.db`.
+First, make a backup from within SickChill, or manually backup `config.ini` & `sickchill.db`.
 
 Note: You need to run the below commands in your SickChill folder. And make sure you run the commands with the same User as you run SickChill with, or permission problems may occur.
 
@@ -200,8 +200,8 @@ If you installed SickChill with an installer then check the [installation packag
 Synology users can find a How-to [here](https://github.com/SickChill/SickChill/wiki/Switching-your-Synology's-SickChill-to-the-new-repository). And for Windows users making a backup, and reinstalling with the latest [Windows installer](https://github.com/VinceVal/SickChillInstaller/releases/latest) is advised.  
 More info on packages/installers you can find [here](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages)
 
-Note: As of February 2016 the old repo has bumped the database version (sickbeard.db) from v42 to v44 without any changes. Just to frustrate/discourage users from switching. It still works fine, but you will get a warning during startup that it's outdated. If you are annoyed with the warning message and are familiar with SQL then you can run the below commands.:  
-`sqlite3 sickbeard.db 'UPDATE db_version SET db_version=42, db_minor_version=1' `  
+Note: As of February 2016 the old repo has bumped the database version (sickchill.db) from v42 to v44 without any changes. Just to frustrate/discourage users from switching. It still works fine, but you will get a warning during startup that it's outdated. If you are annoyed with the warning message and are familiar with SQL then you can run the below commands.:  
+`sqlite3 sickchill.db 'UPDATE db_version SET db_version=42, db_minor_version=1' `  
 (Or use any other preferred tool to set the db_version to 42.)  
 And off-course you can always build a new database using [Meta-data](https://github.com/SickChill/SickChill/wiki/MetaData)  
 

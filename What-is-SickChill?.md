@@ -48,7 +48,7 @@ In case the [Wiki](https://github.com/SickChill/SickChill/wiki) doesn't have the
 We are on freenode in #sickchill. [WebIRC kiwiirc.com](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickchill)
 
 #### Bugs/Issues
-In case you have found a bug and verified that it indeed is a bug, than please report it to our [issue tracker](https://github.com/SickChill/SickChill) so that the Developers can investigate.  
+In case you have found a bug and verified that it indeed is a bug, then please report it to our [issue tracker](https://github.com/SickChill/SickChill) so that the Developers can investigate.  
 Note, make sure you follow the [guidelines](https://github.com/SickChill/SickChill#submitting-a-bugissue-ticket) for posting a bug.  
 
 ---
