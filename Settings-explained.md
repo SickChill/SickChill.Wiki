@@ -14,6 +14,7 @@ As you can see below SickChill supports a massive amount of customization settin
 ## Help & Info
 
 ![HelpInfo](https://user-images.githubusercontent.com/10173496/187035138-514af284-1315-45f4-b66a-f41151cb7a96.png)
+
 * `SickChill Info:`  
 This show the exact version of SickChill you are using. SickChill gets updated with so called Commits (code updates). And by knowing the last Commit your particular SickChill is running, you can tell if you missed updates along with Python, SSL, and OS to help you or the Developers trouble shoot a problem you have.  
 * `Python Version:`  
@@ -37,6 +38,7 @@ Shows the location of the Python executable.
 * `Main Script:`  
 Shows the location of the main sickchill.py used to start SickChill.  
 * `Website, Wiki, Source, IRC Chat, Discord, Slack, Telegram:`  
+
 Key resource links should you wish to chat or fix something that's gone wrong.
 
 
@@ -108,11 +110,11 @@ When sorting the show list on name, you can choose to remove "The", "A", "An" fr
 Set the range in days of the missed episodes in the Coming Episode page  
 * `Display fuzzy dates:`  
 move absolute dates into tooltips and display e.g. "Last Thu", "On Tue"  
-* `Trim zero padding:`  
+`Trim zero padding`  
 Remove leading zero "0" on hours and date of month.  
-* `Date style:`  
+`Date style:`  
 Lets you chose the Date style for how a date should be shown.  yyyy-mm-dd thursday-mm-yy etc.  
-* `Time style:`  
+`Time style:`  
 Use AM/PM time or 24hr.  
 * `Timezone:`  
 Lets you set the timezone. Display dates and times in either your timezone or the shows network timezone  
