@@ -30,14 +30,14 @@ New to SickChill? Then the below guides will help you with the setup, and discov
 SickChill can be installed on many different systems. Below you will find guides for many of those.  
 Read the IMPORTANT NOTE below before following any guides `SickChill Repository URL`
 
-###### Windows
+###### Windowscryptography
 * https://github.com/SickChill/SickChill/wiki/SickChill-Windows-Installer
 
   (Manual installation guides for Windows can be found [here](https://github.com/SickChill/SickChill/wiki/SickChill-Windows-Installer#manual-installation-guides-for-windows).)
 
 ###### Synology:
 
-* (DSM 6 & 7) Use the [Synocommunity](https://synocommunity.com/#easy-install) Repo for your Synology.
+* (DSM 6 & 7) Use the [SynoCommunity](https://synocommunity.com/#easy-install) Repo for your Synology.
 
 ###### Mac:
 * http://www.htpcguides.com/install-sickrage-mac-osx-usenet-torrent-tv/  

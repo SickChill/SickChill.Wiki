@@ -40,8 +40,10 @@ _(as of December 2014)_<br/>
 -[Mobile](http://imgur.com/a/WPyG6)
 
 #### Dependencies  
-To run SickChill we recommend [Python 2.7.10 or 11](https://www.python.org/downloads/release/python-2711/), and a minimum of [OpenSSL v.1.01e](https://www.openssl.org/source/). [GIT](https://git-scm.com/) is required for SickChill's update process. 
-The minimum requirements are Python 2.7.x with the latest modules of [PyOpenSSL](https://pypi.python.org/pypi/pyOpenSSL), and [cryptography](https://pypi.python.org/pypi/cryptography). (Cheetah isn't required anymore.)  
+To run SickChill we recommend [Python 3.8 or higher](https://www.python.org/downloads/), Python 3.6 as minimum. Depending on your install [GIT](https://git-scm.com/) may be required for SickChill's update process.  
+The minimum requirements are Python 3.6 with the latest modules of 
+[Pip](https://pypi.org/project/pip), [PyOpenSSL](https://pypi.python.org/pypi/pyOpenSSL), and [cryptography](https://pypi.python.org/pypi/cryptography).  
+SickChill will load many other packages from [Pypi](https://pypi.org/) too.  
 
 #### Support
 In case the [Wiki](https://github.com/SickChill/SickChill/wiki) doesn't have the answer to your question, you could check us out on irc.

@@ -1,25 +1,25 @@
-* [Where are the LOG files located?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#where-are-the-log-files-located)
-* [How do I enable debug logs to get more detailed information in my logs?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#how-do-i-enable-debug-logs-to-get-more-detailed-information-in-my-logs)
-* [Does SickChill support NAS devices?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#does-sickchill-support-nas-devices)
-* [Windows Shares and Mapped Drives](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#windows-shares-and-mapped-drives)
-* [(scene exceptions) Releases have a different show name than in SickChill, and are not snatched?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#scene-exceptions-releases-have-a-different-show-name-than-in-sickchill-and-are-not-snatched)
-* [Error while searching ..., skipping: 'NoneType' object is not iterable](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#error-while-searching--skipping-nonetype-object-is-not-iterable)
-* [Reverse Proxy is not working.](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#reverse-proxy-is-not-working)
-* [I have problems with special characters (é etc.) What can I do?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#i-have-problems-with-special-characters-%C3%A9-etc-what-can-i-do)
-* [I have problems updating or my installation got corrupt. What now?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#i-have-problems-updating-or-my-installation-got-corrupt-what-now)
-* [I'm currently using the SABtoSickbeard script with SABNZB, however failed downloads dont work.](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#im-currently-using-the-sabtosickbeard-script-with-sabnzb-however-failed-downloads-dont-work)
-* [Error: Rar Not Supported: No suitable RAR unpacker installed](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#error-rar-not-supported-no-suitable-rar-unpacker-installed)
-* [I'm getting SSL errors what now?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#im-getting-ssl-errors-what-now)
-* [Can I support SickChill? How?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#can-i-support-sickchill-and-how)
-* [What does the Episode Status mean and what does it do?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#what-does-the-episode-status-mean-and-what-does-it-do)
-* [One of my shows has a missing Network logo.](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#one-of-my-shows-has-a-missing-network-logo)
-* [What is post processing?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#what-is-post-processing)
-* [How do the quality settings for a show work?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#how-do-the-quality-settings-for-a-show-work)
-* [Newly aired shows are not downloading and set to skipped/ignored?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes#newly-aired-shows-are-not-downloading-and-set-to-skippedignored) 
+* [Where are the LOG files located?](#where-are-the-log-files-located)
+* [How do I enable debug logs to get more detailed information in my logs?](#how-do-i-enable-debug-logs-to-get-more-detailed-information-in-my-logs)
+* [Does SickChill support NAS devices?](#does-sickchill-support-nas-devices)
+* [Windows Shares and Mapped Drives](#windows-shares-and-mapped-drives)
+* [(scene exceptions) Releases have a different show name than in SickChill, and are not snatched?](#scene-exceptions-releases-have-a-different-show-name-than-in-sickchill-and-are-not-snatched)
+* [Error while searching ..., skipping: 'NoneType' object is not iterable](#error-while-searching--skipping-nonetype-object-is-not-iterable)
+* [Reverse Proxy is not working.](#reverse-proxy-is-not-working)
+* [I have problems with special characters (é etc.) What can I do?](#i-have-problems-with-special-characters)
+* [I have problems updating or my installation got corrupt. What now?](#i-have-problems-updating-or-my-installation-got-corrupt-what-now)
+* [I'm currently using the SABtoSickbeard script with SABNZB, however failed downloads don't work.](#im-currently-using-the-sabtosickbeard-script-with-sabnzb-however-failed-downloads-dont-work)
+* [Error: Rar Not Supported: No suitable RAR unpacker installed](#error-rar-not-supported-no-suitable-rar-unpacker-installed)
+* [I'm getting SSL errors what now?](#im-getting-ssl-errors-what-now)
+* [Can I support SickChill? How?](#can-i-support-sickchill-and-how)
+* [What does the Episode Status mean and what does it do?](#what-does-the-episode-status-mean-and-what-does-it-do)
+* [One of my shows has a missing Network logo.](#one-of-my-shows-has-a-missing-network-logo)
+* [What is post processing?](#what-is-post-processing)
+* [How do the quality settings for a show work?](#how-do-the-quality-settings-for-a-show-work)
+* [Newly aired shows are not downloading and set to skipped/ignored?](#newly-aired-shows-are-not-downloading-and-set-to-skippedignored) 
 * [Update problems? Try this](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#update-problems-try-this)
 * [Enable Debug For Logs](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#enable-debug-for-logs)
 * [How to switch to the new Repo?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#how-to-switch-to-the-new-repo)
-* [How to Disable and Remove SickChill autostart (systemctl) ?](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes/_edit#how-to-disable-and-remove-sickchill-from-autostart-systemctl-)
+* [How to Disable and Remove SickChill autostart (systemctl) ?](/#how-to-disable-and-remove-sickchill-from-autostart-systemctl-)
 * [Post-processing shows a negative time](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#post-processing-shows-a-negative-time)
 * [What is a network time zone warning?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#what-is-a-network-time-zone-warning)  
 * [Unable to sent torrent to synology download station](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#unable-to-sent-torrent-to-synology-download-station)  
@@ -68,8 +68,8 @@ Make the following changes to your config.ini file:
 * _localhost_ip=[your LAN IP]_
 
 
-## I have problems with special characters (é etc.) What can I do?  
-It's always a good idea to make sure you're using UTF-8 locale to avoid unicode decoding issues so please perform the following commands if you're using a unix operating system.
+## I have problems with special characters.  
+I have (é etc.) What can I do?  It's always a good idea to make sure you're using UTF-8 locale to avoid unicode decoding issues so please perform the following commands if you're using a unix operating system.
 
 Add the following lines of code to your ~/.bashrc and ~/.profile files:  
 
@@ -99,7 +99,7 @@ Switch to the [NZBtoMedia](https://github.com/SickChill/SickChill/wiki/NZBtoMedi
 
 
 ## Error: Rar Not Supported: No suitable RAR unpacker installed
-SickChill has the ability to unpack RAR-archived releases but requires the external `unrar` command on Linux, Mac, FreeBSD and other Unix OS. In Windows, it use unrar.dll(x86) or unrar64.dll(x86_64) which are included in SickChill.
+SickChill has the ability to unpack RAR-archived releases but requires the external `unrar` command on Linux, Mac, FreeBSD and other Unix OS. In Windows, it uses unrar.dll(x86) or unrar64.dll(x86_64) which are included in SickChill.
 
 If you get this error, you need to make sure unrar is installed and available into PATH.
 
@@ -118,10 +118,10 @@ To install `unrar`:
   * `port install unrar`
 
 ## I'm getting SSL errors what now?
-A SSL error looks generally something like this: `_ssl.c:499: error:14077438:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert internal error`  
+An SSL error looks generally something like this: `_ssl.c:499: error:14077438:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert internal error`  
 They are mainly the cause of not having Python installed correctly. Python needs to have the pyOpenSSL & cryptography modules installed to handle HTTPS connections. For more information see the [SSL Errors](https://github.com/SickChill/SickChill/wiki/SSL-Errors) section. Note, [QNAP](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages#qnap) users need to have a recent SickChill package installed.
 
-## Can I support SickChill? How?
+## Can I support SickChill and How?
 Yes, absolutely! We are always looking for help. If you are familiar with Python, HTML, Java or other programming languages, please give a shout. Also, if you have experience moderating and want to help users by solving/answering their basic questions regarding SickChill, feel free to help on the SickChill [Issue Tracker](https://github.com/SickChill/SickChill) and [IRC Channel](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickchill-issues). Last, there is the option to [Donate](https://github.com/SickChill/SickChill/wiki/Donations). That helps us pay for the upkeep/maintaining cost of the SickChill project.  
 
 ## What does the Episode Status mean and what does it do?
@@ -179,7 +179,7 @@ Synology & QNAP users can use [WinSCP](https://winscp.net/eng/download.php) to a
 Luckily it's very easy, but the method depends a little on what device you are running SickChill.
 The quickest way is to switch with a few simple Git commands, which is explained below: 
 
-First, make a backup from within SickChill, or manually backup `config.ini` & `sickchill.db`.
+First, make a backup from within SickChill, or manually backup `config.ini` & `sickchill.db` (`sick*.db`).
 
 Note: You need to run the below commands in your SickChill folder. And make sure you run the commands with the same User as you run SickChill with, or permission problems may occur.
 
@@ -197,7 +197,7 @@ git reset --hard origin/master
 * Do another restart of SickChill so all changes can take effect
 
 If you installed SickChill with an installer then check the [installation packages](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages) wiki for a new version. Then simply reinstall with that new installer, and restore the backup. The above procedure isn't necessary then. But it also works.  
-Synology users can find a How-to [here](https://github.com/SickChill/SickChill/wiki/Switching-your-Synology's-SickChill-to-the-new-repository). And for Windows users making a backup, and reinstalling with the latest [Windows installer](https://github.com/VinceVal/SickChillInstaller/releases/latest) is advised.  
+Synology users can find a [How-to here](https://github.com/SickChill/SickChill/wiki/Switching-your-Synology-to-SickChill). And for Windows users making a backup, and reinstalling with the latest [Windows installer](https://github.com/VinceVal/SickChillInstaller/releases/latest) is advised.  
 More info on packages/installers you can find [here](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages)
 
 Note: As of February 2016 the old repo has bumped the database version (sickchill.db) from v42 to v44 without any changes. Just to frustrate/discourage users from switching. It still works fine, but you will get a warning during startup that it's outdated. If you are annoyed with the warning message and are familiar with SQL then you can run the below commands.:  
@@ -251,7 +251,7 @@ First, check if the connection test works in the search settings. If that does w
 * If it's a custom created folder then set share (folder) permissions in the sc-sickchill & sc-download (DSM6 only) user-groups.
 * If using DSM 6 than remove `/volume1/` from the [path](https://github.com/SickChill/SickChill/issues/610#issuecomment-181091059 ) in the search settings. 
 
-When all fails then you could also use the black-hole method as a work around. SickChill will store the nzb/torrent in a folder of your choosing.
+When all else fails then you could also use the black-hole method as a workaround. SickChill will store the nzb/torrent in a folder of your choosing.
 Then simply set DS to monitor that folder for nzbs and torrents. As soon as one is found the download will start. 
 
 ## Timeout when adding a show on Freenas

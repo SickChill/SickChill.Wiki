@@ -1,6 +1,6 @@
 ----------
-[ [Help & Info] ](https://github.com/SickChill/SickChill/wiki/Settings-explained#help--info) [ [General] ](https://github.com/SickChill/SickChill/wiki/Settings-explained#general) [ [ Backup ] ](https://github.com/SickChill/SickChill/wiki/Settings-explained#backup) [ [Search settings] ](https://github.com/SickChill/SickChill/wiki/Settings-explained#search-settings) [ [Search providers] ](https://github.com/SickChill/SickChill/wiki/Settings-explained#search-providers) 
-[ [Subtitles search] ](https://github.com/SickChill/SickChill/wiki/Settings-explained#subtitles-search) [ [Post processing] ](https://github.com/SickChill/SickChill/wiki/Settings-explained#post-processing)  [ [ Notifications] ](https://github.com/SickChill/SickChill/wiki/Settings-explained#notifications) [ [Anime] ](https://github.com/SickChill/SickChill/wiki/Settings-explained#anime)  
+[ [Help & Info] ](#help--info) [ [General] ](#general) [ [ Backup ] ](#backup) [ [Search settings] ](#search-settings) [ [Search providers] ](#search-providers) 
+[ [Subtitles search] ](#subtitles-search) [ [Post processing] ](#post-processing)  [ [ Notifications] ](#notifications) [ [Anime] ](#anime)  
 
 -----------
 
@@ -14,29 +14,31 @@ As you can see below SickChill supports a massive amount of customization settin
 ## Help & Info
 
 ![HelpInfo](https://user-images.githubusercontent.com/10173496/187035138-514af284-1315-45f4-b66a-f41151cb7a96.png)
-`SickChill Info:`  
+
+* `SickChill Info:`  
 This show the exact version of SickChill you are using. SickChill gets updated with so called Commits (code updates). And by knowing the last Commit your particular SickChill is running, you can tell if you missed updates along with Python, SSL, and OS to help you or the Developers trouble shoot a problem you have.  
-`Python Version:`  
+* `Python Version:`  
 This shows your Python version. SickChill needs a minimal version of 3.6 but the more recent the better. Also make sure pyopenssl and cryptography modules are included in your Python version.  
-`Locale:`  
+* `Locale:`  
 This shows your Locale (language) setting that your system uses. Its strongly advised that u use UTF-8 to prevent any problems with special characters.  
-`User:`  
+* `User:`  
 This shows the user on your system that is running SickChill.  
-`Program Folder:`  
+* `Program Folder:`  
 Shows the location of your SickChill program folder.
-`Config File:`  
+* `Config File:`  
 Shows the location of your config.ini file. It includes all your settings for SickChill.
-`Database Files:`  
+* `Database Files:`  
 Shows the location of your database files. It includes all your shows for SickChill.  
-`Cache Folder:`  
+* `Cache Folder:`  
 Shows the location of your cache folder. It includes all your search data, banners and other temporary files for SickChill.  
-`Log Folder:`  
+* `Log Folder:`  
 Shows the location of your sickchill.log file. It includes all the events, warnings and errors. If you ever experience problems or issues, the log will be your best friend.    
-`Executable:`  
+* `Executable:`  
 Shows the location of the Python executable.  
-`Main Script:`  
+* `Main Script:`  
 Shows the location of the main sickchill.py used to start SickChill.  
-`Website, Wiki, Source, IRC Chat, Discord, Slack, Telegram`  
+* `Website, Wiki, Source, IRC Chat, Discord, Slack, Telegram:`  
+
 Key resource links should you wish to chat or fix something that's gone wrong.
 
 
@@ -46,67 +48,67 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 
 ![misc](https://user-images.githubusercontent.com/10173496/187035156-ed0f418c-4437-4ebc-b964-f0f9ee97dded.png)
 
-`Default Indexer Language`  
+* `Default Indexer Language:`  
 With this setting you set the default language that needs to be used for your shows and metadata. Note: not for subtitles.!  
-`Launch browser`  
+* `Launch browser:`  
 Automatically opens the SickChill web page on startup.  
-`Initial page`  
+* `Initial page:`  
 Select the default page that SickChill needs to open when you access the website.  
-`Large Screen Margins`  
+* `Large Screen Margins:`  
 Have display side margins or no margins on large screens.  
-`Choose hour to update shows`  
+* `Choose hour to update shows:`  
 You can manually set a time at witch SickChill updates/refreshes the shows information from the indexers.  (air dates etc.) Best to use a time at night when the device is idle.  
-`Send to trash for actions`  
+* `Send to trash for actions:`  
 This option lets SickChill move the files to a recycle bin instead of the normal permanent delete. 
 Note: doesn't work on all Operating Systems. [(NSSM / WinService workaround)](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)  
-`Number of Log files saved`  
+* `Number of Log files saved:`  
 Lets you set he number of log files that are stored before deleted.  
-`Size of Log files saved`  
+* `Size of Log files saved:`  
 Lets you set the size of the individual log files. Set the size to your individual needs.  
-`Use initial indexer set to`  
+* `Use initial indexer set to:`  
 Lets you set the default indexer (like thetvdb)  when adding a new show.  
-`Timeout show indexer at`  
+* `Timeout show indexer at:`  
 Lets you set a custom timeout value. Don't change unless asked or the indexer is very slow to respond to your request.  
-`Show root directories`  
+* `Show root directories:`  
 Shows an overview of your added root folder(s). These are the folders where your shows are located.  
 You can add, edit, delete and set a default folder.  
 
 #### Updates 
  
-`Check software updates`  
+* `Check software updates:`  
 Lets SickChill check if there are new updates on startup, and at a specific time interval. It updates are available you will see a notification on top of your SickChill page. There you can update and check what changes where made.  
-`Automatically update`  
+* `Automatically update:`  
 Automatically approves updates and installs them.  
-`Check the server every*`  
+* `Check the server every*:`  
 Lets you set the time interval for update checks. Once a day is advised to make sure you get the latest bug-fixes.  
-`Notify on software update`  
+* `Notify on software update:`  
 Let SickChill sent a notification for the update to all notifiers that you have configured/enabled.  
 
 #### User Interface (Options for visual appearance.)
 
 ![interface-1](https://user-images.githubusercontent.com/10173496/187035140-7d16e9c7-ce58-4452-9bd6-4e06037b03bf.png)
 
-`Interface Language`  
+* `Interface Language:`  
 Language selection, system language or other.  
-`Display theme`  
+* `Display theme:`  
 Currently there are 2 themes to chose from. The Dark and Light theme. Chose the theme of your preference.  
-`Interface Language`  
+* `Interface Language:`  
 Language selection, system as default.  
-`Use a background image`  
+* `Use a background image:`  
 Set your own background.  
-`Show fanart in the background, Fanart transparency`  
+* `Show fanart in the background, Fanart transparency:`  
 Show fanart of shows in their background and their transparency.  
-`Use a custom stylesheet file`  
+* `Use a custom stylesheet file:`  
 Define your own stylesheet for SickChill pages.  
-`Show all series`  
+* `Show all series:`  
 Show all episodes or only latest/last season episodes list.  
-`Days to wait before updating ended shows`  
+* `Days to wait before updating ended shows:`  
 Number of days before show is marked as ended.??  
-`Sort with "The", "A", "An"`  
+* `Sort with "The", "A", "An":`  
 When sorting the show list on name, you can choose to remove "The", "A", "An" from the name. Personal preference.  
-`Missed episodes range`  
+* `Missed episodes range:`  
 Set the range in days of the missed episodes in the Coming Episode page  
-`Display fuzzy dates`  
+* `Display fuzzy dates:`  
 move absolute dates into tooltips and display e.g. "Last Thu", "On Tue"  
 `Trim zero padding`  
 Remove leading zero "0" on hours and date of month.  
@@ -114,71 +116,71 @@ Remove leading zero "0" on hours and date of month.
 Lets you chose the Date style for how a date should be shown.  yyyy-mm-dd thursday-mm-yy etc.  
 `Time style:`  
 Use AM/PM time or 24hr.  
-`Timezone:`  
+* `Timezone:`  
 Lets you set the timezone. Display dates and times in either your timezone or the shows network timezone  
-`Download url`  
+* `Download url:`  
 [See here](https://github.com/SickChill/SickChill/wiki/How-to-use-Download-url)  
 
 
 #### Web Interface  
 
-`API key`  
+* `API key:`  
 The API key is used by external apps like download clients to communicate with SickChill. Generate a key and add it to your preferred app.  
-`HTTP logs`  
+* `HTTP logs:`  
 This enables logs from the internal Tornado web server. Let this be disabled unless ask to enable.  
-`HTTP username`  
+* `HTTP username:`  
 You can set a username and password when opening the SickChill website.  
-`HTTP password`  
+* `HTTP password:`  
 You can set a username and password when opening the SickChill website.  
-`HTTP port`  
+* `HTTP port:`  
 The port on witch SickChill accepts http connections. Make sure no other application uses this port.!  
-`Notify on login`  
+* `Notify on login:`  
 Get notified when a new login happens in webserver.  
-`Listen on IPv6`  
+* `Listen on IPv6:`  
 Enable ipv6 support and attempt binding to any available IPv6 address.  
-`Enable HTTPS`  
+* `Enable HTTPS:`  
 lets you enable HTTPS for secure connections.  
-`HTTPS certificate`  
+* `HTTPS certificate:`  
 file name or path to HTTPS certificate  
-`HTTPS key`  
+* `HTTPS key:`  
 file name or path to HTTPS key  
-`Reverse proxy headers`  
+* `Reverse proxy headers:`  
 ?  
 
 #### Advanced Settings
 
 ![advanced-settings](https://user-images.githubusercontent.com/10173496/187035142-e7199482-6b29-4e23-a1ea-835a824d434a.png)
 
-`CPU throttling:`  
+* `CPU throttling:`  
 Lets you control the CPU usage. Can be handy on low powered devices.Note : High is lower and Low is higher CPU use.  
-`Anonymous redirect`  
+* `Anonymous redirect:`  
 Lets you set backlink protection via anonymizer service when opening a link.  
-`Enable debug`  
+* `Enable debug:`  
 Lets you enable debug logs. This gives you more log information than normal. Essential requirement for troubleshooting if you encounter an error/bug.  
-`Verify SSL Certs`  
+* `Verify SSL Certs:`  
 This feature enables the verification of SSL certificates for HTTPS etc. This should only be disabled in case of SSL errors or for testing. But first check if you have installed python correctly with pyopenssl and cryptology.  
-`No Restart`  
+* `No Restart:`  
 Only shutdown when restarting SR. Only select this when you have external software restarting SC automatically when it stops (like FireDaemon)  
-`Encrypt passwords`  
+* `Encrypt passwords:`  
 Lets you encrypt passwords in your config.ini file. Make sure the password only contains ASCII characters.  
-`Unprotected calendar`  
+* `Unprotected calendar:`  
 By default the calendar is protected. This options disables the protection so that a third party app can access it. (like Google Calendar)  
-`Proxy host`  
+* `Proxy host:`  
 Let you set a Proxy to use with SickChill.  
-`Default deleted episode status:`  
+* `Default deleted episode status:`  
 Lets you set the default status of shows that have been deleted or have already been aired and not found in the folder.  
 
 #### GitHub  
 
-`Branch version:`  
+* `Branch version:`  
 This shows the SickChill versions you can select. Master branch is the default and the Develop branch is hidden, and can only be accessed if a GitHub account is added. Users should always use Master and only switch to Develop if asked or if they wish to assist in testing the latest edits.  
-`GitHub username`  
+* `GitHub username:`  
 Here you can add your GitHub username.  
-`GitHub password`  
+* `GitHub password:`  
 Here you can add your GitHub password.  
-`GitHub remote for branch`  
+* `GitHub remote for branch:`  
 default:origin. Access repo configured remotes (save then refresh browser)  
-`Git executable path`  
+* `Git executable path:`  
 only needed if OS is unable to locate git from env  
 
 ## Backup  
@@ -190,12 +192,12 @@ only needed if OS is unable to locate git from env
 
 ![backup](https://cloud.githubusercontent.com/assets/7928052/13013263/0ab50460-d1af-11e5-9830-849abfdeee7b.png)
 
-`Backup`  
+* `Backup:`  
 Lets you set the backup folder where SickChill saves your backup.
 
 ![restore](https://cloud.githubusercontent.com/assets/7928052/13013273/13bb6b6c-d1af-11e5-9ec5-c5de4ab44f4c.png)
 
-`Restore`  
+* `Restore:`  
 Lets you browse and select your backup file to be restored.  
 
 ## Search Settings  
@@ -206,33 +208,33 @@ Lets you browse and select your backup file to be restored.
 
 ![episode-search-1](https://user-images.githubusercontent.com/10173496/187035149-14ac5bc0-0f77-4a77-a990-804244912020.png)
 
-`Randomize Providers`  
+* `Randomize Providers:`  
 By default SickChill searches the provider list from top to the bottom. If you enable this setting, SickChill will randomize the search order.  
-`Download propers`  
+* `Download propers:`  
 Sometimes releases that are uploaded get "nuked" by the scene. This means there is something wrong with the file. Like it has freezes, no audio or other defects. Then a new file is released witch is called a Proper. If you enable this function SickChill will automatically search for propers of episodes you have already downloaded and snatch the proper if it finds one.  
-`Check propers every:`  
+* `Check propers every:`  
 Lets you set the frequency of when Propers are searched for.  
-`FlareSolverr URI:`  
+* `FlareSolverr URI:`  
 Lets you set the URL of your flaresolverr server (experimental).  
-`Backlog search day(s)`  
+* `Backlog search day(s):`  
 Lets you set the Backlog search frequency. Backlog is only used if episodes cant be found with the Daily search.  
-`Daily search frequency`  
+* `Daily search frequency:`  
 Lets you set the Daily search frequency. This is the main search for finding episodes. The default recommendation is 120 minutes. Don't go below 30 minutes!.  
-`Cache Retention`  
+* `Cache Retention:`  
 The number of days that cached results are stored. If you use NZB's than check what the retention of your Usenet server is and add the value in this field. This prevents SickChill from sending episode NZB's that are not on your Usenet server anymore. Most paid Usenet servers have a retention above 1000 days, but ISP servers generally offer much less like 31 days.  
-`Ignore words`  
+* `Ignore words:`  
 If SickChill comes across any of those words in the title of a search result, the result will be SKIPPED. Applies to all shows. USE WITH CAUTION!   
-`Prefer words`  
+* `Prefer words:`  
 SickChill can PREFER search results with these words in the title and in the order entered. Applies to all shows. USE WITH CAUTION!  
-`Require words`  
+* `Require words:`  
 SickChill SKIPS/IGNORES all search results that don't have those words in the title. Applies to all shows. USE WITH CAUTION!  
-`Allow high priority`  
+* `Allow high priority:`  
 This sets downloads of recently aired episodes to high priority. So those get priority over already aired episodes. Some download clients like SABnzb allow sending with high priority to prioritize downloads.  
-`Allow downloading HEVC x265 releases`  
+* `Allow downloading HEVC x265 releases:`  
 Allows downloading of HEVC x265 shows.   
-`Use Failed Downloads`  
+* `Use Failed Downloads:`  
 Lets you enable failed downloads.  This will also allow adding bad/failed torrents/nzb to the failed.db so that they aren't downloaded again.  
-`Backlog search for missing only`  
+* `Backlog search for missing only:`  
 This restricts backlog searches to missing episodes only, it also ignores episodes that are already downloaded and not a preferred quality.
 
 #### NZB Search  
@@ -240,23 +242,23 @@ This restricts backlog searches to missing episodes only, it also ignores episod
 ![nzb-search](https://user-images.githubusercontent.com/10173496/187035152-2673db01-2585-4244-ad4e-25925dae6f6f.png)
 ![nzbget](https://user-images.githubusercontent.com/10173496/187035150-c0d1e8c6-12c0-4994-ad68-1a65f02b9e94.png)
 
-`Search NZBs`  
+* `Search NZBs:`  
 Enable this setting if you plan to use NZB's and usenet to snatch your shows.  
-`Send .nzb files to:`  
+* `Send .nzb files to:`  
 Select you download client. Currently the directly supported NZB clients are SABnzbd and NZBget. However for all other clients you can use the blackhole method. With this method SickChill places the NZB in a folder of your choosing. Simply let your download client monitor that folder for new NZB files. And the download client does the rest. This makes SickChill compatible with almost every download client out there.  
-`SABnzbd server URL`  
+* `SABnzbd server URL:`  
 Add the URL where your SABnzbd client is located.  
-`SABnzbd username`  
+* `SABnzbd username:`  
 Add the username of SABnzbd.  
-`SABnzbd password`  
+* `SABnzbd password:`  
 Add the password of SABnzbd.  
-`SABnzbd API key`  
+* `SABnzbd API key:`  
 Add the API key of SABnzbd. This allows SickChill to send the nzb directly to SABnzbd. You can find the key in your SABnzb configuration.  
-`Use SABnzbd category`  
+* `Use SABnzbd category:`  
 Set the category that SABnzbd uses for tv shows. Default is TV.  
-`Use SABnzbd category for anime`  
+* `Use SABnzbd category for anime:`  
 Set the category that SABnzbd uses for anime shows. Default is anime.  
-`Use forced priority`  
+* `Use forced priority:`  
 enable to change priority from HIGH to FORCED. This allows NZBs to even start when SABnzbd is Paused.  
 
 #### Torrent Search  
@@ -265,17 +267,17 @@ enable to change priority from HIGH to FORCED. This allows NZBs to even start wh
 
 ![torrent-search](https://user-images.githubusercontent.com/10173496/187035154-f907a5b5-305a-48f4-ae84-46c876bdcd09.png)
 
-`Search torrents`  
+* `Search torrents:`  
 Enable this function to download yous shows with Torrents.  
-`Send .torrent files to:`  
+* `Send .torrent files to:`  
 This allows you to set the direct torrent download clients. Currently supported are. : uTorrent, Transmission, Deluge, Synology Download Station, rTorrent QBittorrent. Also the blackhole method is supported, so that almost every Torrent download client is supported.  
-`Synology DS host:port`  
+* `Synology DS host:port:`  
 Add the address and port of Synology Download Station.  
-`Synology DS username`  
+* `Synology DS username:`  
 The username of the Synology account. (best to use the admin account to prevent permission issues.)  
-`Synology DS password`  
+* `Synology DS password:`  
 The password of the Synology account.  
-`Downloaded files location`  
+* `Downloaded files location:`  
 Here you can set a manual download location. If blank the default Download Station folder is used.  
 
 ## Search Providers  
@@ -300,19 +302,19 @@ This sections allows you to enable/disable the providers you want to use and dra
 
 ![provider-options](https://cloud.githubusercontent.com/assets/7928052/13013420/ba4ef552-d1af-11e5-914c-8a1c9fe2056d.png)
 
-`Configure provider:`  
+* `Configure provider:`  
 Those the provider you want to modify. (only enabled providers are shown in the list.)  
-`URL:`  
+* `URL:`  
 The url of the provider.  
-`API key:`  
+* `API key:`  
 Add here the API key that the provider has supplied you with.  
-`Enable daily searches`  
+* `Enable daily searches:`  
 Do you want to enable daily searches for this provider.?  
-`Enable backlog searches`  
+* `Enable backlog searches:`  
 Do you want to enable backlog searches for this provider.?  
-`Season search fallback`  
+* `Season search fallback:`  
 Do you only want to search season packs with this provider.?  
-`Season search mode`  
+* `Season search mode:`  
 Do you only want to search episodes packs with this provider.?  
 
 #### Configure Custom Newznab Providers  
@@ -321,15 +323,15 @@ Do you only want to search episodes packs with this provider.?
 
 ![configure-custom-newznab-providers](https://cloud.githubusercontent.com/assets/7928052/13013477/f304da42-d1af-11e5-83fe-462702b4f567.png)
 
-`Select provider:`  
+* `Select provider:`  
 Here you can add a new custom newznab provider by selecting --add new provider-- or modify an already added custom provider.  
-`Provider name:`  
+* `Provider name:`  
 Here you can add the name of the provider. You can freely name it, but if you like to get a provider icon infront of the provider name than use naming like oznzb or oznzb.com as the icons are named this way.  
-`Site URL:`  
+* `Site URL:`  
 The providers URL. Try to use HTTPS for better security if the providers allows it, otherwise HTTP.  
-`API key:`  
+* `API key:`  
 Fill in your API key that your provider has provided you with.  
-`Newznab search categories:`  
+* `Newznab search categories:`  
 Here you can add the categories for your provider. For regular users the categories 5030 (SD) 5040 (HD) and when available 5010 (WEB-DL) are the most important onces. If you only download SD quality shows than only add the category 5030 (SD). No need to add 5040 (HD) & 5010 (WEB-DL) than. This makes searching way more efficient.  There is also a category 5000 (TV) however this contains all TV related shows like anime, foreign, sports, shows, documentary, etc. Lots of witch you probably don't need, and therefor not very efficient to search. In case you are using sports you need to add the category 5060 (Sport) and when you use Anime shows add the category 5070 (Anime).  
 Note, some NZB indexers use a different numbering scheme but you should be able to navigate your way through.  
 
@@ -339,15 +341,15 @@ Note, some NZB indexers use a different numbering scheme but you should be able 
 
 ![configure-custom-torrent-providers](https://cloud.githubusercontent.com/assets/7928052/13013479/f32ebb46-d1af-11e5-8022-932b2fcc1b96.png)
 
-`Select Provider:`  
+* `Select Provider:`  
 Lets you select and add a custom torrent provider.  
-`Provider name`  
+* `Provider name:`  
 Lets you set a name for the provider.  
-`RSS Url`  
+* `RSS Url:`  
 Set here the RSS URL that you have received from the provider.  
-`Cookies`  
+* `Cookies:`  
 Here you need to set the settings that are normally included in a cookie. Examples are user-name and password.  
-`search element`  
+* `search element:`  
 ?  
 
 ## Subtitles Search  
@@ -356,21 +358,21 @@ Here you need to set the settings that are normally included in a cookie. Exampl
 ![subtitles-search](https://cloud.githubusercontent.com/assets/7928052/13013478/f32b5848-d1af-11e5-8dba-3062af8f28d9.png)
 
 
-`Search Subtitles`  
+* `Search Subtitles:`  
 Enable if you want SickChill to search and download subtitles.  
-`Subtitle Languages`  
+* `Subtitle Languages:`  
 Add here the subtitle languages you like SickChill to search.  
-`Subtitle Directory`  
+* `Subtitle Directory:`  
 By default SickChill places the subtitles in your shows' folder. With this setting you can store them all in one folder.  
-`Subtitle Find Frequency`  
+* `Subtitle Find Frequency:`  
 Set how frequent SickChill should search for subtitles in hours.  
-`Subtitles History`  
+* `Subtitles History:`  
 Enable if you like to see an entry on the history page if a subtitle is downloaded.  
-`Subtitles Multi-Language`  
+* `Subtitles Multi-Language:`  
 Some media players don't support language codes behind the subtitles like Game of Thrones S01E01_EN.srt If that is the case disable this setting and the subtitles will be named without the _EN addition.  
-`Embedded Subtitles`  
+* `Embedded Subtitles:`  
 MKV episodes can have build-in subtitles. If you want to ignore those enable this setting so SickChill can search for subtitles itself.  
-`Extra Scripts`  
+* `Extra Scripts:`  
 This allows you to run a script after a subtitle was downloaded.  Can be useful if you want to insert the subtitle into an MKV file etc.  
 
 #### Subtitle Plugins  
@@ -390,50 +392,50 @@ This allows you to run a script after a subtitle was downloaded.  Can be useful 
 
 ![postprocessing-1](https://user-images.githubusercontent.com/10173496/187035157-147a74d2-4040-4097-8467-cc0a8795de4e.png)
 
-`Enable`  
+* `Enable:`  
 Select this to allow SC to do post processing.  
-`Post Processing Dir`  
+* `Post Processing Dir:`  
 This is the folder that SickChill monitors for newly downloaded files/episodes. Once a new file is found the post-processing starts to move the file to your shows folder and take any other actions that you have configured.   
-`Process Method:`  
+* `Process Method:`  
 Lets you select what method should be used to move the file to your shows' folder. Move is the most used method, but the more advanced [hardlinking](https://en.wikipedia.org/wiki/Hard_link) is recommended in case you want to seed the file with your torrent client.  
-`Auto Post-Processing Frequency`  
+* `Auto Post-Processing Frequency:`  
 Set the frequency, in minutes, that the folder is checked for files to process. Don't go below 10 minutes as that may cause detection problems. It can happen that the next scan starts when the previous scan is still moving a file. You will receive errors that the file/folder doesn't exist etc.   
-`Postpone post processing`  
+* `Postpone post processing:`  
 Wait if sync files are present in folder. This prevents post processing from starting and prevents errors or incomplete files. However its strongly recommended that you set up your download client to use a separate (temp) folder for files that are still being downloaded, and that only completed files are moved to the TV Download Dir that SickChill monitors.  
-`Sync File Extensions`  
+* `Sync File Extensions:`  
 List of sync files to postpone processing if present in folder.  
-`Rename Episodes`  
+* `Rename Episodes:`  
 Set to rename episodes using the Episode Naming settings.  
-`Create missing show directories`  
+* `Create missing show directories:`  
 Set to create missing show directories when they get deleted or don't exist.  
-`Add shows without directory`  
+* `Add shows without directory:`  
 Lets you add shows without creating a directory (not recommended)  
-`Move Associated Files`  
+* `Move Associated Files:`  
 Set to have SickChill move any files that are downloaded with the episode file like external subtitles etc. to the same location.  
-`Rename .nfo file`  
+* `Rename .nfo file:`  
 In case there is already a .nfo file in the show folder SickChill will rename it to .nfo-org to prevent if from being overwritten and causing conflicts.  
-`Associated file extensions`  
+* `Associated file extensions:`  
 Here you can set the extensions SickChill should keep and post processing with the episode file.   
-`Delete non associated files`  
+* `Delete non associated files:`  
 Let SC delete non associated files while post processing.  
-`Change File Date`  
+* `Change File Date:`  
 Set last modified file date to the date that the episode aired. May not work on some systems.  
-`Timezone for File Date`  
+* `Timezone for File Date:`  
 Set the timezone for setting file date.  
-`Unpack, Unpack Directory`  
+* `Unpack, Unpack Directory:`  
 In case a rar collection is detected in the Post Processing Dir, SickChill can unrar them to _Unpack Directory_.   
-`Unrar Location, Unar Tool`  
+* `Unrar Location, Unar Tool:`  
 Add the path to unrar and path to an unrar tool if they are not in the system path.  
-`Delete RAR contents`
+* `Delete RAR contents`
 Delete the contents of RAR files, even if Process Method not set to move, only works with RAR archives.  
-`Follow symbolic-links`
+* `Follow symbolic-links`
 Enable SC to follow down symbolic links in download directory?
 warning: Enable only if you know what circular symbolic links are, and can verify that you have none. EXPERTS ONLY.  
-`Use Failed Downloads`  
+* `Use Failed Downloads:`  
 Lets you enable failed downloads. This gives you the opportunity to mark a nzb/torrent as failed and added to the failed.db, so that the same isn't downloaded again.  
-`Use icacls`  
+* `Use icacls:`  
 Sets video file permissions after using the move method in post processing. _Windows only_.
-`Extra Scripts`  
+* `Extra Scripts:`  
 SickChill gives you the opportunity to run your own scripts for post-processing. See [post processing](https://github.com/SickChill/SickChill/wiki/Post-Processing) for more information.
 
 
@@ -441,31 +443,31 @@ SickChill gives you the opportunity to run your own scripts for post-processing.
 
 ![episode-naming](https://user-images.githubusercontent.com/10173496/187035158-0c2e7d9d-0a84-4079-a667-413d7133a1b1.png)
 
-`Name Pattern:`  
+* `Name Pattern:`  
 Lets you set pre-configured renaming schemes or your own custom one. The _Toggle naming legend_ list button provides a list of parameters that can be used.  
-`Multi-Episode Style:`  
+* `Multi-Episode Style:`  
 Choose naming parameter for files which have multiple episodes.  
-`Strip Show Year`  
+* `Strip Show Year:`  
 Remove the _year_ of the show if it exists.  
-`No Brackets on Show Year`  
+* `No Brackets on Show Year:`  
 Set to remove brackets on the TV show's year when renaming the file. Default has brackers.  
-`Custom Air-By-Date`  
+* `Custom Air-By-Date:`  
 Name Air-By-Date shows differently than regular shows    
-`Custom Sports`  
+* `Custom Sports:`  
 Name Sports shows differently than regular shows  
-`Custom Anime`  
+* `Custom Anime:`  
 Name Anime shows differently than regular shows  
 
 #### Metadata
 
 ![metadata](https://user-images.githubusercontent.com/10173496/187035159-6a9c2d12-afdc-4e4a-8b19-b351355ebf7f.png)
 
-`Metadata Type`  
+* `Metadata Type:`  
 Select from the multiple types of metadata.  
-`Select Metadata`  
+* `Select Metadata:`  
 Select metadata to keep in series folder.
 
-Recommend `Show Metadata` as if your database gets corrupted the rebuilding process of `Add existing shows` will use this file and not need to search and select individually.  
+Recommend `Show Metadata` be selected as if your database gets corrupted the rebuilding process of `Add existing shows` will use this file and not need to search and select individually.  
 
 
 ## Notifications
@@ -473,67 +475,78 @@ Recommend `Show Metadata` as if your database gets corrupted the rebuilding proc
 * SickChill lets you send notifications to your favorite home Theater/NAS, Devices or Social media service.
 
 
-#### Home Theater/NAS  
+#### Home Theater/NAS
 
-![home](https://cloud.githubusercontent.com/assets/7928052/13013602/64ae89c2-d1b0-11e5-94fd-168ce77f4c43.png)
+![home](https://user-images.githubusercontent.com/10173496/187035147-c0770df1-7bd8-4ef5-a770-db82712588f4.png)
 
-`KODI`
+* `KODI`
 A free and open source cross-platform media center and home entertainment system software with a 10-foot user interface designed for the living-room TV.  
-`Plex Media Server`  
+* `Plex Media Server:`  
 Experience your media on a visually stunning, easy to use interface on your Mac connected to your TV. Your media library has never looked this good!  
-`Plex Media Client`  
-`Emby`  
+* `Plex Home Theater:`  
+* `Emby:`  
 Bringing all of your media together into one place has never been easier. Your Emby Server automatically converts and streams your media on-the-fly to play on any device.  
-`NMJ`  
+* `NMJ:`  
 A home media server built using other popular open source technologies.  
 The Networked Media Jukebox, or NMJ, is the official media jukebox interface made available for the Popcorn Hour 200-series.  
-`NMJv2`  
+* `NMJv2:`  
 The Networked Media Jukebox, or NMJv2, is the official media jukebox interface made available for the Popcorn Hour 300 & 400-series.  
-`Synology`  
+* `Synology:`  
 The Synology DiskStation NAS. Synology Indexer is the daemon running on the Synology NAS to build its media database.  
-`Synology Notifier`  
-Synology Notifier is the notification system of Synology DSM  
-`pyTivo`  
+* `Synology Notifier:`  
+Synology Notifier is the notification system of Synology DSM (DSM6 only).  
+* `pyTivo:`  
 pyTivo is both an HMO and GoBack server. This notifier will load the completed downloads to your Tivo.  
 
-#### Devices  
+#### Devices
 
-![devices](https://cloud.githubusercontent.com/assets/7928052/13013608/66c22e08-d1b0-11e5-9933-40a62e3ab6ed.png)
+![devices](https://user-images.githubusercontent.com/10173496/187035146-b47963ed-1d73-42d8-9b16-a30cfd90058e.png)
 
-`Growl`  
+* `Growl:`  
 A cross-platform unobtrusive global notification system.  
-`Prowl`  
+* `Prowl:`  
 A Growl client for iOS.  
-`Libnotify`  
+* `Libnotify:`  
 The standard desktop notification API for Linux/*nix systems. This notifier will only function if the pynotify module is installed (Ubuntu/Debian package python-notify).  
-`Pushover`  
+* `Pushover:`  
 Pushover makes it easy to send real-time notifications to your Android and iOS devices.  
-`Boxcar`  
+* `Boxcar:`  
 Universal push notification for iOS. Read your messages where and when you want them! A subscription will be sent if needed.   
-`Boxcar2`    
+* `Boxcar2:`    
 Read your messages where and when you want them!  
-`Notify My Android`  
+* `Notify My Android:`  
 Notify My Android is a Prowl-like Android App and API that offers an easy way to send notifications from your application directly to your Android device.  
-`Pushalot`  
+* `Pushalot:`  
 Pushalot is a platform for receiving custom push notifications to connected devices running Windows Phone or Windows 8.  
-`Pushbullet`  
+* `Pushbullet:`  
 Pushbullet is a platform for receiving custom push notifications to connected devices running Android and desktop Chrome browsers.  
-`Free Mobile`  
+* `Free Mobile:`  
 Free Mobile is a famous French cellular network provider.
 It provides to their customer a free SMS API.  
+* `Telegram:`  
+Telegram cloud messaging.
+* `Join:`  
+Join, sync across your devices.
 
-#### Social  
+#### Social
 
-![social](https://cloud.githubusercontent.com/assets/7928052/13013664/adbad044-d1b0-11e5-9842-cb5d6a2e2c2e.png)
+![social](https://user-images.githubusercontent.com/10173496/187035144-11d31569-603b-44c1-b4a5-02fdc548ce4d.png)
 
-`Twitter`  
+* `Twitter:`  
 A social networking and microblogging service, enabling its users to send and read other users' messages called tweets.  
-`Trakt`  
+* `Trakt:`  
 trakt helps keep a record of what TV shows and movies you are watching. Based on your favorites, trakt recommends additional shows and movies you'll enjoy!  
-`Email`  
+* `Email:`  
 Allows configuration of email notifications on a per-show basis.  
-Note: If using gmail, and having this error `"ERROR: SMTP AUTH extension not supported by server."` , please enable this https://www.google.com/settings/security/lesssecureapps & try settings : smtp.gmail.com , port 587 , TLS , myemail.email@gmail.com , password
-.
+Note: If using gmail, and having this error `"ERROR: SMTP AUTH extension not supported by server."` , please enable this https://www.google.com/settings/security/lesssecureapps & try settings : smtp.gmail.com , port 587 , TLS , myemail.email@gmail.com , password.  
+* `Slack:`  
+Slack brings all your team's communication together in one place, real-time messaging, archiving and search.  
+* `Rocket.Chat:`  
+Rocket.Chat is free, unlimited and open source chat software solution.  
+* `Matrix:`  
+Matrix is an open fabric for communication that anyone can participate in.  
+* `Discord:`  
+All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.  
 
 ## Anime  
 
@@ -542,17 +555,17 @@ Note: If using gmail, and having this error `"ERROR: SMTP AUTH extension not sup
 ![anidb](https://cloud.githubusercontent.com/assets/7928052/13013665/ade0bf20-d1b0-11e5-847a-5c64544e6496.png)
 
 
-`Enable`  
+* `Enable:`  
 Lets you enable the AniDB function/indexer  
-`AniDB Username`  
+* `AniDB Username:`  
 Lets you set the AniDB Username  
-`AniDB Password`  
+* `AniDB Password:`  
 Lets you set the AniDB Password  
-`AniDB MyList`  
+* `AniDB MyList:`  
 Do you want to add the Post Processed Episodes to the MyList ?  
 
 #### Look & Feel  
 
-`Split show lists`  
+* `Split show lists:`  
 Separate anime and normal shows in groups  
 
