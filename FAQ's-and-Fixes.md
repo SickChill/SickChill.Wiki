@@ -16,24 +16,19 @@
 - [What is post processing?](#what-is-post-processing)
 - [How do the quality settings for a show work?](#how-do-the-quality-settings-for-a-show-work)
 - [Newly aired shows are not downloading and set to skipped/ignored?](#newly-aired-shows-are-not-downloading-and-set-to-skippedignored)
-- [Update problems? Try this](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#update-problems-try-this)
-- [Enable Debug For Logs](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#enable-debug-for-logs)
-- [How to switch to the new Repo?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#how-to-switch-to-the-new-repo)
 - [How to Disable and Remove SickChill autostart (systemctl) ?](/#how-to-disable-and-remove-sickchill-from-autostart-systemctl-)
-- [Post-processing shows a negative time](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#post-processing-shows-a-negative-time)
-- [What is a network time zone warning?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#what-is-a-network-time-zone-warning)
-- [Unable to sent torrent to synology download station](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#unable-to-sent-torrent-to-synology-download-station)
-- [Timeout when adding a show on Freenas](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#timeout-when-adding-a-show-on-freenas)
-- [What are Unicode errors?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#what-are-unicode-errors)
-- [How to switch to an older SickChill version?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#how-to-switch-to-a-older-sickchill-version)
-- [Why does "Send to trash" option not send the files to the Recycle Bin?](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
+- [Post-processing shows a negative time](#post-processing-shows-a-negative-time)
+- [What is a network time zone warning?](#what-is-a-network-time-zone-warning)
+- [Unable to send torrent to synology download station](#unable-to-send-torrent-to-synology-download-station)
+- [Timeout when adding a show on Freenas](#timeout-when-adding-a-show-on-freenas)
+- [What are Unicode errors?](#what-are-unicode-errors)
+- [Why does "Send to trash" option not send the files to the Recycle Bin?](#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
 
 ## Where are the LOG files located?
 
 You can find the log files path in _Config->Help & Info_, look for _SC Log Dir_.
 
-_Note: Synology users can use WinSCP to gain access/browse to the root where the SickChill log is located: `/volume1/@appstore/sickchill/var/Logs/sickchill.log`_
-
+_Note: You may need to `ssh` to access them_
 ## How do I enable debug logs to get more detailed information in my logs?
 
 Go to settings (gearwheels) ---> General ---> Advanced Settings. Enable the setting `Enable debug`. Or set in manually in your config.ini. The line is called `debug = 0` replace the 0 with 1 and save. (Make sure SickChill is not running!)
@@ -89,17 +84,7 @@ Then run `source ~/.bashrc` in a terminal window.
 
 ## I have problems updating or my installation got corrupt. What now?
 
-You can enable the `Git Reset` setting under general --> advanced settings.
-Or you can do a manual Git reset so that your installation is refreshed.
-
-```bash
-git remote add upstream https://github.com/SickChill/SickChill.git
-git fetch upstream
-git checkout master
-git branch -u upstream/master
-git reset --hard upstream/master
-git pull
-```
+You can reinstall SickChill through pip, see [pip]().
 
 ## I'm currently using the SABtoSickbeard script with SABNZB, however failed downloads don't work.
 
@@ -160,66 +145,6 @@ Previously, when you added a show you had the option for **Default Episode Statu
 
 **Solution**
 Edit each show (or mass update) and correct the Default Episode Status to WANTED (You can also change from wanted to another on shows where you don't want new episodes to be downloaded automatically)
-
-## Update problems? Try this:
-
-Stop SickChill, SSH(Linux)/CMD(Windows) and enter SickChill folder
-
-```
-git remote set-url origin https://github.com/SickChill/SickChill.git
-git remote set-branches --add origin master
-git remote update
-git fetch origin
-
-git checkout master
-git branch --set-upstream-to origin/master
-git reset --hard origin/master
-git pull
-```
-
-When you get the below error and can't update, then check the line `git_remote = origin` in your config.ini.  
-It's probably missing the `origin`. If so, shutdown SickChill and add it. Then restart.
-
-`git pull -f master returned : fatal: 'master' does not appear to be a git repository`
-
-## ENABLE DEBUG FOR LOGS
-
-1. Open SC interface
-2. Menu General Settings > Advanced Settings
-3. Enable 'Enable debug'
-4. Restart SC
-
-Synology & QNAP users can use [WinSCP](https://winscp.net/eng/download.php) to access/browse SSH to extract the full SickChill log. For example: /volume1/@appstore/sickchill/var/Logs/sickchill.log
-
-## How to switch to the new Repo?
-
-Luckily it's very easy, but the method depends a little on what device you are running SickChill.
-The quickest way is to switch with a few simple Git commands, which is explained below:
-
-First, make a backup from within SickChill, or manually backup `config.ini` & `sickchill.db` (`sick*.db`).
-
-Note: You need to run the below commands in your SickChill folder. And make sure you run the commands with the same User as you run SickChill with, or permission problems may occur.
-
-- First stop the SickChill service
-
-```
-git remote set-url origin https://github.com/SickChill/SickChill.git
-git fetch origin
-git prune && git remote prune origin
-git reset --hard origin/master
-```
-
-- Start the SickChill service
-- Do another restart of SickChill so all changes can take effect
-
-If you installed SickChill with an installer then check the [installation packages](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages) wiki for a new version. Then simply reinstall with that new installer, and restore the backup. The above procedure isn't necessary then. But it also works.  
-Synology users can find a [How-to here](https://github.com/SickChill/SickChill/wiki/Synology-install). And for Windows users making a backup, and reinstalling with the latest [Windows installer](https://github.com/VinceVal/SickChillInstaller/releases/latest) is advised.  
-More info on packages/installers you can find [here](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages)
-
-Note: As of February 2016 the old repo has bumped the database version (sickchill.db) from v42 to v44 without any changes. Just to frustrate/discourage users from switching. It still works fine, but you will get a warning during startup that it's outdated. If you are annoyed with the warning message and are familiar with SQL then you can run the below commands.:  
-`sqlite3 sickchill.db 'UPDATE db_version SET db_version=42, db_minor_version=1' `  
-(Or use any other preferred tool to set the db_version to 42.)  
-And off-course you can always build a new database using [Meta-data](https://github.com/SickChill/SickChill/wiki/MetaData)
 
 ## How to disable and remove SickChill from autostart (_systemctl_) ?
 
@@ -287,19 +212,6 @@ Sadly not much can be done. But a few things you can try are:
 - Add a scene exception (an alternative name for a show) hopefully this will allow you to snatch the episode.
 
 On Linux those Unicode errors generally only happen when you haven't set your locale correctly. Make sure its UTF-8.
-
-## How to switch to an older SickChill version?
-
-It's possible to switch between different versions of SickChill.
-This can be handy for troubleshooting, or if your device has problems with the latest versions.
-For this, you can use the git checkout command. For example:
-
-`git checkout v2016.10.20-1`
-
-This will update/downgrade your installation to the v2016.10.20-1 release.
-A complete list of the releases/version can be found [here.](https://github.com/SickChill/SickChill/releases)
-(Don't forget to disable the auto-update function if you don't want to update.)
-Also be aware that we don't support older/outdated SickChill versions.
 
 ## Why does "Send to trash" option not send the files to the Recycle Bin?
 
