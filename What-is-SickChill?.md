@@ -40,10 +40,10 @@ _(as of December 2014)_<br/> -[Desktop (Full-HD)](http://imgur.com/a/4fpBk)<br> 
 
 #### Dependencies
 
-To run SickChill we recommend [Python 3.8 or higher](https://www.python.org/downloads/), Python 3.6 as minimum. Depending on your install [GIT](https://git-scm.com/) may be required for SickChill's update process.  
-The minimum requirements are Python 3.6 with the latest modules of
-[Pip](https://pypi.org/project/pip), [PyOpenSSL](https://pypi.python.org/pypi/pyOpenSSL), and [cryptography](https://pypi.python.org/pypi/cryptography).  
-SickChill will load many other packages from [Pypi](https://pypi.org/) too.
+To run SickChill we recommend [Python 3.8 or higher](https://www.python.org/downloads/), Python 3.7 as minimum.  
+The latest modules of [Pip](https://pypi.org/project/pip),
+[Poetry](https://pypi.org/project/poetry), [PyOpenSSL](https://pypi.python.org/pypi/pyOpenSSL), and [cryptography](https://pypi.python.org/pypi/cryptography).  
+SickChill will load many other packages from [Pypi](https://pypi.org/) too.  
 
 #### Support
 
