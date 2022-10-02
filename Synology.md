@@ -11,7 +11,7 @@ Please include which version, DSM **6** or DSM **7**, along with as much other i
 If SickChill doesn't install from **package center** you will need to **ssh** into your DSM and look at the installation log at `/var/logs/packages/sichchill.log` to see what went wrong, include it if you raise an **issue**. This is a different log file to the **SC** log under `data/logs` and is the same info you'd see if you run from `ssh` terminal. 
 
 ### *Where are the **SC** files?*  
-SC: `/volume1/@appstore/sickchill`  
+SC: `/volume1/@appstore/sickchill/env/lib/python3.10/site-packages/sickchill`  ~~`/volume1/@appstore/sickchill`~~    
 Env: `/volume1/@appstore/sickchill/env/`  
 Python3: `/volume1/@appstore/sickchill/env/bin/python3`  
 Python packages: `/volume1/@appstore/sickchill/env/lib/python3.8/site-packages/` [Py 3.8]  
