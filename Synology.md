@@ -14,7 +14,7 @@ If SickChill doesn't install from **package center** you will need to **ssh** in
 SC: `/volume1/@appstore/sickchill/env/lib/python3.10/site-packages/sickchill`  ~~`/volume1/@appstore/sickchill`~~    
 Env: `/volume1/@appstore/sickchill/env/`  
 Python3: `/volume1/@appstore/sickchill/env/bin/python3`  
-Python packages: `/volume1/@appstore/sickchill/env/lib/python3.8/site-packages/` [Py 3.8]  
+Python packages: `/volume1/@appstore/sickchill/env/lib/python3.10/site-packages/` [Py 3.10]  
 DSM6 data: `/volume1/@appstore/sickchill/var/data/`  
 DSM7 data: `/volume1/@appdata/sickchill/data/`  
 `volume1` - depends on the volume you installed SickChill.  
@@ -35,6 +35,6 @@ DSM7:
 
 ### How to install / update packages
    1. `sudo -u sc-sickchill /bin/bash`  
-   2. `cd /volume1/@appstore/sickchill/env/lib/python3.8/site-packages/`  
+   2. `cd /volume1/@appstore/sickchill/env/lib/python3.10/site-packages/`  
    3. `/volume1/@appstore/sickchill/env/bin/python3 -m pip install "XXX"`  
 	^XXX^ options and packages.
