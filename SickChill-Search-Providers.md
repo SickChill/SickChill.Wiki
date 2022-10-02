@@ -2,7 +2,7 @@
 
 ### Omgwtfnzbs!
 
-Website: https://omgwtfnzbs.org/  
+Website: https://omgwtfnzbs.org/
 
 ### NZBs.org
 
@@ -10,7 +10,7 @@ NZBs indexer
 
 ### AnimeNZB
 
-NZB indexer specialized in 
+NZB indexer specialized in
 
 ### BinSearch
 
@@ -140,7 +140,7 @@ Generic french private torrent site
 
 ### TokyoToshokan
 
-Torrent site dedicated to 
+Torrent site dedicated to
 
 ### HDTorrents
 

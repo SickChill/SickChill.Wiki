@@ -4,11 +4,12 @@ Hello and welcome! This wiki is here to help you set up and use SickChill. You'l
 
 On the right side of the page you see the available wiki pages. For new users, you probably want the [Installation & Setup guides](https://github.com/SickChill/SickChill/wiki/Installation-&-Configuration-Guides)
 
-If you encounter a bug, please open an [issue](https://github.com/SickChill/SickChill/issues)  
+If you encounter a bug, please open an [issue](https://github.com/SickChill/SickChill/issues)
 
 These documents are a work-in-progress. If you'd like to contribute, please get in touch with us on [Discussions](https://github.com/SickChill/SickChill/discussions/7323), or [Discord](https://discord.com/invite/U8WPBdf), [Telegram](https://t.me/sickchill), [IRC](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickchill) or open an [issue here on GitHub.](https://github.com/SickChill/SickChill/issues)
- 
+
 #### Important links
-* [Issues / Bug reports](https://github.com/SickChill/SickChill/issues)  
-* [Discussions / Feature requests](https://github.com/SickChill/SickChill/discussions)  
-* [Donations](https://github.com/SickChill/SickChill/wiki/Donations)  
+
+- [Issues / Bug reports](https://github.com/SickChill/SickChill/issues)
+- [Discussions / Feature requests](https://github.com/SickChill/SickChill/discussions)
+- [Donations](https://github.com/SickChill/SickChill/wiki/Donations)

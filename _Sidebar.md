@@ -8,7 +8,7 @@
 
 **Debugging**<br/>
 [FAQ's and Fixes](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes)  
-[Scene exceptions](https://github.com/SickChill/SickChill/wiki/Scene-exceptions-and-numbering)  
+[Scene exceptions](https://github.com/SickChill/SickChill/wiki/Scene-exceptions-and-numbering)
 
 **Settings**<br/>
 [Main settings explained](https://github.com/SickChill/SickChill/wiki/Settings-explained)  
@@ -17,4 +17,4 @@
 [NZBtoMedia](https://github.com/SickChill/SickChill/wiki/NZBtoMedia)  
 [MetaData](https://github.com/SickChill/SickChill/wiki/MetaData)  
 [Post-Processing](https://github.com/SickChill/SickChill/wiki/Post-Processing)  
-[Quality Settings](https://github.com/SickChill/SickChill/wiki/Quality-Settings)  
+[Quality Settings](https://github.com/SickChill/SickChill/wiki/Quality-Settings)
