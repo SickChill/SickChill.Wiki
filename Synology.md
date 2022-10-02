@@ -42,4 +42,5 @@ DSM7:
 1.  `sudo -u sc-sickchill /bin/bash`
 2.  `cd /volume1/@appstore/sickchill/env/lib/python3.10/site-packages/`
 3.  `/volume1/@appstore/sickchill/env/bin/python3 -m pip install "XXX"`  
+    eg `/volume1/@appstore/sickchill/env/bin/python3 -m pip install -U pip`  
     ^XXX^ options and packages.
