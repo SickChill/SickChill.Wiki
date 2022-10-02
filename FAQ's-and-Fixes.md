@@ -213,7 +213,7 @@ git reset --hard origin/master
 - Do another restart of SickChill so all changes can take effect
 
 If you installed SickChill with an installer then check the [installation packages](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages) wiki for a new version. Then simply reinstall with that new installer, and restore the backup. The above procedure isn't necessary then. But it also works.  
-Synology users can find a [How-to here](https://github.com/SickChill/SickChill/wiki/Switching-your-Synology-to-SickChill). And for Windows users making a backup, and reinstalling with the latest [Windows installer](https://github.com/VinceVal/SickChillInstaller/releases/latest) is advised.  
+Synology users can find a [How-to here](https://github.com/SickChill/SickChill/wiki/Synology-install). And for Windows users making a backup, and reinstalling with the latest [Windows installer](https://github.com/VinceVal/SickChillInstaller/releases/latest) is advised.  
 More info on packages/installers you can find [here](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages)
 
 Note: As of February 2016 the old repo has bumped the database version (sickchill.db) from v42 to v44 without any changes. Just to frustrate/discourage users from switching. It still works fine, but you will get a warning during startup that it's outdated. If you are annoyed with the warning message and are familiar with SQL then you can run the below commands.:  

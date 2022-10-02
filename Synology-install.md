@@ -6,8 +6,7 @@ Summery. :
 
 1. Go into SickChill and make a backup.
 2. Go to the Synology Package Center and remove the old package SickChill.
-3. Then install latest SickChill package from [Synocommunity](https://synocommunity.com/), the installation screen/wizard has the new URL.  
-   `git://github.com/SickChill/SickChill.git`
+3. Then install latest SickChill package from [SynoCommunity](https://synocommunity.com/).
 4. Restore your backup, and restart SickChill.
 
 That's it. :+1:
