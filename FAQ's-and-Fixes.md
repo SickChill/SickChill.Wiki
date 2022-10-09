@@ -180,16 +180,16 @@ When you come across such a warning you can add the tv channel and time zone to 
 
 ## Unable to send torrent to Synology Download station.
 
-SickChill supports Synology's Download Station, but some users can run into problems setting it up correctly.  
+SickChill supports Synology's Download Station (DLS), but some users can run into problems setting it up correctly.  
 One of those is: `WARNING SEARCHQUEUE-BACKLOG-281620 :: [9149089] DownloadStation: Unable to send Torrent `
 
 There are a few things you should check if this happens.  
 First, check if the connection test works in the search settings. If that does work then the authentication with DSM is Ok. Then check the following. :
 
-- If it's a new DSM account you need to log into DownloadStation with the account first and set a default download folder.
+- If it's a new DSM account you need to log into DLS with that account first and set a default download folder.
 - Does it work with an administrator account.?
-- If it's a custom created folder then set share (folder) permissions in the sc-sickchill & sc-download (DSM6 only) user-groups.
-- If using DSM 6 than remove `/volume1/` from the [path](https://github.com/SickChill/SickChill/issues/610#issuecomment-181091059) in the search settings.
+- If it's a custom created folder then set share (folder) permissions in to username sc-sickchill & sc-download (DSM6) or synocommunity (DSM7) as group. [Syno Permissions](https://github.com/SickChill/SickChill/wiki/Synology-install#Synology-SickChill-Permissions)
+- If path is left blank it will auto populate or enter path but remove `/volume1/` from the path in the settings.
 
 When all else fails then you could also use the black-hole method as a workaround. SickChill will store the nzb/torrent in a folder of your choosing.
 Then simply set DS to monitor that folder for nzbs and torrents. As soon as one is found the download will start.

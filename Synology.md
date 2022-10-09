@@ -3,7 +3,7 @@
 Installation guide can be found on [SynoCommunity](https://synocommunity.com)
 
 After installing the `SPK` through the `Package Center` it takes **_Several Minutes_** for the gui to become available, if the **package center** says `running` please wait and check again.   
-The time it takes to become available depends on your DSM and internet connection, you only have a problem if **package center** says `stopped`.  
+The time it takes to become available depends on your DSM and internet connection, you only have a problem if **package center** says `stopped`.
 
 ## Troubleshooting
 

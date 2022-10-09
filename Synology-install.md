@@ -59,3 +59,18 @@ In some cases you can get a cache warning after restoring the backup. You can ig
 MAIN :: Restore: Unable to remove the cache/sessions directory: error 2 : No such file or directory
 MAIN :: Restore: Unable to remove the cache/indexers directory: error 2 : No such file or directory
 ```
+
+## Synology SickChill Permissions
+
+Setting permissions for files and folder access in your DSM are key to SC being able to put things in the right place.
+
+You will need to add the `group` with read/write permissions on folders where you want SC to access files and data. You can do this in multiple ways either the whole folder through the `Control Panel > Shared Folder` or `File Station > selected folder`
+
+The user:group are:  
+**DSM6** sc-sickchill:sc-download  
+**DSM7** sc-scikchill:synocommunity  
+Note: The user is a `system internal user` and not directly assignable in DSM gui and the installation of SC through the `package center` should have created the `group` for your use.
+
+Adding the `group` to the folder through `File Station` should be sufficient, and all files and sub-folders added by SC will inherit the main folder's permissions.  
+
+If adding the group does not seem to work then you can check if the `sc-sickchill` user has access to the folder using Properties > Advanced > Permission Inspector then select the User:Group and if the Read and Write boxes are ticked.
