@@ -10,14 +10,14 @@
 - This is the section where you configure SickChill to your likings.  
   As you can see below SickChill supports a massive amount of customization settings, and might lead to some confusion. With this wiki we will try to explain the settings in more details. As many of those settings are for advanced user only, make sure you understand what the setting does before setting.
 
-![statusmenu](https://user-images.githubusercontent.com/10173496/187035155-d9070d6b-b83b-4d9f-9394-093ccd0737f6.png)
+![status menu](https://user-images.githubusercontent.com/10173496/187035155-d9070d6b-b83b-4d9f-9394-093ccd0737f6.png)
 
 ## Help & Info
 
-![HelpInfo](https://user-images.githubusercontent.com/10173496/187035138-514af284-1315-45f4-b66a-f41151cb7a96.png)
+![Help Info](https://user-images.githubusercontent.com/10173496/187035138-514af284-1315-45f4-b66a-f41151cb7a96.png)
 
 - `SickChill Info:`  
-  This show the exact version of SickChill you are using. SickChill gets updated with so called Commits (code updates). And by knowing the last Commit your particular SickChill is running, you can tell if you missed updates along with Python, SSL, and OS to help you or the Developers trouble shoot a problem you have.
+  This shows the version of SickChill you are running, you can tell if you missed updates along with Python, SSL, and OS to help you or the Developers trouble shoot a problem you have.
 - `Python Version:`  
   This shows your Python version. SickChill needs a minimal version of 3.6 but the more recent the better. Also make sure pyopenssl and cryptography modules are included in your Python version.
 - `Locale:`  
@@ -244,7 +244,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 - `Search NZBs:`  
   Enable this setting if you plan to use NZB's and usenet to snatch your shows.
 - `Send .nzb files to:`  
-  Select you download client. Currently the directly supported NZB clients are SABnzbd and NZBget. However for all other clients you can use the blackhole method. With this method SickChill places the NZB in a folder of your choosing. Simply let your download client monitor that folder for new NZB files. And the download client does the rest. This makes SickChill compatible with almost every download client out there.
+  Select you download client. Currently, the directly supported NZB clients are SABnzbd and NZBget. However, for all other clients you can use the blackhole method. With this method SickChill places the NZB in a folder of your choosing. Simply let your download client monitor that folder for new NZB files. And the download client does the rest. This makes SickChill compatible with almost every download client out there.
 - `SABnzbd server URL:`  
   Add the URL where your SABnzbd client is located.
 - `SABnzbd username:`  
@@ -269,7 +269,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 - `Search torrents:`  
   Enable this function to download yous shows with Torrents.
 - `Send .torrent files to:`  
-  This allows you to set the direct torrent download clients. Currently supported are. : uTorrent, Transmission, Deluge, Synology Download Station, rTorrent QBittorrent. Also the blackhole method is supported, so that almost every Torrent download client is supported.
+  This allows you to set the direct torrent download clients. Currently supported are. : uTorrent, Transmission, Deluge, Synology Download Station, rTorrent QBittorrent. Also, the blackhole method is supported, so that almost every Torrent download client is supported.
 - `Synology DS host:port:`  
   Add the address and port of Synology Download Station.
 - `Synology DS username:`  
@@ -331,8 +331,8 @@ This sections allows you to enable/disable the providers you want to use and dra
 - `API key:`  
   Fill in your API key that your provider has provided you with.
 - `Newznab search categories:`  
-  Here you can add the categories for your provider. For regular users the categories 5030 (SD) 5040 (HD) and when available 5010 (WEB-DL) are the most important onces. If you only download SD quality shows than only add the category 5030 (SD). No need to add 5040 (HD) & 5010 (WEB-DL) than. This makes searching way more efficient. There is also a category 5000 (TV) however this contains all TV related shows like anime, foreign, sports, shows, documentary, etc. Lots of witch you probably don't need, and therefor not very efficient to search. In case you are using sports you need to add the category 5060 (Sport) and when you use Anime shows add the category 5070 (Anime).  
-  Note, some NZB indexers use a different numbering scheme but you should be able to navigate your way through.
+  Here you can add the categories for your provider. For regular users the categories 5030 (SD) 5040 (HD) and when available 5010 (WEB-DL) are the most important ones. If you only download SD quality shows than only add the category 5030 (SD). No need to add 5040 (HD) & 5010 (WEB-DL) than. This makes searching way more efficient. There is also a category 5000 (TV) however this contains all TV related shows like anime, foreign, sports, shows, documentary, etc. Lots of witch you probably don't need, and therefor not very efficient to search. In case you are using sports you need to add the category 5060 (Sport) and when you use Anime shows add the category 5070 (Anime).  
+  Note, some NZB indexers use a different numbering scheme, but you should be able to navigate your way through.
 
 #### Configure Custom Torrent Providers
 
@@ -397,11 +397,11 @@ This sections allows you to enable/disable the providers you want to use and dra
 - `Post Processing Dir:`  
   This is the folder that SickChill monitors for newly downloaded files/episodes. Once a new file is found the post-processing starts to move the file to your shows folder and take any other actions that you have configured.
 - `Process Method:`  
-  Lets you select what method should be used to move the file to your shows' folder. Move is the most used method, but the more advanced [hardlinking](https://en.wikipedia.org/wiki/Hard_link) is recommended in case you want to seed the file with your torrent client.
+  Lets you select what method should be used to move the file to your shows' folder. Move is the most used method, but the more advanced [hard linking](https://en.wikipedia.org/wiki/Hard_link) is recommended in case you want to seed the file with your torrent client.
 - `Auto Post-Processing Frequency:`  
   Set the frequency, in minutes, that the folder is checked for files to process. Don't go below 10 minutes as that may cause detection problems. It can happen that the next scan starts when the previous scan is still moving a file. You will receive errors that the file/folder doesn't exist etc.
 - `Postpone post processing:`  
-  Wait if sync files are present in folder. This prevents post processing from starting and prevents errors or incomplete files. However its strongly recommended that you set up your download client to use a separate (temp) folder for files that are still being downloaded, and that only completed files are moved to the TV Download Dir that SickChill monitors.
+  Wait if sync files are present in folder. This prevents post processing from starting and prevents errors or incomplete files. However, its strongly recommended that you set up your download client to use a separate (temp) folder for files that are still being downloaded, and that only completed files are moved to the TV Download Dir that SickChill monitors.
 - `Sync File Extensions:`  
   List of sync files to postpone processing if present in folder.
 - `Rename Episodes:`  
@@ -449,7 +449,7 @@ This sections allows you to enable/disable the providers you want to use and dra
 - `Strip Show Year:`  
   Remove the _year_ of the show if it exists.
 - `No Brackets on Show Year:`  
-  Set to remove brackets on the TV show's year when renaming the file. Default has brackers.
+  Set to remove brackets on the TV show's year when renaming the file. Default has brackets.
 - `Custom Air-By-Date:`  
   Name Air-By-Date shows differently than regular shows
 - `Custom Sports:`  
@@ -530,7 +530,7 @@ Recommend `Show Metadata` be selected as if your database gets corrupted the reb
 ![social](https://user-images.githubusercontent.com/10173496/187035144-11d31569-603b-44c1-b4a5-02fdc548ce4d.png)
 
 - `Twitter:`  
-  A social networking and microblogging service, enabling its users to send and read other users' messages called tweets.
+  A social networking and micro-blogging service, enabling its users to send and read other users' messages called tweets.
 - `Trakt:`  
   trakt helps keep a record of what TV shows and movies you are watching. Based on your favorites, trakt recommends additional shows and movies you'll enjoy!
 - `Email:`  

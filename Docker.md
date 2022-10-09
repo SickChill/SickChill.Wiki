@@ -1,9 +1,10 @@
-These need editted for your own use. At the very least anything between `<` and `>` needs set for your environment.
-For windows, and other devices all of the paths below will need set correctly for the mounts.
+These need to be edited for your own use. At the very least anything between `<` and `>` needs set for your environment.
+For windows, and other devices all the paths below will need set correctly for the mounts.
 
 #### Docker Compose
 
-```bash
+```
+bash
 ---
 version: "3.3"
 services:
@@ -28,7 +29,8 @@ services:
 
 #### Docker run
 
-```bash
+```
+bash
 docker run -dit --user 1000:1000 --name sickchill --restart=always \
 -e TZ=America/New_York -e PUID=1000 -e PGID=1000
 -v /home/<username>/sickchill:/config \

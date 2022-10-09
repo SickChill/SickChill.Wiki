@@ -16,7 +16,7 @@ click on the language you prefer and click on the `messages.pot` file. Now a new
 
 - If the original text is 20 characters than try to limit the translation to about the same number.  
   (A longer translation might not fit the field in the GUI.)
-- Dont do a simple 1:1 translation, try to describe the function properly.
+- Don't do a simple 1:1 translation, try to describe the function properly.
 - Some text may include some code, make sure you use that also in the translation.!
 
 ## Keeping the Pot file up-to-date

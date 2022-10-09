@@ -4,14 +4,14 @@ The Episode status lets you view the current status of an episode. For example i
 
 ## Status Types
 
-There are Many different Status Types that are used for at what state/stage the particular episode is in. Below you find an explanation of those Status types. :
+There are many different Status Types that are used for at what state/stage the particular episode is in. Below you find an explanation of those Status types. :
 
 - **Archived ([Quality])**
 
-  - Generally used to mark a episode as downloaded and watched
-  - it add plus one toward the individual episode count
+  - Generally used to mark an episode as downloaded and watched
+  - it adds plus one toward the individual episode count
   - it is included in total episode count and added to the progress bar
-  - this is a manual setting for keeping track of physical episodes (ie. on a disc you own) when using SickChill as a collection manager
+  - this is a manual setting for keeping track of physical episodes (i.e. on a disc you own) when using SickChill as a collection manager
 
 - **Ignored**
 

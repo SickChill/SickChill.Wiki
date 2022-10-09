@@ -1,8 +1,8 @@
 ## What is NZBtoMedia.?
 
 NZBtoMedia is a collection of scripts for [post-processing](https://github.com/SickChill/SickChill/wiki/Post-Processing).  
-Normally SickChill scans the download folder for new files/downloads every 10 minutes. However that prevents the hard disks from going into sleep/hibernation. Scripts on the other hand let SickChill instantly know if a download was completed. Therefore the scanning of the `tv download folder` isn't necessary anymore.
-Another advantage is that other [post-processing](https://github.com/SickChill/SickChill/wiki/Post-Processing) options can be done, before the file is sent to SickChill. But most of those options are already included in SickChill, so you probably wont use them.
+Normally SickChill scans the download folder for new files/downloads every 10 minutes. However, that prevents the hard disks from going into sleep/hibernation. Scripts on the other hand let SickChill instantly know if a download was completed. Therefore, the scanning of the `tv download folder` isn't necessary anymore.
+Another advantage is that other [post-processing](https://github.com/SickChill/SickChill/wiki/Post-Processing) options can be done, before the file is sent to SickChill. But most of those options are already included in SickChill, so you probably won't use them.
 Last and probably the MOST important reason, it supports failed downloads. Meaning that when your client fails to download the file a notification gets sent to SickChill and a new search gets started, with hopefully now a valid file.
 
 ## Before you start
@@ -11,7 +11,7 @@ Last and probably the MOST important reason, it supports failed downloads. Meani
 - Make sure the permissions and file ownership are correctly set.
 - Windows users will need to install the [pywin32](https://sourceforge.net/projects/pywin32/files/pywin32/) extensions to run NZBtoMedia.
 
-## With what client can i use NZBtoMedia.?
+## With what client can I use NZBtoMedia.?
 
 With every client that allows to run a script after the download. Most famous is probably SABnzbd, but also Synology's Download Station and Transmission support this.
 For more info see [NZBtoMedia's Repo](https://github.com/clinton-hall/nzbToMedia/wiki#downloaders)
@@ -28,7 +28,7 @@ For more info see [NZBtoMedia's Repo](https://github.com/clinton-hall/nzbToMedia
 ## How to setup NZBtoMedia with NZBget.?
 
 The good news is that NZBget has NZBtoMedia support build-in to the program. This allows for easy configuration.  
-First you need to make sure that NZBget points to the NZBtoMedia files. Sometimes the files are included in the NZBget/Scrips folder. However if they are not you have two options. Manually download the latest NZBtoMedia [package](https://github.com/clinton-hall/nzbToMedia/archive/master.zip) and unpack them there. Or point to the NZBtoMedia folder included within SickChill. This can be done in NZBGet by going to Settings --> PATHS --> `ScriptDir`.
+First you need to make sure that NZBget points to the NZBtoMedia files. Sometimes the files are included in the NZBget/Scrips folder. However, if they are not you have two options. Manually download the latest NZBtoMedia [package](https://github.com/clinton-hall/nzbToMedia/archive/master.zip) and unpack them there. Or point to the NZBtoMedia folder included within SickChill. This can be done in NZBGet by going to Settings --> PATHS --> `ScriptDir`.
 
 ==
 
@@ -41,7 +41,7 @@ Go to `PATHS` and fill-in your download Path that SickChill monitors under `Main
 
 ![4](https://cloud.githubusercontent.com/assets/7928052/13014407/f99d1d34-d1b3-11e5-9fc7-7366fb786ebe.png)
 
-Go to `CATEGORIES` in the Settings. Push on Add another `categorie` at the bottom of the page to add a new categorie. (or re-use an already existing categorie)
+Go to `CATEGORIES` in the Settings. Push on Add another `categorie` at the bottom of the page to add a new category. (or re-use an already existing category)
 
 - Under `name` add `tv`
 - Under `Postscript` chose `nzbToSickBeard`
@@ -70,7 +70,7 @@ And save the settings.
 
 ![3](https://cloud.githubusercontent.com/assets/7928052/13014404/f99896ec-d1b3-11e5-8d84-7bab89f35121.png)
 
-By default NZBget will create a sub-directory with the name of the category. And some users might not like that. To change this go to `INCOMING NZBS` under settings and set `appendedcategorydir` to `NO`
+By default NZBget will create a subdirectory with the name of the category. And some users might not like that. To change this go to `INCOMING NZBS` under settings and set `appendedcategorydir` to `NO`
 
 And save the settings.
 
@@ -112,7 +112,7 @@ Go to the `[Nzb]` section and add/change the following settings. :
 
 (Note: There are more advanced settings that you can modify, but they are not needed in most cases.)
 
-Thats it. Now save the file.
+That's it. Now save the file.
 
 ## Configure nzbtosickbeard.py with SABnzbd
 
@@ -131,9 +131,9 @@ In our case we want to do this with the tag `tv` that SickChill uses.
 Go to : `Config` -> `Categories`
 
 See if there is already a category called `tv` and if not create one.  
-Than select in the `Script` column "nzbToSickBeard.py" as the script needs to be executed after the file was downloaded by SABnzbd. (In case there are no scripts the select, than make sure you have sett the correct scripts folder mentioned in the previous step.)
+Than select in the `Script` column "nzbToSickBeard.py" as the script needs to be executed after the file was downloaded by SABnzbd. (In case there are no scripts the select, then make sure you have sett the correct scripts folder mentioned in the previous step.)
 
-The "Folder/Path" doesn't need to be set, but if you are having problems than set to the location where you want your movies extracted to (Usually just set this as tv to move files to a tv sub-directory in the download completed directory)
+The "Folder/Path" doesn't need to be set, but if you are having problems than set to the location where you want your movies extracted to (Usually just set this as tv to move files to a tv subdirectory in the download completed directory)
 
 ==
 
