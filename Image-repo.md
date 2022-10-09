@@ -1,4 +1,4 @@
-[ [Anime] ](#anime)  
+[ [Anime] ](#anime)
 
 ![HelpInfo](https://user-images.githubusercontent.com/10173496/187035138-514af284-1315-45f4-b66a-f41151cb7a96.png)
 ![GeneralInterface](https://user-images.githubusercontent.com/10173496/187035140-7d16e9c7-ce58-4452-9bd6-4e06037b03bf.png)
@@ -12,8 +12,10 @@
 ![SearchTorrDLS](https://user-images.githubusercontent.com/10173496/187035154-f907a5b5-305a-48f4-ae84-46c876bdcd09.png)
 ![SettingsIcon](https://user-images.githubusercontent.com/10173496/187035155-d9070d6b-b83b-4d9f-9394-093ccd0737f6.png)
 ![GeneralMisc](https://user-images.githubusercontent.com/10173496/187035156-ed0f418c-4437-4ebc-b964-f0f9ee97dded.png)
-![PostProcMain](https://user-images.githubusercontent.com/10173496/187035157-147a74d2-4040-4097-8467-cc0a8795de4e.png)  
-## Anime  
+![PostProcMain](https://user-images.githubusercontent.com/10173496/187035157-147a74d2-4040-4097-8467-cc0a8795de4e.png)
+
+## Anime
+
 ![PostProcEpName](https://user-images.githubusercontent.com/10173496/187035158-0c2e7d9d-0a84-4079-a667-413d7133a1b1.png)
 ![PostProcMetaData](https://user-images.githubusercontent.com/10173496/187035159-6a9c2d12-afdc-4e4a-8b19-b351355ebf7f.png)
 
@@ -26,7 +28,3 @@
 ![SynoInstall](https://user-images.githubusercontent.com/10173496/187065639-d32e5760-93be-48dd-a710-01e027517b6e.png)
 
 ![SynoUninstallSR](https://user-images.githubusercontent.com/10173496/187066254-0ef1324a-f330-49c7-bade-b32504732f7c.png)
-
-
-
-

@@ -6,12 +6,12 @@ Make sure you have `node.js`, `bower` and `grunt` installed then run the command
 
 If you don't have `bower` or `grunt` installed use `npm install -g bower` and/or `npm install -g grunt-cli` to install them.
 
-````
+```
 npm install && bower install && grunt
-````
+```
 
 Now that you have everything installed and up to date you'll want to install the new library, to do this we install it via bower and then run grunt to minify it with all of the other libraries.
 
-````
+```
 bower install <package> --save && grunt
-````
+```

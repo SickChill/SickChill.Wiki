@@ -1,6 +1,7 @@
-* **Backup SickChill settings**
+- **Backup SickChill settings**
 
-* Install Python 3.6.9
+- Install Python 3.6.9
+
 ```bash
 apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev libgdbm-dev libnss3-dev libssl-dev openssl
 cd /root
@@ -11,9 +12,12 @@ cd Python-3.6.9
 make
 make altinstall
 ```
+
 Update SickChill
 Test new SickChill
+
 ```bash
 /usr/local/bin/python3.6 /<YourSickChillLocation>/SickChill.py
 ```
+
 Update your sickchill.service to use python3.6
