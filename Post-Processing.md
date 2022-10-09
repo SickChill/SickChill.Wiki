@@ -4,12 +4,12 @@ Post Processing is a name for a collection of actions that are taken after a fil
 
 ## Post Processing explained
 
-To start Post Processing in SickChill you have 3 possibility's. The fist (default) one is to let SickChill scan/monitor the `TV Download Dir` for newly downloaded episodes by your download client. Once SickChill detects a new file the Post processing starts. The second possibility is [Manual Post Processing](https://github.com/SickChill/SickChill/wiki/Post-Processing#manual-post-processing). The third method is using a script to inform SickChill that a new episode was downloaded. This is the ideal/preferred way for NAS devices. As this method doesn't need the constant scanning of the `TV Download Dir` it will allow the hard disks to go into sleep. Some might already be familiar with the SABtoSickbeard script that is used in combination with SABNZBz. However not all download clients support the running of those scripts after a download so SickChill can be informed.  
+To start Post Processing in SickChill you have 3 possibilities. The fist (default) one is to let SickChill scan/monitor the `TV Download Dir` for newly downloaded episodes by your download client. Once SickChill detects a new file the Post processing starts. The second possibility is [Manual Post Processing](https://github.com/SickChill/SickChill/wiki/Post-Processing#manual-post-processing). The third method is using a script to inform SickChill that a new episode was downloaded. This is the ideal/preferred way for NAS devices. As this method doesn't need the constant scanning of the `TV Download Dir` it will allow the hard disks to go into sleep. Some might already be familiar with the SABtoSickbeard script that is used in combination with SABNZBz. However not all download clients support the running of those scripts after a download so SickChill can be informed.  
 For more detailed information about an individual setting see the [Main Settings Wiki](https://github.com/SickChill/SickChill/wiki/Settings-explained#post-processing).
 
 ## Manual Post Processing
 
-Normally SickChill does Auto Post Processing but it gives you also the possibility to Manual Post Process files. This can be handy if you have manually downloaded files and want to instantly process them in SickChill. Simply hit the button Post-Processing at the top-right corner and the following screen will appear.:
+Normally SickChill does Auto Post Processing, but it gives you also the possibility to Manual Post Process files. This can be handy if you have manually downloaded files and want to instantly process them in SickChill. Simply hit the button Post-Processing in the top-right corner and the following screen will appear.:
 
 ![pp](https://cloud.githubusercontent.com/assets/7928052/13013716/dc32af82-d1b0-11e5-80be-9638101f901b.png)
 
@@ -43,7 +43,7 @@ Examples:
 - Windows: `C:\Python27\pythonw.exe C:\Script\test.py`
 - Linux: `python /Script/test.py`
 
-Use single back slashes, SickChill/Python will escape them and make them double.  
+Use single backslashes, SickChill/Python will escape them and make them double.  
 Additional scripts can be used, separated by `|`  
 Scripts are called after SickChill's own post-processing.
 

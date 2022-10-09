@@ -3,7 +3,7 @@
 Scene exceptions are alternative names that are used by the "scene" (release groups and uploaders of shows).
 Sometimes a show is called different by the indexer (TheTVDB) then the torrents/nzb's files.
 For example a show is called `Pawn Star$` on the indexer, but the uploaded files are named `Pawn Stars`
-When this is the case SickChill cant detect the torrents/nzb's files and they will be skipped. Then a a scene exception is the solution.
+When this is the case SickChill cant detect the torrents/nzb's files and they will be skipped. Then a scene exception is the solution.
 
 To add a Scene exception go to the Show and click on the edit button. You will see a field called `scene exception`. Add the desired scene name and save the settings.
 On the next search SickChill will use the newly added scene exception name in its search and should find the show/episodes.

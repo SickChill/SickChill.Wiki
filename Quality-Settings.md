@@ -54,7 +54,7 @@ Note: All `RIP` qualities can have either `rip` or `mux` in the filename. ( Exam
 
 (All of these settings will find files with the required [Media Extensions](https://github.com/SickChill/SickChill/wiki/Quality-Settings#media-extensions).)
 
-This quality determination also apply's to imported/already downloaded files. So when you rename your files and they dont include the valid quality names, they can be detected as `Unknown` by SickChill.!
+This quality determination also applies to imported/already downloaded files. So when you rename your files and they don't include the valid quality names, they can be detected as `Unknown` by SickChill.!
 
 ## Difference between Preset and Custom Qualities
 
@@ -77,9 +77,9 @@ You can set more than one Present quality per show. But be aware that the first 
 - **Custom**
   - Custom Quality gives you the Allowed and Preferred menus, outlined under [Custom Qualities](https://github.com/SickChill/SickChill/wiki/Quality-Settings#custom-qualities)
 
-Lets give you some real world examples that you need to consider selecting the quality.
+Let's give you some real world examples that you need to consider selecting the quality.
 For new/popular shows, you can basically set every quality as there are (probably) released in all of those quality's.
-However it might get problematic for more "exotic" and older shows. Maybe those shows where never released as HD/Bluray but only as SD/DVDRip. Needles to say if you only set HD quality for those shows then there is a good chance that SickChill wont find any downloads. So the smart thing is to chose more or `Any` as quality. But most efficient is a old fashion manual search on the indexer to see in what quality the releases are uploaded.
+However, it might get problematic for more "exotic" and older shows. Maybe those shows where never released as HD/Bluray but only as SD/DVDRip. Needless to say if you only set HD quality for those shows then there is a good chance that SickChill won't find any downloads. So the smart thing is to chose more or `Any` as quality. But most efficient is an old fashion manual search on the indexer to see in what quality the releases are uploaded.
 
 ## Custom Qualities
 
@@ -103,15 +103,15 @@ _I want a version for watching now, and at least one 1080p quality for a long-te
 Say you want something that would normally fall under the Preset Quality of HD 720p, but you also would like to have a 1080p version for your long-term collection.
 
 1. Choose the Preset Quality - HD 720p
-2. Change the Preset Quality to Custom. You'll see that all of the HD 720p Qualities are chosen under Allowed
+2. Change the Preset Quality to Custom. You'll see that all the HD 720p Qualities are chosen under Allowed
 3. Select the Preferred Qualities of HD 1080p, 1080p WEB-DL, and 1080p BluRay
    - This _will_ download progressively higher quality 1080p releases until SickChill reaches 1080p BluRay, only then will it stop
 
-_Its a great show, I've got to get **Any** version for watching now, and **only one** 720p quality for a long-term collection_ (For the record, I call this the "Game of Thrones" Setting)  
+_It's a great show, I've got to get **Any** version for watching now, and **only one** 720p quality for a long-term collection_ (For the record, I call this the "Game of Thrones" Setting)  
 So you need to watch it now and you'd be happy to watch any version quick! But its so good you'll watch it again and again, and your collection revolves around 720P episodes.
 
 1. Choose the Preset Quality - Any
-2. Change the Preset Quality to Custom. You'll see that all of the Any Qualities are chosen under Allowed
+2. Change the Preset Quality to Custom. You'll see that all the Any Qualities are chosen under Allowed
 3. Select the Preferred Qualities of HD 720p, 720p WEB-DL, and 720p BluRay
 4. Save the page (this will activate the Archive on First Match feature) and then come back to the same Edit page
 5. Check off the **Archive on First Match** Setting

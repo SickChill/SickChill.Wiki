@@ -170,7 +170,7 @@ Now that we have the main config file out of the way, you can see the real magic
 
     iptables -t nat -D POSTROUTING -m mark --mark 10 -o $dev -j MASQUERADE
 
-Make sure those two scripts are named approproately for your config file, and, that they are chmod 755.
+Make sure those two scripts are named appropriately for your config file, and, that they are chmod 755.
 
 Next, we'll need to make OpenVPN start at boot with this config file, and, restart when the connection is dropped. So that means more _systemd_ tuning. First, lets see if you have an openvpn@ service in the first place. You want to execute the command _systemctl list-unit-files | grep openvpn_ and see if there's anything returned. If you simply get another shell prompt, we're missing that service file, which is fine. We'll create it now. If you have it listed, however, that's fine too, we'll use it, but skip the next paragraph and unit file after it. This assumes your OpenVPN config directory is /etc/openvpn - if it isn't, ensure you change that to yours.
 
@@ -205,7 +205,7 @@ restart.conf
     Restart=always
     RestartSec=30
 
-Now, you should be able to enable systemd to start your VPN connection at boot, and it will reconnect when it gets dropped. Lets tell systemd to start it at boot: _systemctl enable openvpn@tiger-nl.service_ (make sure you replace tiger-nl with your config file name before the .conf part)
+Now, you should be able to enable systemd to start your VPN connection at boot, and it will reconnect when it gets dropped. Let's tell systemd to start it at boot: _systemctl enable openvpn@tiger-nl.service_ (make sure you replace tiger-nl with your config file name before the .conf part)
 
 If all goes well, your VPN should pop up. You can check the logs with _journalctl_ to debug it, or a simple _ip link_ to see if the interface is up.
 

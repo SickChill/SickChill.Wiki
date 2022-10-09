@@ -25,7 +25,7 @@ Some guidelines for the network logos are. :
 - Use colored logos.
 - Try not to use black or withe.
 
-The last is because SickChill has two color theme's (Dark and Light). If the logo contains to much of either color it will not show properly/correctly on one of those themes. Make sure you test/check this.
+The last is because SickChill has two color theme's (Dark and Light). If the logo contains too much of either color it will not show properly/correctly on one of those themes. Make sure you test/check this.
 
 Last step is to rename the image. It needs to have the exact name of the network in the show overview list.
 Also use only lowercase characters as upper case characters are not recognized.
@@ -35,4 +35,4 @@ Example : `Sky Atlantic` this needs to be renamed to `sky atlantic` So the logo 
 Note : Special characters are not supported.!
 
 When you have the logo ready it needs to be added to SickChill. This is done with a Pull request on GitHub. You can use a program like [Sourcetree](https://www.sourcetreeapp.com/) for submitting.
-If you are not able to do this, than you can alternatively post the logo and exact filename on our SickChill [issue tracker](https://github.com/SickChill/SickChill/issues), one of the contributers/developers will than add it for you.
+If you are not able to do this, then you can alternatively post the logo and exact filename on our SickChill [issue tracker](https://github.com/SickChill/SickChill/issues), one of the contributors/developers will than add it for you.

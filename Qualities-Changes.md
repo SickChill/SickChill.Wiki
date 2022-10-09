@@ -10,7 +10,7 @@ First, the feature **Archive on first match** was poorly named, and caused it to
 
 #### **Archive on first match** has been removed in develop
 
-With the use of two quality lists like we have for custom qualities, **Archive on first match** can be eliminated. This removes the continued confusion which caused users to mentally link **Archive on first match** and **Archived Status**, which are two totally separate features. It also greatly simplifies the code, and allows us to prepare for better quality handling and eventually user orderable quality lists ("CP Style"). It also makes it easier to add the 2k/4k/UHD qualities.
+With the use of two quality lists like we have for custom qualities, **Archive on first match** can be eliminated. This removes the continued confusion which caused users to mentally link **Archive on first match** and **Archived Status**, which are two totally separate features. It also greatly simplifies the code, and allows us to prepare for better quality handling and eventually user order-able quality lists ("CP Style"). It also makes it easier to add the 2k/4k/UHD qualities.
 
 #### What does this mean for you?
 
