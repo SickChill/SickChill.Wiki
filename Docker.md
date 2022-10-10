@@ -2,9 +2,7 @@ These need to be edited for your own use. At the very least anything between `<`
 For windows, and other devices all the paths below will need set correctly for the mounts.
 
 #### Docker Compose
-
 ```
-bash
 ---
 version: "3.3"
 services:
