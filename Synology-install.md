@@ -64,16 +64,18 @@ MAIN :: Restore: Unable to remove the cache/indexers directory: error 2 : No suc
 
 Setting permissions for files and folder access in your DSM are key to SC being able to put things in the right place.
 
-There are multiple ways to have SC access your folders. You can do it per [SynoCommunity Permissions](https://github.com/SynoCommunity/spksrc/wiki/Permission-Management) wiki page, or add your own `group` with read/write permissions on folders where you want SC to access files and data then add the `system internal user` `sc-sickchill` via ssh.
+There are multiple ways to have SC access your folders. You can do it per [SynoCommunity Permissions](https://github.com/SynoCommunity/spksrc/wiki/Permission-Management) wiki page, or add your own `group` with read/write permissions on folders where you want SC to access files and folders.
 
 The user:group are:  
 **DSM6** sc-sickchill:sc-download  
 **DSM7** sc-scikchill:synocommunity  
 
 Note:  
-The user and group are `system internal user` and not directly assignable in DSM gui and the installation of SC through the `package center` will create them.
+The user and group are `system internal user` and not directly assignable in DSM gui and the installation of SC through the `package center` will create these.
 
-Example:  
+How to:  
 Create `yourgroup` through control panel `User & Group` then ssh and add `sc-sckchill` to `yourgroup` using  
-`sudo synogroup --memberadd yourgroup sc-sickchill`  
+```
+sudo synogroup --memberadd yourgroup sc-sickchill
+```  
 Adjusting access to folders via gui using `yourgroup` in `File Station` is now possible.
