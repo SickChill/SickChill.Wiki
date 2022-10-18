@@ -2,7 +2,9 @@ These need to be edited for your own use. At the very least anything between `<`
 For windows, and other devices all the paths below will need set correctly for the mounts.
 
 #### Docker Compose
+
 ```
+bash
 ---
 version: "3.3"
 services:
@@ -28,7 +30,6 @@ services:
 #### Docker run
 
 ```
-bash
 docker run -dit --user 1000:1000 --name sickchill --restart=always \
 -e TZ=America/New_York -e PUID=1000 -e PGID=1000
 -v /home/<username>/sickchill:/config \
