@@ -1,4 +1,8 @@
-You will need to install the following software packages in order to download and run the SickChill development application.  This guide makes the assumption that your development computer is running Windows 10 or 11 with 64-bit architecture. This guide also assumes you have a valid login account with github.  If you do not have an account, head over to github.com and click on Sign Up in the upper right-hand corner and create an account.
+You will need to install the following software packages in order to download and run the SickChill development application.  
+This guide makes the assumption that your development computer is running Windows 10 or 11 with 64-bit architecture. 
+This guide also assumes you have a valid login account with github.  
+If you do not have an account, head over to github.com and click on Sign Up in the upper right-hand corner and create an account.
+
 •	Git
   o	https://git-scm.com/download/win
   o	Default install settings
