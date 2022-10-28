@@ -13,3 +13,9 @@ These documents are a work-in-progress. If you'd like to contribute, please get 
 - [Issues / Bug reports](https://github.com/SickChill/SickChill/issues)
 - [Discussions / Feature requests](https://github.com/SickChill/SickChill/discussions)
 - [Donations](https://github.com/SickChill/SickChill/wiki/Donations)
+
+---
+
+<a href="https://jb.gg/OpenSourceSupport"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg" width="100" height="100"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_square.svg" width="100" height="100"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/PyCharm_icon.svg" width="60" height="60"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/IntelliJ_IDEA_icon.svg" width="60" height="60"></a>  
+JetBrains are providing "All Products Pack" licenses free of charge for SickChill developers as part of their support of OSS.  
+https://jb.gg/OpenSourceSupport  
