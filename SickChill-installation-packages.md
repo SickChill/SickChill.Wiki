@@ -40,7 +40,7 @@ These packages are not yet updated to the new URL, or are simply not maintained 
 ###### Thecus
 
 - http://forum.thecus.com/viewtopic.php?f=36&t=9720 (x32&x64)  
-  Make sure to download SickChill community Edition package, as sickragetv/sickrage is the old repo
+  ~~Make sure to download SickChill community Edition package, as sickragetv/sickrage is the old repo~~
 
 ---
 
@@ -59,7 +59,7 @@ git fetch origin
 git reset --hard origin/master
 ```
 
-In case thats not possible, you can try to switch the [dirty](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages#switching-the-dirty-way) way.
+In case that's not possible, you can try to switch the [dirty](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages#switching-the-dirty-way) way.
 
 ## Switching the Dirty way.
 
@@ -73,5 +73,5 @@ However in some cases this is not possible. For those there is a `Dirty` way to 
 - 4 Unzip and overwrite the old files on your device.
 - 5 Start SickChill again.
 
-Thats it.
+That's it.
 However this method is meant as a last resource, and should only be used if all other methods fail.

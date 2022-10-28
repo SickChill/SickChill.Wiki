@@ -68,7 +68,7 @@ There are multiple ways to have SC access your folders. You can do it per [SynoC
 
 The user:group are:  
 **DSM6** sc-sickchill:sc-download  
-**DSM7** sc-scikchill:synocommunity  
+**DSM7** sc-sickchill:synocommunity  
 
 Note:  
 The user and group are `system internal user` and not directly assignable in DSM gui and the installation of SC through the `package center` will create these.

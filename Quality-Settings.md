@@ -17,7 +17,7 @@ One of the most important settings is the quality setting for your shows. This i
 ## Quality detection/determination
 
 To understand the quality setting, you first need to understand how the quality is detected/determent.
-When SickChill starts a search for your shows, it will collect all the titles from those results. The next step is checking those titles for quality names. (Examples of those names are x264 or 720p etc.) From those found quality names SickChill determinates the quality of a file. For HDTV quality the title needs to contain `720p` + `HDTV` + `x264` = `HD TV` Quality.
+When SickChill starts a search for your shows, it will collect all the titles from those results. The next step is checking those titles for quality names. (Examples of those names are x264 or 720p etc.) From those found quality names SickChill determines the quality of a file. For HDTV quality the title needs to contain `720p` + `HDTV` + `x264` = `HD TV` Quality.
 In the list below you will find what a title needs to contain to be marked as a certain quality.
 
 ## Quality names to recognize the Quality of a file:
