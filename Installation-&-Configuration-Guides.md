@@ -1,3 +1,5 @@
+[ [ Configuration ] ](#Configuration-Guides) [ [ Installation ] ](#Installation-Guides) [ [ Developers ] ](#Developers)
+
 ### Configuration Guides
 
 New to SickChill? Then the below guides will help you with the setup, and discover all its cool features.
@@ -143,6 +145,15 @@ Make sure you use `https://github.com/SickChill/SickChill.git`
 
 - ~~http://www.drobospace.com/forums/showthread.php?tid=142812~~  
   (Note: Make sure you use the new URL! https://github.com/SickChill/SickChill.git )
+
+---
+
+### Developers
+
+[Windows Developer Setup](https://github.com/SickChill/SickChill/wiki/SickChill-Developer-Windows-Setup)
+
+[Development Environment Setup](https://github.com/SickChill/SickChill/wiki/How-to-setup-a-development-enviroment)
+
 
 ---
 
