@@ -4,7 +4,7 @@
 [Installation/Setup Guides](https://github.com/SickChill/SickChill/wiki/Installation-&-Configuration-Guides)  
 [Donations and support](https://github.com/SickChill/SickChill/wiki/Donations)  
 [Installation packages](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages)  
-[Translations](https://github.com/SickChill/SickChill/wiki/Translations)
+[Developers](https://github.com/SickChill/SickChill/wiki/Developers)
 
 **Debugging**<br/>
 [FAQ's and Fixes](https://github.com/SickChill/SickChill/wiki/FAQ%27s-and-Fixes)  

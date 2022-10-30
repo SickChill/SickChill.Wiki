@@ -2,7 +2,7 @@
 
 Hello and welcome! This wiki is here to help you set up and use SickChill. You'll find setup guides, explanations of settings and errors, and answers to frequently asked questions.
 
-On the right side of the page you see the available wiki pages. For new users, you probably want the [Installation & Setup guides](https://github.com/SickChill/SickChill/wiki/Installation-&-Configuration-Guides)
+On the right side of the page you see the available wiki pages. For new users, you probably want the [Installation & Setup guides](https://github.com/SickChill/SickChill/wiki/Installation-&-Configuration-Guides), if you want to join the [Developers](https://github.com/SickChill/SickChill/wiki/Developers) here's some basics.
 
 If you encounter a bug, please open an [issue](https://github.com/SickChill/SickChill/issues) and take a look in [discussions](https://github.com/SickChill/sickchill/discussions) too.
 
