@@ -61,7 +61,7 @@ Read the IMPORTANT NOTE below before following any guides `SickChill Repository 
 
 Our Guide
 
-- https://github.com/SickChill/SickChill/wiki/SickChill-installation-Ubuntu-15
+- https://github.com/SickChill/SickChill/wiki/SickChill-installation-Debian-Ubuntu-14-15-16
 
 HTPCGuide's Guide
 
