@@ -285,7 +285,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 
 #### Provider Priorities
 
-This sections allows you to enable/disable the providers you want to use and drag&drop them in the order you like them to be searched. Al-trough SickChill has already a large number of build-in providers it can be that your favorite provider is not yet added. Don't worry, SickChill has the possibility to add almost every NZB/Torrent provider that is out there. This can be done by adding a Custom provider. Especially for NZB providers it's better to set them up manually, that gives you the most flexibility and efficiency while searching. For more information see the explanations below.
+This sections allows you to enable/disable the providers you want to use and drag&drop them in the order you like them to be searched. Al-trough SickChill has already a large number of build-in providers it can be that your favorite provider is not yet added. Don't worry, SickChill has the possibility to add almost every NZB/Torrent provider that is out there. This can be done by adding a Custom provider. Especially for NZB providers it's better to set them up manually, that gives you the most flexibility and efficiency while searching. For more information see the explanations below. Click for [Jackett specific guide].
 
 #### Build-in NZB (and Custom) Providers
 
