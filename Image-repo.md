@@ -28,3 +28,14 @@
 ![SynoInstall](https://user-images.githubusercontent.com/10173496/187065639-d32e5760-93be-48dd-a710-01e027517b6e.png)
 
 ![SynoUninstallSR](https://user-images.githubusercontent.com/10173496/187066254-0ef1324a-f330-49c7-bade-b32504732f7c.png)
+
+![Jacket01](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/2684b5d7-de6e-4572-af51-27fb22f433df)
+![Jacket02](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/1238bd7f-619e-456a-a975-7daefb21a3eb)
+![Jacket03](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/448184a9-d51d-4204-932a-1fef12cbb399)
+![Jacket04](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/8b20fca2-f0ce-432b-9aea-1def19d79fbf)
+![Jacket06](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/564d2d13-eeac-4bd9-92c1-ed22a59035c8)
+![Jacket09](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/08f7245d-d027-4aed-a938-6abc438a24ba)
+![Jacket12](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/150713e2-91e0-40d9-9d74-0438a34366b0)
+![Jacket17](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/abc42e77-6d20-4f16-b87a-0a1978228be0)
+![Jacket22](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/ff36c6d0-1686-47f2-aae6-b9a6a24238b7)
+
