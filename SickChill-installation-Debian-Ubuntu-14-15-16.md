@@ -40,7 +40,7 @@ python3 -m venv /opt/sickchill
   ```shell
 /opt/sickchill/bin/pip install -U sickchill
   ```
-For Init Systems
+For Init Systems  
 6. Copy init.d service
 ```shell
 sudo cp -v /opt/sickchill/runscripts/init.ubuntu /etc/init.d/sickchill
@@ -53,7 +53,7 @@ sudo chown root:root /etc/init.d/sickchillsudo chmod 644 /etc/init.d/sickchill
   ```shell
 sudo update-rc.d sickchill defaultssudo service sickchill start
   ```
-For Upstart Systems
+For Upstart Systems  
 6. Copy init.d service
   ```shell
 sudo cp -v /opt/sickchill/runscripts/init.upstart /etc/init/sickchill.conf
@@ -66,7 +66,7 @@ sudo chown root:root /etc/init/sickchill.confsudo chmod 644 /etc/init/sickchill.
   ```shell
 sudo service sickchill start
   ```
-For Systemd Systems
+For Systemd Systems  
 6. Copy systemd service
   ```shell
 sudo cp -v /opt/sickchill/runscripts/init.systemd /etc/systemd/system/sickchill.service
