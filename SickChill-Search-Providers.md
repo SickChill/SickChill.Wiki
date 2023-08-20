@@ -80,7 +80,7 @@ Generic private torrent site
 
 ### TNTVillage
 
-Italian private torrent site ,specializes in Muxed (Dubbed) relases
+Italian private torrent site ,specializes in Muxed (Dubbed) releases
 
 ### Xthor
 

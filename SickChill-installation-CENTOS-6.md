@@ -6,7 +6,7 @@ The installation should also be applicable to RHEL 6 and Fedora (12, 13, or 14) 
 
 The installation assumes that you're not using the root user to install/run sickchill - the entries for **user:group** throughout the document will have to be modified to match your user configuration.
 
-1. Install rpmFusion non-free repository
+1. Install rpmFusion non-free repository  
    The repository is needed for unrar installation
 
    ```bash
@@ -55,10 +55,10 @@ The installation assumes that you're not using the root user to install/run sick
    # SickChill service configuration
 
    #run SickChill as
-   SR_USER=media
-   SR_HOME=/usr/share/sickchill
-   SR_DATA=/usr/share/sickchill
-   SR_PIDFILE=/usr/share/sickchill/sickchill.pid
+   SC_USER=media
+   SC_HOME=/usr/share/sickchill
+   SC_DATA=/usr/share/sickchill
+   SC_PIDFILE=/usr/share/sickchill/sickchill.pid
 
    #gui address, eg: \${protocol}://\${host}:\${port}/home/
    protocol=http

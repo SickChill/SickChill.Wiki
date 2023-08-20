@@ -40,7 +40,6 @@ These packages are not yet updated to the new URL, or are simply not maintained 
 ###### Thecus
 
 - http://forum.thecus.com/viewtopic.php?f=36&t=9720 (x32&x64)  
-  ~~Make sure to download SickChill community Edition package, as sickragetv/sickrage is the old repo~~
 
 ---
 
@@ -63,8 +62,8 @@ In case that's not possible, you can try to switch the [dirty](https://github.co
 
 ## Switching the Dirty way.
 
-As some installers are outdated or not maintained anymore, switching can be a little frustrating.
-In most cases you can use those old packages in combination with manual Git commands to make the switch.
+As some installers are outdated or not maintained anymore, switching can be a little frustrating.  
+In most cases you can use those old packages in combination with manual Git commands to make the switch.  
 However in some cases this is not possible. For those there is a `Dirty` way to switch.
 
 - 1 Run the outdated installer and install sickchill from the old Repo.
@@ -73,5 +72,5 @@ However in some cases this is not possible. For those there is a `Dirty` way to 
 - 4 Unzip and overwrite the old files on your device.
 - 5 Start SickChill again.
 
-That's it.
+That's it.  
 However this method is meant as a last resource, and should only be used if all other methods fail.
