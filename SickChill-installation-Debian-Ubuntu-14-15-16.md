@@ -18,7 +18,7 @@ Otherwise:
    This will give you unrar-free (guess) and git to pull the repo, as well as any other requirements for building the package. The name of the `python3-venv` package you need to install may be different to what is listed here - in this case you will be prompted with the updated version at a later step.  
 
   ```shell
-sudo apt-get update && sudo apt-get install unrar-free git-core openssl libssl-dev python3 python3-pip python3.10-venv
+sudo apt-get update && sudo apt-get install unrar-free openssl libssl-dev python3 python3-pip python3.10-venv
   ```
 
 2. Create sickchill user and group, and switch to `sickchill`.  
@@ -43,24 +43,25 @@ python3 -m venv /opt/sickchill
 _For Init Systems_  
 6. Copy init.d service
 ```shell
-sudo cp -v /opt/sickchill/runscripts/init.ubuntu /etc/init.d/sickchill
+
+sudo curl https://raw.githubusercontent.com/SickChill/SickChill/master/contrib/runscripts/init.ubuntu -o /etc/init.d/sickchill
 ```
 7. Make sure your new service has correct permissions
   ```shell
-sudo chown root:root /etc/init.d/sickchillsudo chmod 644 /etc/init.d/sickchill
+sudo chown root:root /etc/init.d/sickchill && sudo chmod 644 /etc/init.d/sickchill
   ```
 8. Update and start your new service
   ```shell
-sudo update-rc.d sickchill defaultssudo service sickchill start
+sudo update-rc.d sickchill defaults && sudo service sickchill start
   ```
 _For Upstart Systems_  
 6. Copy init.d service
   ```shell
-sudo cp -v /opt/sickchill/runscripts/init.upstart /etc/init/sickchill.conf
+sudo curl https://raw.githubusercontent.com/SickChill/SickChill/master/contrib/runscripts/init.upstart -o /etc/init/sickchill.conf
   ```
 7. Make sure your new service has correct permissions
   ```shell
-sudo chown root:root /etc/init/sickchill.confsudo chmod 644 /etc/init/sickchill.conf
+sudo chown root:root /etc/init/sickchill.conf && sudo chmod 644 /etc/init/sickchill.conf
   ```
 8. Update and start your new service
   ```shell
@@ -69,14 +70,14 @@ sudo service sickchill start
 _For Systemd Systems_  
 6. Copy systemd service
   ```shell
-sudo cp -v /opt/sickchill/runscripts/init.systemd /etc/systemd/system/sickchill.service
+sudo curl https://raw.githubusercontent.com/SickChill/SickChill/master/contrib/runscripts/init.systemd -o /etc/systemd/system/sickchill.service
   ```
 7. Make sure your new service has correct permissions
   ```shell
-sudo chown root:root /etc/systemd/system/sickchill.servicesudo chmod 644 /etc/systemd/system/sickchill.service
+sudo chown root:root /etc/systemd/system/sickchill.service && sudo chmod 644 /etc/systemd/system/sickchill.service
   ```
 8. Enable, start, and then check the status of your new service
   ```shell
-sudo systemctl enable sickchillsudo systemctl start sickchillsudo systemctl status sickchill
+sudo systemctl enable sickchill && sudo systemctl start sickchill && sudo systemctl status sickchill
   ```
 All done, verify that SickChill is accessible at: [http://localhost:8081/](http://localhost:8081)
