@@ -31,9 +31,4 @@ jobs:
         uses: creyD/prettier_action@v4.3
         with:
           # This part is also where you can pass other options, for example:
-          prettier_options: --check **/*.{js,md}
-      - name: Push to wiki
-        if: github.ref_name == github.event.repository.default_branch
-        run: |
-          git remote add wiki git@github.com:SickChill/SickChill.WikiTemp.wiki.git
-          git push wiki ${{ github.ref_name }} -f
+          prettier_options: --write **/*.{js,md}
