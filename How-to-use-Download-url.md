@@ -10,13 +10,14 @@ for the first episode could be http://shows.domain.tld/Firefly/Season%2001/Firef
 You do need a separate webserver with a vhost configured to make the shows available.
 
 ### Apache
+
 Example configuration if you use apache, assuming your shows are stored in /home/user/shows :
 
 ```
-<VirtualHost "shows.domain.tld:80">  
-DocumentRoot /home/user/shows  
-ServerName shows.domain.tld  
-CustomLog /var/log/apache2/shows_access.log combined  
+<VirtualHost "shows.domain.tld:80">
+DocumentRoot /home/user/shows
+ServerName shows.domain.tld
+CustomLog /var/log/apache2/shows_access.log combined
 
     <Directory "/home/user/shows">
        Order deny,allow
@@ -26,13 +27,15 @@ CustomLog /var/log/apache2/shows_access.log combined
   </VirtualHost>
 ```
 
-### nginx 
-Example configuration for nginx :  
+### nginx
+
+Example configuration for nginx :
+
 ```
-server  
-{  
-listen 80;  
-server_name shows.domain.tld;  
+server
+{
+listen 80;
+server_name shows.domain.tld;
 
         access_log                      /var/log/nginx/shows.access_log;
         error_log                       /var/log/nginx/shows.error_log;

@@ -68,14 +68,16 @@ There are multiple ways to have SC access your folders. You can do it per [SynoC
 
 The user:group are:  
 **DSM6** sc-sickchill:sc-download  
-**DSM7** sc-sickchill:synocommunity  
+**DSM7** sc-sickchill:synocommunity
 
 Note:  
 The user and group are `system internal user` and not directly assignable in DSM gui and the installation of SC through the `package center` will create these.
 
 How to:  
-Create `yourgroup` through control panel `User & Group` then ssh and add `sc-sckchill` to `yourgroup` using  
+Create `yourgroup` through control panel `User & Group` then ssh and add `sc-sckchill` to `yourgroup` using
+
 ```
 sudo synogroup --memberadd yourgroup sc-sickchill
-```  
+```
+
 Adjusting access to folders via gui using `yourgroup` in `File Station` is now possible.

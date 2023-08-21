@@ -43,7 +43,7 @@ _(as of December 2014)_<br/> -[Desktop (Full-HD)](http://imgur.com/a/4fpBk)<br> 
 To run SickChill we recommend [Python 3.8 or higher](https://www.python.org/downloads/), Python 3.7 as minimum.  
 The latest modules of [Pip](https://pypi.org/project/pip),
 [Poetry](https://pypi.org/project/poetry), [PyOpenSSL](https://pypi.python.org/pypi/pyOpenSSL), and [cryptography](https://pypi.python.org/pypi/cryptography).  
-SickChill will load many other packages from [Pypi](https://pypi.org/) too.  
+SickChill will load many other packages from [Pypi](https://pypi.org/) too.
 
 #### Support
 

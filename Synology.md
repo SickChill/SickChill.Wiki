@@ -3,7 +3,7 @@
 Installation guide can be found on [SynoCommunity](https://synocommunity.com)
 
 After installing the `SPK` through the `Package Center` it takes **_Several Minutes_** for the gui to become available. The SPK should install all packages required with no additional input from you.  
-If the **package center** says `running` please wait and check again.   
+If the **package center** says `running` please wait and check again.  
 The time it takes to become available depends on your DSM and internet connection, you only have a problem if **package center** says `stopped`.
 
 ## Troubleshooting
@@ -12,16 +12,17 @@ Look in the `discussions` and `issues`, both open and closed before raising an *
 Please include which version, DSM **6** or DSM **7**, along with as much other information you can if you raise an **issue**.
 
 If SickChill doesn't run properly after installing from **package center** consider the following:
-* Fully remove **SC** and reinstall.
-* Fully remove **SC** and **Python** and reintall both.  
-* **ssh** into your DSM  
-Look at the installation log at `/var/logs/packages/sichchill.log` to see what went wrong, include it if you raise an **issue**.  
-This is a different log file to the **SC** log under `data/logs` and is the same info you'd see if you run from `ssh` terminal.  
-* **ssh** into your DSM and [**RUN** manually](#how-to-run-sc-form-ssh-terminal).
+
+- Fully remove **SC** and reinstall.
+- Fully remove **SC** and **Python** and reintall both.
+- **ssh** into your DSM  
+  Look at the installation log at `/var/logs/packages/sichchill.log` to see what went wrong, include it if you raise an **issue**.  
+  This is a different log file to the **SC** log under `data/logs` and is the same info you'd see if you run from `ssh` terminal.
+- **ssh** into your DSM and [**RUN** manually](#how-to-run-sc-form-ssh-terminal).
 
 ### _Where are the **SC** files?_
 
-SC: `/volume1/@appstore/sickchill/env/lib/python3.10/site-packages/sickchill`  ~~`/volume1/@appstore/sickchill`~~    
+SC: `/volume1/@appstore/sickchill/env/lib/python3.10/site-packages/sickchill` ~~`/volume1/@appstore/sickchill`~~  
 Env: `/volume1/@appstore/sickchill/env/`  
 Python3: `/volume1/@appstore/sickchill/env/bin/python3`  
 Python packages: `/volume1/@appstore/sickchill/env/lib/python3.10/site-packages/` [Py 3.10]  

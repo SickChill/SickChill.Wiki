@@ -39,7 +39,7 @@ These packages are not yet updated to the new URL, or are simply not maintained 
 
 ###### Thecus
 
-- http://forum.thecus.com/viewtopic.php?f=36&t=9720 (x32&x64)  
+- http://forum.thecus.com/viewtopic.php?f=36&t=9720 (x32&x64)
 
 ---
 

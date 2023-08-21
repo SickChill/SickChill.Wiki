@@ -38,4 +38,3 @@
 ![Jacket12](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/150713e2-91e0-40d9-9d74-0438a34366b0)
 ![Jacket17](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/abc42e77-6d20-4f16-b87a-0a1978228be0)
 ![Jacket22](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/ff36c6d0-1686-47f2-aae6-b9a6a24238b7)
-

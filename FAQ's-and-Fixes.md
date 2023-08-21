@@ -29,6 +29,7 @@
 You can find the log files path in _Config->Help & Info_, look for _SC Log Dir_.
 
 _Note: You may need to `ssh` to access them_
+
 ## How do I enable debug logs to get more detailed information in my logs?
 
 Go to settings (gearwheels) ---> General ---> Advanced Settings. Enable the setting `Enable debug`. Or set in manually in your config.ini. The line is called `debug = 0` replace the 0 with 1 and save. (Make sure SickChill is not running!)
