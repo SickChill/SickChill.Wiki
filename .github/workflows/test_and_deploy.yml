@@ -22,6 +22,7 @@ defaults:
 
 jobs:
   prettier:
+    name: Validate formatting with prettier
     strategy:
       fail-fast: true
     continue-on-error: false
@@ -32,21 +33,40 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
-      - name: Add temp wiki push urls
+      - name: add wiki push destination
         if: github.ref_name == github.event.repository.default_branch
         run: |
-          git remote set-url --add --push origin https://${{secrets.SICKCHILL_TOK}}@github.com/SickChill/SickChill.WikiTemp.wiki.git
-      - name: Add upstream wiki to push urls
-        if: ${{github.event.inputs.deploy}}
-        run: |
-          git remote set-url --add --push origin https://${{secrets.SICKCHILL_TOK}}@github.com/SickChill/SickChill.wiki.git
+          git remote set-url --add --push origin git@github.com/SickChill/SickChill.WikiTemp.wiki.git
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
-          dry: ${{github.ref_name == github.event.repository.default_branch}}
+          dry: ${{ github.ref_name == github.event.repository.default_branch }}
           push_options: -f
           prettier_options: --write **/*.{js,md}
-      - name: Push to destinations
-        if: github.ref_name == github.event.repository.default_branch
+  deploy:
+    name: Deploy to main wiki
+    strategy:
+      fail-fast: true
+    continue-on-error: false
+    needs: prettier
+    runs-on: ubuntu-22.04
+    env:
+      WIKIDIR: ./upstream
+    if: ${{ github.event.inputs.deploy }}
+    steps:
+      - name: Checkout Upstream
+        uses: actions/checkout@v3
+        with:
+          repository: SickChill/sickchill.wiki
+          token: ${{ secrets.SICKCHILL_TOK }}
+          path: ${{ env.WIKIDIR }}
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - name: Push wikitemp to upstream wiki 
         run: |
-          git push origin -f ${{github.ref_name}}
+          git remote add wikitemp git@github.com/SickChill/SickChill.WikiTemp.git
+          git fetch wikitemp
+          git reset --hard wikitemp/${{ github.ref_name }}
+          git push origin -f ${{ github.ref_name }}
+        working-directory: ${{ env.WIKIDIR }}
+          
