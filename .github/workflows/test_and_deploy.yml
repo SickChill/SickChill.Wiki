@@ -60,13 +60,13 @@ jobs:
           repository: SickChill/sickchill.wiki
           token: ${{ secrets.SICKCHILL_TOK }}
           path: ${{ env.WIKIDIR }}
-          ref: ${{ github.ref_name }}
+          ref: master
           fetch-depth: 0
       - name: Push wikitemp to upstream wiki 
         run: |
           git remote add wikitemp git@github.com/SickChill/SickChill.WikiTemp.git
           git fetch wikitemp
           git reset --hard wikitemp/${{ github.ref_name }}
-          git push origin -f ${{ github.ref_name }}
+          git push origin -f master
         working-directory: ${{ env.WIKIDIR }}
           
