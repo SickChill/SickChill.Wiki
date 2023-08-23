@@ -37,7 +37,7 @@ jobs:
         run: |
           git remote set-url --add --push origin git@github.com:SickChill/SickChill.WikiTemp.wiki.git
       - name: Add upstream wiki to pish urls
-        if: github.event_name == "workflow_dispatch" && github.event.inputs.deploy == true
+        if: ${{github.event_name == "workflow_dispatch" && github.event.inputs.deploy}}
         run: |
           git remote set-url --add --push origin https://${{secrets.SICKCHILL_TOK}}@github.com:SickChill/SickChill.wiki.git
       - name: Prettify code
