@@ -36,7 +36,7 @@ jobs:
       - name: add wiki push destination
         if: github.ref_name == github.event.repository.default_branch
         run: |
-          git remote set-url --add --push origin git@github.com/SickChill/SickChill.WikiTemp.wiki.git
+          git remote set-url --add --push origin git@github.com:SickChill/SickChill.WikiTemp.wiki.git
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
@@ -64,7 +64,7 @@ jobs:
           fetch-depth: 0
       - name: Push wikitemp to upstream wiki 
         run: |
-          git remote add wikitemp git@github.com/SickChill/SickChill.WikiTemp.git
+          git remote add wikitemp git@github.com:SickChill/SickChill.WikiTemp.git
           git fetch wikitemp
           git reset --hard wikitemp/${{ github.ref_name }}
           git push origin -f master
