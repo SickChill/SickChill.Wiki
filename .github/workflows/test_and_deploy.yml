@@ -5,6 +5,12 @@ on:
     branches:
       - main
       - prettier
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: "Push to main wiki"
+        type: boolean
+        default: false
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.sha }}
@@ -29,8 +35,11 @@ jobs:
       - name: Add push urls
         if: github.ref_name == github.event.repository.default_branch
         run: |
-          echo "ignoring 'git remote set-url --add --push origin git@github.com:SickChill/SickChill.wiki.git' until PAT is set"
           git remote set-url --add --push origin git@github.com:SickChill/SickChill.WikiTemp.wiki.git
+      - name: Add upstream wiki to pish urls
+        if: github.event_name == "workflow_dispatch" && github.event.inputs.deploy == true
+        run: |
+          git remote set-url --add --push origin https://${{secrets.SICKCHILL_TOK}}@github.com:SickChill/SickChill.wiki.git
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
