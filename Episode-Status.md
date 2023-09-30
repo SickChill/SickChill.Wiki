@@ -1,6 +1,6 @@
 ## Episode Status
 
-The Episode status lets you view the current status of an episode. For example is it already downloaded.? still Wanted? or Snatched.? etc. What the Episode Status is effects what actions SickChill will take for the future of the episode.
+The Episode status lets you view the current status of an episode. For example, is it already downloaded.? still Wanted? or Snatched.? etc. What the Episode Status is effects what actions SickChill will take for the future of the episode.
 
 ## Status Types
 
@@ -10,15 +10,15 @@ There are many different Status Types that are used for at what state/stage the 
 
   - Generally used to mark an episode as downloaded and watched
   - it adds plus one toward the individual episode count
-  - it is included in total episode count and added to the progress bar
+  - it is included in the total episode count and added to the progress bar
   - this is a manual setting for keeping track of physical episodes (i.e. on a disc you own) when using SickChill as a collection manager
 
 - **Ignored**
 
   - episode is not wanted by the user
   - excludes the episode from stat counts
-  - has a zero count toward Individual Episode Count
-  - is not included in total episode count or progress bar
+  - has a zero count toward the Individual Episode Count
+  - is not included in the total episode count or progress bar
 
 - **Skipped**
 
@@ -33,22 +33,24 @@ There are many different Status Types that are used for at what state/stage the 
 
   - is wanted
   - is not yet downloaded
-  - has a zero count toward Individual Episode Count
-  - is included in Total Episode Count
+  - has a zero count toward the Individual Episode Count
+  - is included in the Total Episode Count
 
 - **Snatched**
-  - is wanted, has been found and sent to the download client
-  - has a zero count toward Individual Episode Count
-  - is included in Total Episode Count
+  - is wanted, has been found, and sent to the download client
+  - has a zero count toward the Individual Episode Count
+  - is included in the Total Episode Count
+
 - **Failed**
 
   - has been snatched but failed to download
   - marks the episode as one to try for an alternative release
 
 - **Downloaded ([Quality])**
+
   - has been found and completed download
   - has a one count toward Individual Episode Count
-  - is included in Total Episode Count
+  - is included in the Total Episode Count
   - this can be "Low" or "Best"
     - "Low" shades the Episode **pink** and exists when there is a higher quality still desired for download when the Custom Preset is used with Initial and Archive qualities
     - "Best" shades the Episode **green** and exists when the download matches a desired Quality in a Preset Quality setting, or when the download matches the _highest_ desired Archive Quality in a Custom setting
