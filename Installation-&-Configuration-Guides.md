@@ -127,8 +127,7 @@ HTPCGuide's Guide
 
 ###### Feral Hosting
 
-- https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/Software/Sick%20Beard%20and%20SickRage%20-%20Basic%20Setup
-- ~~https://www.feralhosting.com/faq/view?question=281~~
+- https://www.feralhosting.com/wiki/software/sickchill
 
 ###### XPenology
 
