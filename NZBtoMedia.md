@@ -151,7 +151,7 @@ With the release of SABnzbd version 0.7.5 a new special parameter named "empty_p
 Go to : `Config` -> `Special` -> `empty_postproc (on)`  
 And change the setting to off.
 
-======
+===
 
 A successful run of the script should look like this in SABnzbd. :
 
