@@ -131,7 +131,7 @@ HTPCGuide's Guide
 
 ###### XPenology
 
-- [XPenology](https://idmedia.no/general/sickrage-dead-long-live-sickrage/)
+- [XPenology](https://web.archive.org/web/20160127040953/https://idmedia.no/general/sickrage-dead-long-live-sickrage/)
 
 ###### Whatbox.ca
 
