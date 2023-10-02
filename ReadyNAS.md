@@ -1,4 +1,4 @@
-- **Backup SickChill settings**
+**NOTE : Backup SickChill settings**
 
 - Install Python 3.6.9
 
@@ -13,11 +13,10 @@ make
 make altinstall
 ```
 
-Update SickChill
-Test new SickChill
+- Update SickChill and Test new SickChill
 
 ```bash
 /usr/local/bin/python3.6 /<YourSickChillLocation>/SickChill.py
 ```
 
-Update your sickchill.service to use python3.6
+- Update your sickchill.service to use python3.6
