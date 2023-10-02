@@ -1,3 +1,10 @@
+## IMPORTANT NOTE!
+
+Some guides are not yet updated with the new SickChill Repository URL.  
+Make sure you use `https://github.com/SickChill/SickChill.git`
+
+---
+
 [ [ Configuration ] ](#Configuration-Guides) [ [ Installation ] ](#Installation-Guides)
 
 ### Configuration Guides
@@ -130,21 +137,6 @@ HTPCGuide's Guide
 ###### Whatbox.ca
 
 - https://whatbox.ca/wiki/SickRage
-
-## IMPORTANT NOTE!
-
-Some guides are not yet updated with the new SickChill Repository URL.  
-Make sure you use `https://github.com/SickChill/SickChill.git`
-
-###### NAS4Free
-
-- ~~http://forums.nas4free.org/viewtopic.php?t=8533~~  
-  (Note: Make sure you use the new URL! https://github.com/SickChill/SickChill.git )
-
-###### Drobo
-
-- ~~http://www.drobospace.com/forums/showthread.php?tid=142812~~  
-  (Note: Make sure you use the new URL! https://github.com/SickChill/SickChill.git )
 
 ---
 
