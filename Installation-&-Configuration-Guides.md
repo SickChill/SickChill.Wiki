@@ -14,7 +14,7 @@ New to SickChill? Then the below guides will help you with the setup, and discov
 
 ###### Configuration guides for SickChill:
 
-- http://www.htpcguides.com/configure-sickrage-usenet-torrent-tv/
+- https://www.htpcguides.com/configure-sickrage-usenet-torrent-tv/
 
 ###### Setup NZBtoMedia for SickChill
 
@@ -22,11 +22,11 @@ New to SickChill? Then the below guides will help you with the setup, and discov
 
 ###### Reverse Proxy with Nginx on Linux:
 
-- http://www.htpcguides.com/configure-sickrage-reverse-proxy-nginx/
+- https://www.htpcguides.com/configure-sickrage-reverse-proxy-nginx/
 
 ###### How to migrate Shows library from SickBeard to SickChill?
 
-- http://www.htpcbeginner.com/sickbeard-to-sickrage-migration/
+- https://www.htpcbeginner.com/sickbeard-to-sickrage-migration/
 
 (Note, Don't use the old config.ini and sickchill.db to prevent errors.!)
 
@@ -49,13 +49,13 @@ Read the IMPORTANT NOTE below before following any guides `SickChill Repository 
 
 ###### Mac:
 
-- http://www.htpcguides.com/install-sickrage-mac-osx-usenet-torrent-tv/  
+- https://www.htpcguides.com/install-sickrage-mac-osx-usenet-torrent-tv/  
   [(Additional info for using NZBtoMedia on MAC)](https://gist.github.com/XxUnkn0wnxX/bf3d848232f4a71b6556)  
   [(Launch SickChill On Boot & Via App)](https://gist.github.com/XxUnkn0wnxX/d199daecc5c414174cf9)
 
 ###### Debian/Ubuntu 14.04 with Upstart:
 
-- http://www.htpcguides.com/install-sickrage-ubuntu-14-04/
+- https://www.htpcguides.com/install-sickrage-ubuntu-14-04/
 
 ###### Debian/Ubuntu 15.x with systemd:
 
@@ -65,19 +65,19 @@ Our Guide
 
 HTPCGuide's Guide
 
-- http://www.htpcguides.com/install-sickrage-ubuntu-vivid-vervet-15-x-and-later
+- https://www.htpcguides.com/install-sickrage-ubuntu-vivid-vervet-15-x-and-later
 
 ###### Install SickChill on Ubuntu in a few simple steps
 
-- http://www.htpcbeginner.com/install-sickrage-on-ubuntu/
+- https://www.htpcbeginner.com/install-sickrage-on-ubuntu/
 
 ###### uninstall SickChill Ubuntu Linux
 
-- http://www.htpcbeginner.com/uninstall-sickrage-ubuntu-linux/
+- https://www.htpcbeginner.com/uninstall-sickrage-ubuntu-linux/
 
 ###### Raspberry Pi:
 
-- http://www.htpcguides.com/install-sickrage-raspberry-pi-usenet-torrent-tv/
+- https://www.htpcguides.com/install-sickrage-raspberry-pi-usenet-torrent-tv/
 - http://www.algissalys.com/how-to/sickrage-sabnzbd-raspberry-pi-tvpi-part-2
 
 ###### OSMC
@@ -112,7 +112,7 @@ HTPCGuide's Guide
 
 ###### openmediavault
 
-- http://www.htpcguides.com/install-sickrage-plugin-openmediavault/
+- https://www.htpcguides.com/install-sickrage-plugin-openmediavault/
 
 ###### Asus routers
 
