@@ -99,10 +99,6 @@ HTPCGuide's Guide
 
 - https://gist.github.com/miigotu/c9b7994639cb29a2514a696bef12220a
 
-###### OpenWRT
-
-- https://github.com/SickChill/old-sickrage-issues/issues/716#issuecomment-178950957
-
 ###### Centos 6
 
 - https://github.com/SickChill/SickChill/wiki/SickChill-installation-CENTOS-6
@@ -115,15 +111,10 @@ HTPCGuide's Guide
 
 - http://community.wd.com/t5/WD-My-Cloud/APP-SickRage-v4-0-29-for-firmware-V4-06-2015/td-p/881741  
   (Make sure you pick the right version from the list. The new Repo has a version like `Version 2016.02.16-1`)
-- http://teanazar.com/2016/02/sickrage-v2016-02-16-for-wd-my-cloud-firmware-v4/
 
 ###### openmediavault
 
 - https://www.htpcguides.com/install-sickrage-plugin-openmediavault/
-
-###### Asus routers
-
-- https://github.com/SickChill/old-sickrage-issues/issues/1037#issuecomment-193801133
 
 ###### Feral Hosting
 
