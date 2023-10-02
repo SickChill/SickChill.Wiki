@@ -102,7 +102,7 @@ HTPCGuide's Guide
 
 ###### Centos 7
 
-- http://deviantengineer.com/2015/06/usenet-centos7/
+- https://web.archive.org/web/20171117230641/https://deviantengineer.com/2015/06/usenet-centos7/
 
 ###### WD (my Cloud)
 
