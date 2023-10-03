@@ -19,23 +19,10 @@ New to SickChill? Then the below guides will help you with the setup, and discov
 - [Synology](https://github.com/SickChill/SickChill/wiki/Synology)
 - [QNAP](https://github.com/OneCDOnly/sherpa)
 
-###### Configuration guides for SickChill:
-
-- https://www.htpcguides.com/configure-sickrage-usenet-torrent-tv/
 
 ###### Setup NZBtoMedia for SickChill
 
 - https://github.com/SickChill/SickChill/wiki/NZBtoMedia
-
-###### Reverse Proxy with Nginx on Linux:
-
-- https://www.htpcguides.com/configure-sickrage-reverse-proxy-nginx/
-
-###### How to migrate Shows library from SickBeard to SickChill?
-
-- https://www.htpcbeginner.com/sickbeard-to-sickrage-migration/
-
-(Note, Don't use the old config.ini and sickchill.db to prevent errors.!)
 
 ---
 
@@ -54,42 +41,11 @@ Read the IMPORTANT NOTE below before following any guides `SickChill Repository 
 
 - (DSM 6 & 7) Use the [SynoCommunity](https://synocommunity.com/#easy-install) Repo for your Synology.
 
-###### Mac:
-
-- https://www.htpcguides.com/install-sickrage-mac-osx-usenet-torrent-tv/  
-  [(Additional info for using NZBtoMedia on MAC)](https://gist.github.com/XxUnkn0wnxX/bf3d848232f4a71b6556)  
-  [(Launch SickChill On Boot & Via App)](https://gist.github.com/XxUnkn0wnxX/d199daecc5c414174cf9)
-
-###### Debian/Ubuntu 14.04 with Upstart:
-
-- https://www.htpcguides.com/install-sickrage-ubuntu-14-04/
-
 ###### Debian/Ubuntu 15.x with systemd:
 
 Our Guide
 
 - https://github.com/SickChill/SickChill/wiki/SickChill-installation-Debian-Ubuntu-14-15-16
-
-HTPCGuide's Guide
-
-- https://www.htpcguides.com/install-sickrage-ubuntu-vivid-vervet-15-x-and-later
-
-###### Install SickChill on Ubuntu in a few simple steps
-
-- https://www.htpcbeginner.com/install-sickrage-on-ubuntu/
-
-###### uninstall SickChill Ubuntu Linux
-
-- https://www.htpcbeginner.com/uninstall-sickrage-ubuntu-linux/
-
-###### Raspberry Pi:
-
-- https://www.htpcguides.com/install-sickrage-raspberry-pi-usenet-torrent-tv/
-- http://www.algissalys.com/how-to/sickrage-sabnzbd-raspberry-pi-tvpi-part-2
-
-###### OSMC
-
-- https://discourse.osmc.tv/t/how-to-install-couchpotato-and-sickrage-on-raspberry-pi/10788
 
 ###### XBian
 
@@ -107,27 +63,8 @@ HTPCGuide's Guide
 
 - https://web.archive.org/web/20171117230641/https://deviantengineer.com/2015/06/usenet-centos7/
 
-###### WD (my Cloud)
-
-- http://community.wd.com/t5/WD-My-Cloud/APP-SickRage-v4-0-29-for-firmware-V4-06-2015/td-p/881741  
-  (Make sure you pick the right version from the list. The new Repo has a version like `Version 2016.02.16-1`)
-
-###### openmediavault
-
-- https://www.htpcguides.com/install-sickrage-plugin-openmediavault/
-
 ###### Feral Hosting
 
 - https://www.feralhosting.com/wiki/software/sickchill
 
-###### XPenology
-
-- [XPenology](https://web.archive.org/web/20160127040953/https://idmedia.no/general/sickrage-dead-long-live-sickrage/)
-
-###### Whatbox.ca
-
-- https://whatbox.ca/wiki/SickRage
-
 ---
-
-**We like to thank all who contributed to the guides, but especially we want to thank http://www.htpcguides.com for providing us with many of those quality guides.**

@@ -112,12 +112,3 @@ In case you prefer to do the installation manually, than you can have a look at 
 
 `Official Windows installer:`  
 https://github.com/SickChill/SickChillInstaller
-
-`Windows:`  
-http://www.htpcguides.com/install-sickrage-windows-usenet-torrent-tv/
-
-`System Service on All Windows Versions:`  
-http://www.htpcguides.com/create-sickrage-system-service-windows-versions/
-
-`Windows System Service v2:`  
-http://www.htpcguides.com/create-sickrage-windows-system-service-v2/

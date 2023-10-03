@@ -159,7 +159,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 - `Verify SSL Certs:`  
   This feature enables the verification of SSL certificates for HTTPS etc. This should only be disabled in case of SSL errors or for testing. But first check if you have installed python correctly with pyopenssl and cryptology.
 - `No Restart:`  
-  Only shutdown when restarting SR. Only select this when you have external software restarting SC automatically when it stops (like FireDaemon)
+  Only shutdown when restarting SC. Only select this when you have external software restarting SC automatically when it stops (like FireDaemon)
 - `Encrypt passwords:`  
   Lets you encrypt passwords in your config.ini file. Make sure the password only contains ASCII characters.
 - `Unprotected calendar:`  

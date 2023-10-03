@@ -151,12 +151,12 @@ Edit each show (or mass update) and correct the Default Episode Status to WANTED
 
 This step could be useful **if you plan to remove/reinstall SickChill** and you would like to _"start fresh"_.
 
-(also, this could be the case if you are migrating to SickChill from the previous version formerly named SickRage)
+(also, this could be the case if you are migrating to SickChill from other Sick iterations)
 
 ```
 
-systemctl stop sickrage
-chkconfig sickrage off
+systemctl stop sickchill
+chkconfig sickchill off
 systemctl daemon-reload
 systemctl reset-failed
 
