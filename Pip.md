@@ -1,4 +1,4 @@
-Install python 3.6+
+Install python 3.8+
 
 ```bash
 pip3 install -U sickchill
