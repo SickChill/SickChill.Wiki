@@ -1,9 +1,9 @@
-## What is NZBtoMedia.?
+## What is NZBtoMedia?
 
 NZBtoMedia is a collection of scripts for [post-processing](https://github.com/SickChill/SickChill/wiki/Post-Processing).  
 Normally SickChill scans the download folder for new files/downloads every 10 minutes. However, that prevents the hard disks from going into sleep/hibernation. Scripts on the other hand let SickChill instantly know if a download was completed. Therefore, the scanning of the `tv download folder` isn't necessary anymore.
-Another advantage is that other [post-processing](https://github.com/SickChill/SickChill/wiki/Post-Processing) options can be done, before the file is sent to SickChill. But most of those options are already included in SickChill, so you probably won't use them.
-Last and probably the MOST important reason, it supports failed downloads. Meaning that when your client fails to download the file a notification gets sent to SickChill and a new search gets started, with hopefully now a valid file.
+Another advantage is that other [post-processing](https://github.com/SickChill/SickChill/wiki/Post-Processing) options can be done before the file is sent to SickChill. But most of those options are already included in SickChill, so you probably won't use them.
+Last and probably the MOST important reason, it supports failed downloads. This means that when your client fails to download the file a notification gets sent to SickChill and a new search gets started, with hopefully now a valid file.
 
 ## Before you start
 
@@ -11,9 +11,9 @@ Last and probably the MOST important reason, it supports failed downloads. Meani
 - Make sure the permissions and file ownership are correctly set.
 - Windows users will need to install the [pywin32](https://sourceforge.net/projects/pywin32/files/pywin32/) extensions to run NZBtoMedia.
 
-## With what client can I use NZBtoMedia.?
+## With what client can I use NZBtoMedia?
 
-With every client that allows to run a script after the download. Most famous is probably SABnzbd, but also Synology's Download Station and Transmission support this.
+With every client that allows to run a script after the download. The most famous is probably SABnzbd, but also Synology's Download Station and Transmission support this.
 For more info see [NZBtoMedia's Repo](https://github.com/clinton-hall/nzbToMedia/wiki#downloaders)
 
 ### Installation for torrent Clients :
@@ -25,30 +25,24 @@ For more info see [NZBtoMedia's Repo](https://github.com/clinton-hall/nzbToMedia
 - [Download Station (Synology)](https://github.com/clinton-hall/nzbToMedia/wiki/Download-Station)
 - [vuze](https://github.com/clinton-hall/nzbToMedia/wiki/vuze)
 
-## How to setup NZBtoMedia with NZBget.?
+## How to setup NZBtoMedia with NZBget
 
-The good news is that NZBget has NZBtoMedia support build-in to the program. This allows for easy configuration.  
-First you need to make sure that NZBget points to the NZBtoMedia files. Sometimes the files are included in the NZBget/Scrips folder. However, if they are not you have two options. Manually download the latest NZBtoMedia [package](https://github.com/clinton-hall/nzbToMedia/archive/master.zip) and unpack them there. Or point to the NZBtoMedia folder included within SickChill. This can be done in NZBGet by going to Settings --> PATHS --> `ScriptDir`.
-
-==
+The good news is that NZBget has NZBtoMedia support built into the program. This allows for easy configuration.  
+First, you need to make sure that NZBget points to the NZBtoMedia files. Sometimes the files are included in the NZBget/Scripts folder. However, if they are not you have two options. Manually download the latest NZBtoMedia [package](https://github.com/clinton-hall/nzbToMedia/archive/master.zip) and unpack them there. Or point to the NZBtoMedia folder included within SickChill. This can be done in NZBGet by going to Settings --> PATHS --> `ScriptDir`.
 
 ![naamloos](https://cloud.githubusercontent.com/assets/7928052/13014408/f9a0cfb0-d1b3-11e5-915a-bc695e77b4ba.png)
 
 The first step is to do the basic configuration of NZBget. So add your Usenet provider and download path etc.  
 Go to `PATHS` and fill-in your download Path that SickChill monitors under `MainDir` or `DestDir` depending on your preference.
 
-==
-
 ![4](https://cloud.githubusercontent.com/assets/7928052/13014407/f99d1d34-d1b3-11e5-9fc7-7366fb786ebe.png)
 
-Go to `CATEGORIES` in the Settings. Push on Add another `categorie` at the bottom of the page to add a new category. (or re-use an already existing category)
+Go to `CATEGORIES` in the Settings. Push on Add another `category` at the bottom of the page to add a new category. (or re-use an already existing category)
 
 - Under `name` add `tv`
 - Under `Postscript` chose `nzbToSickBeard`
 
 And save the settings.
-
-==
 
 ![2](https://cloud.githubusercontent.com/assets/7928052/13014403/f995f324-d1b3-11e5-9917-fdcb71d9aabe.png)
 
@@ -66,22 +60,18 @@ Go to `nzbToSickBeard` in the Setting. Now change/add :
 
 And save the settings.
 
-==
-
 ![3](https://cloud.githubusercontent.com/assets/7928052/13014404/f99896ec-d1b3-11e5-8d84-7bab89f35121.png)
 
-By default NZBget will create a subdirectory with the name of the category. And some users might not like that. To change this go to `INCOMING NZBS` under settings and set `appendedcategorydir` to `NO`
+By default, NZBget will create a subdirectory with the name of the category. And some users might not like that. To change this go to `INCOMING NZBS` under settings and set `appendedcategorydir` to `NO`
 
 And save the settings.
 
-## How to setup NZBtoMedia with SABnzbd.?
+## How to setup NZBtoMedia with SABnzbd
 
 If you are lucky you might already be familiar with the SABtoSickbeard script. The setup is almost identical to that.  
-But first we need to configure the autoProcessMedia.cfg to include your user-name/passwords/ip/port etc.
+But first, we need to configure the autoProcessMedia.cfg to include your user-name/passwords/ip/port etc.
 
 ( SABtoSickbeard works but is outdated and doesn't support failed downloads.)
-
-==
 
 ## Configure autoProcessMedia.cfg for SABnzbd
 
@@ -98,7 +88,7 @@ Go to the `[SickBeard]` section and add/change the following settings. :
 - `port = 8081` (Change the port to the one that your SickChill install uses)
 - `username =` (Add your username if you have enabled login in SickChill)
 - `password =` (Add your password if you have enabled login in SickChill)
-- `fork =` (Only replace `auto` with `sickchill`if detection problems)
+- `fork =` (Only replace `auto` with `sickchill` if detection problems)
 
 Go to the `[Nzb]` section and add/change the following settings. :
 
@@ -122,8 +112,6 @@ First step is to let SABnzbd know where the NZBtoMedia scripts are located.
 Do this by going to. : `Config` -> `Folders` -> `User Folders` -> `Post-Processing Scripts Folder`  
 Now browse to the location where they are located and save the new path.
 
-==
-
 ![1](https://cloud.githubusercontent.com/assets/7928052/13014405/f99ac868-d1b3-11e5-841f-d566aed5f04c.png)
 
 The second step is to setup the categories. When SickChill sends an nzb to SABnzbd it adds a tag. the defealt is `tv`. The Categories allow to run a script when a certain tag is sent/found by SABnzbd.  
@@ -135,8 +123,6 @@ Than select in the `Script` column "nzbToSickBeard.py" as the script needs to be
 
 The "Folder/Path" doesn't need to be set, but if you are having problems than set to the location where you want your movies extracted to (Usually just set this as tv to move files to a tv subdirectory in the download completed directory)
 
-==
-
 **The next steps are not necessary but recommended.**
 
 ![3](https://cloud.githubusercontent.com/assets/7928052/13014409/f9abfca0-d1b3-11e5-93c8-ad8e47836327.png)
@@ -144,14 +130,10 @@ The "Folder/Path" doesn't need to be set, but if you are having problems than se
 Go to : `Config` -> `Switches` -> `Post-Process Only Verified Jobs (off)`  
 And deselect, in order to allow for snatching of the next best release. (mainly used with CouchPotatoServer if a download fails.)
 
-==
-
 ![4](https://cloud.githubusercontent.com/assets/7928052/13014410/f9ae3d94-d1b3-11e5-9713-896c133465c8.png)
 With the release of SABnzbd version 0.7.5 a new special parameter named "empty_postproc" was introduced. This allows for better handling of failed downloads.  
 Go to : `Config` -> `Special` -> `empty_postproc (on)`  
 And change the setting to off.
-
-==
 
 A successful run of the script should look like this in SABnzbd. :
 

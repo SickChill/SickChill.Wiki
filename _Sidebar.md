@@ -1,6 +1,6 @@
 **Main**<br/>
 [Wiki Home](https://github.com/SickChill/SickChill/wiki)  
-[What is SickChill?](https://github.com/SickChill/SickChill/wiki/What-is-SickChill%3F)  
+[What is SickChill?](https://github.com/SickChill/SickChill/wiki/What-is-SickChill)  
 [Installation/Setup Guides](https://github.com/SickChill/SickChill/wiki/Installation-&-Configuration-Guides)  
 [Donations and support](https://github.com/SickChill/SickChill/wiki/Donations)  
 [Installation packages](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages)  

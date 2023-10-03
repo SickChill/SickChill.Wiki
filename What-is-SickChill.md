@@ -1,12 +1,12 @@
 #### What is SickChill?
 
-SickChill is a program that downloads your favorite TV shows, then processes and stores them in your library.
-And that all fully automated! Just set it up and as soon as there is a new episode released it gets downloaded. SickChill is your ultimate PVR.!
+SickChill is a program that downloads your favorite TV shows, and then processes and stores them in your library.
+And that is all fully automated! Just set it up and as soon as there is a new episode released it gets downloaded. SickChill is your ultimate PVR!
 
 #### How does this all work?
 
-When you add a show to SickChill the data (like air-dates, episode name/number) are pulled from an indexer like [TheTVDb](http://thetvdb.com/). At that point SickChill knows when a new episode is going to air and starts the search on your favorite Torrent and/or NZB site. For this search you can set [quality](https://github.com/SickChill/SickChill/wiki/Quality-Settings) settings. For example: HDTV or SD quality. SickChill will go over all the results to find the [quality](https://github.com/SickChill/SickChill/wiki/Quality-Settings) YOU want and when found snatches the torrent/nzb and sends it to your download client. (sabnzb, utorrent, transmission etc.) At this point SickChill starts monitoring your clients download folder to see if the file is finished downloading. When this is the case SickChill starts the post-processing. Here you can tell SickChill to move the file to your shows folder, or also rename it, or send notifications to Plex/Kodi or to your smart-phone. The list is long for what you can do with post-processing, simply set the actions you prefer.
-And this whole proses is completely automated. So once you set it up no user intervention is required.
+When you add a show to SickChill the data (like air-dates, episode name/number) are pulled from an indexer like [TheTVDb](http://thetvdb.com/). At that point, SickChill knows when a new episode is going to air and starts the search on your favorite Torrent and/or NZB site. For this search you can set [quality](https://github.com/SickChill/SickChill/wiki/Quality-Settings) settings. For example: HDTV or SD quality. SickChill will go over all the results to find the [quality](https://github.com/SickChill/SickChill/wiki/Quality-Settings) YOU want and when found snatches the torrent/nzb and sends it to your download client. (sabnzb, utorrent, transmission etc.) At this point, SickChill starts monitoring your client's download folder to see if the file is finished downloading. When this is the case SickChill starts the post-processing. Here you can tell SickChill to move the file to your shows folder, or also rename it, or send notifications to Plex/Kodi or to your smart-phone. The list is long for what you can do with post-processing, simply set the actions you prefer.
+And this whole process is completely automated. So once you set it up no user intervention is required.
 This makes SickChill ideal for NAS devices. But can run on almost every other device.
 
 #### Features

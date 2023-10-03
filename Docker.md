@@ -1,5 +1,5 @@
 These need to be edited for your own use. At the very least anything between `<` and `>` needs set for your environment.
-For windows, and other devices all the paths below will need set correctly for the mounts.
+For Windows, and other devices all the paths below will need to be set correctly for the mounts.
 
 #### Docker Compose
 
