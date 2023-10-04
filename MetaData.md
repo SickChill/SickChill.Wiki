@@ -18,7 +18,7 @@ Also, you don't have to use metadata in combination with a player, as it's also 
 Again depends on the situation. But it's generally advised to at least add the `Show Metadata` file for a show.
 That will allow you to add the shows to SickChill with a simple click.
 
-## How to setup metadata
+## How to setup metadata.
 
 First, go to Settings --> Post processing --> Metadata.
 You will be presented with the below screen.
