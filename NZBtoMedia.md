@@ -123,7 +123,7 @@ Than select in the `Script` column "nzbToSickBeard.py" as the script needs to be
 
 The "Folder/Path" doesn't need to be set, but if you are having problems than set to the location where you want your movies extracted to (Usually just set this as tv to move files to a tv subdirectory in the download completed directory)
 
-**The next steps are not necessary but recommended.**
+**NOTE : The next steps are not necessary but recommended.**
 
 ![3](https://cloud.githubusercontent.com/assets/7928052/13014409/f9abfca0-d1b3-11e5-93c8-ad8e47836327.png)
 
