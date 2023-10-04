@@ -14,41 +14,21 @@ For many Devices there are installation packages compiled by community members. 
 
 ---
 
-## Outdated Packages:
+#### Outdated Packages:
 
 These packages are not yet updated to the new URL, or are simply not maintained anymore. But as long as they are working you should be able to make the switch with manual Git commands.
 
-###### Arch Linux
-
-- https://aur.archlinux.org/packages/sickchill
-
----
-
 ###### Qnap
 
-- Download the [qpkg](https://www.qnapclub.eu/fr/qpkg/647)
-
----
-
-###### Asustor
-
-- https://www.dropbox.com/s/f016hij9ebw28qd/sickbeard-tvrage_20151227_any.apk  
-  Make sure you select SickChill and NOT SickRageTV.
-
----
-
-###### Thecus
-
-- http://forum.thecus.com/viewtopic.php?f=36&t=9720 (x32&x64)
-
----
+- Download the [qpkg](https://www.qnapclub.eu/fr/qpkg/1202)
 
 ###### ReadyNas
 
-- https://github.com/Mhynlo/rn-sickchill/releases/latest
-- https://github.com/miigotu/sickchill-readynas/blob/master/sickchill_5.1.2_readynas_all.deb (UNTESTED)
+- https://github.com/SickChill/readynas-sickchill/releases
 
 ---
+
+## Git - Update with Git Directly
 
 Go into the SickChill folder and do :
 
@@ -57,8 +37,6 @@ git remote set-url origin https://github.com/SickChill/SickChill.git
 git fetch origin
 git reset --hard origin/master
 ```
-
-In case that's not possible, you can try to switch the [dirty](https://github.com/SickChill/SickChill/wiki/SickChill-installation-packages#switching-the-dirty-way) way.
 
 ## Switching the Dirty way.
 
