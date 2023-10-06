@@ -38,3 +38,16 @@
 ![Jacket12](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/150713e2-91e0-40d9-9d74-0438a34366b0)
 ![Jacket17](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/abc42e77-6d20-4f16-b87a-0a1978228be0)
 ![Jacket22](https://github.com/SickChill/SickChill.WikiTemp/assets/10173496/ff36c6d0-1686-47f2-aae6-b9a6a24238b7)
+
+## Windows Installer
+
+![winsc3](https://github.com/bigwavedave42/SickChill.WikiTemp/assets/11801385/6e0a34e3-14b0-413a-b0ed-77a85af0e31f)
+![winsc4](https://github.com/bigwavedave42/SickChill.WikiTemp/assets/11801385/3d5e8c6c-2633-4d1d-80b2-ff0ab055f9b0)
+![winsc5](https://github.com/bigwavedave42/SickChill.WikiTemp/assets/11801385/92b0ebf3-63aa-4e36-bd74-6d01f57ae574)
+![winsc6](https://github.com/bigwavedave42/SickChill.WikiTemp/assets/11801385/cb595a4f-0831-4d9f-9bd6-77d20a577750)
+![winsc7](https://github.com/bigwavedave42/SickChill.WikiTemp/assets/11801385/8d0f2c47-aeb0-4ac2-aeca-d6a03ae33a93)
+![winsc8](https://github.com/bigwavedave42/SickChill.WikiTemp/assets/11801385/6f960494-e97f-4172-979f-1e4cb3bdaacb)
+![winsc9](https://github.com/bigwavedave42/SickChill.WikiTemp/assets/11801385/806fb2f0-e484-4750-9b19-b109c446b55b)
+![winsc10](https://github.com/bigwavedave42/SickChill.WikiTemp/assets/11801385/4a8b9447-85de-4795-be56-25825cb2974e)
+![winsc11](https://github.com/bigwavedave42/SickChill.WikiTemp/assets/11801385/79a41fc3-d759-4787-8569-783598f6b889)
+![winsc12](https://github.com/bigwavedave42/SickChill.WikiTemp/assets/11801385/d3c253e8-2534-4a78-a261-88f8d6bfb107)
