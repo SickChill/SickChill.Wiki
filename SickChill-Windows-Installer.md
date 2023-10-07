@@ -23,15 +23,19 @@ sc restart SickChill
 If you are unable to get those setup correctly, you can always disable the service and start SickChill manually. SickChill will then run as the user that is logged in to Windows. Alternatively, you can also install SickChill [manually](https://github.com/SickChill/SickChill/wiki/SickChill-Windows-Installer#manual-installation-guides-for-windows)
 
 ### Enable Linked Connections
+
 If you are having issues with networked drives, you likely need to [enable linked connections](https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/mapped-drives-not-available-from-elevated-command):
 
 #### With Registry tool:
+
 ```
 reg add "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLinkedConnections" /t REG_DWORD /d 0x00000001 /f
 ```
+
 OR
 
 #### With PowerShell:
+
 ```
 New-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System' -Name EnableLinkedConnections -Value 1 -PropertyType 'DWord'
 ```

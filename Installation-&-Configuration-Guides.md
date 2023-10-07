@@ -19,7 +19,6 @@ New to SickChill? Then the below guides will help you with the setup, and discov
 - [Synology](https://github.com/SickChill/SickChill/wiki/Synology)
 - [QNAP](https://github.com/OneCDOnly/sherpa)
 
-
 ###### Setup NZBtoMedia for SickChill
 
 - https://github.com/SickChill/SickChill/wiki/NZBtoMedia

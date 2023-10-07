@@ -37,6 +37,7 @@ There are many different Status Types that are used for at what state/stage the 
   - is included in the Total Episode Count
 
 - **Snatched**
+
   - is wanted, has been found, and sent to the download client
   - has a zero count toward the Individual Episode Count
   - is included in the Total Episode Count
