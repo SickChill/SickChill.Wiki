@@ -60,7 +60,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
   You can manually set a time at witch SickChill updates/refreshes the shows information from the indexers. (air dates etc.) Best to use a time at night when the device is idle.
 - `Send to trash for actions:`  
   This option lets SickChill move the files to a recycle bin instead of the normal permanent delete.
-  Note: doesn't work on all Operating Systems. [(NSSM / WinService workaround)](![img.png](img.png)![img_1.png](img_1.png)https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
+  Note: doesn't work on all Operating Systems. [(NSSM / WinService workaround)](FAQ's-and-Fixes.md#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
 - `Number of Log files saved:`  
   Lets you set he number of log files that are stored before deleted.
 - `Size of Log files saved:`  
@@ -119,7 +119,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 - `Timezone:`  
   Lets you set the timezone. Display dates and times in either your timezone or the shows network timezone
 - `Download url:`  
-  [See here](https://github.com/SickChill/SickChill/wiki/How-to-use-Download-url)
+  [See here](How-to-use-Download-url.md)
 
 #### Web Interface
 
@@ -388,7 +388,7 @@ This sections allows you to enable/disable the providers you want to use and dra
 
 ## Post Processing
 
-- In this section you can use post process options that SickChill should preform after an episode is downloaded. For example renaming of the file etc. More information can also be found under [Post Processing](https://github.com/SickChill/SickChill/wiki/Post-Processing)
+- In this section you can use post process options that SickChill should preform after an episode is downloaded. For example renaming of the file etc. More information can also be found under [Post Processing](Post-Processing.md)
 
 ![postprocessing-1](images/PostProcMain.png)
 
@@ -436,7 +436,7 @@ This sections allows you to enable/disable the providers you want to use and dra
 - `Use icacls:`  
   Sets video file permissions after using the move method in post processing. _Windows only_.
 - `Extra Scripts:`  
-  SickChill gives you the opportunity to run your own scripts for post-processing. See [post processing](https://github.com/SickChill/SickChill/wiki/Post-Processing) for more information.
+  SickChill gives you the opportunity to run your own scripts for post-processing. See [post processing](Post-Processing.md) for more information.
 
 #### Episode Naming
 

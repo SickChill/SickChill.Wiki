@@ -2,20 +2,20 @@
 
 Luckily this is very easy and can be preformed with a few simple steps.
 
-Summery. :
+Summary:
 
 1. Go into SickChill and make a backup.
 2. Go to the Synology Package Center and remove the old package SickChill.
 3. Then install latest SickChill package from [SynoCommunity](https://synocommunity.com/).
 4. Restore your backup, and restart SickChill.
 
-That's it. :+1:
+That's it :+1:
 
 Note: By default the Synocommunity SickChill package uses port 8081, and prior Synocommunity packages used port 8083 or 8899. So if you restore your backup between the two the port will also be restored back. Therefor make sure you open the SickChill page with the correct port. Once running change to 8081 to align with package center link.
 
 ###### Need more Synology SickChill info
 
-See the [Synology](https://github.com/SickChill/SickChill/wiki/Synology) set up guide for troubleshooting and other fun DSM information.
+See the [Synology](Synology.md) set up guide for troubleshooting and other fun DSM information.
 
 ---
 

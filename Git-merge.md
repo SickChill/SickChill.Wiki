@@ -7,9 +7,9 @@
 
 ### Index
 
-- [Merge develop into master](https://github.com/SickChill/SickChill/wiki/Git-merge#merge-develop-into-master)
-- [Merge a PR via command line](https://github.com/SickChill/SickChill/wiki/Git-merge#Merge-a-PR-via-command-line)
-- [Merge a hotfix(master and develop)](https://github.com/SickChill/SickChill/wiki/Git-merge#merge-a-hotfixmaster-and-develop)
+- [Merge develop into master](#Merge-develop-into-master)
+- [Merge a PR via command line](#Merge-a-PR-via-command-line)
+- [Merge a hotfix(master and develop)](#merge-a-hotfixmaster-and-develop)
 
 ---
 

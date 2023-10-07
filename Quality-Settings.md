@@ -1,6 +1,6 @@
 ---
 
-[ [Quality Settings] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#quality-settings) [ [Quality detection/determination] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#quality-detectiondetermination) [ [Quality names to recognize the Quality of a file] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#quality-names-to-recognize-the-quality-of-a-file) [ [Difference between Preset and Custom Qualities] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#difference-between-preset-and-custom-qualities) [ [Preset Qualities] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#preset-qualities) [ [Custom Qualities] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#custom-qualities) [ [Example Advanced Custom Qualities] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#example-advanced-custom-qualities) [ [Media Extensions] ](https://github.com/SickChill/SickChill/wiki/Quality-Settings#media-extensions)
+[ [Quality Settings] ](#quality-settings) [ [Quality detection/determination] ](#quality-detectiondetermination) [ [Quality names to recognize the Quality of a file] ](#quality-names-to-recognize-the-quality-of-a-file) [ [Difference between Preset and Custom Qualities] ](#difference-between-preset-and-custom-qualities) [ [Preset Qualities] ](#preset-qualities) [ [Custom Qualities] ](#custom-qualities) [ [Example Advanced Custom Qualities] ](#example-advanced-custom-qualities) [ [Media Extensions] ](#media-extensions)
 
 ---
 
@@ -8,7 +8,7 @@
 
 There have been some recent changes/modifications to the qualities. For more info check the temporary link below.
 
-https://github.com/SickChill/SickChill/wiki/Qualities-Changes
+[Qualities-Changes](Qualities-Changes.md)
 
 ## Quality Settings
 
@@ -52,13 +52,13 @@ This shows you what a title needs to contain to be recognized as a Quality in Si
 
 Note: All `RIP` qualities can have either `rip` or `mux` in the filename. ( Example: WEBRip and WEBMux )
 
-(All of these settings will find files with the required [Media Extensions](https://github.com/SickChill/SickChill/wiki/Quality-Settings#media-extensions).)
+(All of these settings will find files with the required [Media Extensions](#media-extensions).)
 
 This quality determination also applies to imported/already downloaded files. So when you rename your files and they don't include the valid quality names, they can be detected as `Unknown` by SickChill.!
 
 ## Difference between Preset and Custom Qualities
 
-Now that you are aware of what a title needs to contain, we can proceed with actually choosing and setting a quality. There are two ways to setup your wanted quality's. [Preset Qualities](https://github.com/SickChill/SickChill/wiki/Quality-Settings#preset-qualities) witch are pre-configured quality options that you can select or [Custom Qualities](https://github.com/SickChill/SickChill/wiki/Quality-Settings#custom-qualities) if you want to set your own advanced wanted quality's.
+Now that you are aware of what a title needs to contain, we can proceed with actually choosing and setting a quality. There are two ways to setup your wanted quality's. [Preset Qualities](#preset-qualities) witch are pre-configured quality options that you can select or [Custom Qualities](#custom-qualities) if you want to set your own advanced wanted quality's.
 
 ## Preset Qualities
 
@@ -75,7 +75,7 @@ You can set more than one Present quality per show. But be aware that the first 
 - **HD**
   - HD TV or 1080p HD TV or 720p WEB-DL or 1080p WEB-DL or 720p BluRay or 1080p BluRay
 - **Custom**
-  - Custom Quality gives you the Allowed and Preferred menus, outlined under [Custom Qualities](https://github.com/SickChill/SickChill/wiki/Quality-Settings#custom-qualities)
+  - Custom Quality gives you the Allowed and Preferred menus, outlined under [Custom Qualities](#custom-qualities)
 
 Let's give you some real world examples that you need to consider selecting the quality.
 For new/popular shows, you can basically set every quality as there are (probably) released in all of those quality's.

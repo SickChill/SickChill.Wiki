@@ -4,8 +4,8 @@ Post Processing is a name for a collection of actions that are taken after a fil
 
 ## Post Processing Explained
 
-To start Post Processing in SickChill you have 3 possibilities. The fist (default) one is to let SickChill scan/monitor the `TV Download Dir` for newly downloaded episodes by your download client. Once SickChill detects a new file the Post processing starts. The second possibility is [Manual Post Processing](https://github.com/SickChill/SickChill/wiki/Post-Processing#manual-post-processing). The third method is using a script to inform SickChill that a new episode was downloaded. This is the ideal/preferred way for NAS devices. As this method doesn't need the constant scanning of the `TV Download Dir` it will allow the hard disks to go into sleep. Some might already be familiar with the SABtoSickbeard script that is used in combination with SABNZBz. However not all download clients support the running of those scripts after a download so SickChill can be informed.  
-For more detailed information about an individual setting see the [Main Settings Wiki](https://github.com/SickChill/SickChill/wiki/Settings-explained#post-processing).
+To start Post Processing in SickChill you have 3 possibilities. The fist (default) one is to let SickChill scan/monitor the `TV Download Dir` for newly downloaded episodes by your download client. Once SickChill detects a new file the Post processing starts. The second possibility is [Manual Post Processing](Post-Processing.md#manual-post-processing). The third method is using a script to inform SickChill that a new episode was downloaded. This is the ideal/preferred way for NAS devices. As this method doesn't need the constant scanning of the `TV Download Dir` it will allow the hard disks to go into sleep. Some might already be familiar with the SABtoSickbeard script that is used in combination with SABNZBz. However not all download clients support the running of those scripts after a download so SickChill can be informed.  
+For more detailed information about an individual setting see the [Main Settings Wiki](Settings-explained.md#post-processing).
 
 ## Manual Post Processing
 

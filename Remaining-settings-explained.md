@@ -1,7 +1,7 @@
 ---
 
-[ [Shows] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#shows) [ [Schedule] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#schedule) [ [History] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#history)
-[ [The Manage menu] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#the-manage-menu) [ [Mass Update] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#mass-update) [ [Backlog overview] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#backlog-overview) [ [Manage Searches] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#manage-searches) [ [Episodes Status Management] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#episodes-status-management) [ [Failed Downloads] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#failed-downloads) [ [Missed Subtitle Management] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#missed-subtitle-management) [ [Logs & Errors Menu] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#logs--errors-menu) [ [Options (wrench and screwdriver)] ](https://github.com/SickChill/SickChill/wiki/Remaining-settings-explained#options-wrench-and-screwdriver)
+[ [Shows] ](#shows) [ [Schedule] ](#schedule) [ [History] ](#history)
+[ [The Manage menu] ](#the-manage-menu) [ [Mass Update] ](#mass-update) [ [Backlog overview] ](#backlog-overview) [ [Manage Searches] ](#manage-searches) [ [Episodes Status Management] ](#episodes-status-management) [ [Failed Downloads] ](#failed-downloads) [ [Missed Subtitle Management] ](#missed-subtitle-management) [ [Logs & Errors Menu] ](#logs--errors-menu) [ [Options (wrench and screwdriver)] ](#options-wrench-and-screwdriver)
 
 ---
 
@@ -98,8 +98,8 @@ This Pull down menu gives you various Manage options to maintain your shows.
 
 ![mass-update-1](images/mass-update-1.png)
 
-The screens shows you an overview of your shows and what settings they use/have set.
-Here you can mainly start processes concerning your shows, like removing or starting a subtitle search. :
+The screen shows you an overview of your shows and what settings they use/have set.
+Here you can mainly start processes concerning your shows, like removing or starting a subtitle search :
 
 `update`
 Forces a full update of your shows data from the indexer. Replaces the old data in the database. Can be helpful in case you have problems with air dates, metadata etc.  
@@ -117,7 +117,7 @@ Removes the show from SickChill. Leaves all files and folders intact.
 ![mass-update-2](images/mass-update-2.png)
 
 To modify the settings of the show itself you have to select the show(s) and push the edit button.  
-Now you have the opportunity to set the following settings for all selected shows. :
+Now you have the opportunity to set the following settings for all selected shows :
 
 `Quality`
 
@@ -140,7 +140,7 @@ Enable/disable Air by date for the shows.
 `subtitles`  
 Enable/disable subtitles for the shows.
 
-For more details on the functions them self see the [show settings explanation](https://github.com/SickChill/SickChill/wiki/Show-settings-explained).
+For more details on the functions them self see the [show settings explanation](Show-settings-explained.md).
 
 ## Backlog overview
 

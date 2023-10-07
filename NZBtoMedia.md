@@ -1,8 +1,8 @@
 ## What is NZBtoMedia?
 
-NZBtoMedia is a collection of scripts for [post-processing](https://github.com/SickChill/SickChill/wiki/Post-Processing).  
+NZBtoMedia is a collection of scripts for [post-processing](Post-Processing.md).  
 Normally SickChill scans the download folder for new files/downloads every 10 minutes. However, that prevents the hard disks from going into sleep/hibernation. Scripts on the other hand let SickChill instantly know if a download was completed. Therefore, the scanning of the `tv download folder` isn't necessary anymore.
-Another advantage is that other [post-processing](https://github.com/SickChill/SickChill/wiki/Post-Processing) options can be done before the file is sent to SickChill. But most of those options are already included in SickChill, so you probably won't use them.
+Another advantage is that other [post-processing](Post-Processing.md) options can be done before the file is sent to SickChill. But most of those options are already included in SickChill, so you probably won't use them.
 Last and probably the MOST important reason, it supports failed downloads. This means that when your client fails to download the file a notification gets sent to SickChill and a new search gets started, with hopefully now a valid file.
 
 ## Before you start
@@ -28,7 +28,7 @@ For more info see [NZBtoMedia's Repo](https://github.com/clinton-hall/nzbToMedia
 ## How to setup NZBtoMedia with NZBget
 
 The good news is that NZBget has NZBtoMedia support built into the program. This allows for easy configuration.  
-First, you need to make sure that NZBget points to the NZBtoMedia files. Sometimes the files are included in the NZBget/Scripts folder. However, if they are not you have two options. Manually download the latest NZBtoMedia [package](https://github.com/clinton-hall/nzbToMedia/archive/master.zip) and unpack them there. Or point to the NZBtoMedia folder included within SickChill. This can be done in NZBGet by going to Settings --> PATHS --> `ScriptDir`.
+First, you need to make sure that NZBget points to the NZBtoMedia files. Sometimes the files are included in the ~~NZBget~~/Scripts folder. However, if they are not you have two options. Manually download the latest NZBtoMedia [package](https://github.com/clinton-hall/nzbToMedia/archive/master.zip) and unpack them there. Or point to the NZBtoMedia folder included within SickChill. This can be done in NZBGet by going to Settings --> PATHS --> `ScriptDir`.
 
 ![naamloos](images/NZBtoMedianaamloos.png)
 
@@ -79,7 +79,7 @@ First locate your `contrib` folder where NZBtoMedia is located, or download/inst
 Copy the `autoProcessMedia.cfg.spec` file and rename it to `autoProcessMedia.cfg` in the same folder.
 Now open the `autoProcessMedia.cfg` with your favorite editor.
 
-Go to the `[SickBeard]` section and add/change the following settings. :
+Go to the `[SickBeard]` section and add/change the following settings :
 
 `[SickBeard]`
 
@@ -90,7 +90,7 @@ Go to the `[SickBeard]` section and add/change the following settings. :
 - `password =` (Add your password if you have enabled login in SickChill)
 - `fork =` (Only replace `auto` with `sickchill` if detection problems)
 
-Go to the `[Nzb]` section and add/change the following settings. :
+Go to the `[Nzb]` section and add/change the following settings :
 
 `[Nzb]`
 
@@ -109,12 +109,12 @@ That's it. Now save the file.
 ![02a04048-5bab-11e5-9f25-a14f4fa42566](images/NZBtoMedia6.png)
 
 First step is to let SABnzbd know where the NZBtoMedia scripts are located.  
-Do this by going to. : `Config` -> `Folders` -> `User Folders` -> `Post-Processing Scripts Folder`  
+Do this by going to : `Config` -> `Folders` -> `User Folders` -> `Post-Processing Scripts Folder`  
 Now browse to the location where they are located and save the new path.
 
 ![1](images/NZBtoMedia1.png)
 
-The second step is to setup the categories. When SickChill sends an nzb to SABnzbd it adds a tag. the defealt is `tv`. The Categories allow to run a script when a certain tag is sent/found by SABnzbd.  
+The second step is to setup the categories. When SickChill sends an nzb to SABnzbd it adds a tag. the default is `tv`. The Categories allow to run a script when a certain tag is sent/found by SABnzbd.  
 In our case we want to do this with the tag `tv` that SickChill uses.  
 Go to : `Config` -> `Categories`
 
@@ -135,6 +135,6 @@ With the release of SABnzbd version 0.7.5 a new special parameter named "empty_p
 Go to : `Config` -> `Special` -> `empty_postproc (on)`  
 And change the setting to off.
 
-A successful run of the script should look like this in SABnzbd. :
+A successful run of the script should look like this in SABnzbd :
 
 ![5](images/NZBtoMedia5.png)

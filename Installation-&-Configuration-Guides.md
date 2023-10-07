@@ -11,17 +11,17 @@ Make sure you use `https://github.com/SickChill/SickChill.git`
 
 New to SickChill? Then the below guides will help you with the setup, and discover all its cool features.
 
-- [Docker](https://github.com/SickChill/SickChill/wiki/Docker)
-- [Pip](https://github.com/SickChill/SickChill/wiki/Pip)
+- [Docker](Docker.md)
+- [Pip](Pip.md)
 - [Windows](https://github.com/SickChill/SickChillInstaller/releases/latest)
-- [Freenas](https://github.com/SickChill/SickChill/wiki/Freenas)
-- [ReadyNAS](https://github.com/SickChill/SickChill/wiki/ReadyNAS)
-- [Synology](https://github.com/SickChill/SickChill/wiki/Synology)
+- [Freenas](Freenas.md)
+- [ReadyNAS](ReadyNAS.md)
+- [Synology](Synology.md)
 - [QNAP](https://github.com/OneCDOnly/sherpa)
 
 ###### Setup NZBtoMedia for SickChill
 
-- https://github.com/SickChill/SickChill/wiki/NZBtoMedia
+- [NZBtoMedia](NZBtoMedia.md)
 
 ---
 
@@ -32,9 +32,9 @@ Read the IMPORTANT NOTE below before following any guides `SickChill Repository 
 
 ###### Windows cryptography
 
-- https://github.com/SickChill/SickChill/wiki/SickChill-Windows-Installer
+- [SickChill-Windows-Installer](SickChill-Windows-Installer.md)
 
-  (Manual installation guides for Windows can be found [here](https://github.com/SickChill/SickChill/wiki/SickChill-Windows-Installer#manual-installation-guides-for-windows).)
+  (Manual installation guides for Windows can be found [here](SickChill-Windows-Installer.md#manual-installation-guides-for-windows).)
 
 ###### Synology:
 
