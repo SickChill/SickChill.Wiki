@@ -13,7 +13,7 @@ New to SickChill? Then the below guides will help you with the setup, and discov
 
 - [Docker](Docker.md)
 - [Pip](Pip.md)
-- [Windows](https://github.com/SickChill/SickChillInstaller/releases/latest)
+- [Windows Installer](https://github.com/SickChill/SickChillInstaller/releases/latest)
 - [Freenas](Freenas.md)
 - [ReadyNAS](ReadyNAS.md)
 - [Synology](Synology.md)
