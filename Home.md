@@ -4,7 +4,7 @@ Hello and welcome! This wiki is here to help you set up and use SickChill. You'l
 
 On the right side of the page you see the available wiki pages. For new users, you probably want the [Installation & Setup guides](Installation-&-Configuration-Guides.md), if you want to join the [Developers](Developers.md) here's some basics.
 
-If you encounter a bug, please open an [issue](https://github.com/SickChill/SickChill/issues) and take a look in [discussions](https://github.com/SickChill/sickchill/discussions) too.
+If you encounter a bug, please goto [Discord](https://discord.com/invite/U8WPBdf) and open a Chat, Help or Issue.
 
 These documents are a work-in-progress. If you'd like to contribute, please get in touch with us on [Discord](https://discord.com/invite/U8WPBdf), or  [Discussions](https://discord.com/channels/502612977271439372/502612977803984898), [Telegram](https://t.me/sickchill), [IRC](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickchill) or open an [issue here on GitHub.](https://github.com/SickChill/SickChill/issues)
 
