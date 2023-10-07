@@ -60,7 +60,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
   You can manually set a time at witch SickChill updates/refreshes the shows information from the indexers. (air dates etc.) Best to use a time at night when the device is idle.
 - `Send to trash for actions:`  
   This option lets SickChill move the files to a recycle bin instead of the normal permanent delete.
-  Note: doesn't work on all Operating Systems. [(NSSM / WinService workaround)](https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
+  Note: doesn't work on all Operating Systems. [(NSSM / WinService workaround)](![img.png](img.png)![img_1.png](img_1.png)https://github.com/SickChill/SickChill/wiki/FAQ's-and-Fixes#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
 - `Number of Log files saved:`  
   Lets you set he number of log files that are stored before deleted.
 - `Size of Log files saved:`  
@@ -189,12 +189,12 @@ Key resource links should you wish to chat or fix something that's gone wrong.
   - `config.ini` That contains all your settings
   - `Cache folder` That contains all your search results
 
-![backup](https://cloud.githubusercontent.com/assets/7928052/13013263/0ab50460-d1af-11e5-9830-849abfdeee7b.png)
+![backup](images/backup.png)
 
 - `Backup:`  
   Lets you set the backup folder where SickChill saves your backup.
 
-![restore](https://cloud.githubusercontent.com/assets/7928052/13013273/13bb6b6c-d1af-11e5-9ec5-c5de4ab44f4c.png)
+![restore](images/restore.png)
 
 - `Restore:`  
   Lets you browse and select your backup file to be restored.
@@ -289,17 +289,17 @@ This sections allows you to enable/disable the providers you want to use and dra
 
 #### Build-in NZB (and Custom) Providers
 
-![provider-priorities-nzb](https://cloud.githubusercontent.com/assets/7928052/13013411/acaf6756-d1af-11e5-871a-a7c554eba681.png)
+![provider-priorities-nzb](images/provider-priorities-nzb.png)
 
 #### Build-in Torrent providers (as of Juli 2015)
 
-![provider-priorities-torrent](https://cloud.githubusercontent.com/assets/7928052/13013410/ac13e8bc-d1af-11e5-9930-5cd590000a8d.png)
+![provider-priorities-torrent](images/provider-priorities-torrent.png)
 
 #### Provider Options
 
 - This sections allows you to configure the providers.
 
-![provider-options](https://cloud.githubusercontent.com/assets/7928052/13013420/ba4ef552-d1af-11e5-914c-8a1c9fe2056d.png)
+![provider-options](images/provider-options.png)
 
 - `Configure provider:`  
   Those the provider you want to modify. (only enabled providers are shown in the list.)
@@ -320,7 +320,7 @@ This sections allows you to enable/disable the providers you want to use and dra
 
 - SickChill lets you add almost every NZB Indexer out there. The custom Newznab is the preferred way of adding an NZB indexer. You might ask yourself if it's not better to build them in? Well it's not... Firstly there are so many NZB indexers out there that it is impossible to add them all. But even a better reason is that you can search far more efficient if you add/configure the indexer manually. An indexer uses category's to search. Generally they are divided between SD, HD, Sports, Anime etc. Now lets say you only need HD releases than there is no point in adding/enabling all the others. Same if you only need Sports. This method is far more efficient than building-in a provider and using all the category's by default. Click for [Jackett specific guide](https://github.com/SickChill/SickChill.WikiTemp/blob/main/Settings-jackett.md).
 
-![configure-custom-newznab-providers](https://cloud.githubusercontent.com/assets/7928052/13013477/f304da42-d1af-11e5-83fe-462702b4f567.png)
+![configure-custom-newznab-providers](images/configure-custom-newznab-providers.png)
 
 - `Select provider:`  
   Here you can add a new custom newznab provider by selecting --add new provider-- or modify an already added custom provider.
@@ -338,7 +338,7 @@ This sections allows you to enable/disable the providers you want to use and dra
 
 - SickChill let you add Torrent providers that are currently not build-in yet. The only requirement is that the Torrent site has an RSS feed. Most of them do, and some let you even customize the feed so only the results you want are added. This makes it very efficient and quick to search.
 
-![configure-custom-torrent-providers](https://cloud.githubusercontent.com/assets/7928052/13013479/f32ebb46-d1af-11e5-8022-932b2fcc1b96.png)
+![configure-custom-torrent-providers](images/configure-custom-torrent-providers.png)
 
 - `Select Provider:`  
   Lets you select and add a custom torrent provider.
@@ -355,7 +355,7 @@ This sections allows you to enable/disable the providers you want to use and dra
 
 - This section lets you set up automatic subtitle downloads.
 
-![subtitles-search](https://cloud.githubusercontent.com/assets/7928052/13013478/f32b5848-d1af-11e5-8dba-3062af8f28d9.png)
+![subtitles-search](images/subtitles-search.png)
 
 - `Search Subtitles:`  
   Enable if you want SickChill to search and download subtitles.
@@ -378,13 +378,13 @@ This sections allows you to enable/disable the providers you want to use and dra
 
 - Here you can enable the preferred subtitle providers where SickChill should search for subtitles.
 
-![subtitles-plugin](https://cloud.githubusercontent.com/assets/7928052/13013550/34339ec2-d1b0-11e5-8d72-3b089ce5b719.png)
+![subtitles-plugin](images/subtitles-plugin.png)
 
 #### Plugin Settings
 
 - Some subtitle providers have the ability to use an account for extra functions or removing limitations. Here you can add your account details.
 
-![subtitle-accounts](https://cloud.githubusercontent.com/assets/7928052/13013551/34598f6a-d1b0-11e5-9322-cbd1da84e3d0.png)
+![subtitle-accounts](images/subtitle-accounts.png)
 
 ## Post Processing
 
@@ -549,7 +549,7 @@ Recommend `Show Metadata` be selected as if your database gets corrupted the reb
 
 #### AnimeDB Settings
 
-![anidb](https://cloud.githubusercontent.com/assets/7928052/13013665/ade0bf20-d1b0-11e5-847a-5c64544e6496.png)
+![anidb](images/anidb.png)
 
 - `Enable:`  
   Lets you enable the AniDB function/indexer

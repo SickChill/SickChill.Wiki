@@ -30,12 +30,12 @@ For more info see [NZBtoMedia's Repo](https://github.com/clinton-hall/nzbToMedia
 The good news is that NZBget has NZBtoMedia support built into the program. This allows for easy configuration.  
 First, you need to make sure that NZBget points to the NZBtoMedia files. Sometimes the files are included in the NZBget/Scripts folder. However, if they are not you have two options. Manually download the latest NZBtoMedia [package](https://github.com/clinton-hall/nzbToMedia/archive/master.zip) and unpack them there. Or point to the NZBtoMedia folder included within SickChill. This can be done in NZBGet by going to Settings --> PATHS --> `ScriptDir`.
 
-![naamloos](https://cloud.githubusercontent.com/assets/7928052/13014408/f9a0cfb0-d1b3-11e5-915a-bc695e77b4ba.png)
+![naamloos](images/NZBtoMedianaamloos.png)
 
 The first step is to do the basic configuration of NZBget. So add your Usenet provider and download path etc.  
 Go to `PATHS` and fill-in your download Path that SickChill monitors under `MainDir` or `DestDir` depending on your preference.
 
-![4](https://cloud.githubusercontent.com/assets/7928052/13014407/f99d1d34-d1b3-11e5-9fc7-7366fb786ebe.png)
+![4](images/NZBtoMedia0.png)
 
 Go to `CATEGORIES` in the Settings. Push on Add another `category` at the bottom of the page to add a new category. (or re-use an already existing category)
 
@@ -44,7 +44,7 @@ Go to `CATEGORIES` in the Settings. Push on Add another `category` at the bottom
 
 And save the settings.
 
-![2](https://cloud.githubusercontent.com/assets/7928052/13014403/f995f324-d1b3-11e5-9917-fdcb71d9aabe.png)
+![2](images/NZBtoMedia2.png)
 
 Next we need to setup the settings for the nzbToSickBeard script itself.  
 Go to `nzbToSickBeard` in the Setting. Now change/add :
@@ -60,7 +60,7 @@ Go to `nzbToSickBeard` in the Setting. Now change/add :
 
 And save the settings.
 
-![3](https://cloud.githubusercontent.com/assets/7928052/13014404/f99896ec-d1b3-11e5-8d84-7bab89f35121.png)
+![3](images/NZBtoMedia3.png)
 
 By default, NZBget will create a subdirectory with the name of the category. And some users might not like that. To change this go to `INCOMING NZBS` under settings and set `appendedcategorydir` to `NO`
 
@@ -106,13 +106,13 @@ That's it. Now save the file.
 
 ## Configure nzbtosickbeard.py with SABnzbd
 
-![02a04048-5bab-11e5-9f25-a14f4fa42566](https://cloud.githubusercontent.com/assets/7928052/13014406/f99c4288-d1b3-11e5-8f68-dde9be0fe691.png)
+![02a04048-5bab-11e5-9f25-a14f4fa42566](images/NZBtoMedia6.png)
 
 First step is to let SABnzbd know where the NZBtoMedia scripts are located.  
 Do this by going to. : `Config` -> `Folders` -> `User Folders` -> `Post-Processing Scripts Folder`  
 Now browse to the location where they are located and save the new path.
 
-![1](https://cloud.githubusercontent.com/assets/7928052/13014405/f99ac868-d1b3-11e5-841f-d566aed5f04c.png)
+![1](images/NZBtoMedia1.png)
 
 The second step is to setup the categories. When SickChill sends an nzb to SABnzbd it adds a tag. the defealt is `tv`. The Categories allow to run a script when a certain tag is sent/found by SABnzbd.  
 In our case we want to do this with the tag `tv` that SickChill uses.  
@@ -125,16 +125,16 @@ The "Folder/Path" doesn't need to be set, but if you are having problems than se
 
 **NOTE : The next steps are not necessary but recommended.**
 
-![3](https://cloud.githubusercontent.com/assets/7928052/13014409/f9abfca0-d1b3-11e5-93c8-ad8e47836327.png)
+![3](images/NZBtoMedia7.png)
 
 Go to : `Config` -> `Switches` -> `Post-Process Only Verified Jobs (off)`  
 And deselect, in order to allow for snatching of the next best release. (mainly used with CouchPotatoServer if a download fails.)
 
-![4](https://cloud.githubusercontent.com/assets/7928052/13014410/f9ae3d94-d1b3-11e5-9713-896c133465c8.png)
+![4](images/NZBtoMedia4.png)
 With the release of SABnzbd version 0.7.5 a new special parameter named "empty_postproc" was introduced. This allows for better handling of failed downloads.  
 Go to : `Config` -> `Special` -> `empty_postproc (on)`  
 And change the setting to off.
 
 A successful run of the script should look like this in SABnzbd. :
 
-![5](https://cloud.githubusercontent.com/assets/7928052/13014411/f9afd71c-d1b3-11e5-89bf-643f2bf13603.png)
+![5](images/NZBtoMedia5.png)

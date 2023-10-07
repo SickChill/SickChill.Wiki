@@ -9,8 +9,8 @@ The templates that we use for SickChill contain the English texts. Those texts w
 Go to [crowdin.com](https://crowdin.com/project/sickchill) , and login with your account.
 click on the language you prefer and click on the `messages.pot` file. Now a new page is opened, where you can enter all translations.
 
-![pot](https://cloud.githubusercontent.com/assets/7928052/14351455/b78cee46-fccf-11e5-851e-b5846ab0a9d8.png)
-![translating](https://cloud.githubusercontent.com/assets/7928052/14351456/b7ae6440-fccf-11e5-81a0-75014af30bbb.png)
+![pot](images/trans_pot.png)
+![translating](images/translating.png)
 
 ## Important things to consider while translating.
 

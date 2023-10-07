@@ -23,7 +23,7 @@ See the [Synology](https://github.com/SickChill/SickChill/wiki/Synology) set up 
 
 Login to SickChill and go to Backup and Restore in the configuration. Create a backup and store it in a safe location.
 
-![1](https://cloud.githubusercontent.com/assets/7928052/11318354/73fa0d0e-904f-11e5-9432-581a8e795508.png)
+![1](images/syno1.png)
 
 Login to Synology's DSM and go into the Package Center and open the SickChill Package. There Select Remove.
 
@@ -45,11 +45,11 @@ Now you will get a wizard/installation screen. Fill-in the username and password
 SickChill is now (re)installed.  
 Open the GUI and go to Backup/Restore under configuration and restore your backup.
 
-# ![7](https://cloud.githubusercontent.com/assets/7928052/11318357/741a8c14-904f-11e5-94e8-614dc94ede74.png)
+# ![7](images/syno7.png)
 
 Last thing you need to do is a restart of SickChill so the changes take effect.
 
-# ![8](https://cloud.githubusercontent.com/assets/7928052/11318356/740d7dbc-904f-11e5-9e3a-4ebfea556b2e.png)
+# ![8](images/syno8.png)
 
 That's all, you are now running on the new Repository. :)
 

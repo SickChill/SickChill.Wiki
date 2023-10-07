@@ -12,7 +12,7 @@ We have tried to automate this process as much as we could by adding scene excep
 However, there are still shows that require manually adding the scene exception name.
 So when you have a show that requires a manual scene exception please submit a Pull Request to the scene exception list at [SickChill.GitHub.io](https://github.com/SickChill/sickchill.github.io/blob/master/sb_tvdb_scene_exceptions/exceptions.txt). This also helps other users that experience this problem.
 
-![name](https://cloud.githubusercontent.com/assets/7928052/13529717/d9ab6c86-e21d-11e5-9e01-8d53d8a7401a.png)
+![name](images/name.png)
 
 ## What is Scene numbering?
 
@@ -23,4 +23,4 @@ Automatic adding of scene numbers is done with the help of http://thexem.de
 If you take the show `Pawn Stars` for example http://thexem.de/xem/show/1759 you see that different episode numbers are used by the indexers, but thexem.de renumbers/links them to the correct numbers so that SickChill can find the episode.
 If there are problematic shows that use a different numbering scheme then please consider adding those on thexem.de so that other users can also profit from the change and don't need to manually add it locally.
 
-![number](https://cloud.githubusercontent.com/assets/7928052/13529718/d9ae5392-e21d-11e5-89af-435ad7706efd.png)
+![number](images/number.png)

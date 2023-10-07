@@ -23,7 +23,7 @@ That will allow you to add the shows to SickChill with a simple click.
 First, go to Settings --> Post processing --> Metadata.
 You will be presented with the below screen.
 
-![metadata](https://cloud.githubusercontent.com/assets/7928052/13502747/8c3ae6b8-e16c-11e5-812c-16ef0c9e676e.png)
+![metadata](images/metadata.png)
 
 Here select the type of metadata you need. Make sure you select the type that your media player supports.
 The next step is selecting the metadata files you need. This depends on your preferences, but we advise adding the `Show Metadata` at a minimum. You can also select poster/banner in case you prefer to store those on your disk so that SickChill doesn't have to download them.  
@@ -34,11 +34,11 @@ Push on `save` and the settings are saved, and with the next show update the met
 In this example, we have metadata created/added to a show folder and start with a fresh installation of SickChill.
 Click on add shows and select `add existing shows`.
 
-![existing](https://cloud.githubusercontent.com/assets/7928052/13502745/8c13b0fc-e16c-11e5-8793-3c86b25d99ab.png)
+![existing](images/existing.png)
 
 If the root folder is set, SickChill will show you a list of the found folders.
 Select the folders/shows you like and click on the submit. If the metadata is present the shows will be instantly added.
 
-![existing-adding](https://cloud.githubusercontent.com/assets/7928052/13502746/8c14b6dc-e16c-11e5-8b43-4291118947a8.png)
+![existing-adding](images/existing-adding.png)
 
 Now you have created a new/fresh show database with just a few clicks!

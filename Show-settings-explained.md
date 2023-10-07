@@ -8,24 +8,24 @@
 
 - This button allows you to add a new or existing shows.
 
-![show-overview](https://cloud.githubusercontent.com/assets/7928052/13013808/699a06d6-d1b1-11e5-95e8-5969fa39a6c0.png)
+![show-overview](images/showsadd-overview.png)
 
 #### Adding a new Show
 
-![add-show-2](https://cloud.githubusercontent.com/assets/7928052/13013853/90d9687c-d1b1-11e5-9715-fa896f335fe3.png)
+![add-show-2](images/add-show-2.png)
 
 _Step 1_
 
 Once you clicked on the new show button you will be asked to enter the name of the show you like to search/add. In this example "game of thrones". Further you can set a language that you want to use for the show, like descriptions etc. And last the preferred indexer where SickChill should search. When you are ready push search. Now any results found will be showed in the lower part of the screen. Select the show you want end click `next`. (Alternatively you can click on the `add` button, however this will skip the customization settings.!)
 
-![add-show-4](https://cloud.githubusercontent.com/assets/7928052/13013855/90fb70fc-d1b1-11e5-9a9e-f1d977a578d9.png)
+![add-show-4](images/add-show-4.png)
 
 _Step 2_
 
 Now that we have selected the show we are actually going to add it.
 In case you have not set a Root folder yet, (the folder where you want to place your shows) use the `new` button to add one. And again press `next`
 
-![add-show-5](https://cloud.githubusercontent.com/assets/7928052/13013856/90fe025e-d1b1-11e5-89c2-a35f4dad127a.png)
+![add-show-5](images/add-show-5.png)
 
 _Step 3_
 
@@ -50,13 +50,13 @@ Here you have the possibility to customize the shows settings.
 
 #### Add popular IMDB shows
 
-![imdb](https://cloud.githubusercontent.com/assets/7928052/13013857/90ff50fa-d1b1-11e5-828c-80a0837dd1e2.png)
+![imdb](images/imdb.png)
 
 This nice feature gives you an overview of the current popular/trending TV shows on [IMDB](http://www.imdb.com/) and lets you add them. It uses the IMDB MOVIE meter Rating system, that ensures reliably results. Give it a try, and learn the shows you should consider adding. Shows that already are in your list will be hidden.
 
 #### Add popular Trakt shows
 
-![trakt](https://cloud.githubusercontent.com/assets/7928052/13013858/9101c5ec-d1b1-11e5-815c-8c108fb2415f.png)
+![trakt](images/trakt.png)
 
 Similar to the IMDB popular shows option, here you can add Trending shows from [Trakt](https://trakt.tv/).
 
@@ -64,13 +64,13 @@ Similar to the IMDB popular shows option, here you can add Trending shows from [
 
 - SickChill also has the ability to add existing shows. Unlike newly added shows an existing show has already a folder with the episodes and/or metadata present.
 
-![add-existing](https://cloud.githubusercontent.com/assets/7928052/13013854/90ecd20e-d1b1-11e5-9066-3092293c7e99.png)
+![add-existing](images/add-existing.png)
 
 Adding an existing show basically works the same as a new show. The main difference is that you need to select the folder where the show is located. Set/add the root folder where the show(s) are located and SickChill will give an overview of all the (not yet used) folders and allow you to set an indexer to search. You can add multiple shows at once or just one singe show.
 
 In case you are using meta-data/nfo files and have the tvshow.nfo file in a series folder, the adding process will go automatically.
 
-![add-show-8](https://cloud.githubusercontent.com/assets/7928052/13013859/9101cace-d1b1-11e5-9197-7a4fe11ade15.png)
+![add-show-8](images/add-show-8.png)
 
 Just as adding a new show you can set custom settings for the show(s). If you like to set every show manually than enable the option `prompt me to set settings for each show` :
 
@@ -93,7 +93,7 @@ Just as adding a new show you can set custom settings for the show(s). If you li
 
 ## Shows overview and buttons explained
 
-![show-overview](https://cloud.githubusercontent.com/assets/7928052/13013866/9a6978a0-d1b1-11e5-9db3-7949c77f9ce5.png)
+![show-overview](images/show-overview.png)
 
 1 `Edit:`
 Opens the edit section of the show. Here you can specify your settings for this show.  

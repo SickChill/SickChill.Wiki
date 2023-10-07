@@ -11,7 +11,7 @@
 
 `Select Column`
 
-![1111](https://cloud.githubusercontent.com/assets/7928052/13015297/8f61909e-d1b8-11e5-84a7-a80ea815cd08.png)
+![1111](images/Remaining01.png)
 
 - `Next episode` Adds the column Next episode that will show you when the next episode airs.
 
@@ -32,13 +32,13 @@
 `Layout`
 
 - `Poster`  
-  ![poster](https://cloud.githubusercontent.com/assets/7928052/13015206/32713ba0-d1b8-11e5-86fc-ea9fb9810e19.png)
+  ![poster](images/Remaining02.png)
 - `Small Poster`  
-  ![small](https://cloud.githubusercontent.com/assets/7928052/13015204/326c994c-d1b8-11e5-8cb8-ca4f1c32cf94.png)
+  ![small](images/Remaining03.png)
 - `Banner`  
-  ![banner](https://cloud.githubusercontent.com/assets/7928052/13015205/326e3a72-d1b8-11e5-8f09-e11448c951ac.png)
+  ![banner](images/Remaining04.png)
 - `List`  
-  ![simple](https://cloud.githubusercontent.com/assets/7928052/13015208/3272422a-d1b8-11e5-8ef4-2cb1bc4b7713.png)
+  ![simple](images/Remaining05.png)
 
 `Search:` Lets you search for an individual show name on the page.
 
@@ -47,13 +47,13 @@
 `Layout:`
 
 - `Calendar` Shows Coming Episodes as calendar with posters  
-  ![poster](https://cloud.githubusercontent.com/assets/7928052/13015207/32713d4e-d1b8-11e5-9cd5-543d2edba9b2.png)
+  ![poster](images/Remaining06.png)
 - `Banner` Shows Coming Episodes as list with large Banners  
-  ![banner](https://cloud.githubusercontent.com/assets/7928052/13015648/90c95564-d1ba-11e5-996b-5978f7d294ff.png)
+  ![banner](images/Remaining07.png)
 - `Poster` Shows Coming Episodes as list with posters  
-  ![poster](https://cloud.githubusercontent.com/assets/7928052/13015649/90eda612-d1ba-11e5-94e1-5ecf7ac6816f.png)
+  ![poster](images/Remaining08.png)
 - `List` Shows Coming Episodes as a basic list with no posters or banners  
-  ![Schedule](https://cloud.githubusercontent.com/assets/7928052/13014504/7c9d0bd6-d1b4-11e5-9208-6e1b08651f1a.png)
+  ![Schedule](images/Remaining09.png)
 
 `Sort By:`
 
@@ -69,7 +69,7 @@ Allows you to hide or show paused shows in the overview
 
 ## History
 
-![history](https://cloud.githubusercontent.com/assets/7928052/13014501/7c9935ba-d1b4-11e5-8db2-b80b62fc9edd.png)
+![history](images/Remaining10.png)
 
 `Clear history`  
 Allows you to clear the history.  
@@ -90,13 +90,13 @@ Allows you to select how many events should be shown in History.
 
 This Pull down menu gives you various Manage options to maintain your shows.
 
-![manage](https://cloud.githubusercontent.com/assets/7928052/13014747/acf8dade-d1b5-11e5-9df9-d7fe4119b119.png)
+![manage](images/Remaining11.png)
 
 ## Mass Update
 
 - Mass Update is a very powerful tool that allows you to change settings of multiple shows at once. So no more need to go over every single show/episode and change the setting.
 
-![mass-update-1](https://cloud.githubusercontent.com/assets/7928052/13014506/7c9ef0c2-d1b4-11e5-9f47-afc5a243a41b.png)
+![mass-update-1](images/mass-update-1.png)
 
 The screens shows you an overview of your shows and what settings they use/have set.
 Here you can mainly start processes concerning your shows, like removing or starting a subtitle search. :
@@ -114,7 +114,7 @@ Deletes the Show AND files. Don't confuse it with the Remove function.!
 `Remove`  
 Removes the show from SickChill. Leaves all files and folders intact.
 
-![mass-update-2](https://cloud.githubusercontent.com/assets/7928052/13014503/7c9bfc28-d1b4-11e5-8708-76b84e500272.png)
+![mass-update-2](images/mass-update-2.png)
 
 To modify the settings of the show itself you have to select the show(s) and push the edit button.  
 Now you have the opportunity to set the following settings for all selected shows. :
@@ -145,7 +145,7 @@ For more details on the functions them self see the [show settings explanation](
 ## Backlog overview
 
 - The Backlog Overview gives you an overview of what shows are wanted but not successfully downloaded by the Daily search. In case the episode has the color Yellow, SickChill will search that episode in a higher quality.  
-  ![backlog-overview](https://cloud.githubusercontent.com/assets/7928052/13014505/7c9e80f6-d1b4-11e5-9171-11878ebf70d9.png)
+  ![backlog-overview](images/backlog-overview.png)
 
 ## Manage Searches
 
@@ -154,17 +154,17 @@ For more details on the functions them self see the [show settings explanation](
   - Backlog search
   - Find propers search
 
-![manage-searches](https://cloud.githubusercontent.com/assets/7928052/13014509/7cb0bdd4-d1b4-11e5-9010-06460c83c695.png)
+![manage-searches](images/manage-searches.png)
 
 ## Episodes Status Management
 
 - Lets you change the Episode status of a certain type to another.
 
-![episode-overview](https://cloud.githubusercontent.com/assets/7928052/13014508/7cafb6fa-d1b4-11e5-89af-1e5c3c026d40.png)
+![episode-overview](images/episode-overview.png)
 
 First select the episodes that you want to change. For example, you want to set all `skipped` episodes to `wanted`. When selected push on Manage.
 
-![episode-overview-2](https://cloud.githubusercontent.com/assets/7928052/13014507/7cafd18a-d1b4-11e5-8fcb-dd7e54259beb.png)
+![episode-overview-2](images/episode-overview-2.png)
 
 Now you see a new screen witch is almost identical, You now you have to select the `skipped` shows/episodes and set the new status that you want. In our example that is `Wanted` so select `Wanted` and click on Go. Now all the `Skipped` shows that you had selected are set to wanted.
 
@@ -172,7 +172,7 @@ Now you see a new screen witch is almost identical, You now you have to select t
 
 - Allows you to see the Failed Downloads list.
 
-![failed-downloads](https://cloud.githubusercontent.com/assets/7928052/13014608/02d49106-d1b5-11e5-9ed7-a7c11534f4a7.png)
+![failed-downloads](images/failed-downloads.png)
 
 This pages shows you an overview of all the NZB/Torents that are marked as Failed. In case an NZB/Torrent was wrongly placed in the list you have the possibility to remove it. From time to time you get a bad NZB/Torrent. To prevent SickChill from downloading that same file again you have to add it to the Failed Download list. (failed.db) Otherwise you run the risk that SickChill picks the same file again. If you use NZBtoMedia (nzbtosickbeard for example) this is done automatically. With other methods this is not always the case. When that happens you can go to your show and select the episode and set the episode status to failed. Or you can click on the search glass at the end of the episode line for a manual search. You will get a pop-up screen asking if SickChill should mark the episode as Failed.
 
@@ -180,17 +180,17 @@ This pages shows you an overview of all the NZB/Torents that are marked as Faile
 
 - Lets you search for missing subtitles of your shows.
 
-![sub-1](https://cloud.githubusercontent.com/assets/7928052/13014609/02ecdf72-d1b5-11e5-9d41-24f77c910d11.png)
+![sub-1](images/sub-1.png)
 
 First you need to select the language that you want to search. You can select an individual language or all that you have set in the subtitle settings.
 
-![sub-2](https://cloud.githubusercontent.com/assets/7928052/13014611/02febefe-d1b5-11e5-8bdb-584ab7456bfc.png)
+![sub-2](images/sub-2.png)
 
 Next you have to select the shows and/or episodes that you want the subtitles to be found for. Select go to start the process.
 
 ## Options (wrench and screwdriver)
 
-![naamloos](https://cloud.githubusercontent.com/assets/7928052/13014612/02fffc10-d1b5-11e5-86ec-c1d3689c7c93.png)
+![naamloos](images/remnaamloos.png)
 
 **News**
 
@@ -213,7 +213,7 @@ Shows the page with the Changelog. This lets you see the changes that where made
 
 **View logs (Errors)**
 
-![log](https://cloud.githubusercontent.com/assets/7928052/13014613/030085e0-d1b5-11e5-89d1-d1754d012999.png)
+![log](images/remlog1.png)
 
 In case SickChill encounters an error it will be shown on this page. Common errors are timeout errors like when a site is down. Or when you enter a wrong user-name/password. This page will be a great help in case you have an issue. The error will give you an indication where to search for the problem. From time to time you can encounter a "Bug" meaning an error is SickChill's code. Whit so many features, improvements and possible settings that can not be prevented. To make reporting a bug easy a button will appear called `Submit Errors`
 When you push this button you will get a pop-up screen to ask if you want to submit the error to the SickChill Developers. The error will then be investigated. However, before submitting make sure it is an actual error and if it is already reported or not. Also, for this function to work you have to setup/add your GitHub account to the SickChill settings and have the debug log setting enabled.
@@ -226,7 +226,7 @@ Lets you submit an error to the SickChill developers (Red Arrow)
 
 **View logs**
 
-![log](https://cloud.githubusercontent.com/assets/7928052/13014614/0300cdd4-d1b5-11e5-93d5-f200b72323bb.png)
+![log](images/remlog2.png)
 
 `Minimum logging level to display`
 
@@ -296,7 +296,7 @@ Logs-out the current user
 
 - Shows what processes are currently running or paused
 
-![server-status](https://cloud.githubusercontent.com/assets/7928052/13014610/02fe881c-d1b5-11e5-9c0c-35d76222ee88.png)
+![server-status](images/server-status.png)
 
 `Show Queue`  
 Shows the list of queued show processes. When active you will see a list of shows that still need to get processed.

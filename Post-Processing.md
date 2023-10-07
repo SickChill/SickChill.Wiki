@@ -11,7 +11,7 @@ For more detailed information about an individual setting see the [Main Settings
 
 Normally SickChill does Auto Post Processing, but it gives you also the possibility to Manual Post Process files. This can be handy if you have manually downloaded files and want to instantly process them in SickChill. Simply hit the button Post-Processing in the top-right corner and the following screen will appear.:
 
-![pp](https://cloud.githubusercontent.com/assets/7928052/13013716/dc32af82-d1b0-11e5-80be-9638101f901b.png)
+![pp](images/postprocess.png)
 
 `Enter the folder containing the episode:`  
 Browse to the folder you want to Post-Process.  
