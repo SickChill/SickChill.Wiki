@@ -44,7 +44,7 @@ Read the IMPORTANT NOTE below before following any guides `SickChill Repository 
 
 Our Guide
 
-- https://github.com/SickChill/SickChill/wiki/SickChill-installation-Debian-Ubuntu-14-15-16
+- [SickChill installation Debian Ubuntu 14->22](SickChill-installation-Debian-Ubuntu-14-15-16.md)
 
 ###### XBian
 
