@@ -142,7 +142,7 @@ This lets you customize the columns of the seasons. You can add the size columns
 
 ## Shows Edit Button
 
-![Main Settings](https://user-images.githubusercontent.com/10173496/187061607-3efb9cf8-7130-41ee-9cfe-fe4e06d401c7.png)
+![Main Settings](images/ShowMain.png)
 
 #### Main Settings
 
@@ -158,7 +158,7 @@ This lets you customize the columns of the seasons. You can add the size columns
 - `Use SC Metadata:` To use SickChill metadata when searching for subtitle, this overrides the auto discovered metadata.
 - `Paused:` Lets you pause the show. Prevents show from being downloaded.
 
-![Format](https://user-images.githubusercontent.com/10173496/187061608-eb14979b-0add-4993-8582-fa192c3eff3d.png)
+![Format](images/ShowFormat.png)
 
 #### Format Settings
 
@@ -169,7 +169,7 @@ This lets you customize the columns of the seasons. You can add the size columns
 - `Scene Numbering:` Enable or disable Scene Numbering. See [Scene Numbering](https://github.com/SickChill/SickChill/wiki/Scene-exceptions-and-numbering#what-is-scene-numbering) for more info.
 - `DVD Order:` Presently _unavailable_ with theTVDB APIv3.
 
-![Advanced](https://user-images.githubusercontent.com/10173496/187061610-60a7be77-62db-4c9b-8808-18dd34ba05d8.png)
+![Advanced](images/ShowAdvanced.png)
 
 #### Advanced Settings
 
@@ -182,7 +182,7 @@ This lets you customize the columns of the seasons. You can add the size columns
 - `Scene Exception:`  
   Lets you set and remove Scene Exceptions. See [Scene exceptions and numbering](https://github.com/SickChill/SickChill/wiki/Scene-exceptions-and-numbering) for more info.
 
-![Customize](https://user-images.githubusercontent.com/10173496/187061790-31819b9e-4c4d-4046-aa3c-a702c6df49be.png)
+![Customize](images/ShowCustomize.png)
 
 #### Customize Settings
 

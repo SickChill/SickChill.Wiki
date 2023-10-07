@@ -52,14 +52,14 @@ Browse to the folder/location where you have placed the installer file and execu
 
 --
 
-![1](images/winsc3.PNG)
+![1](images/winsc3.png)
 
 You will be greeted by the welcome screen.
 Click on `Next >` to proceed with the installation.
 
 --
 
-![2](images/winsc4.PNG)
+![2](images/winsc4.png)
 
 The next window lets you select the destination folder where you want SickChill to be installed. the default is `C:\SickChill`  
 Use `Browse...` if you would like to change that location. Or enter the destination manually in the text field.  
@@ -67,7 +67,7 @@ Click on `Next >` to proceed with the installation.
 
 --
 
-![3](images/winsc5.PNG)
+![3](images/winsc5.png)
 
 The next window will ask if you would like a shortcut to be created in your start menu.  
 If not than check the check-box `Don't create a Start Menu folder`  
@@ -75,14 +75,14 @@ Click on `Next >` to proceed with the installation.
 
 --
 
-![4](images/winsc6.PNG)
+![4](images/winsc6.png)
 
 The next window will let you set the port on which SickChill will run. The default is `8081` and it's advised not to change this, unless you have a good reason for it.  
 Click on `Next >` to proceed with the installation.
 
 --
 
-![6](images/winsc7.PNG)
+![6](images/winsc7.png)
 
 The next window will ask if you would like to create a shortcut for SickChill on your desktop.  
 For ease, it's recommended to create a shortcut on the desktop. But you can also decide to save the URL as a bookmark/favorite in your browser later.  
@@ -90,7 +90,7 @@ Click on `Next >` to proceed with the installation.
 
 --
 
-![7](images/winsc8.PNG)
+![7](images/winsc8.png)
 
 The next window shows you an overview of the settings you have selected and the dependencies that will be installed together with SickChill.  
 (Those dependencies are needed to run and update SickChill on your Windows machine.)  
@@ -98,26 +98,26 @@ Click on `Install` to proceed with the installation.
 
 --
 
-![8](images/winsc9.PNG)
+![8](images/winsc9.png)
 
 The next window will start downloading the necessary files that are going to be used to install SickChill.
 
 --
 
-![9](images/winsc10.PNG)
+![9](images/winsc10.png)
 
 The next window will show you the installation of the downloaded files, this can take a moment depending on your machine.
 
 --
 
-![10](images/winsc11.PNG)
+![10](images/winsc11.png)
 
 When the installation is complete you will get the `Finish` screen. Simply click on `Finish` to complete the installation.  
 Congratulations, you have successfully installed SickChill.! :+1:
 
 --
 
-![11](images/winsc12.PNG)
+![11](images/winsc12.png)
 
 Now you can access SickChill by opening your favorite browser and go to http://localhost:8081 to open SickChill's Web-interface.
 

@@ -10,11 +10,11 @@
 - This is the section where you configure SickChill to your likings.  
   As you can see below SickChill supports a massive amount of customization settings, and might lead to some confusion. With this wiki we will try to explain the settings in more details. As many of those settings are for advanced user only, make sure you understand what the setting does before setting.
 
-![status menu](https://user-images.githubusercontent.com/10173496/187035155-d9070d6b-b83b-4d9f-9394-093ccd0737f6.png)
+![status menu](images/SettingsIcon.png)
 
 ## Help & Info
 
-![Help Info](https://user-images.githubusercontent.com/10173496/187035138-514af284-1315-45f4-b66a-f41151cb7a96.png)
+![Help Info](images/HelpInfo.png)
 
 - `SickChill Info:`  
   This shows the version of SickChill you are running, you can tell if you missed updates along with Python, SSL, and OS to help you or the Developers trouble shoot a problem you have.
@@ -46,7 +46,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 
 #### Misc
 
-![misc](https://user-images.githubusercontent.com/10173496/187035156-ed0f418c-4437-4ebc-b964-f0f9ee97dded.png)
+![misc](images/GeneralMisc.png)
 
 - `Default Indexer Language:`  
   With this setting you set the default language that needs to be used for your shows and metadata. Note: not for subtitles.!
@@ -86,7 +86,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 
 #### User Interface (Options for visual appearance.)
 
-![interface-1](https://user-images.githubusercontent.com/10173496/187035140-7d16e9c7-ce58-4452-9bd6-4e06037b03bf.png)
+![interface-1](images/GeneralInterface.png)
 
 - `Interface Language:`  
   Language selection, system language or other.
@@ -148,7 +148,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 
 #### Advanced Settings
 
-![advanced-settings](https://user-images.githubusercontent.com/10173496/187035142-e7199482-6b29-4e23-a1ea-835a824d434a.png)
+![advanced-settings](images/GeneralAdvanced.png)
 
 - `CPU throttling:`  
   Lets you control the CPU usage. Can be handy on low powered devices.Note : High is lower and Low is higher CPU use.
@@ -205,7 +205,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 
 #### Episode Search
 
-![episode-search-1](https://user-images.githubusercontent.com/10173496/187035149-14ac5bc0-0f77-4a77-a990-804244912020.png)
+![episode-search-1](images/SearchEpisodes.png)
 
 - `Randomize Providers:`  
   By default SickChill searches the provider list from top to the bottom. If you enable this setting, SickChill will randomize the search order.
@@ -238,8 +238,8 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 
 #### NZB Search
 
-![nzb-search](https://user-images.githubusercontent.com/10173496/187035152-2673db01-2585-4244-ad4e-25925dae6f6f.png)
-![nzbget](https://user-images.githubusercontent.com/10173496/187035150-c0d1e8c6-12c0-4994-ad68-1a65f02b9e94.png)
+![nzb-search](images/SearchSABNZB.png)
+![nzbget](images/SearchNZB.png)
 
 - `Search NZBs:`  
   Enable this setting if you plan to use NZB's and usenet to snatch your shows.
@@ -264,7 +264,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 
 - This sections allows you to set the torrent download client.
 
-![torrent-search](https://user-images.githubusercontent.com/10173496/187035154-f907a5b5-305a-48f4-ae84-46c876bdcd09.png)
+![torrent-search](images/SearchTorrDLS.png)
 
 - `Search torrents:`  
   Enable this function to download yous shows with Torrents.
@@ -390,7 +390,7 @@ This sections allows you to enable/disable the providers you want to use and dra
 
 - In this section you can use post process options that SickChill should preform after an episode is downloaded. For example renaming of the file etc. More information can also be found under [Post Processing](https://github.com/SickChill/SickChill/wiki/Post-Processing)
 
-![postprocessing-1](https://user-images.githubusercontent.com/10173496/187035157-147a74d2-4040-4097-8467-cc0a8795de4e.png)
+![postprocessing-1](images/PostProcMain.png)
 
 - `Enable:`  
   Select this to allow SC to do post processing.
@@ -440,7 +440,7 @@ This sections allows you to enable/disable the providers you want to use and dra
 
 #### Episode Naming
 
-![episode-naming](https://user-images.githubusercontent.com/10173496/187035158-0c2e7d9d-0a84-4079-a667-413d7133a1b1.png)
+![episode-naming](images/PostProcEpName.png)
 
 - `Name Pattern:`  
   Lets you set pre-configured renaming schemes or your own custom one. The _Toggle naming legend_ list button provides a list of parameters that can be used.
@@ -459,7 +459,7 @@ This sections allows you to enable/disable the providers you want to use and dra
 
 #### Metadata
 
-![metadata](https://user-images.githubusercontent.com/10173496/187035159-6a9c2d12-afdc-4e4a-8b19-b351355ebf7f.png)
+![metadata](images/PostProcMetaData.png)
 
 - `Metadata Type:`  
   Select from the multiple types of metadata.
@@ -474,7 +474,7 @@ Recommend `Show Metadata` be selected as if your database gets corrupted the reb
 
 #### Home Theater/NAS
 
-![home](https://user-images.githubusercontent.com/10173496/187035147-c0770df1-7bd8-4ef5-a770-db82712588f4.png)
+![home](images/NotificationsNAS.png)
 
 - `KODI`
   A free and open source cross-platform media center and home entertainment system software with a 10-foot user interface designed for the living-room TV.
@@ -497,7 +497,7 @@ Recommend `Show Metadata` be selected as if your database gets corrupted the reb
 
 #### Devices
 
-![devices](https://user-images.githubusercontent.com/10173496/187035146-b47963ed-1d73-42d8-9b16-a30cfd90058e.png)
+![devices](images/NotificationsDevices.png)
 
 - `Growl:`  
   A cross-platform unobtrusive global notification system.
@@ -527,7 +527,7 @@ Recommend `Show Metadata` be selected as if your database gets corrupted the reb
 
 #### Social
 
-![social](https://user-images.githubusercontent.com/10173496/187035144-11d31569-603b-44c1-b4a5-02fdc548ce4d.png)
+![social](images/NotificationsSocial.png)
 
 - `Twitter:`  
   A social networking and micro-blogging service, enabling its users to send and read other users' messages called tweets.

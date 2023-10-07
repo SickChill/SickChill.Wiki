@@ -27,7 +27,7 @@ Login to SickChill and go to Backup and Restore in the configuration. Create a b
 
 Login to Synology's DSM and go into the Package Center and open the SickChill Package. There Select Remove.
 
-![2](https://user-images.githubusercontent.com/10173496/187066254-0ef1324a-f330-49c7-bade-b32504732f7c.png)
+![2](images/SynoUninstallSR.png)
 
 On the conformation window pres `YES`.
 
@@ -35,12 +35,12 @@ On the conformation window pres `YES`.
 
 Now that SickChill is removed we need to (re)install it again. Go to the community overview of Packages, find SickChill and click on `Install`.
 
-# ![1](https://user-images.githubusercontent.com/10173496/187065416-d81b51b8-b49e-4fa1-9564-c67edc9c4eea.png)
+# ![1](images/SynoPackages.png)
 
 Now you will get a wizard/installation screen. Fill-in the username and password or leave blank.  
 `Run after installation"` Is as labelled, run immediately after installation complete or allow you to run manually. Manual start is when you have to put your own `config.ini` and `sickchill.db` files in yourself.
 
-# ![2](https://user-images.githubusercontent.com/10173496/187065639-d32e5760-93be-48dd-a710-01e027517b6e.png)
+# ![2](images/SynoInstall.png)
 
 SickChill is now (re)installed.  
 Open the GUI and go to Backup/Restore under configuration and restore your backup.
