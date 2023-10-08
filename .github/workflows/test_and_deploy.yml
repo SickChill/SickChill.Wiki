@@ -33,10 +33,6 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
-    # - name: add wiki push destination
-    #   if: github.ref_name == github.event.repository.default_branch
-    #    run: |
-    #     git remote set-url --add --push origin git@github.com:SickChill/SickChill.WikiTemp.wiki.git
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
@@ -44,7 +40,7 @@ jobs:
           push_options: -f
           prettier_options: --write **/*.{js,md}
   deploy:
-    name: Deploy to main wiki
+    name: Deploy to wikis
     strategy:
       fail-fast: true
     continue-on-error: false
@@ -52,7 +48,7 @@ jobs:
     runs-on: ubuntu-22.04
     env:
       WIKIDIR: ./upstream
-    if: ${{ github.event.inputs.deploy }}
+    if: github.ref_name == github.event.repository.default_branch
     steps:
       - name: Checkout Upstream
         uses: actions/checkout@v3
@@ -68,7 +64,16 @@ jobs:
           git fetch wikitemp
           git reset --hard wikitemp/${{ github.ref_name }}
         working-directory: ${{ env.WIKIDIR }}
-      - name: Push changes
+      - name: Push changes to temp wiki
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ github.token }}
+          repository: SickChill/SickChill.WikiTemp.wiki
+          force: true
+          directory: ${{ env.WIKIDIR }}
+          branch: master
+      - name: Push changes to main wiki
+        if: ${{ github.event.inputs.deploy }}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.SICKCHILL_TOK }}
