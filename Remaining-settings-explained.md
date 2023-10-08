@@ -196,9 +196,9 @@ Next you have to select the shows and/or episodes that you want the subtitles to
 
 Here we try to keep you uptodate with the latest news. Be sure to check the page from time to time.
 
-**IRC**
+**Discord**
 
-Here you can connect directly to the SickChill IRC channel. Just for some smalltalk or with a quick question.
+Here you can connect directly to the [SickChill Discord](https://discord.gg/U8WPBdf). Join other users for friendly discussions or to ask questions with SickChill.
 
 **Changelog**  
 Shows the page with the Changelog. This lets you see the changes that where made to SickChill and what new functions where added.

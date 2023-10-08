@@ -119,7 +119,7 @@ They are mainly the cause of not having Python installed correctly. Python needs
 
 ## Can I support SickChill and How?
 
-Yes, absolutely! We are always looking for help. If you are familiar with Python, HTML, Java or other programming languages, please give a shout. Also, if you have experience moderating and want to help users by solving/answering their basic questions regarding SickChill, feel free to help on the SickChill [Issue Tracker](https://github.com/SickChill/SickChill) and [IRC Channel](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickchill-issues). Last, there is the option to [Donate](Donations.md). That helps us pay for the upkeep/maintaining cost of the SickChill project.
+Yes, absolutely! We are always looking for help. If you are familiar with Python, HTML, Java or other programming languages, please give a shout. Also, if you have experience moderating and want to help users by solving/answering their basic questions regarding SickChill, feel free to help on the SickChill [Issue Tracker](https://github.com/SickChill/SickChill) and [Discord](https://discord.gg/U8WPBdf). Last, there is the option to [Donate](Donations.md). That helps us pay for the upkeep/maintaining cost of the SickChill project.
 
 ## What does the Episode Status mean and what does it do?
 
