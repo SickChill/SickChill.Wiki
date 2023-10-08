@@ -33,17 +33,16 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
-      - name: add wiki push destination
-        if: github.ref_name == github.event.repository.default_branch
-        run: |
-          git remote set-url --add --push origin git@github.com:SickChill/SickChill.WikiTemp.wiki.git
+    # - name: add wiki push destination
+    #   if: github.ref_name == github.event.repository.default_branch
+    #    run: |
+    #     git remote set-url --add --push origin git@github.com:SickChill/SickChill.WikiTemp.wiki.git
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
           dry: ${{ github.ref_name != github.event.repository.default_branch }}
           push_options: -f
           prettier_options: --write **/*.{js,md}
-          github_token: ${{ secrets.SICKCHILL_TOK }}
   deploy:
     name: Deploy to main wiki
     strategy:
