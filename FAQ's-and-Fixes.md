@@ -71,7 +71,7 @@ Make the following changes to your config.ini file:
 
 ## I have problems with special characters.
 
-I have (é etc.) What can I do? It's always a good idea to make sure you're using UTF-8 locale to avoid unicode decoding issues so please perform the following commands if you're using a unix operating system.
+I have (é etc.) What can I do? It's always a good idea to make sure you're using UTF-8 locale to avoid Unicode decoding issues so please perform the following commands if you're using a Unix operating system.
 
 Add the following lines of code to your ~/.bashrc and ~/.profile files:
 
@@ -87,13 +87,13 @@ Then run `source ~/.bashrc` in a terminal window.
 
 You can reinstall SickChill through pip, see [pip]().
 
-## I'm currently using the SABtoSickbeard script with SABNZB, however failed downloads don't work.
+## I'm currently using the SABtoSickbeard script with SABNZB, however, failed downloads don't work.
 
-Switch to the [NZBtoMedia](NZBtoMedia.md) scripts. The package contains a script called NZBtoSickbeard. This will provide full and automatic failed download handling. Installation is almost identical as the SABtoSickbeard script.
+Switch to the [NZBtoMedia](NZBtoMedia.md) scripts. The package contains a script called NZBtoSickbeard. This will provide full and automatic failed download handling. Installation is almost identical to the SABtoSickbeard script.
 
 ## Error: Rar Not Supported: No suitable RAR unpacker installed
 
-SickChill has the ability to unpack RAR-archived releases but requires the external `unrar` command on Linux, Mac, FreeBSD and other Unix OS. In Windows, it uses unrar.dll(x86) or unrar64.dll(x86_64) which are included in SickChill.
+SickChill has the ability to unpack RAR-archived releases but requires the external `unrar` command on Linux, Mac, FreeBSD, and other Unix OS. In Windows, it uses unrar.dll(x86) or unrar64.dll(x86_64) which are included in SickChill.
 
 If you get this error, you need to make sure unrar is installed and available into PATH.
 
@@ -119,7 +119,7 @@ They are mainly the cause of not having Python installed correctly. Python needs
 
 ## Can I support SickChill and How?
 
-Yes, absolutely! We are always looking for help. If you are familiar with Python, HTML, Java or other programming languages, please give a shout. Also, if you have experience moderating and want to help users by solving/answering their basic questions regarding SickChill, feel free to help on the SickChill [Issue Tracker](https://github.com/SickChill/SickChill) and [Discord](https://discord.gg/U8WPBdf). Last, there is the option to [Donate](Donations.md). That helps us pay for the upkeep/maintaining cost of the SickChill project.
+Yes, absolutely! We are always looking for help. If you are familiar with Python, HTML, Java or other programming languages, please give a shout. Also, if you have experience moderating and want to help users by solving/answering their basic questions regarding SickChill, feel free to help on the SickChill [Discord](https://discord.com/channels/502612977271439372/1048317980343283733). Last, there is the option to [Donate](Donations.md). That helps us pay for the upkeep/maintaining cost of the SickChill project.
 
 ## What does the Episode Status mean and what does it do?
 
@@ -164,7 +164,7 @@ systemctl reset-failed
 
 ## Post Processing shows a negative time
 
-In rare cases the Post Processing stops working and will show a negative time in the
+In rare cases, the Post Processing stops working and will show a negative time in the
 [server status overview](images/serverstatusoverview.png). The cause is a single/bad/corrupt file where PP hangs on, and therefore can't be processed/finished. Your log should be able to tell you which file, then you simply need to remove it.
 
 ## What is a network time zone warning?
@@ -189,15 +189,15 @@ First, check if the connection test works in the search settings. If that does w
 
 - If it's a new DSM account you need to log into DLS with that account first and set a default download folder.
 - Does it work with an administrator account.?
-- If it's a custom created folder then set share (folder) permissions in to username sc-sickchill & sc-download (DSM6) or synocommunity (DSM7) as group. [Syno Permissions](Synology-install.md#Synology-SickChill-Permissions)
-- If path is left blank it will auto populate or enter path but remove `/volume1/` from the path in the settings.
+- If it's a custom-created folder then set share (folder) permissions in to username sc-sickchill & sc-download (DSM6) or synocommunity (DSM7) as group. [Syno Permissions](Synology-install.md#Synology-SickChill-Permissions)
+- If the path is left blank it will auto-populate, or enter the path but remove `/volume1/` from the path in the settings.
 
 When all else fails then you could also use the black-hole method as a workaround. SickChill will store the nzb/torrent in a folder of your choosing.
 Then simply set DS to monitor that folder for nzbs and torrents. As soon as one is found the download will start.
 
 ## Timeout when adding a show on Freenas
 
-If you get a timeout when you try to search/add a new show then check your network settings. For freeNAS you can fix this by going to Network > Interfaces > Select your primary network source > Edit > Uncheck "Autoconfigure IPv6".
+If you get a timeout when you try to search/add a new show then check your network settings. For FreeNAS you can fix this by going to Network > Interfaces > Select your primary network source > Edit > Uncheck "Autoconfigure IPv6".
 Then go to Jails > Select Jail with SickChill > Edit Jail > Advanced Mode > Uncheck "IPv6 Autoconfigure"
 Make sure to reboot after you save that.
 
@@ -205,16 +205,16 @@ This could also apply to other devices, so when this timeout happens make sure y
 
 ## What are Unicode errors?
 
-Those can happen when there are special characters in the shows name, file name, folder name or the search results.
-This is mainly a problem on Windows systems and especially with Anime. As there are generally more special characters used in Anime.
+Those can happen when there are special characters in the show's name, file name, folder name or the search results.
+This is mainly a problem on Windows systems and especially with Anime. There are generally more special characters used in Anime.
 Sadly not much can be done. But a few things you can try are:
 
 - Rename files and folders to not contain any special characters.
 - Add a scene exception (an alternative name for a show) hopefully this will allow you to snatch the episode.
 
-On Linux those Unicode errors generally only happen when you haven't set your locale correctly. Make sure its UTF-8.
+On Linux those Unicode errors generally only happen when you haven't set your locale correctly. Make sure it's UTF-8.
 
-## Why does "Send to trash" option not send the files to the Recycle Bin?
+## Why does the "Send to trash" option not send the files to the Recycle Bin?
 
 **(This applies to using NSSM and/or Windows Service _only_)**
 
