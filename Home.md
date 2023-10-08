@@ -6,7 +6,7 @@ On the right side of the page you see the available wiki pages. For new users, y
 
 If you encounter a bug, please goto [Discord](https://discord.com/invite/U8WPBdf) and open a Chat, Help or Issue.
 
-These documents are a work-in-progress. If you'd like to contribute, please get in touch with us on [Discord](https://discord.com/invite/U8WPBdf), or open an [issue here on GitHub.](https://github.com/SickChill/SickChill/issues)
+These documents are a work-in-progress. If you'd like to contribute, please get in touch with us on Discord in [Discussions](https://discord.com/channels/502612977271439372/502612977803984898), or open an [issue here on GitHub.](https://github.com/SickChill/SickChill/issues)
 
 #### Important links
 
