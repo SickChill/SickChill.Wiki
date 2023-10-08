@@ -2,16 +2,17 @@
 
 Hello and welcome! This wiki is here to help you set up and use SickChill. You'll find setup guides, explanations of settings and errors, and answers to frequently asked questions.
 
-On the right side of the page you see the available wiki pages. For new users, you probably want the [Installation & Setup guides](Installation-&-Configuration-Guides.md), if you want to join the [Developers](Developers.md) here's some basics.
+On the right side of the page, you see the available wiki pages. For new users, you probably want the [Installation & Setup guides](Installation-&-Configuration-Guides.md), if you want to join the [Developers](Developers.md) here are some basics.
 
-If you encounter a bug, please goto [Discord](https://discord.com/invite/U8WPBdf) and open a Chat, Help or Issue.
+If you encounter a bug, please go to [Discord](https://discord.com/invite/U8WPBdf) and open a Chat, Help, or Issue.
 
-These documents are a work-in-progress. If you'd like to contribute, please get in touch with us on [Discord](https://discord.com/invite/U8WPBdf), or [Discussions](https://discord.com/channels/502612977271439372/502612977803984898), [Telegram](https://t.me/sickchill), [IRC](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickchill) or open an [issue here on GitHub.](https://github.com/SickChill/SickChill/issues)
+These documents are a work-in-progress. If you'd like to contribute, please get in join us on [Discord](https://discord.com/invite/U8WPBdf) or jump directly into the [Discussions](https://discord.com/channels/502612977271439372/502612977803984898)
 
 #### Important links
 
-- [Issues / Bug reports](https://github.com/SickChill/SickChill/issues)
-- [Discussions / Feature requests](https://github.com/SickChill/SickChill/discussions)
+- [Issues / Bug reports](https://discord.com/channels/502612977271439372/1048317980343283733)
+- [Discussions](https://discord.com/channels/502612977271439372/502612977803984898)
+- [Feature requests](https://discord.com/channels/502612977271439372/1112608105025519697)
 - [Donations](Donations.md)
 
 ---
