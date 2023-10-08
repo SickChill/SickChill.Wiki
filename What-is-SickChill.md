@@ -5,7 +5,7 @@ And that is all fully automated! Just set it up and as soon as there is a new ep
 
 #### How does this all work?
 
-When you add a show to SickChill the data (like air-dates, episode name/number) are pulled from an indexer like [TheTVDb](http://thetvdb.com/). At that point, SickChill knows when a new episode is going to air and starts the search on your favorite Torrent and/or NZB site. For this search you can set [quality](Quality-Settings.md) settings. For example: HDTV or SD quality. SickChill will go over all the results to find the [quality](Quality-Settings.md) YOU want and when found snatches the torrent/nzb and sends it to your download client. (sabnzb, utorrent, transmission etc.) At this point, SickChill starts monitoring your client's download folder to see if the file is finished downloading. When this is the case SickChill starts the post-processing. Here you can tell SickChill to move the file to your shows folder, or also rename it, or send notifications to Plex/Kodi or to your smart-phone. The list is long for what you can do with post-processing, simply set the actions you prefer.
+When you add a show to SickChill the data (like air-dates, episode name/number) are pulled from an indexer like [TheTVDb](http://thetvdb.com/). At that point, SickChill knows when a new episode is going to air and starts the search on your favorite Torrent and/or NZB site. For this search you can set [quality](Quality-Settings.md) settings. For example: HDTV or SD quality. SickChill will go over all the results to find the [quality](Quality-Settings.md) YOU want and when found snatches the torrent/nzb and sends it to your download client. (sabnzb, utorrent, transmission etc.) At this point, SickChill starts monitoring your client's download folder to see if the file is finished downloading. When this is the case SickChill starts the post-processing. Here you can tell SickChill to move the file to your shows folder, or also rename it, or send notifications to Plex/Kodi or to your smartphone. The list is long for what you can do with post-processing, simply set the actions you prefer.
 And this whole process is completely automated. So once you set it up no user intervention is required.
 This makes SickChill ideal for NAS devices. But can run on almost every other device.
 
@@ -51,8 +51,7 @@ In case the [Wiki](https://github.com/SickChill/SickChill/wiki) doesn't have the
 
 #### Bugs/Issues
 
-In case you have found a bug and verified that it indeed is a bug, then please report it to our [issue tracker](https://github.com/SickChill/SickChill) so that the Developers can investigate.  
-Note, make sure you follow the [guidelines](https://github.com/SickChill/SickChill#submitting-a-bugissue-ticket) for posting a bug.
+In case you have found a bug and verified that it indeed is a bug, then please report it to our [Discord help channel](https://discord.com/channels/502612977271439372/1048317980343283733) so that the Developers can investigate.
 
 ---
 
