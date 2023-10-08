@@ -7,6 +7,7 @@ The Episode status lets you view the current status of an episode. For example, 
 There are many different Status Types that are used for at what state/stage the particular episode is in. Below you find an explanation of those Status types. :
 
 - **Archived ([Quality])**
+
   - Generally used to mark an episode as downloaded and watched
   - it adds plus one toward the individual episode count
   - it is included in the total episode count and added to the progress bar
