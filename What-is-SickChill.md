@@ -47,8 +47,7 @@ SickChill will load many other packages from [Pypi](https://pypi.org/) too.
 
 #### Support
 
-In case the [Wiki](https://github.com/SickChill/SickChill/wiki) doesn't have the answer to your question, you could check us out on irc.
-We are on freenode in #sickchill. [WebIRC kiwiirc.com](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickchill)
+In case the [Wiki](https://github.com/SickChill/SickChill/wiki) doesn't have the answer to your question, you could check us out on [Discord](https://discord.gg/U8WPBdf).
 
 #### Bugs/Issues
 
