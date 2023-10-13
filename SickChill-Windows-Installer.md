@@ -20,7 +20,7 @@ sc config "SickChill" obj= "username" password= "password"
 sc restart SickChill
 ```
 
-If you are unable to get those setup correctly, you can always disable the service and start SickChill manually. SickChill will then run as the user that is logged in to Windows. Alternatively, you can also install SickChill [manually](SickChill-Windows-Installer.md#manual-installation-guides-for-windows)
+If you are unable to get those setup correctly, you can always disable the service and start SickChill manually. SickChill will then run as the user that is logged in to Windows. Alternatively, you can also install SickChill [manually](SickChill-Windows-Installer#manual-installation-guides-for-windows)
 
 ### Enable Linked Connections
 

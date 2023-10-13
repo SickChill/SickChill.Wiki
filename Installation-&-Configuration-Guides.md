@@ -11,17 +11,17 @@ Make sure you use `https://github.com/SickChill/SickChill.git`
 
 New to SickChill? Then the below guides will help you with the setup, and discover all its cool features.
 
-- [Docker](Docker.md)
-- [Pip](Pip.md)
+- [Docker](Docker)
+- [Pip](Pip)
 - [Windows Installer](https://github.com/SickChill/SickChillInstaller/releases/latest)
-- [Freenas](Freenas.md)
-- [ReadyNAS](ReadyNAS.md)
-- [Synology](Synology.md)
+- [Freenas](Freenas)
+- [ReadyNAS](ReadyNAS)
+- [Synology](Synology)
 - [QNAP](https://github.com/OneCDOnly/sherpa)
 
 ###### Setup NZBtoMedia for SickChill
 
-- [NZBtoMedia](NZBtoMedia.md)
+- [NZBtoMedia](NZBtoMedia)
 
 ---
 
@@ -32,9 +32,9 @@ Read the IMPORTANT NOTE below before following any guides `SickChill Repository 
 
 ###### Windows cryptography
 
-- [SickChill-Windows-Installer](SickChill-Windows-Installer.md)
+- [SickChill-Windows-Installer](SickChill-Windows-Installer)
 
-  (Manual installation guides for Windows can be found [here](SickChill-Windows-Installer.md#manual-installation-guides-for-windows).)
+  (Manual installation guides for Windows can be found [here](SickChill-Windows-Installer#manual-installation-guides-for-windows).)
 
 ###### Synology:
 
@@ -44,7 +44,7 @@ Read the IMPORTANT NOTE below before following any guides `SickChill Repository 
 
 Our Guide
 
-- [SickChill installation Debian Ubuntu 14->22](SickChill-installation-Debian-Ubuntu-14-15-16.md)
+- [SickChill installation Debian Ubuntu 14->22](SickChill-installation-Debian-Ubuntu-14-15-16)
 
 ###### XBian
 

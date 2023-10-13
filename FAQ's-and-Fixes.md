@@ -40,7 +40,7 @@ If you like to upload the log you can use [pastebin] (http://pastebin.org) or an
 Yes. There are pre-built NAS versions of SickChill:
 
 - Synology, QNAP, Asustor, Thecus and many others.  
-  See the [SickChill installation packages](SickChill-installation-packages.md) section.
+  See the [SickChill installation packages](SickChill-installation-packages) section.
 
 ## Windows Shares and Mapped Drives
 
@@ -54,7 +54,7 @@ You can type these paths at the top of the browse dialog popups in SickChill and
 
 If you encounter torrents/nzbs that use different show names than the one supplied from TheTVDb, you can add a Scene Exception to your show [Go to Show, Edit Show] with the name that the releases are using.
 An example is when you have two shows with the same name. To differentiate between the two, uploaders generally will add the premiere year of the show. i.e. _Revolution_, i.e. _Revolution (2012)_
-For more information see the [Scene exceptions and numbering](Scene-exceptions-and-numbering.md) section.
+For more information see the [Scene exceptions and numbering](Scene-exceptions-and-numbering) section.
 
 ## Error while searching ..., skipping: 'NoneType' object is not iterable
 
@@ -89,7 +89,7 @@ You can reinstall SickChill through pip, see [pip]().
 
 ## I'm currently using the SABtoSickbeard script with SABNZB, however, failed downloads don't work.
 
-Switch to the [NZBtoMedia](NZBtoMedia.md) scripts. The package contains a script called NZBtoSickbeard. This will provide full and automatic failed download handling. Installation is almost identical to the SABtoSickbeard script.
+Switch to the [NZBtoMedia](NZBtoMedia) scripts. The package contains a script called NZBtoSickbeard. This will provide full and automatic failed download handling. Installation is almost identical to the SABtoSickbeard script.
 
 ## Error: Rar Not Supported: No suitable RAR unpacker installed
 
@@ -115,28 +115,28 @@ To install `unrar`:
 ## I'm getting SSL errors what now?
 
 An SSL error looks generally something like this: `_ssl.c:499: error:14077438:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert internal error`  
-They are mainly the cause of not having Python installed correctly. Python needs to have the pyOpenSSL & cryptography modules installed to handle HTTPS connections. Note, [QNAP](SickChill-installation-packages.md#Qnap) users need to have a recent SickChill package installed.
+They are mainly the cause of not having Python installed correctly. Python needs to have the pyOpenSSL & cryptography modules installed to handle HTTPS connections. Note, [QNAP](SickChill-installation-packages#Qnap) users need to have a recent SickChill package installed.
 
 ## Can I support SickChill and How?
 
-Yes, absolutely! We are always looking for help. If you are familiar with Python, HTML, Java or other programming languages, please give a shout. Also, if you have experience moderating and want to help users by solving/answering their basic questions regarding SickChill, feel free to help on the SickChill [Discord](https://discord.com/channels/502612977271439372/1048317980343283733). Last, there is the option to [Donate](Donations.md). That helps us pay for the upkeep/maintaining cost of the SickChill project.
+Yes, absolutely! We are always looking for help. If you are familiar with Python, HTML, Java or other programming languages, please give a shout. Also, if you have experience moderating and want to help users by solving/answering their basic questions regarding SickChill, feel free to help on the SickChill [Discord](https://discord.com/channels/502612977271439372/1048317980343283733). Last, there is the option to [Donate](Donations). That helps us pay for the upkeep/maintaining cost of the SickChill project.
 
 ## What does the Episode Status mean and what does it do?
 
 The Episode Status shows (like the name implies) the status of an episode. So is it downloaded and in what quality? Or is it still Wanted? Or skipped? For an extended explanation see the
-[Episode Status](Episode-Status.md) section.
+[Episode Status](Episode-Status) section.
 
 ## One of my shows has a missing Network logo.
 
-SickChill uses a network logo to indicate the network on which the show aired. However, with countless networks worldwide it's impossible to keep track/add every logo. If you come across a missing logo please report it (or, when you are able, submit it). For more information see the [Network logos](Network-logos.md) section.
+SickChill uses a network logo to indicate the network on which the show aired. However, with countless networks worldwide it's impossible to keep track/add every logo. If you come across a missing logo please report it (or, when you are able, submit it). For more information see the [Network logos](Network-logos) section.
 
 ## What is post processing?
 
-After an episode is downloaded you can automatically modify/change/work on the file. Post processing is the name for this process. It can include a message from your download client (Sabnzb) to SickChill that the file was downloaded, to renaming the episode, or any other form of modifying/testing. Out of the box SickChill contains many options you can use, but if you want even more options then check out the [NZBToMedia](https://github.com/clinton-hall/nzbToMedia) scripts. Also see the [Post-Processing](Post-Processing.md) section.
+After an episode is downloaded you can automatically modify/change/work on the file. Post processing is the name for this process. It can include a message from your download client (Sabnzb) to SickChill that the file was downloaded, to renaming the episode, or any other form of modifying/testing. Out of the box SickChill contains many options you can use, but if you want even more options then check out the [NZBToMedia](https://github.com/clinton-hall/nzbToMedia) scripts. Also see the [Post-Processing](Post-Processing) section.
 
 ## How do the quality settings for a show work?
 
-One of the most important things in SickChill are the Quality Settings. The Quality Settings allow you to instruct SickChill what the quality should be and if it should be snatched, or left alone. For a more detailed explanation see the [Quality Settings](Quality-Settings.md) section.
+One of the most important things in SickChill are the Quality Settings. The Quality Settings allow you to instruct SickChill what the quality should be and if it should be snatched, or left alone. For a more detailed explanation see the [Quality Settings](Quality-Settings) section.
 
 ## Newly aired shows are not downloading and set to skipped/ignored?
 
@@ -189,7 +189,7 @@ First, check if the connection test works in the search settings. If that does w
 
 - If it's a new DSM account you need to log into DLS with that account first and set a default download folder.
 - Does it work with an administrator account.?
-- If it's a custom-created folder then set share (folder) permissions in to username sc-sickchill & sc-download (DSM6) or synocommunity (DSM7) as group. [Syno Permissions](Synology-install.md#Synology-SickChill-Permissions)
+- If it's a custom-created folder then set share (folder) permissions in to username sc-sickchill & sc-download (DSM6) or synocommunity (DSM7) as group. [Syno Permissions](Synology-install#Synology-SickChill-Permissions)
 - If the path is left blank it will auto-populate, or enter the path but remove `/volume1/` from the path in the settings.
 
 When all else fails then you could also use the black-hole method as a workaround. SickChill will store the nzb/torrent in a folder of your choosing.

@@ -60,7 +60,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
   You can manually set a time at witch SickChill updates/refreshes the shows information from the indexers. (air dates etc.) Best to use a time at night when the device is idle.
 - `Send to trash for actions:`  
   This option lets SickChill move the files to a recycle bin instead of the normal permanent delete.
-  Note: doesn't work on all Operating Systems. [(NSSM / WinService workaround)](FAQ's-and-Fixes.md#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
+  Note: doesn't work on all Operating Systems. [(NSSM / WinService workaround)](FAQ's-and-Fixes#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
 - `Number of Log files saved:`  
   Lets you set he number of log files that are stored before deleted.
 - `Size of Log files saved:`  
@@ -119,7 +119,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 - `Timezone:`  
   Lets you set the timezone. Display dates and times in either your timezone or the shows network timezone
 - `Download url:`  
-  [See here](How-to-use-Download-url.md)
+  [See here](How-to-use-Download-url)
 
 #### Web Interface
 
@@ -285,7 +285,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 
 #### Provider Priorities
 
-This sections allows you to enable/disable the providers you want to use and drag&drop them in the order you like them to be searched. Al-trough SickChill has already a large number of build-in providers it can be that your favorite provider is not yet added. Don't worry, SickChill has the possibility to add almost every NZB/Torrent provider that is out there. This can be done by adding a Custom provider. Especially for NZB providers it's better to set them up manually, that gives you the most flexibility and efficiency while searching. For more information see the explanations below. Click for [Jackett specific guide](https://github.com/SickChill/SickChill.WikiTemp/blob/main/Settings-jackett.md).
+This sections allows you to enable/disable the providers you want to use and drag&drop them in the order you like them to be searched. Al-trough SickChill has already a large number of build-in providers it can be that your favorite provider is not yet added. Don't worry, SickChill has the possibility to add almost every NZB/Torrent provider that is out there. This can be done by adding a Custom provider. Especially for NZB providers it's better to set them up manually, that gives you the most flexibility and efficiency while searching. For more information see the explanations below. Click for [Jackett specific guide](https://github.com/SickChill/SickChill.WikiTemp/blob/main/Settings-jackett).
 
 #### Build-in NZB (and Custom) Providers
 
@@ -318,7 +318,7 @@ This sections allows you to enable/disable the providers you want to use and dra
 
 #### Configure Custom Newznab Providers
 
-- SickChill lets you add almost every NZB Indexer out there. The custom Newznab is the preferred way of adding an NZB indexer. You might ask yourself if it's not better to build them in? Well it's not... Firstly there are so many NZB indexers out there that it is impossible to add them all. But even a better reason is that you can search far more efficient if you add/configure the indexer manually. An indexer uses category's to search. Generally they are divided between SD, HD, Sports, Anime etc. Now lets say you only need HD releases than there is no point in adding/enabling all the others. Same if you only need Sports. This method is far more efficient than building-in a provider and using all the category's by default. Click for [Jackett specific guide](https://github.com/SickChill/SickChill.WikiTemp/blob/main/Settings-jackett.md).
+- SickChill lets you add almost every NZB Indexer out there. The custom Newznab is the preferred way of adding an NZB indexer. You might ask yourself if it's not better to build them in? Well it's not... Firstly there are so many NZB indexers out there that it is impossible to add them all. But even a better reason is that you can search far more efficient if you add/configure the indexer manually. An indexer uses category's to search. Generally they are divided between SD, HD, Sports, Anime etc. Now lets say you only need HD releases than there is no point in adding/enabling all the others. Same if you only need Sports. This method is far more efficient than building-in a provider and using all the category's by default. Click for [Jackett specific guide](https://github.com/SickChill/SickChill.WikiTemp/blob/main/Settings-jackett).
 
 ![configure-custom-newznab-providers](images/configure-custom-newznab-providers.png)
 
@@ -388,7 +388,7 @@ This sections allows you to enable/disable the providers you want to use and dra
 
 ## Post Processing
 
-- In this section you can use post process options that SickChill should preform after an episode is downloaded. For example renaming of the file etc. More information can also be found under [Post Processing](Post-Processing.md)
+- In this section you can use post process options that SickChill should preform after an episode is downloaded. For example renaming of the file etc. More information can also be found under [Post Processing](Post-Processing)
 
 ![postprocessing-1](images/PostProcMain.png)
 
@@ -436,7 +436,7 @@ This sections allows you to enable/disable the providers you want to use and dra
 - `Use icacls:`  
   Sets video file permissions after using the move method in post processing. _Windows only_.
 - `Extra Scripts:`  
-  SickChill gives you the opportunity to run your own scripts for post-processing. See [post processing](Post-Processing.md) for more information.
+  SickChill gives you the opportunity to run your own scripts for post-processing. See [post processing](Post-Processing) for more information.
 
 #### Episode Naming
 

@@ -5,6 +5,6 @@ JetBrains are providing "All Products Pack" licenses free of charge for SickChil
 https://jb.gg/OpenSourceSupport  
 If you want to join the development team let us know in [Discord](https://discord.com/invite/U8WPBdf).
 
-[Windows Developer Setup](SickChill-Developer-Windows-Setup.md)
+[Windows Developer Setup](SickChill-Developer-Windows-Setup)
 
-[Development Environment Setup](How-to-setup-a-development-enviroment.md)
+[Development Environment Setup](How-to-setup-a-development-enviroment)

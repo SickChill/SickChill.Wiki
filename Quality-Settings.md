@@ -8,7 +8,7 @@
 
 There have been some recent changes/modifications to the qualities. For more info check the temporary link below.
 
-[Qualities-Changes](Qualities-Changes.md)
+[Qualities-Changes](Qualities-Changes)
 
 ## Quality Settings
 

@@ -25,7 +25,7 @@
 9. Set the **black hole folder location** to your directory where your torrent client downloads to. **Note** : This directory setting is not necessary for Jackett to work as long as SickChill is configured to communicate to your download client (qbittorrent, etc), but previous tutorials suggested setting this directory.  
    ![Jacket09](images/Jacket09.png)  
    Make sure to click **Save Changes**!  
-   **IMPORTANT** : It is assumed your SickChill application is already configured to communicate with your download client such as qbittorent, utorrent, deluge, etc.) If you haven't done so, please visit [Settings-explained](Settings-explained.md) and scroll down to the section on Torrent Search.
+   **IMPORTANT** : It is assumed your SickChill application is already configured to communicate with your download client such as qbittorent, utorrent, deluge, etc.) If you haven't done so, please visit [Settings-explained](Settings-explained) and scroll down to the section on Torrent Search.
 10. Now click on the **Search Providers** pill link on the navigation bar of SickChill and go to the (newly added if NZB wasn't previously enabled in SC) **Configure Custom Newsnab Provider** and click the drop-down to **- - add new provider - -**
 11. Set the provider name as **Jackett**.
 12. Go back to Jackett and copy the **Torznab Feed** url. **IMPORTANT** : If you copy from Jackett, we need to replace a part of the URL path with the "all" keyword instead of the tracker specific name you copied from. This ensures this one provider in SC will search ALL your providers in Jackett. Refer to the image below.  

@@ -4,12 +4,12 @@ For many Devices there are installation packages compiled by community members. 
 
 ---
 
-- [Docker](Docker.md)
-- [Pip](Pip.md)
+- [Docker](Docker)
+- [Pip](Pip)
 - [Windows](https://github.com/SickChill/SickChillInstaller/releases/latest)
-- [Freenas](Freenas.md)
-- [ReadyNAS](ReadyNAS.md)
-- [Synology](Synology.md)
+- [Freenas](Freenas)
+- [ReadyNAS](ReadyNAS)
+- [Synology](Synology)
 - [QNAP](https://github.com/OneCDOnly/sherpa)
 
 ---

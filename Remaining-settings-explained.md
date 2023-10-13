@@ -140,7 +140,7 @@ Enable/disable Air by date for the shows.
 `subtitles`  
 Enable/disable subtitles for the shows.
 
-For more details on the functions them self see the [show settings explanation](Show-settings-explained.md).
+For more details on the functions them self see the [show settings explanation](Show-settings-explained).
 
 ## Backlog overview
 
