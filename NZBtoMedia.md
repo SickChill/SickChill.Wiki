@@ -1,8 +1,8 @@
 ## What is NZBtoMedia?
 
-NZBtoMedia is a collection of scripts for [post-processing](Post-Processing.md).  
+NZBtoMedia is a collection of scripts for [post-processing](Post-Processing).  
 Normally SickChill scans the download folder for new files/downloads every 10 minutes. However, that prevents the hard disks from going into sleep/hibernation. Scripts on the other hand let SickChill instantly know if a download was completed. Therefore, the scanning of the `tv download folder` isn't necessary anymore.
-Another advantage is that other [post-processing](Post-Processing.md) options can be done before the file is sent to SickChill. But most of those options are already included in SickChill, so you probably won't use them.
+Another advantage is that other [post-processing](Post-Processing) options can be done before the file is sent to SickChill. But most of those options are already included in SickChill, so you probably won't use them.
 Last and probably the MOST important reason, it supports failed downloads. This means that when your client fails to download the file a notification gets sent to SickChill and a new search gets started, with hopefully now a valid file.
 
 ## Before you start

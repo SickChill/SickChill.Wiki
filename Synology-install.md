@@ -15,7 +15,7 @@ Note: By default the Synocommunity SickChill package uses port 8081, and prior S
 
 ###### Need more Synology SickChill info
 
-See the [Synology](Synology.md) set up guide for troubleshooting and other fun DSM information.
+See the [Synology](Synology) set up guide for troubleshooting and other fun DSM information.
 
 ---
 
