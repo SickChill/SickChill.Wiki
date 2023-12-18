@@ -229,8 +229,6 @@ Key resource links should you wish to chat or fix something that's gone wrong.
   SickChill SKIPS/IGNORES all search results that don't have those words in the title. Applies to all shows. USE WITH CAUTION!
 - `Allow high priority:`  
   This sets downloads of recently aired episodes to high priority. So those get priority over already aired episodes. Some download clients like SABnzb allow sending with high priority to prioritize downloads.
-- `Allow downloading HEVC x265 releases:`  
-  Allows downloading of HEVC x265 shows.
 - `Use Failed Downloads:`  
   Lets you enable failed downloads. This will also allow adding bad/failed torrents/nzb to the failed.db so that they aren't downloaded again.
 - `Backlog search for missing only:`  
