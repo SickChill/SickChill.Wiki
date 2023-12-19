@@ -231,7 +231,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
   This sets downloads of recently aired episodes to high priority. So those get priority over already aired episodes. Some download clients like SABnzb allow sending with high priority to prioritize downloads.
 - `Use Failed Downloads:`  
   Lets you enable failed downloads. This will also allow adding bad/failed torrents/nzb to the failed.db so that they aren't downloaded again.
--  `Delete Failed:`  
+- `Delete Failed:`  
   Lets you enable automatic delete of left of files of Failed Downloads. Only visible if above "Use Failed Downloads" is selected.
 - `Backlog search for missing only:`  
   This restricts backlog searches to missing episodes only, it also ignores episodes that are already downloaded and not a preferred quality.
