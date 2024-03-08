@@ -60,7 +60,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
   You can manually set a time at witch SickChill updates/refreshes the shows information from the indexers. (air dates etc.) Best to use a time at night when the device is idle.
 - `Send to trash for actions:`  
   This option lets SickChill move the files to a recycle bin instead of the normal permanent delete.
-  Note: doesn't work on all Operating Systems. [(NSSM / WinService workaround)](FAQ's-and-Fixes#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
+  Note: doesn't work on all Operating Systems. [(NSSM / WinService workaround)](FAQs-and-Fixes#why-does-the-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
 - `Number of Log files saved:`  
   Lets you set he number of log files that are stored before deleted.
 - `Size of Log files saved:`  

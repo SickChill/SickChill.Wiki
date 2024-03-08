@@ -151,7 +151,7 @@ This lets you customize the columns of the seasons. You can add the size columns
 - `Preferred Quality:`  
   Lets you set the quality of the file that SickChill should download. See [Quality Settings](Quality-Settings) for more info.
 - `Default Episode Status:`  
-  Lets you set the Default Episode Status. Needs to be set to WANTED if you want new shows to be downloaded.! See [Default Episode Status](FAQ%27s-and-Fixes#newly-aired-shows-are-not-downloading-and-set-to-skippedignored) for more info.
+  Lets you set the Default Episode Status. Needs to be set to WANTED if you want new shows to be downloaded.! See [Default Episode Status](FAQs-and-Fixes#newly-aired-shows-are-not-downloading-and-set-to-skippedignored) for more info.
 - `Info Language:`  
   Lets you set the default language for the show. Info, descriptions etc. Note, not subtitles.!
 - `Subtitles:` Enable or disable the automatic download of subtitles for this show.

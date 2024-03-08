@@ -13,6 +13,7 @@ These documents are a work-in-progress. If you'd like to contribute, please get 
 - [Issues / Bug reports](https://discord.com/channels/502612977271439372/1048317980343283733)
 - [Discussions](https://discord.com/channels/502612977271439372/502612977803984898)
 - [Feature requests](https://discord.com/channels/502612977271439372/1112608105025519697)
+- [Contributing](Contributing)
 - [Donations](Donations)
 
 ---

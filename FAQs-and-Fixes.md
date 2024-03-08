@@ -16,13 +16,13 @@
 - [What is post processing?](#what-is-post-processing)
 - [How do the quality settings for a show work?](#how-do-the-quality-settings-for-a-show-work)
 - [Newly aired shows are not downloading and set to skipped/ignored?](#newly-aired-shows-are-not-downloading-and-set-to-skippedignored)
-- [How to Disable and Remove SickChill autostart (systemctl) ?](#how-to-disable-and-remove-sickchill-from-autostart-systemctl-)
+- [How to disable and remove SickChill autostart (_systemctl_) ?](#how-to-disable-and-remove-sickchill-from-autostart)
 - [Post-processing shows a negative time](#post-processing-shows-a-negative-time)
 - [What is a network time zone warning?](#what-is-a-network-time-zone-warning)
 - [Unable to send torrent to synology download station](#unable-to-send-torrent-to-synology-download-station)
 - [Timeout when adding a show on Freenas](#timeout-when-adding-a-show-on-freenas)
 - [What are Unicode errors?](#what-are-unicode-errors)
-- [Why does "Send to trash" option not send the files to the Recycle Bin?](#why-does-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
+- [Why does "Send to trash" option not send the files to the Recycle Bin?](#why-does-the-send-to-trash-option-not-send-the-files-to-the-recycle-bin)
 
 ## Where are the LOG files located?
 
@@ -147,7 +147,7 @@ Previously, when you added a show you had the option for **Default Episode Statu
 **Solution**
 Edit each show (or mass update) and correct the Default Episode Status to WANTED (You can also change from wanted to another on shows where you don't want new episodes to be downloaded automatically)
 
-## How to disable and remove SickChill from autostart (_systemctl_) ?
+## How to disable and remove SickChill from autostart?
 
 This step could be useful **if you plan to remove/reinstall SickChill** and you would like to _"start fresh"_.
 

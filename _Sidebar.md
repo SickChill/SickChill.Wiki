@@ -4,10 +4,11 @@
 [Installation/Setup Guides](Installation-&-Configuration-Guides)  
 [Donations and support](Donations)  
 [Installation packages](SickChill-installation-packages)  
+[Contributing](Contributing)  
 [Developers](Developers)
 
 **Debugging**<br/>
-[FAQ's and Fixes](FAQ%27s-and-Fixes)
+[FAQ's and Fixes](FAQs-and-Fixes)
 [Scene exceptions](Scene-exceptions-and-numbering)
 
 **Settings**<br/>
