@@ -8,7 +8,6 @@ To get your questions answered, please ask on the [sickchill discord](https://di
 2. [How To Report Bugs](#how-to-report-bugs)
 3. [Tips For Submitting Code](#tips-for-submitting-code)
 
-
 ## Getting Involved
 
 There are a number of ways to get involved with the development of SickChill. Even if you've never contributed code to an Open Source project before, we're always looking for help identifying bugs, cleaning up code, writing documentation and testing.
@@ -18,7 +17,6 @@ The goal of this guide is to provide the best way to contribute to the official 
 ## Discussion
 
 If you think you've found a bug please report it on [discord](https://discord.gg/FXre9qkHwE), where you will find most of the sickchill dev team.
-
 
 ## How to Report Bugs
 
@@ -38,7 +36,6 @@ If the above steps fail and you are sure its a bug, issues are tracked in the [S
 
 ## Tips For Submitting Code
 
-
 ### Code
 
 **ALWAYS follow SickChill [Coding Standards](https://github.com/SickChill/sickchill.github.io/wiki/SickChill-Coding-Standards)**
@@ -52,6 +49,7 @@ Review regularly as they are subject to change and submissions will not be accep
 Personally I like the `branch-feature_name` format that way its easy to identify the branch and feature at a glance. Also please make note of any issue number in the pull commit so we know what you are solving (it helps with cleaning up the related items later).
 
 #### Reporting
+
 Please follow these guidelines before reporting a bug:
 
 1. **Update to the latest version** &mdash; Check if you can reproduce the issue with the latest version from the `develop` branch.
@@ -81,7 +79,7 @@ Please follow these guidelines before sending a pull request:
 Please follow this process; it's the best way to get your work included in the project:
 
 - [Fork](http://help.github.com/fork-a-repo/) the project, clone your fork,
-   and configure the remotes:
+  and configure the remotes:
 
 ```bash
    # clone your fork of the repo into the current directory in terminal
@@ -90,49 +88,48 @@ Please follow this process; it's the best way to get your work included in the p
    cd SickChill
    # assign the original repo to a remote called "upstream"
    git remote add upstream https://github.com/SickChill/SickChill.git
-   ```
+```
 
 - If you cloned a while ago, get the latest changes from upstream:
 
-   ```bash
-   # fetch upstream changes
-   git fetch upstream
-   # make sure you are on your 'master' branch
-   git checkout master
-   # merge upstream changes
-   git merge upstream/master
-   ```
+  ```bash
+  # fetch upstream changes
+  git fetch upstream
+  # make sure you are on your 'master' branch
+  git checkout master
+  # merge upstream changes
+  git merge upstream/master
+  ```
 
 - Make sure that your develop branch is up to date:
 
-   ```bash
-   # Switch to the develop branch
-   git checkout develop
-   # Pull down any updates
-   git pull
-   ```
+  ```bash
+  # Switch to the develop branch
+  git checkout develop
+  # Pull down any updates
+  git pull
+  ```
 
 - Create a new topic branch to contain your feature, change, or fix:
 
-   ```bash
-   git checkout -b <topic-branch-name> develop
-   ```
+  ```bash
+  git checkout -b <topic-branch-name> develop
+  ```
 
 - Commit your changes in logical chunks. or your pull request is unlikely
-   be merged into the main project. Use git's
-   [interactive rebase](https://help.github.com/articles/interactive-rebase)
-   feature to tidy up your commits before making them public.
+  be merged into the main project. Use git's
+  [interactive rebase](https://help.github.com/articles/interactive-rebase)
+  feature to tidy up your commits before making them public.
 
 - Push your topic branch up to your fork:
 
-   ```bash
-   git push origin <topic-branch-name>
-   ```
+  ```bash
+  git push origin <topic-branch-name>
+  ```
 
 - [Open a Pull Request](https://help.github.com/articles/using-pull-requests) with a
-    clear title and description.
-
+  clear title and description.
 
 ## Code guidelines
 
-Read and follow the [SickChill Coding Standards](https://github.com/SickChill/sickchill.github.io/wiki/SickChill-Coding-Standards).  Review these regularly as they are subject to change and code will not be accepted if it does not adhere to the standards.
+Read and follow the [SickChill Coding Standards](https://github.com/SickChill/sickchill.github.io/wiki/SickChill-Coding-Standards). Review these regularly as they are subject to change and code will not be accepted if it does not adhere to the standards.
