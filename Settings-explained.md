@@ -285,7 +285,7 @@ Key resource links should you wish to chat or fix something that's gone wrong.
 
 #### Provider Priorities
 
-This sections allows you to enable/disable the providers you want to use and drag&drop them in the order you like them to be searched. Al-trough SickChill has already a large number of build-in providers it can be that your favorite provider is not yet added. Don't worry, SickChill has the possibility to add almost every NZB/Torrent provider that is out there. This can be done by adding a Custom provider. Especially for NZB providers it's better to set them up manually, that gives you the most flexibility and efficiency while searching. For more information see the explanations below. Click for [Jackett specific guide](https://github.com/SickChill/SickChill.WikiTemp/blob/main/Settings-jackett).
+This sections allows you to enable/disable the providers you want to use and drag&drop them in the order you like them to be searched. Al-trough SickChill has already a large number of build-in providers it can be that your favorite provider is not yet added. Don't worry, SickChill has the possibility to add almost every NZB/Torrent provider that is out there. This can be done by adding a Custom provider. Especially for NZB providers it's better to set them up manually, that gives you the most flexibility and efficiency while searching. For more information see the explanations below. Click for [Jackett specific guide](Settings-jackett).
 
 #### Build-in NZB (and Custom) Providers
 
@@ -318,7 +318,7 @@ This sections allows you to enable/disable the providers you want to use and dra
 
 #### Configure Custom Newznab Providers
 
-- SickChill lets you add almost every NZB Indexer out there. The custom Newznab is the preferred way of adding an NZB indexer. You might ask yourself if it's not better to build them in? Well it's not... Firstly there are so many NZB indexers out there that it is impossible to add them all. But even a better reason is that you can search far more efficient if you add/configure the indexer manually. An indexer uses category's to search. Generally they are divided between SD, HD, Sports, Anime etc. Now lets say you only need HD releases than there is no point in adding/enabling all the others. Same if you only need Sports. This method is far more efficient than building-in a provider and using all the category's by default. Click for [Jackett specific guide](https://github.com/SickChill/SickChill.WikiTemp/blob/main/Settings-jackett).
+- SickChill lets you add almost every NZB Indexer out there. The custom Newznab is the preferred way of adding an NZB indexer. You might ask yourself if it's not better to build them in? Well it's not... Firstly there are so many NZB indexers out there that it is impossible to add them all. But even a better reason is that you can search far more efficient if you add/configure the indexer manually. An indexer uses category's to search. Generally they are divided between SD, HD, Sports, Anime etc. Now lets say you only need HD releases than there is no point in adding/enabling all the others. Same if you only need Sports. This method is far more efficient than building-in a provider and using all the category's by default. Click for [Jackett specific guide](Settings-jackett).
 
 ![configure-custom-newznab-providers](images/configure-custom-newznab-providers.png)
 
